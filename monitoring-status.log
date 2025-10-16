@@ -57,3 +57,62 @@ Oct 17 01:10:56 vmi2858748 npm[33855]: ✅ Strategy registered: VWAP Sigma (vwap
 
 Oct 17 01:11:21 vmi2858748 npm[33855]: Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-17 01:30:01
+
+📋 Active Signals:
+Oct 17 01:05:36 vmi2858748 npm[33761]: 📭 No active signals to monitor
+Oct 17 01:11:00 vmi2858748 npm[33855]: 📭 No active signals to monitor
+
+🔌 WebSocket Status:
+Oct 17 01:28:00 vmi2858748 npm[33855]: 1:28:00 AM [express] GET /api/signals/monitoring/active 304 in 0ms :: {"total":3,"signals":[{"symbol…
+Oct 17 01:28:04 vmi2858748 npm[33855]: 1:28:04 AM [express] GET /api/signals/monitoring/all 304 in 2ms :: {"total":0,"signals":[]}
+Oct 17 01:28:04 vmi2858748 npm[33855]: 1:28:04 AM [express] GET /api/signals/monitoring/stats 304 in 0ms :: {"total":0,"wins":0,"losses":0,…
+Oct 17 01:28:04 vmi2858748 npm[33855]: 1:28:04 AM [express] GET /api/signals/monitoring/active 304 in 1ms :: {"total":0,"signals":[]}
+Oct 17 01:28:07 vmi2858748 npm[33855]: 1:28:07 AM [express] GET /api/signals/monitoring/stats 304 in 1ms :: {"total":3,"wins":0,"losses":0,…
+Oct 17 01:28:07 vmi2858748 npm[33855]: 1:28:07 AM [express] GET /api/signals/monitoring/all 304 in 0ms :: {"total":3,"signals":[{"symbolId"…
+Oct 17 01:28:07 vmi2858748 npm[33855]: 1:28:07 AM [express] GET /api/signals/monitoring/active 304 in 0ms :: {"total":3,"signals":[{"symbol…
+Oct 17 01:28:09 vmi2858748 npm[33855]: 1:28:09 AM [express] GET /api/signals/monitoring/active 304 in 0ms :: {"total":0,"signals":[]}
+Oct 17 01:28:09 vmi2858748 npm[33855]: 1:28:09 AM [express] GET /api/signals/monitoring/all 304 in 1ms :: {"total":0,"signals":[]}
+Oct 17 01:28:09 vmi2858748 npm[33855]: 1:28:09 AM [express] GET /api/signals/monitoring/stats 304 in 1ms :: {"total":0,"wins":0,"losses":0,…
+
+🎯 Strategy Signals (last 15 min):
+Oct 17 01:16:18 vmi2858748 npm[33855]:     ❌ Rejected: Sigma 0.81σ outside range 1.3-2.2σ
+Oct 17 01:16:18 vmi2858748 npm[33855]:     [POC Magnet] Price: $0.0220, POC: $0.0226, Deviation: 2.70%, Vol: 0.12x
+Oct 17 01:16:18 vmi2858748 npm[33855]:     ❌ Rejected: Volume 0.12x < 1.5x required
+Oct 17 01:16:18 vmi2858748 npm[33855]:     [VWAP Sigma] Price: $0.0220, VWAP: $0.0220, Sigma: 0.24σ, Vol: 0.10x
+Oct 17 01:16:18 vmi2858748 npm[33855]:     ❌ Rejected: Sigma 0.24σ outside range 1.3-2.2σ
+Oct 17 01:16:19 vmi2858748 npm[33855]:     [POC Magnet] Price: $5.08, POC: $5.08, Deviation: 0.00%, Vol: 0.01x
+Oct 17 01:16:19 vmi2858748 npm[33855]:     ❌ Rejected: Deviation 0.00% < 1.00% required (too close to POC)
+Oct 17 01:16:19 vmi2858748 npm[33855]:     [VWAP Sigma] Price: $5.08, VWAP: $5.10, Sigma: 0.57σ, Vol: 0.01x
+Oct 17 01:16:19 vmi2858748 npm[33855]:     ❌ Rejected: Sigma 0.57σ outside range 1.3-2.2σ
+Oct 17 01:16:19 vmi2858748 npm[33855]:     [POC Magnet] Price: $0.00002438, POC: $0.00002426, Deviation: 0.49%, Vol: 0.00x
+Oct 17 01:16:19 vmi2858748 npm[33855]:     ❌ Rejected: Deviation 0.49% < 1.00% required (too close to POC)
+Oct 17 01:16:19 vmi2858748 npm[33855]:     [VWAP Sigma] Price: $0.00002438, VWAP: $0.00002426, Sigma: 0.67σ, Vol: 0.00x
+Oct 17 01:16:19 vmi2858748 npm[33855]:     ❌ Rejected: Sigma 0.67σ outside range 1.3-2.2σ
+Oct 17 01:16:19 vmi2858748 npm[33855]:     [POC Magnet] Price: $1.78, POC: $1.84, Deviation: 3.16%, Vol: 0.24x
+Oct 17 01:16:19 vmi2858748 npm[33855]:     ❌ Rejected: Deviation 3.16% > 3.00% max (too far, not mean reversion)
+Oct 17 01:16:19 vmi2858748 npm[33855]:     [VWAP Sigma] Price: $1.78, VWAP: $1.79, Sigma: 0.51σ, Vol: 0.22x
+Oct 17 01:16:19 vmi2858748 npm[33855]:     ❌ Rejected: Sigma 0.51σ outside range 1.3-2.2σ
+Oct 17 01:16:19 vmi2858748 npm[33855]:   ✅ [Fast Momentum Gap] FTM/USDT executed (1/3)
+Oct 17 01:16:19 vmi2858748 npm[33855]:   ✅ [Fast Momentum Gap] WAVES/USDT executed (2/3)
+Oct 17 01:16:19 vmi2858748 npm[33855]:   ✅ [Fast Momentum Gap] EOS/USDT executed (3/3)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-10-17 01:10:54 CEST; 19min ago
+   Main PID: 33831 (npm run dev)
+      Tasks: 47 (limit: 28795)
+     Memory: 371.6M (peak: 602.5M)
+        CPU: 1min 59.528s
+     CGroup: /system.slice/crypto-trader.service
+             ├─33831 "npm run dev"
+             ├─33843 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─33844 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─33855 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─33871 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Oct 17 01:28:04 vmi2858748 npm[33855]: 1:28:04 AM [express] GET /api/signals/monitoring/all 304 in 2ms :: {"total":0,"signals":[]}
+
