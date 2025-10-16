@@ -1,0 +1,59 @@
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-17 01:15:37
+
+📋 Active Signals:
+Oct 17 01:05:36 vmi2858748 npm[33761]: 📭 No active signals to monitor
+Oct 17 01:11:00 vmi2858748 npm[33855]: 📭 No active signals to monitor
+
+🔌 WebSocket Status:
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for KSM/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for AVAX/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for WAVES/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for LINK/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for SOL/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: ✅ WebSocket connected to Binance
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for ETC/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for NEIRO/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for MANA/USDT
+Oct 17 01:11:00 vmi2858748 npm[33855]: WebSocket connected for WLD/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 17 01:01:20 vmi2858748 npm[25693]:     [VWAP Sigma] Price: $5.04, VWAP: $5.11, Sigma: 1.26σ, Vol: 0.06x
+Oct 17 01:01:20 vmi2858748 npm[25693]:     ❌ Rejected: Volume 0.06x < 1.2x required
+Oct 17 01:01:20 vmi2858748 npm[25693]:     [Momentum Gap] Price: $0.00002421, MIDAS: $0.00002488, POC: $0.00002426, Vol: 0.05x
+Oct 17 01:01:20 vmi2858748 npm[25693]:     ❌ Rejected: Volume 0.05x < 2x required
+Oct 17 01:01:20 vmi2858748 npm[25693]:     [POC Magnet] Price: $0.00002421, POC: $0.00002426, Deviation: 0.21%, Vol: 0.06x
+Oct 17 01:01:20 vmi2858748 npm[25693]:     ❌ Rejected: Deviation 0.21% < 1.00% required (too close to POC)
+Oct 17 01:01:20 vmi2858748 npm[25693]:     [VWAP Sigma] Price: $0.00002421, VWAP: $0.00002428, Sigma: 0.37σ, Vol: 0.05x
+Oct 17 01:01:20 vmi2858748 npm[25693]:     ❌ Rejected: Sigma 0.37σ outside range 0.8-3σ
+Oct 17 01:01:20 vmi2858748 npm[25693]:     [Momentum Gap] Price: $1.77, MIDAS: $1.85, POC: $1.84, Vol: 0.34x
+Oct 17 01:01:20 vmi2858748 npm[25693]:     ❌ Rejected: Volume 0.34x < 2x required
+Oct 17 01:01:20 vmi2858748 npm[25693]:     [POC Magnet] Price: $1.77, POC: $1.84, Deviation: 3.76%, Vol: 0.33x
+Oct 17 01:01:20 vmi2858748 npm[25693]:     ❌ Rejected: Deviation 3.76% > 3.00% max (too far, not mean reversion)
+Oct 17 01:01:20 vmi2858748 npm[25693]:     [VWAP Sigma] Price: $1.77, VWAP: $1.79, Sigma: 1.09σ, Vol: 0.34x
+Oct 17 01:01:20 vmi2858748 npm[25693]:     ❌ Rejected: Volume 0.34x < 1.2x required
+Oct 17 01:05:32 vmi2858748 npm[33761]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 17 01:05:32 vmi2858748 npm[33761]: ✅ Strategy registered: POC Magnet (poc-magnet)
+Oct 17 01:05:32 vmi2858748 npm[33761]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 17 01:10:56 vmi2858748 npm[33855]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 17 01:10:56 vmi2858748 npm[33855]: ✅ Strategy registered: POC Magnet (poc-magnet)
+Oct 17 01:10:56 vmi2858748 npm[33855]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-10-17 01:10:54 CEST; 4min 43s ago
+   Main PID: 33831 (npm run dev)
+      Tasks: 47 (limit: 28795)
+     Memory: 327.7M (peak: 602.5M)
+        CPU: 33.060s
+     CGroup: /system.slice/crypto-trader.service
+             ├─33831 "npm run dev"
+             ├─33843 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─33844 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─33855 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─33871 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Oct 17 01:11:21 vmi2858748 npm[33855]: Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:
+
