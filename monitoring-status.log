@@ -294,3 +294,43 @@ Oct 17 02:01:19 vmi2858748 npm[34400]:   ✅ [Fast Momentum Gap] WAVES/USDT exec
              └─34426 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-17 02:30:01
+
+📋 Active Signals:
+Oct 17 02:01:19 vmi2858748 npm[34400]: 📊 Monitoring 3 active signals...
+Oct 17 02:16:21 vmi2858748 npm[34400]: 📊 Monitoring 3 active signals...
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.06x < 1.3x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [Momentum Gap] Price: $5.14, MIDAS: $5.20, POC: $5.11, Vol: 0.03x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.03x < 2x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [POC Magnet] Price: $5.14, POC: $5.11, Deviation: 0.62%, Vol: 0.05x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Deviation 0.62% < 1.00% required (too close to POC)
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [VWAP Sigma] Price: $5.14, VWAP: $5.09, Sigma: 1.83σ, Vol: 0.03x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.03x < 1.3x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [Momentum Gap] Price: $0.00002475, MIDAS: $0.00002482, POC: $0.00002436, Vol: 0.00x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.00x < 2x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [POC Magnet] Price: $0.00002475, POC: $0.00002436, Deviation: 1.60%, Vol: 0.00x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.00x < 1.5x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [VWAP Sigma] Price: $0.00002475, VWAP: $0.00002423, Sigma: 2.27σ, Vol: 0.00x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Sigma 2.27σ outside range 1.3-2.2σ
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [Momentum Gap] Price: $1.80, MIDAS: $1.84, POC: $1.84, Vol: 0.02x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.02x < 2x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [POC Magnet] Price: $1.80, POC: $1.84, Deviation: 2.19%, Vol: 0.02x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.02x < 1.5x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:     [VWAP Sigma] Price: $1.80, VWAP: $1.79, Sigma: 1.41σ, Vol: 0.02x
+Oct 17 02:16:21 vmi2858748 npm[34400]:     ❌ Rejected: Volume 0.02x < 1.3x required
+Oct 17 02:16:21 vmi2858748 npm[34400]:   ✅ [Fast Momentum Gap] EOS/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: activating (auto-restart) (Result: exit-code) since Fri 2025-10-17 02:29:56 CEST; 5s ago
+    Process: 35690 ExecStart=/usr/bin/npm run dev (code=exited, status=1/FAILURE)
+   Main PID: 35690 (code=exited, status=1/FAILURE)
+        CPU: 5.188s
+
