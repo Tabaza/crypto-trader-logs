@@ -334,3 +334,45 @@ Oct 17 02:16:21 vmi2858748 npm[34400]:   ✅ [Fast Momentum Gap] EOS/USDT execut
    Main PID: 35690 (code=exited, status=1/FAILURE)
         CPU: 5.188s
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-17 02:45:01
+
+📋 Active Signals:
+Oct 17 02:16:21 vmi2858748 npm[34400]: 📊 Monitoring 3 active signals...
+Oct 17 02:44:05 vmi2858748 npm[38322]: 📊 No active signals to monitor
+
+🔌 WebSocket Status:
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for NEIRO/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for PEPE/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for STX/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for RAY/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for DOGE/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for ORDI/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for BONK/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for ZEC/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for DOT/USDT
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for FLOKI/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 17 02:44:03 vmi2858748 npm[38322]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 17 02:44:03 vmi2858748 npm[38322]: ✅ Strategy registered: POC Magnet (poc-magnet)
+Oct 17 02:44:03 vmi2858748 npm[38322]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-10-17 02:44:00 CEST; 1min 0s ago
+   Main PID: 38299 (npm run dev)
+      Tasks: 44 (limit: 28795)
+     Memory: 298.5M (peak: 578.6M)
+        CPU: 12.782s
+     CGroup: /system.slice/crypto-trader.service
+             ├─38299 "npm run dev"
+             ├─38310 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─38311 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─38322 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─38334 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+
+Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for NEIRO/USDT
+
