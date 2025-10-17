@@ -376,3 +376,55 @@ Oct 17 02:44:03 vmi2858748 npm[38322]: ✅ Strategy registered: VWAP Sigma (vwap
 
 Oct 17 02:44:07 vmi2858748 npm[38322]: WebSocket connected for NEIRO/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-17 03:00:01
+
+📋 Active Signals:
+Oct 17 02:55:11 vmi2858748 npm[40183]: 📊 No active signals to monitor
+Oct 17 02:56:11 vmi2858748 npm[40183]: 📊 No active signals to monitor
+Oct 17 02:57:11 vmi2858748 npm[40183]: 📊 No active signals to monitor
+Oct 17 02:58:11 vmi2858748 npm[40183]: 📊 No active signals to monitor
+Oct 17 02:59:11 vmi2858748 npm[40183]: 📊 No active signals to monitor
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 17 02:46:17 vmi2858748 npm[38322]:     [Momentum Gap] Price: $0.00002470, MIDAS: $0.00002479, POC: $0.00002470, Vol: 0.22x
+Oct 17 02:46:17 vmi2858748 npm[38322]:     ❌ Rejected: Volume 0.22x < 2x required
+Oct 17 02:46:17 vmi2858748 npm[38322]:     [POC Magnet] Price: $0.00002470, POC: $0.00002470, Deviation: 0.00%, Vol: 0.27x
+Oct 17 02:46:17 vmi2858748 npm[38322]:     ❌ Rejected: Deviation 0.00% < 1.00% required (too close to POC)
+Oct 17 02:46:17 vmi2858748 npm[38322]:     [VWAP Sigma] Price: $0.00002470, VWAP: $0.00002428, Sigma: 1.64σ, Vol: 0.22x
+Oct 17 02:46:17 vmi2858748 npm[38322]:     ❌ Rejected: Volume 0.22x < 1.3x required
+Oct 17 02:46:18 vmi2858748 npm[38322]:     [Momentum Gap] Price: $1.80, MIDAS: $1.84, POC: $1.81, Vol: 0.03x
+Oct 17 02:46:18 vmi2858748 npm[38322]:     ❌ Rejected: Volume 0.03x < 2x required
+Oct 17 02:46:18 vmi2858748 npm[38322]:     [POC Magnet] Price: $1.80, POC: $1.81, Deviation: 0.29%, Vol: 0.04x
+Oct 17 02:46:18 vmi2858748 npm[38322]:     ❌ Rejected: Deviation 0.29% < 1.00% required (too close to POC)
+Oct 17 02:46:18 vmi2858748 npm[38322]:     [VWAP Sigma] Price: $1.80, VWAP: $1.79, Sigma: 1.41σ, Vol: 0.03x
+Oct 17 02:46:18 vmi2858748 npm[38322]:     ❌ Rejected: Volume 0.03x < 1.3x required
+Oct 17 02:46:18 vmi2858748 npm[38322]:   ✅ [Fast Momentum Gap] WAVES/USDT executed (1/2)
+Oct 17 02:46:18 vmi2858748 npm[38322]:   ✅ [Fast Momentum Gap] EOS/USDT executed (2/2)
+Oct 17 02:49:14 vmi2858748 npm[40098]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 17 02:49:14 vmi2858748 npm[40098]: ✅ Strategy registered: POC Magnet (poc-magnet)
+Oct 17 02:49:14 vmi2858748 npm[40098]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 17 02:51:07 vmi2858748 npm[40183]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 17 02:51:07 vmi2858748 npm[40183]: ✅ Strategy registered: POC Magnet (poc-magnet)
+Oct 17 02:51:07 vmi2858748 npm[40183]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-10-17 02:51:05 CEST; 8min ago
+   Main PID: 40158 (npm run dev)
+      Tasks: 55 (limit: 28795)
+     Memory: 349.3M (peak: 482.8M)
+        CPU: 57.102s
+     CGroup: /system.slice/crypto-trader.service
+             ├─40158 "npm run dev"
+             ├─40171 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─40172 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─40183 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─40195 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─40213 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
