@@ -13696,3 +13696,55 @@ Oct 19 13:01:20 vmi2858748 npm[77384]:     ❌ Rejected: Volume 0.22x < 1.2x req
 
 Oct 19 13:11:34 vmi2858748 npm[77384]: 1:11:34 PM [express] GET /api/symbols 200 in 1ms :: [{"symbol":"DOGE/USDT","baseAsset":"DOGE","quote…
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-19 13:30:01
+
+📋 Active Signals:
+Oct 19 13:17:10 vmi2858748 npm[81683]: 📊 No active signals to monitor
+Oct 19 13:18:10 vmi2858748 npm[81683]: 📊 No active signals to monitor
+Oct 19 13:19:10 vmi2858748 npm[81683]: 📊 No active signals to monitor
+Oct 19 13:20:10 vmi2858748 npm[81683]: 📊 No active signals to monitor
+Oct 19 13:21:10 vmi2858748 npm[81683]: 📊 No active signals to monitor
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 19 13:27:32 vmi2858748 npm[83072]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:27:32 vmi2858748 npm[83072]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:27:47 vmi2858748 npm[83115]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:27:47 vmi2858748 npm[83115]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:28:14 vmi2858748 npm[83223]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:28:14 vmi2858748 npm[83223]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:28:29 vmi2858748 npm[83279]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:28:29 vmi2858748 npm[83279]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:28:44 vmi2858748 npm[83327]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:28:44 vmi2858748 npm[83327]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:28:59 vmi2858748 npm[83381]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:28:59 vmi2858748 npm[83381]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:29:13 vmi2858748 npm[83426]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:29:13 vmi2858748 npm[83426]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:29:28 vmi2858748 npm[83472]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:29:28 vmi2858748 npm[83472]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:29:44 vmi2858748 npm[83515]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:29:44 vmi2858748 npm[83515]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:29:59 vmi2858748 npm[83562]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:29:59 vmi2858748 npm[83562]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2025-10-19 13:29:57 CEST; 4s ago
+   Main PID: 83539 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 527.4M (peak: 527.5M)
+        CPU: 7.597s
+     CGroup: /system.slice/crypto-trader.service
+             ├─83539 "npm run dev"
+             ├─83550 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─83551 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─83562 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 19 13:29:57 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
+Oct 19 13:29:57 vmi2858748 npm[83539]: > rest-express@1.0.0 dev
+
