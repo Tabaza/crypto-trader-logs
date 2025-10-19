@@ -11473,3 +11473,60 @@ Oct 19 03:16:20 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.04x < 1.2x req
 
 Oct 19 03:28:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-19 03:45:01
+
+📋 Active Signals:
+Oct 19 03:40:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:41:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:42:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:43:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:44:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 19 03:40:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:41:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:42:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:43:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 19 03:44:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 19 03:31:18 vmi2858748 npm[41514]:     [Momentum Gap] Price: $0.00006479, MIDAS: $0.00006468, POC: $0.00006488, Vol: 0.06x
+Oct 19 03:31:18 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.06x < 2x required
+Oct 19 03:31:18 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $0.00006479, VWAP: $0.00006494, Sigma: 0.64σ, Vol: 0.06x
+Oct 19 03:31:18 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 0.64σ outside range 1.3-2.2σ
+Oct 19 03:31:18 vmi2858748 npm[41514]:     [Momentum Gap] Price: $0.001051, MIDAS: $0.001055, POC: $0.001060, Vol: 0.10x
+Oct 19 03:31:18 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.10x < 2x required
+Oct 19 03:31:18 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $0.001051, VWAP: $0.001057, Sigma: 1.11σ, Vol: 0.10x
+Oct 19 03:31:18 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 1.11σ outside range 1.3-2.2σ
+Oct 19 03:31:18 vmi2858748 npm[41514]:     [Momentum Gap] Price: $5.04, MIDAS: $5.02, POC: $5.03, Vol: 0.04x
+Oct 19 03:31:18 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.04x < 2x required
+Oct 19 03:31:18 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $5.04, VWAP: $5.03, Sigma: 1.28σ, Vol: 0.04x
+Oct 19 03:31:18 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 1.28σ outside range 1.3-2.2σ
+Oct 19 03:31:19 vmi2858748 npm[41514]:     [Momentum Gap] Price: $0.00002383, MIDAS: $0.00002389, POC: $0.00002395, Vol: 0.02x
+Oct 19 03:31:19 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.02x < 2x required
+Oct 19 03:31:19 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $0.00002383, VWAP: $0.00002393, Sigma: 0.99σ, Vol: 0.02x
+Oct 19 03:31:19 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 0.99σ outside range 1.3-2.2σ
+Oct 19 03:31:19 vmi2858748 npm[41514]:     [Momentum Gap] Price: $1.77, MIDAS: $1.76, POC: $1.77, Vol: 0.42x
+Oct 19 03:31:19 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.42x < 2x required
+Oct 19 03:31:19 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $1.77, VWAP: $1.77, Sigma: 0.74σ, Vol: 0.42x
+Oct 19 03:31:19 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 0.74σ outside range 1.3-2.2σ
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-10-17 04:19:05 CEST; 1 day 23h ago
+   Main PID: 41491 (npm run dev)
+      Tasks: 61 (limit: 28795)
+     Memory: 464.5M (peak: 731.2M)
+        CPU: 5h 26min 665ms
+     CGroup: /system.slice/crypto-trader.service
+             ├─41491 "npm run dev"
+             ├─41502 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─41503 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─41514 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─41530 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Oct 19 03:43:11 vmi2858748 npm[41514]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
