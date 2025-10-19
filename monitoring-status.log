@@ -11820,3 +11820,65 @@ Oct 19 04:46:17 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 1.01σ outside ra
 
 Oct 19 04:58:12 vmi2858748 npm[41514]: ⏳ APT/USDT: Price $3.16 | TP: $3.19 | SL: $3.15 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-19 05:15:01
+
+📋 Active Signals:
+Oct 19 05:10:11 vmi2858748 npm[41514]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 19 05:11:11 vmi2858748 npm[41514]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 19 05:12:11 vmi2858748 npm[41514]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 19 05:13:11 vmi2858748 npm[41514]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 19 05:14:11 vmi2858748 npm[41514]: 📊 Monitoring 5 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 19 05:13:07 vmi2858748 npm[41514]: 5:13:07 AM [express] GET /api/signals/monitoring/active 200 in 1ms :: {"total":4,"signals":[{"symbol…
+Oct 19 05:13:07 vmi2858748 npm[41514]: 5:13:07 AM [express] GET /api/signals/monitoring/stats 304 in 1ms :: {"total":6,"wins":1,"losses":1,…
+Oct 19 05:13:08 vmi2858748 npm[41514]: 5:13:08 AM [express] GET /api/signals/monitoring/all 304 in 0ms :: {"total":0,"signals":[]}
+Oct 19 05:13:08 vmi2858748 npm[41514]: 5:13:08 AM [express] GET /api/signals/monitoring/stats 304 in 1ms :: {"total":0,"wins":0,"losses":0,…
+Oct 19 05:13:08 vmi2858748 npm[41514]: 5:13:08 AM [express] GET /api/signals/monitoring/active 304 in 1ms :: {"total":0,"signals":[]}
+Oct 19 05:13:09 vmi2858748 npm[41514]: 5:13:09 AM [express] GET /api/signals/monitoring/stats 200 in 1ms :: {"total":6,"wins":4,"losses":1,…
+Oct 19 05:13:09 vmi2858748 npm[41514]: 5:13:09 AM [express] GET /api/signals/monitoring/all 200 in 1ms :: {"total":6,"signals":[{"symbolId"…
+Oct 19 05:13:09 vmi2858748 npm[41514]: 5:13:09 AM [express] GET /api/signals/monitoring/active 200 in 1ms :: {"total":1,"signals":[{"symbol…
+Oct 19 05:13:11 vmi2858748 npm[41514]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 19 05:14:11 vmi2858748 npm[41514]: 📊 Monitoring 5 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 19 05:01:18 vmi2858748 npm[41514]:     [Momentum Gap] Price: $0.00006460, MIDAS: $0.00006470, POC: $0.00006492, Vol: 0.09x
+Oct 19 05:01:18 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.09x < 2x required
+Oct 19 05:01:18 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $0.00006460, VWAP: $0.00006481, Sigma: 1.13σ, Vol: 0.09x
+Oct 19 05:01:18 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 1.13σ outside range 1.3-2.2σ
+Oct 19 05:01:18 vmi2858748 npm[41514]:     [Momentum Gap] Price: $0.001049, MIDAS: $0.001055, POC: $0.001060, Vol: 0.00x
+Oct 19 05:01:18 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.00x < 2x required
+Oct 19 05:01:18 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $0.001049, VWAP: $0.001055, Sigma: 1.06σ, Vol: 0.00x
+Oct 19 05:01:18 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 1.06σ outside range 1.3-2.2σ
+Oct 19 05:01:18 vmi2858748 npm[41514]:     [Momentum Gap] Price: $5.03, MIDAS: $5.03, POC: $5.03, Vol: 0.00x
+Oct 19 05:01:18 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.00x < 2x required
+Oct 19 05:01:18 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $5.03, VWAP: $5.03, Sigma: 0.08σ, Vol: 0.00x
+Oct 19 05:01:18 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 0.08σ outside range 1.3-2.2σ
+Oct 19 05:01:19 vmi2858748 npm[41514]:     [Momentum Gap] Price: $0.00002382, MIDAS: $0.00002388, POC: $0.00002384, Vol: 0.00x
+Oct 19 05:01:19 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.00x < 2x required
+Oct 19 05:01:19 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $0.00002382, VWAP: $0.00002388, Sigma: 0.64σ, Vol: 0.00x
+Oct 19 05:01:19 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 0.64σ outside range 1.3-2.2σ
+Oct 19 05:01:19 vmi2858748 npm[41514]:     [Momentum Gap] Price: $1.76, MIDAS: $1.77, POC: $1.77, Vol: 0.01x
+Oct 19 05:01:19 vmi2858748 npm[41514]:     ❌ Rejected: Volume 0.01x < 2x required
+Oct 19 05:01:19 vmi2858748 npm[41514]:     [VWAP Sigma] Price: $1.76, VWAP: $1.77, Sigma: 0.95σ, Vol: 0.01x
+Oct 19 05:01:19 vmi2858748 npm[41514]:     ❌ Rejected: Sigma 0.95σ outside range 1.3-2.2σ
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-10-17 04:19:05 CEST; 2 days ago
+   Main PID: 41491 (npm run dev)
+      Tasks: 61 (limit: 28795)
+     Memory: 454.7M (peak: 731.2M)
+        CPU: 5h 30min 49.885s
+     CGroup: /system.slice/crypto-trader.service
+             ├─41491 "npm run dev"
+             ├─41502 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─41503 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─41514 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─41530 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Oct 19 05:13:39 vmi2858748 npm[41514]: 5:13:39 AM [express] GET /api/performance 304 in 1ms :: {"totalTrades":7,"winRate":85.71428571428571…
+
