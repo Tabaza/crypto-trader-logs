@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-10-19 13:30:01
+Crypto Trader Log Export - 2025-10-19 13:45:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Oct 19 13:29:01 vmi2858748 npm[83381]: PostgresError: relation "symbols" does not exist
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at ErrorResponse (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:794:26)
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at handle (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:480:6)
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at Socket.data (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:315:9)
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at Socket.emit (node:events:524:28)
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at addChunk (node:internal/streams/readable:561:12)
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at Readable.push (node:internal/streams/readable:392:5)
-Oct 19 13:29:01 vmi2858748 npm[83381]:     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) {
-Oct 19 13:29:01 vmi2858748 npm[83381]:   severity_local: 'ERROR',
-Oct 19 13:29:01 vmi2858748 npm[83381]:   severity: 'ERROR',
-Oct 19 13:29:01 vmi2858748 npm[83381]:   code: '42P01',
-Oct 19 13:29:01 vmi2858748 npm[83381]:   position: '166',
-Oct 19 13:29:01 vmi2858748 npm[83381]:   file: 'parse_relation.c',
-Oct 19 13:29:01 vmi2858748 npm[83381]:   line: '1449',
-Oct 19 13:29:01 vmi2858748 npm[83381]:   routine: 'parserOpenTable'
-Oct 19 13:29:01 vmi2858748 npm[83381]: }
-Oct 19 13:29:01 vmi2858748 npm[83381]: Node.js v20.19.5
-Oct 19 13:29:01 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=1/FAILURE
-Oct 19 13:29:01 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
-Oct 19 13:29:01 vmi2858748 systemd[1]: crypto-trader.service: Consumed 6.962s CPU time.
-Oct 19 13:29:11 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 28.
-Oct 19 13:29:11 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Oct 19 13:29:11 vmi2858748 npm[83403]: > rest-express@1.0.0 dev
-Oct 19 13:29:11 vmi2858748 npm[83403]: > NODE_ENV=development tsx server/index.ts
-Oct 19 13:29:13 vmi2858748 npm[83426]: 💾 Using PostgreSQL database storage
-Oct 19 13:29:13 vmi2858748 npm[83426]: 📚 Registering trading strategies...
-Oct 19 13:29:13 vmi2858748 npm[83426]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 19 13:29:13 vmi2858748 npm[83426]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 19 13:29:13 vmi2858748 npm[83426]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 19 13:29:13 vmi2858748 npm[83426]: ✅ 3 strategies registered
-Oct 19 13:29:13 vmi2858748 npm[83426]: Initializing symbols from Binance...
-Oct 19 13:29:15 vmi2858748 npm[83426]: ✅ Loaded 68/68 symbols from Binance SPOT
-Oct 19 13:29:15 vmi2858748 npm[83426]: Loading 68 symbols from Binance SPOT market...
-Oct 19 13:29:15 vmi2858748 npm[83426]: Error initializing symbols from Binance: PostgresError: relation "symbols" does not exist
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at ErrorResponse (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:794:26)
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at handle (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:480:6)
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at Socket.data (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:315:9)
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at Socket.emit (node:events:524:28)
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at addChunk (node:internal/streams/readable:561:12)
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at Readable.push (node:internal/streams/readable:392:5)
-Oct 19 13:29:15 vmi2858748 npm[83426]:     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) {
-Oct 19 13:29:15 vmi2858748 npm[83426]:   severity_local: 'ERROR',
-Oct 19 13:29:15 vmi2858748 npm[83426]:   severity: 'ERROR',
-Oct 19 13:29:15 vmi2858748 npm[83426]:   code: '42P01',
-Oct 19 13:29:15 vmi2858748 npm[83426]:   position: '166',
-Oct 19 13:29:15 vmi2858748 npm[83426]:   file: 'parse_relation.c',
-Oct 19 13:29:15 vmi2858748 npm[83426]:   line: '1449',
-Oct 19 13:29:15 vmi2858748 npm[83426]:   routine: 'parserOpenTable'
-Oct 19 13:29:15 vmi2858748 npm[83426]: }
-Oct 19 13:29:15 vmi2858748 npm[83426]: Falling back to demo mode...
-Oct 19 13:29:15 vmi2858748 npm[83426]: Binance unavailable, loading demo symbols...
-Oct 19 13:29:16 vmi2858748 npm[83426]: node:internal/process/promises:391
-Oct 19 13:29:16 vmi2858748 npm[83426]:     triggerUncaughtException(err, true /* fromPromise */);
-Oct 19 13:29:16 vmi2858748 npm[83426]:     ^
-Oct 19 13:29:16 vmi2858748 npm[83426]: PostgresError: relation "symbols" does not exist
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at ErrorResponse (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:794:26)
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at handle (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:480:6)
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at Socket.data (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:315:9)
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at Socket.emit (node:events:524:28)
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at addChunk (node:internal/streams/readable:561:12)
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at Readable.push (node:internal/streams/readable:392:5)
-Oct 19 13:29:16 vmi2858748 npm[83426]:     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) {
-Oct 19 13:29:16 vmi2858748 npm[83426]:   severity_local: 'ERROR',
-Oct 19 13:29:16 vmi2858748 npm[83426]:   severity: 'ERROR',
-Oct 19 13:29:16 vmi2858748 npm[83426]:   code: '42P01',
-Oct 19 13:29:16 vmi2858748 npm[83426]:   position: '166',
-Oct 19 13:29:16 vmi2858748 npm[83426]:   file: 'parse_relation.c',
-Oct 19 13:29:16 vmi2858748 npm[83426]:   line: '1449',
-Oct 19 13:29:16 vmi2858748 npm[83426]:   routine: 'parserOpenTable'
-Oct 19 13:29:16 vmi2858748 npm[83426]: }
-Oct 19 13:29:16 vmi2858748 npm[83426]: Node.js v20.19.5
-Oct 19 13:29:16 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=1/FAILURE
-Oct 19 13:29:16 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
-Oct 19 13:29:16 vmi2858748 systemd[1]: crypto-trader.service: Consumed 6.987s CPU time.
-Oct 19 13:29:26 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 29.
-Oct 19 13:29:26 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Oct 19 13:29:26 vmi2858748 npm[83449]: > rest-express@1.0.0 dev
-Oct 19 13:29:26 vmi2858748 npm[83449]: > NODE_ENV=development tsx server/index.ts
-Oct 19 13:29:28 vmi2858748 npm[83472]: 💾 Using PostgreSQL database storage
-Oct 19 13:29:28 vmi2858748 npm[83472]: 📚 Registering trading strategies...
-Oct 19 13:29:28 vmi2858748 npm[83472]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 19 13:29:28 vmi2858748 npm[83472]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 19 13:29:28 vmi2858748 npm[83472]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 19 13:29:28 vmi2858748 npm[83472]: ✅ 3 strategies registered
-Oct 19 13:29:28 vmi2858748 npm[83472]: Initializing symbols from Binance...
-Oct 19 13:29:32 vmi2858748 npm[83472]: ✅ Loaded 68/68 symbols from Binance SPOT
-Oct 19 13:29:32 vmi2858748 npm[83472]: Loading 68 symbols from Binance SPOT market...
-Oct 19 13:29:32 vmi2858748 npm[83472]: Error initializing symbols from Binance: PostgresError: relation "symbols" does not exist
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at ErrorResponse (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:794:26)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at handle (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:480:6)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at Socket.data (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:315:9)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at Socket.emit (node:events:524:28)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at addChunk (node:internal/streams/readable:561:12)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at Readable.push (node:internal/streams/readable:392:5)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) {
-Oct 19 13:29:32 vmi2858748 npm[83472]:   severity_local: 'ERROR',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   severity: 'ERROR',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   code: '42P01',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   position: '166',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   file: 'parse_relation.c',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   line: '1449',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   routine: 'parserOpenTable'
-Oct 19 13:29:32 vmi2858748 npm[83472]: }
-Oct 19 13:29:32 vmi2858748 npm[83472]: Falling back to demo mode...
-Oct 19 13:29:32 vmi2858748 npm[83472]: Binance unavailable, loading demo symbols...
-Oct 19 13:29:32 vmi2858748 npm[83472]: node:internal/process/promises:391
-Oct 19 13:29:32 vmi2858748 npm[83472]:     triggerUncaughtException(err, true /* fromPromise */);
-Oct 19 13:29:32 vmi2858748 npm[83472]:     ^
-Oct 19 13:29:32 vmi2858748 npm[83472]: PostgresError: relation "symbols" does not exist
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at ErrorResponse (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:794:26)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at handle (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:480:6)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at Socket.data (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:315:9)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at Socket.emit (node:events:524:28)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at addChunk (node:internal/streams/readable:561:12)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at Readable.push (node:internal/streams/readable:392:5)
-Oct 19 13:29:32 vmi2858748 npm[83472]:     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) {
-Oct 19 13:29:32 vmi2858748 npm[83472]:   severity_local: 'ERROR',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   severity: 'ERROR',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   code: '42P01',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   position: '166',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   file: 'parse_relation.c',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   line: '1449',
-Oct 19 13:29:32 vmi2858748 npm[83472]:   routine: 'parserOpenTable'
-Oct 19 13:29:32 vmi2858748 npm[83472]: }
-Oct 19 13:29:32 vmi2858748 npm[83472]: Node.js v20.19.5
-Oct 19 13:29:32 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=1/FAILURE
-Oct 19 13:29:32 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
-Oct 19 13:29:32 vmi2858748 systemd[1]: crypto-trader.service: Consumed 7.780s CPU time.
-Oct 19 13:29:42 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 30.
-Oct 19 13:29:42 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Oct 19 13:29:42 vmi2858748 npm[83492]: > rest-express@1.0.0 dev
-Oct 19 13:29:42 vmi2858748 npm[83492]: > NODE_ENV=development tsx server/index.ts
-Oct 19 13:29:44 vmi2858748 npm[83515]: 💾 Using PostgreSQL database storage
-Oct 19 13:29:44 vmi2858748 npm[83515]: 📚 Registering trading strategies...
-Oct 19 13:29:44 vmi2858748 npm[83515]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 19 13:29:44 vmi2858748 npm[83515]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 19 13:29:44 vmi2858748 npm[83515]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 19 13:29:44 vmi2858748 npm[83515]: ✅ 3 strategies registered
-Oct 19 13:29:44 vmi2858748 npm[83515]: Initializing symbols from Binance...
-Oct 19 13:29:46 vmi2858748 npm[83515]: ✅ Loaded 68/68 symbols from Binance SPOT
-Oct 19 13:29:46 vmi2858748 npm[83515]: Loading 68 symbols from Binance SPOT market...
-Oct 19 13:29:46 vmi2858748 npm[83515]: Error initializing symbols from Binance: PostgresError: relation "symbols" does not exist
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at ErrorResponse (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:794:26)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at handle (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:480:6)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at Socket.data (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:315:9)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at Socket.emit (node:events:524:28)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at addChunk (node:internal/streams/readable:561:12)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at Readable.push (node:internal/streams/readable:392:5)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) {
-Oct 19 13:29:46 vmi2858748 npm[83515]:   severity_local: 'ERROR',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   severity: 'ERROR',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   code: '42P01',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   position: '166',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   file: 'parse_relation.c',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   line: '1449',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   routine: 'parserOpenTable'
-Oct 19 13:29:46 vmi2858748 npm[83515]: }
-Oct 19 13:29:46 vmi2858748 npm[83515]: Falling back to demo mode...
-Oct 19 13:29:46 vmi2858748 npm[83515]: Binance unavailable, loading demo symbols...
-Oct 19 13:29:46 vmi2858748 npm[83515]: node:internal/process/promises:391
-Oct 19 13:29:46 vmi2858748 npm[83515]:     triggerUncaughtException(err, true /* fromPromise */);
-Oct 19 13:29:46 vmi2858748 npm[83515]:     ^
-Oct 19 13:29:46 vmi2858748 npm[83515]: PostgresError: relation "symbols" does not exist
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at ErrorResponse (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:794:26)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at handle (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:480:6)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at Socket.data (file:///opt/crypto-trader/node_modules/postgres/src/connection.js:315:9)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at Socket.emit (node:events:524:28)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at addChunk (node:internal/streams/readable:561:12)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at Readable.push (node:internal/streams/readable:392:5)
-Oct 19 13:29:46 vmi2858748 npm[83515]:     at TCP.onStreamRead (node:internal/stream_base_commons:191:23) {
-Oct 19 13:29:46 vmi2858748 npm[83515]:   severity_local: 'ERROR',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   severity: 'ERROR',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   code: '42P01',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   position: '166',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   file: 'parse_relation.c',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   line: '1449',
-Oct 19 13:29:46 vmi2858748 npm[83515]:   routine: 'parserOpenTable'
-Oct 19 13:29:46 vmi2858748 npm[83515]: }
-Oct 19 13:29:46 vmi2858748 npm[83515]: Node.js v20.19.5
-Oct 19 13:29:46 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=1/FAILURE
-Oct 19 13:29:46 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
-Oct 19 13:29:46 vmi2858748 systemd[1]: crypto-trader.service: Consumed 7.671s CPU time.
-Oct 19 13:29:57 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 31.
-Oct 19 13:29:57 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Oct 19 13:29:57 vmi2858748 npm[83539]: > rest-express@1.0.0 dev
-Oct 19 13:29:57 vmi2858748 npm[83539]: > NODE_ENV=development tsx server/index.ts
-Oct 19 13:29:59 vmi2858748 npm[83562]: 💾 Using PostgreSQL database storage
-Oct 19 13:29:59 vmi2858748 npm[83562]: 📚 Registering trading strategies...
-Oct 19 13:29:59 vmi2858748 npm[83562]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 19 13:29:59 vmi2858748 npm[83562]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 19 13:29:59 vmi2858748 npm[83562]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 19 13:29:59 vmi2858748 npm[83562]: ✅ 3 strategies registered
-Oct 19 13:29:59 vmi2858748 npm[83562]: Initializing symbols from Binance...
+Oct 19 13:39:57 vmi2858748 npm[84636]: 🚀 Starting REST polling monitor (1-minute checks)...
+Oct 19 13:39:57 vmi2858748 npm[84636]: 📊 No active signals to monitor
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for WLD/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for MKR/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for MANA/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for RAY/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for TIA/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ARKM/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for AXS/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for XLM/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for LDO/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for SAND/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for LINK/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ORDI/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for DASH/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for LTC/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for FET/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for RUNE/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for DOT/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for VET/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for PEPE/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for APT/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for GALA/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for NEAR/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for WIF/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for CHZ/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for SUI/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ARB/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ZIL/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for MATIC/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ADA/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ATOM/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ENA/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for COMP/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for PNUT/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for FIL/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for UNI/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for JUP/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for QTUM/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for THETA/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for BCH/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for OP/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for NEO/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for TRX/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for FLOKI/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for AAVE/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for DOGE/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for INJ/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ALGO/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for BTC/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for SEI/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ETC/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for BONK/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ICP/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for 1000SATS/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for SOL/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ZEC/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for NEIRO/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for TON/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for BOME/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for ETH/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for IMX/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for SHIB/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for S/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for BNB/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for RENDER/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for STX/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for XRP/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for EGLD/USDT
+Oct 19 13:39:58 vmi2858748 npm[84636]: WebSocket connected for AVAX/USDT
+Oct 19 13:40:02 vmi2858748 npm[84636]: 1:40:02 PM [express] GET /api/performance 304 in 4ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,"a…
+Oct 19 13:40:02 vmi2858748 npm[84636]: 1:40:02 PM [express] GET /api/trades/active 304 in 5ms :: []
+Oct 19 13:40:02 vmi2858748 npm[84636]: 1:40:02 PM [express] GET /api/symbols 200 in 20ms :: [{"id":"fetusdt","symbol":"FET/USDT","baseAsset…
+Oct 19 13:40:03 vmi2858748 npm[84636]: Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:
+Oct 19 13:40:03 vmi2858748 npm[84636]:   npx update-browserslist-db@latest
+Oct 19 13:40:03 vmi2858748 npm[84636]:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Oct 19 13:40:04 vmi2858748 npm[84636]: A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+Oct 19 13:40:05 vmi2858748 npm[84636]: 1:40:05 PM [express] GET /api/trades/active 304 in 511ms :: []
+Oct 19 13:40:05 vmi2858748 npm[84636]: 1:40:05 PM [express] GET /api/performance 304 in 510ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,…
+Oct 19 13:40:05 vmi2858748 npm[84636]: 1:40:05 PM [express] GET /api/signals/recent 304 in 512ms :: []
+Oct 19 13:40:06 vmi2858748 npm[84636]: 1:40:06 PM [express] GET /api/symbols 200 in 1079ms :: [{"id":"fetusdt","symbol":"FET/USDT","baseAss…
+Oct 19 13:40:07 vmi2858748 npm[84636]: 1:40:07 PM [express] GET /api/volume-profile/fetusdt 200 in 1523ms :: {"id":"772d2715-feb4-46e5-8711…
+Oct 19 13:40:08 vmi2858748 npm[84636]: 1:40:08 PM [express] GET /api/midas/fetusdt 200 in 2183ms :: {"id":"27736d94-0922-4d82-96c1-d6c75280…
+Oct 19 13:40:10 vmi2858748 npm[84636]: 1:40:10 PM [express] GET /api/trades/active 304 in 3ms :: []
+Oct 19 13:40:11 vmi2858748 npm[84636]: 1:40:11 PM [express] GET /api/trades/active 304 in 4ms :: []
+Oct 19 13:40:11 vmi2858748 npm[84636]: 1:40:11 PM [express] GET /api/performance 304 in 7ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,"a…
+Oct 19 13:40:11 vmi2858748 npm[84636]: 1:40:11 PM [express] GET /api/signals/recent 304 in 15ms :: []
+Oct 19 13:40:11 vmi2858748 npm[84636]: 1:40:11 PM [express] GET /api/symbols 200 in 42ms :: [{"id":"maticusdt","symbol":"MATIC/USDT","baseA…
+Oct 19 13:40:11 vmi2858748 npm[84636]: 1:40:11 PM [express] GET /api/volume-profile/maticusdt 304 in 14ms :: {"id":"ecb9ee19-a2ce-4c6c-b512…
+Oct 19 13:40:12 vmi2858748 npm[84636]: 1:40:12 PM [express] GET /api/midas/maticusdt 200 in 276ms :: {"id":"e9f0d858-1e4b-4197-9a97-138afeb…
+Oct 19 13:40:57 vmi2858748 npm[84636]: 📊 No active signals to monitor
+Oct 19 13:41:06 vmi2858748 systemd[1]: Stopping crypto-trader.service - AI Crypto Trader Application...
+Oct 19 13:41:06 vmi2858748 systemd[1]: crypto-trader.service: Deactivated successfully.
+Oct 19 13:41:06 vmi2858748 systemd[1]: Stopped crypto-trader.service - AI Crypto Trader Application.
+Oct 19 13:41:06 vmi2858748 systemd[1]: crypto-trader.service: Consumed 40.222s CPU time.
+Oct 19 13:41:06 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
+Oct 19 13:41:07 vmi2858748 npm[84723]: > rest-express@1.0.0 dev
+Oct 19 13:41:07 vmi2858748 npm[84723]: > NODE_ENV=development tsx server/index.ts
+Oct 19 13:41:09 vmi2858748 npm[84747]: 💾 Using PostgreSQL database storage
+Oct 19 13:41:09 vmi2858748 npm[84747]: 📚 Registering trading strategies...
+Oct 19 13:41:09 vmi2858748 npm[84747]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 19 13:41:09 vmi2858748 npm[84747]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
+Oct 19 13:41:09 vmi2858748 npm[84747]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 19 13:41:09 vmi2858748 npm[84747]: ✅ 3 strategies registered
+Oct 19 13:41:09 vmi2858748 npm[84747]: Initializing symbols from Binance...
+Oct 19 13:41:11 vmi2858748 npm[84747]: ✅ Loaded 68/68 symbols from Binance SPOT
+Oct 19 13:41:11 vmi2858748 npm[84747]: Loading 68 symbols from Binance SPOT market...
+Oct 19 13:41:11 vmi2858748 npm[84747]: ✅ 68 symbols initialized successfully from Binance SPOT
+Oct 19 13:41:11 vmi2858748 npm[84747]: Starting WebSocket for 68 symbols...
+Oct 19 13:41:11 vmi2858748 npm[84747]: WebSocket streams initialized
+Oct 19 13:41:11 vmi2858748 npm[84747]: ⏰ Signal scheduler will start at next 15-min boundary (11:46 UTC, in 289 seconds)
+Oct 19 13:41:11 vmi2858748 npm[84747]: 1:41:11 PM [express] serving on port 5000
+Oct 19 13:41:11 vmi2858748 npm[84747]: 🚀 Starting REST polling monitor (1-minute checks)...
+Oct 19 13:41:11 vmi2858748 npm[84747]: 📊 No active signals to monitor
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for DOT/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ATOM/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for APT/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for THETA/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ZIL/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for BOME/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for LINK/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for PNUT/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ARKM/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for NEAR/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for LTC/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for RENDER/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for CHZ/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ENA/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for INJ/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ORDI/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for EGLD/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ARB/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for XRP/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for GALA/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ALGO/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ETC/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for AAVE/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for SAND/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for COMP/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for BNB/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for BCH/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for JUP/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for SUI/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for NEIRO/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for OP/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for FIL/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for VET/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for AVAX/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for RUNE/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for NEO/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for XLM/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for TRX/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for 1000SATS/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for IMX/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for FET/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for SEI/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for TIA/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ETH/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for MKR/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for LDO/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for S/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for WLD/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for MANA/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for PEPE/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for MATIC/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for DASH/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for STX/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ADA/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ICP/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for RAY/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for AXS/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for WIF/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for BONK/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for SOL/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for FLOKI/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for UNI/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for ZEC/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for DOGE/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for SHIB/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for BTC/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for QTUM/USDT
+Oct 19 13:41:12 vmi2858748 npm[84747]: WebSocket connected for TON/USDT
+Oct 19 13:41:21 vmi2858748 npm[84747]: 1:41:21 PM [express] GET /api/trades/active 304 in 10ms :: []
+Oct 19 13:41:22 vmi2858748 npm[84747]: Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:
+Oct 19 13:41:22 vmi2858748 npm[84747]:   npx update-browserslist-db@latest
+Oct 19 13:41:22 vmi2858748 npm[84747]:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Oct 19 13:41:23 vmi2858748 npm[84747]: A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+Oct 19 13:41:25 vmi2858748 npm[84747]: 1:41:25 PM [express] GET /api/performance 200 in 432ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,…
+Oct 19 13:41:25 vmi2858748 npm[84747]: 1:41:25 PM [express] GET /api/trades/active 304 in 438ms :: []
+Oct 19 13:41:25 vmi2858748 npm[84747]: 1:41:25 PM [express] GET /api/signals/recent 304 in 447ms :: []
+Oct 19 13:41:25 vmi2858748 npm[84747]: 1:41:25 PM [express] GET /api/symbols 200 in 1206ms :: [{"id":"thetausdt","symbol":"THETA/USDT","bas…
+Oct 19 13:41:27 vmi2858748 npm[84747]: 1:41:27 PM [express] GET /api/volume-profile/thetausdt 200 in 1337ms :: {"id":"10f946f0-2228-4ace-88…
+Oct 19 13:41:27 vmi2858748 npm[84747]: 1:41:27 PM [express] GET /api/midas/thetausdt 200 in 1844ms :: {"id":"eac326d3-d64f-4d45-b759-a8e56c…
+Oct 19 13:41:30 vmi2858748 npm[84747]: 1:41:30 PM [express] GET /api/trades/active 304 in 3ms :: []
+Oct 19 13:41:55 vmi2858748 npm[84747]: 1:41:55 PM [express] GET /api/performance 304 in 2ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,"a…
+Oct 19 13:41:55 vmi2858748 npm[84747]: 1:41:55 PM [express] GET /api/signals/recent 304 in 3ms :: []
+Oct 19 13:41:55 vmi2858748 npm[84747]: 1:41:55 PM [express] GET /api/trades/active 304 in 3ms :: []
+Oct 19 13:42:11 vmi2858748 npm[84747]: 📊 No active signals to monitor
+Oct 19 13:43:11 vmi2858748 npm[84747]: 📊 No active signals to monitor
+Oct 19 13:44:11 vmi2858748 npm[84747]: 📊 No active signals to monitor
 
