@@ -14948,3 +14948,36 @@ Oct 19 19:01:21 vmi2858748 npm[87464]:     ❌ Rejected: Sigma 0.07σ outside ra
 
 Oct 19 19:05:48 vmi2858748 npm[87464]: 📊 No active signals to monitor
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-19 19:30:02
+
+📋 Active Signals:
+Oct 19 19:22:18 vmi2858748 npm[87464]: 📊 No active signals to monitor
+Oct 19 19:24:14 vmi2858748 npm[87464]: 📊 No active signals to monitor
+Oct 19 19:26:22 vmi2858748 npm[87464]: 📊 No active signals to monitor
+Oct 19 19:27:49 vmi2858748 npm[87464]: 📊 No active signals to monitor
+Oct 19 19:29:49 vmi2858748 npm[87464]: 📊 No active signals to monitor
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 19 19:16:00 vmi2858748 npm[87464]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-19T17:16:00.012Z) ==========
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2025-10-19 16:36:02 CEST; 2h 53min ago
+   Main PID: 87441 (npm run dev)
+      Tasks: 47 (limit: 28795)
+     Memory: 4.3G (peak: 4.3G)
+        CPU: 2h 3min 14.128s
+     CGroup: /system.slice/crypto-trader.service
+             ├─87441 "npm run dev"
+             ├─87452 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─87453 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─87464 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─88637 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Oct 19 19:16:00 vmi2858748 npm[87464]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-19T17:16:00.012Z) ==========
+
