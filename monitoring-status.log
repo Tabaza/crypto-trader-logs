@@ -13872,3 +13872,58 @@ Oct 19 13:59:23 vmi2858748 npm[85521]: ✅ Strategy registered: VWAP Sigma (vwap
 Oct 19 13:59:27 vmi2858748 npm[85521]: WebSocket connected for SHIB/USDT
 Oct 19 13:59:27 vmi2858748 npm[85521]: WebSocket connected for XRP/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-19 14:15:01
+
+📋 Active Signals:
+Oct 19 14:10:26 vmi2858748 npm[85521]: 📊 No active signals to monitor
+Oct 19 14:11:26 vmi2858748 npm[85521]: 📊 No active signals to monitor
+Oct 19 14:12:27 vmi2858748 npm[85521]: 📊 No active signals to monitor
+Oct 19 14:13:26 vmi2858748 npm[85521]: 📊 No active signals to monitor
+Oct 19 14:14:27 vmi2858748 npm[85521]: 📊 No active signals to monitor
+
+🔌 WebSocket Status:
+Oct 19 14:14:28 vmi2858748 npm[85521]: 2:14:28 PM [express] GET /api/signals/monitoring/stats 304 in 1300ms :: {"total":0,"wins":0,"losses"…
+Oct 19 14:14:28 vmi2858748 npm[85521]: 2:14:28 PM [express] GET /api/signals/monitoring/active 304 in 1281ms :: {"total":0,"signals":[]}
+Oct 19 14:14:28 vmi2858748 npm[85521]: 2:14:28 PM [express] GET /api/signals/monitoring/all 304 in 1256ms :: {"total":0,"signals":[]}
+
+🎯 Strategy Signals (last 15 min):
+Oct 19 14:01:38 vmi2858748 npm[85521]:     [Momentum Gap] Price: $0.9000, MIDAS: $0.8875, POC: $0.8798, Vol: 0.07x
+Oct 19 14:01:38 vmi2858748 npm[85521]:     ❌ Rejected: Volume 0.07x < 2x required
+Oct 19 14:01:38 vmi2858748 npm[85521]:     [VWAP Sigma] Price: $0.9000, VWAP: $0.8903, Sigma: 0.90σ, Vol: 0.07x
+Oct 19 14:01:38 vmi2858748 npm[85521]:     ❌ Rejected: Sigma 0.90σ outside range 1.3-2.2σ
+Oct 19 14:01:38 vmi2858748 npm[85521]:     [Momentum Gap] Price: $0.3160, MIDAS: $0.3129, POC: $0.3106, Vol: 0.05x
+Oct 19 14:01:38 vmi2858748 npm[85521]:     ❌ Rejected: Volume 0.05x < 2x required
+Oct 19 14:01:38 vmi2858748 npm[85521]:     [VWAP Sigma] Price: $0.3160, VWAP: $0.3135, Sigma: 0.75σ, Vol: 0.05x
+Oct 19 14:01:38 vmi2858748 npm[85521]:     ❌ Rejected: Sigma 0.75σ outside range 1.3-2.2σ
+Oct 19 14:01:38 vmi2858748 npm[85521]:     [Momentum Gap] Price: $2.38, MIDAS: $2.36, POC: $2.35, Vol: 0.13x
+Oct 19 14:01:38 vmi2858748 npm[85521]:     ❌ Rejected: Volume 0.13x < 2x required
+Oct 19 14:01:38 vmi2858748 npm[85521]:     [VWAP Sigma] Price: $2.38, VWAP: $2.36, Sigma: 0.66σ, Vol: 0.13x
+Oct 19 14:01:38 vmi2858748 npm[85521]:     ❌ Rejected: Sigma 0.66σ outside range 1.3-2.2σ
+Oct 19 14:01:39 vmi2858748 npm[85521]:     [Momentum Gap] Price: $217.64, MIDAS: $220.83, POC: $219.18, Vol: 0.14x
+Oct 19 14:01:39 vmi2858748 npm[85521]:     ❌ Rejected: Volume 0.14x < 2x required
+Oct 19 14:01:39 vmi2858748 npm[85521]:     [VWAP Sigma] Price: $217.64, VWAP: $218.28, Sigma: 0.25σ, Vol: 0.14x
+Oct 19 14:01:39 vmi2858748 npm[85521]:     ❌ Rejected: Sigma 0.25σ outside range 1.3-2.2σ
+Oct 19 14:01:39 vmi2858748 npm[85521]:     [Momentum Gap] Price: $0.008080, MIDAS: $0.008001, POC: $0.007949, Vol: 0.10x
+Oct 19 14:01:39 vmi2858748 npm[85521]:     ❌ Rejected: Volume 0.10x < 2x required
+Oct 19 14:01:39 vmi2858748 npm[85521]:     [VWAP Sigma] Price: $0.008080, VWAP: $0.008021, Sigma: 0.69σ, Vol: 0.10x
+Oct 19 14:01:39 vmi2858748 npm[85521]:     ❌ Rejected: Sigma 0.69σ outside range 1.3-2.2σ
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2025-10-19 13:59:21 CEST; 15min ago
+   Main PID: 85496 (npm run dev)
+      Tasks: 46 (limit: 28795)
+     Memory: 791.0M (peak: 1.2G)
+        CPU: 10min 15.594s
+     CGroup: /system.slice/crypto-trader.service
+             ├─85496 "npm run dev"
+             ├─85509 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─85510 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─85521 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─85589 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Oct 19 14:08:26 vmi2858748 npm[85521]: 📊 No active signals to monitor
+
