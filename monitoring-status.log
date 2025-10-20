@@ -19236,3 +19236,65 @@ Oct 20 16:57:14 vmi2858748 npm[113062]:   ⏱️ [2/6] Trade stats query:     22
 Oct 20 16:57:16 vmi2858748 npm[113062]:   ⏱️ [3/6] MIDAS window query:    2463ms
 Oct 20 16:57:16 vmi2858748 npm[113062]:   ⏱️ [4/6] Map creation:          0ms (68 MIDAS entries)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 17:15:01
+
+📋 Active Signals:
+Oct 20 17:07:01 vmi2858748 npm[113062]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:07:12 vmi2858748 npm[113251]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:08:36 vmi2858748 npm[113251]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:10:53 vmi2858748 npm[113251]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:13:29 vmi2858748 npm[113388]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for 1000SATS/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for COMP/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for BCH/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for ZIL/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for PNUT/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for OP/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for SAND/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for STX/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for XLM/USDT
+Oct 20 17:13:30 vmi2858748 npm[113388]: WebSocket connected for WIF/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [Momentum Gap] Price: $0.3279, MIDAS: $0.6532, POC: $0.3274, Vol: 0.97x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Volume 0.97x < 2x required
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [VWAP Sigma] Price: $0.3279, VWAP: $0.3267, Sigma: 1.34σ, Vol: 0.97x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Volume 0.97x < 1.2x required
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [Momentum Gap] Price: $2.47, MIDAS: $4.92, POC: $2.46, Vol: 0.14x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Volume 0.14x < 2x required
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [VWAP Sigma] Price: $2.47, VWAP: $2.46, Sigma: 1.48σ, Vol: 0.14x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Volume 0.14x < 1.2x required
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [Momentum Gap] Price: $263.36, MIDAS: $487.99, POC: $239.96, Vol: 0.26x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Volume 0.26x < 2x required
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [VWAP Sigma] Price: $263.36, VWAP: $253.03, Sigma: 1.29σ, Vol: 0.26x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Sigma 1.29σ outside range 1.3-2.2σ
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [Momentum Gap] Price: $0.008110, MIDAS: $0.0163, POC: $0.008170, Vol: 0.25x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Volume 0.25x < 2x required
+Oct 20 17:05:38 vmi2858748 npm[113062]:     [VWAP Sigma] Price: $0.008110, VWAP: $0.008116, Sigma: 0.11σ, Vol: 0.25x
+Oct 20 17:05:38 vmi2858748 npm[113062]:     ❌ Rejected: Sigma 0.11σ outside range 1.3-2.2σ
+Oct 20 17:07:09 vmi2858748 npm[113251]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 17:07:09 vmi2858748 npm[113251]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 17:13:26 vmi2858748 npm[113388]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 17:13:26 vmi2858748 npm[113388]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 17:13:25 CEST; 1min 36s ago
+   Main PID: 113376 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.8G (peak: 3.4G)
+        CPU: 2min 7.212s
+     CGroup: /system.slice/crypto-trader.service
+             ├─113376 "npm start"
+             ├─113387 sh -c "NODE_ENV=production node dist/index.js"
+             └─113388 node dist/index.js
+
+Oct 20 17:13:31 vmi2858748 npm[113388]: ⏳ GALA/USDT LONG: Price $0.0116 | TP: $0.0121 | SL: $0.0113
+Oct 20 17:13:31 vmi2858748 npm[113388]: ⏳ BOME/USDT LONG: Price $0.001133 | TP: $0.001192 | SL: $0.001090
+Oct 20 17:13:31 vmi2858748 npm[113388]: ⏳ BCH/USDT LONG: Price $485.00 | TP: $504.40 | SL: $470.45
+
