@@ -18694,3 +18694,39 @@ Oct 20 14:14:16 vmi2858748 npm[108579]: 2:14:16 PM [express] GET /api/signals/mo
 Oct 20 14:14:16 vmi2858748 npm[108579]: 2:14:16 PM [express] GET /api/signals/monitoring/all 200 in 4085ms :: {"total":5,"signals":[{"id":"2…
 Oct 20 14:14:16 vmi2858748 npm[108579]: 2:14:16 PM [express] GET /api/signals/monitoring/active 200 in 4083ms :: {"total":4,"signals":[{"id"…
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 14:30:01
+
+📋 Active Signals:
+Oct 20 14:15:52 vmi2858748 npm[108579]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:17:08 vmi2858748 npm[108579]: 🔍 Pre-fetched 4 active signals to avoid repeated queries
+Oct 20 14:17:27 vmi2858748 npm[108735]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:18:45 vmi2858748 npm[108735]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:21:48 vmi2858748 npm[108735]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 14:16:00 vmi2858748 npm[108579]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T12:16:00.003Z) ==========
+Oct 20 14:16:50 vmi2858748 npm[108579]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Oct 20 14:17:24 vmi2858748 npm[108735]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 14:17:24 vmi2858748 npm[108735]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 14:17:22 CEST; 12min ago
+   Main PID: 108723 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 4.0G (peak: 4.0G)
+        CPU: 18min 7.749s
+     CGroup: /system.slice/crypto-trader.service
+             ├─108723 "npm start"
+             ├─108734 sh -c "NODE_ENV=production node dist/index.js"
+             └─108735 node dist/index.js
+
+Oct 20 14:18:31 vmi2858748 npm[108735]: 2:18:31 PM [express] GET /api/symbols 200 in 35040ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAs…
+Oct 20 14:18:45 vmi2858748 npm[108735]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:19:00 vmi2858748 npm[108735]: 2:19:00 PM [express] GET /api/volume-profile/btcusdt 304 in 28371ms :: {"id":"9fbce42c-459f-4f24-9bc…
+
