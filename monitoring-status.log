@@ -18012,3 +18012,41 @@ Oct 20 10:17:38 vmi2858748 npm[102361]:     ❌ Rejected: Sigma 0.64σ outside r
 Oct 20 10:27:06 vmi2858748 npm[102361]: ⏳ ARB/USDT: Price $0.3230 | TP: $0.3322 | SL: $0.3098 (REST check)
 Oct 20 10:28:03 vmi2858748 npm[102361]: ⏳ BCH/USDT: Price $480.60 | TP: $504.40 | SL: $470.45 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 10:45:01
+
+📋 Active Signals:
+Oct 20 10:38:30 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:39:50 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:41:39 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:43:14 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:44:54 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 10:41:39 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:43:14 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:44:54 vmi2858748 npm[102759]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 10:31:00 vmi2858748 npm[102361]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T08:31:00.001Z) ==========
+Oct 20 10:36:53 vmi2858748 npm[102759]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 10:36:53 vmi2858748 npm[102759]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 10:36:51 CEST; 8min ago
+   Main PID: 102736 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 3.2G (peak: 3.2G)
+        CPU: 10min 28.788s
+     CGroup: /system.slice/crypto-trader.service
+             ├─102736 "npm run dev"
+             ├─102747 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─102748 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─102759 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 10:40:25 vmi2858748 npm[102759]: ⏳ GALA/USDT: Price $0.0115 | TP: $0.0121 | SL: $0.0113 (REST check)
+Oct 20 10:41:18 vmi2858748 npm[102759]: ⏳ BOME/USDT: Price $0.001124 | TP: $0.001192 | SL: $0.001090 (REST check)
+
