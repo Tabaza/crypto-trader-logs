@@ -18571,3 +18571,44 @@ Oct 20 13:27:03 vmi2858748 npm[107358]: ✅ Strategy registered: VWAP Sigma (vwa
 
 Oct 20 13:29:48 vmi2858748 npm[107358]: 1:29:48 PM [express] GET /api/signals/monitoring/stats 304 in 3386ms :: {"total":5,"wins":0,"losses"…
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 13:45:01
+
+📋 Active Signals:
+Oct 20 13:33:54 vmi2858748 npm[107358]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:35:12 vmi2858748 npm[107627]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:36:16 vmi2858748 npm[107627]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:37:25 vmi2858748 npm[107627]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:41:33 vmi2858748 npm[107627]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 13:41:33 vmi2858748 npm[107627]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 13:31:00 vmi2858748 npm[107358]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T11:31:00.001Z) ==========
+Oct 20 13:32:06 vmi2858748 npm[107358]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Oct 20 13:33:29 vmi2858748 npm[107358]:     [Momentum Gap] Price: $110772.44, MIDAS: $110136.76, POC: $111152.21, Vol: 0.14x
+Oct 20 13:33:29 vmi2858748 npm[107358]:     ❌ Rejected: Volume 0.14x < 2x required
+Oct 20 13:33:29 vmi2858748 npm[107358]:     [VWAP Sigma] Price: $110772.44, VWAP: $111041.11, Sigma: 1.30σ, Vol: 0.14x
+Oct 20 13:33:29 vmi2858748 npm[107358]:     ❌ Rejected: Sigma 1.30σ outside range 1.3-2.2σ
+Oct 20 13:35:08 vmi2858748 npm[107627]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 13:35:08 vmi2858748 npm[107627]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 13:35:07 CEST; 9min ago
+   Main PID: 107615 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.5G (peak: 3.5G)
+        CPU: 13min 8.757s
+     CGroup: /system.slice/crypto-trader.service
+             ├─107615 "npm start"
+             ├─107626 sh -c "NODE_ENV=production node dist/index.js"
+             └─107627 node dist/index.js
+
+Oct 20 13:39:22 vmi2858748 npm[107627]: 1:39:22 PM [express] GET /api/signals/monitoring/all 200 in 49822ms :: {"total":5,"signals":[{"id":"…
+Oct 20 13:39:22 vmi2858748 npm[107627]: 1:39:22 PM [express] GET /api/signals/monitoring/active 200 in 49840ms :: {"total":4,"signals":[{"id…
+Oct 20 13:40:04 vmi2858748 npm[107627]: 1:40:04 PM [express] GET /api/trades/active 200 in 59043ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389…
+
