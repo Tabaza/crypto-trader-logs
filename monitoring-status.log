@@ -18050,3 +18050,43 @@ Oct 20 10:36:53 vmi2858748 npm[102759]: ✅ Strategy registered: VWAP Sigma (vwa
 Oct 20 10:40:25 vmi2858748 npm[102759]: ⏳ GALA/USDT: Price $0.0115 | TP: $0.0121 | SL: $0.0113 (REST check)
 Oct 20 10:41:18 vmi2858748 npm[102759]: ⏳ BOME/USDT: Price $0.001124 | TP: $0.001192 | SL: $0.001090 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 11:00:01
+
+📋 Active Signals:
+Oct 20 10:55:27 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:56:26 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:57:30 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:58:26 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:59:26 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 10:55:27 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:56:26 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:57:30 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:58:26 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:59:26 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 10:46:00 vmi2858748 npm[102759]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T08:46:00.002Z) ==========
+Oct 20 10:53:20 vmi2858748 npm[103031]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 10:53:20 vmi2858748 npm[103031]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 10:53:18 CEST; 6min ago
+   Main PID: 103008 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 1013.0M (peak: 1.4G)
+        CPU: 5min 2.570s
+     CGroup: /system.slice/crypto-trader.service
+             ├─103008 "npm run dev"
+             ├─103019 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─103020 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─103031 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 10:58:26 vmi2858748 npm[103031]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 10:58:27 vmi2858748 npm[103031]: ⏳ GALA/USDT: Price $0.0115 | TP: $0.0121 | SL: $0.0113 (REST check)
+
