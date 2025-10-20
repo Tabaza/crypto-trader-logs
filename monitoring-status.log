@@ -18263,3 +18263,39 @@ Oct 20 11:43:12 vmi2858748 npm[104372]: ✅ Strategy registered: VWAP Sigma (vwa
 
 Oct 20 11:43:21 vmi2858748 npm[104372]: WebSocket connected for ZEC/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 12:00:01
+
+📋 Active Signals:
+Oct 20 11:40:39 vmi2858748 npm[104222]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 11:43:17 vmi2858748 npm[104372]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 11:45:43 vmi2858748 npm[104372]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 11:53:50 vmi2858748 npm[104535]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 11:55:23 vmi2858748 npm[104535]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 11:55:23 vmi2858748 npm[104535]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 11:46:00 vmi2858748 npm[104372]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T09:46:00.002Z) ==========
+Oct 20 11:53:46 vmi2858748 npm[104535]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 11:53:46 vmi2858748 npm[104535]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 11:53:44 CEST; 6min ago
+   Main PID: 104512 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 3.1G (peak: 3.1G)
+        CPU: 8min 9.985s
+     CGroup: /system.slice/crypto-trader.service
+             ├─104512 "npm run dev"
+             ├─104523 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─104524 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─104535 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 11:53:52 vmi2858748 npm[104535]: WebSocket connected for WLD/USDT
+Oct 20 11:53:52 vmi2858748 npm[104535]: WebSocket connected for JUP/USDT
+
