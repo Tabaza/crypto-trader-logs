@@ -16787,3 +16787,51 @@ Oct 20 03:48:40 vmi2858748 npm[95952]:     ❌ Rejected: Sigma 0.79σ outside ra
 Oct 20 03:56:21 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
 Oct 20 03:56:48 vmi2858748 npm[95952]: ⏳ IMX/USDT: Price $0.5060 | TP: $0.4906 | SL: $0.5263 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 04:15:01
+
+📋 Active Signals:
+Oct 20 04:05:45 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:07:56 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:10:48 vmi2858748 npm[96460]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:12:02 vmi2858748 npm[96460]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:13:35 vmi2858748 npm[96460]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for RENDER/USDT
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for ZIL/USDT
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for TRX/USDT
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for OP/USDT
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for XRP/USDT
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for XLM/USDT
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for ZEC/USDT
+Oct 20 04:10:50 vmi2858748 npm[96460]: WebSocket connected for SEI/USDT
+Oct 20 04:12:02 vmi2858748 npm[96460]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:13:35 vmi2858748 npm[96460]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 04:01:24 vmi2858748 npm[95952]:     [Momentum Gap] Price: $0.2340, MIDAS: $0.2360, POC: $0.2379, Vol: 0.44x
+Oct 20 04:01:24 vmi2858748 npm[95952]:     ❌ Rejected: Volume 0.44x < 2x required
+Oct 20 04:01:24 vmi2858748 npm[95952]:     [VWAP Sigma] Price: $0.2340, VWAP: $0.2359, Sigma: 1.02σ, Vol: 0.44x
+Oct 20 04:01:24 vmi2858748 npm[95952]:     ❌ Rejected: Sigma 1.02σ outside range 1.3-2.2σ
+Oct 20 04:10:42 vmi2858748 npm[96460]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 04:10:42 vmi2858748 npm[96460]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 04:10:38 CEST; 4min 22s ago
+   Main PID: 96437 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 2.2G (peak: 2.2G)
+        CPU: 5min 5.809s
+     CGroup: /system.slice/crypto-trader.service
+             ├─96437 "npm run dev"
+             ├─96448 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─96449 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─96460 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 04:10:51 vmi2858748 npm[96460]: ⏳ IMX/USDT: Price $0.5040 | TP: $0.4906 | SL: $0.5263 (REST check)
+Oct 20 04:10:51 vmi2858748 npm[96460]: ⏳ ARB/USDT: Price $0.3112 | TP: $0.3322 | SL: $0.3098 (REST check)
+
