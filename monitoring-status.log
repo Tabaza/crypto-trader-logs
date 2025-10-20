@@ -18819,3 +18819,62 @@ Oct 20 14:54:02 vmi2858748 npm[109781]: 2:54:02 PM [express] GET /api/signals/mo
 Oct 20 14:54:02 vmi2858748 npm[109781]: 2:54:02 PM [express] GET /api/signals/monitoring/active 304 in 482ms :: {"total":0,"signals":[]}
 Oct 20 14:54:03 vmi2858748 npm[109781]: 2:54:03 PM [express] GET /api/signals/monitoring/active 304 in 764ms :: {"total":0,"signals":[]}
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 15:15:01
+
+📋 Active Signals:
+Oct 20 15:10:17 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:11:20 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:12:20 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:13:20 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:14:21 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 15:10:17 vmi2858748 npm[110326]: Error initializing WebSocket: TypeError: Cannot read properties of undefined (reading 'map')
+Oct 20 15:10:17 vmi2858748 npm[110326]:     at async initializeWebSocket (file:///opt/crypto-trader/dist/index.js:3611:24)
+Oct 20 15:10:17 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:11:20 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:12:20 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:13:20 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 15:14:21 vmi2858748 npm[110326]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 15:07:04 vmi2858748 npm[109781]:     [VWAP Sigma] Price: $0.3256, VWAP: $0.3270, Sigma: 1.59σ, Vol: 0.21x
+Oct 20 15:07:04 vmi2858748 npm[109781]:     ❌ Rejected: Volume 0.21x < 1.2x required
+Oct 20 15:07:04 vmi2858748 npm[109781]:     [Momentum Gap] Price: $2.45, MIDAS: $2.45, POC: $2.46, Vol: 0.22x
+Oct 20 15:07:04 vmi2858748 npm[109781]:     ❌ Rejected: Volume 0.22x < 2x required
+Oct 20 15:07:04 vmi2858748 npm[109781]:     [VWAP Sigma] Price: $2.45, VWAP: $2.46, Sigma: 1.55σ, Vol: 0.22x
+Oct 20 15:07:04 vmi2858748 npm[109781]:     ❌ Rejected: Volume 0.22x < 1.2x required
+Oct 20 15:07:04 vmi2858748 npm[109781]:     [Momentum Gap] Price: $252.25, MIDAS: $242.98, POC: $240.10, Vol: 0.30x
+Oct 20 15:07:04 vmi2858748 npm[109781]:     ❌ Rejected: Volume 0.30x < 2x required
+Oct 20 15:07:04 vmi2858748 npm[109781]:     [VWAP Sigma] Price: $252.25, VWAP: $246.23, Sigma: 1.06σ, Vol: 0.30x
+Oct 20 15:07:04 vmi2858748 npm[109781]:     ❌ Rejected: Sigma 1.06σ outside range 1.3-2.2σ
+Oct 20 15:07:04 vmi2858748 npm[109781]:     [Momentum Gap] Price: $0.008040, MIDAS: $0.008147, POC: $0.008198, Vol: 0.39x
+Oct 20 15:07:04 vmi2858748 npm[109781]:     ❌ Rejected: Volume 0.39x < 2x required
+Oct 20 15:07:04 vmi2858748 npm[109781]:     [VWAP Sigma] Price: $0.008040, VWAP: $0.008148, Sigma: 1.71σ, Vol: 0.39x
+Oct 20 15:07:04 vmi2858748 npm[109781]:     ❌ Rejected: Volume 0.39x < 1.2x required
+Oct 20 15:07:24 vmi2858748 npm[110102]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 15:07:24 vmi2858748 npm[110102]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 15:07:51 vmi2858748 npm[110199]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 15:07:51 vmi2858748 npm[110199]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 15:10:14 vmi2858748 npm[110326]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 15:10:14 vmi2858748 npm[110326]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 15:10:12 CEST; 4min 48s ago
+   Main PID: 110314 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 239.1M (peak: 336.2M)
+        CPU: 6.568s
+     CGroup: /system.slice/crypto-trader.service
+             ├─110314 "npm start"
+             ├─110325 sh -c "NODE_ENV=production node dist/index.js"
+             └─110326 node dist/index.js
+
+Oct 20 15:12:08 vmi2858748 npm[110326]: Error fetching symbols: TypeError: Cannot read properties of undefined (reading 'map')
+Oct 20 15:12:08 vmi2858748 npm[110326]:     at DatabaseStorage.getSymbols (file:///opt/crypto-trader/dist/index.js:289:57)
+Oct 20 15:12:08 vmi2858748 npm[110326]:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
