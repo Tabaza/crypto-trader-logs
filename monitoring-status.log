@@ -17693,3 +17693,49 @@ Oct 20 08:57:15 vmi2858748 npm[100636]:   ✅ [Fast Momentum Gap] GALA/USDT exec
 Oct 20 08:58:29 vmi2858748 npm[100636]: 📊 Monitoring 4 active signals (REST 1-min check)...
 Oct 20 08:58:33 vmi2858748 npm[100636]: ⏳ GALA/USDT: Price $0.0116 | TP: $0.0121 | SL: $0.0113 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 09:15:01
+
+📋 Active Signals:
+Oct 20 09:07:39 vmi2858748 npm[100636]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 09:10:02 vmi2858748 npm[100636]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 09:12:43 vmi2858748 npm[101164]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 09:13:50 vmi2858748 npm[101164]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 09:14:46 vmi2858748 npm[101164]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 09:12:43 vmi2858748 npm[101164]: WebSocket connected for ZIL/USDT
+Oct 20 09:12:43 vmi2858748 npm[101164]: WebSocket connected for RAY/USDT
+Oct 20 09:12:43 vmi2858748 npm[101164]: WebSocket connected for WLD/USDT
+Oct 20 09:12:43 vmi2858748 npm[101164]: WebSocket connected for RENDER/USDT
+Oct 20 09:12:43 vmi2858748 npm[101164]: WebSocket connected for TRX/USDT
+Oct 20 09:12:43 vmi2858748 npm[101164]: WebSocket connected for STX/USDT
+Oct 20 09:12:43 vmi2858748 npm[101164]: WebSocket connected for ZEC/USDT
+Oct 20 09:12:43 vmi2858748 npm[101164]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 09:13:50 vmi2858748 npm[101164]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 09:14:46 vmi2858748 npm[101164]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 09:01:00 vmi2858748 npm[100636]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T07:01:00.004Z) ==========
+Oct 20 09:09:49 vmi2858748 npm[100636]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Oct 20 09:12:30 vmi2858748 npm[101164]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 09:12:30 vmi2858748 npm[101164]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 09:12:27 CEST; 2min 34s ago
+   Main PID: 101141 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 686.7M (peak: 1.3G)
+        CPU: 2min 15.241s
+     CGroup: /system.slice/crypto-trader.service
+             ├─101141 "npm run dev"
+             ├─101152 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─101153 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─101164 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 09:13:50 vmi2858748 npm[101164]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 09:13:53 vmi2858748 npm[101164]: ⏳ GALA/USDT: Price $0.0116 | TP: $0.0121 | SL: $0.0113 (REST check)
+
