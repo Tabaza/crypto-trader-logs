@@ -17111,3 +17111,50 @@ Oct 20 05:31:48 vmi2858748 npm[97481]: ✅ Strategy registered: VWAP Sigma (vwap
 Oct 20 05:39:56 vmi2858748 npm[97481]: 📊 Monitoring 3 active signals (REST 1-min check)...
 Oct 20 05:39:59 vmi2858748 npm[97481]: ⏳ IMX/USDT: Price $0.5120 | TP: $0.4906 | SL: $0.5263 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 06:00:01
+
+📋 Active Signals:
+Oct 20 05:41:15 vmi2858748 npm[97481]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 05:42:33 vmi2858748 npm[97481]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 05:47:09 vmi2858748 npm[97481]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 05:50:55 vmi2858748 npm[97745]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 05:56:50 vmi2858748 npm[97847]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for PNUT/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for SEI/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for XLM/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for WLD/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for SUI/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for ZIL/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for TON/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for VET/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for AAVE/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for WIF/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 05:46:00 vmi2858748 npm[97481]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T03:46:00.023Z) ==========
+Oct 20 05:50:53 vmi2858748 npm[97745]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 05:50:53 vmi2858748 npm[97745]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 05:56:48 vmi2858748 npm[97847]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 05:56:48 vmi2858748 npm[97847]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 05:56:45 CEST; 3min 16s ago
+   Main PID: 97824 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 2.9G (peak: 2.9G)
+        CPU: 4min 22.743s
+     CGroup: /system.slice/crypto-trader.service
+             ├─97824 "npm run dev"
+             ├─97835 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─97836 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─97847 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for WLD/USDT
+Oct 20 05:56:52 vmi2858748 npm[97847]: WebSocket connected for SUI/USDT
+
