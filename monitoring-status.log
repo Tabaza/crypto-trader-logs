@@ -16382,3 +16382,60 @@ Oct 20 01:31:43 vmi2858748 npm[89568]:   ⏳ [VWAP Sigma] COOLDOWN: Last signal 
 
 Oct 20 01:40:50 vmi2858748 npm[89568]: ⏳ LTC/USDT: Price $93.41 | TP: $92.23 | SL: $95.52 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 02:00:01
+
+📋 Active Signals:
+Oct 20 01:55:39 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:56:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:57:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:58:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:59:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 01:55:39 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:56:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:57:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:58:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 01:59:31 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [Momentum Gap] Price: $0.9110, MIDAS: $0.9193, POC: $0.9220, Vol: 0.42x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Volume 0.42x < 2x required
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [VWAP Sigma] Price: $0.9110, VWAP: $0.9204, Sigma: 2.50σ, Vol: 0.42x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Sigma 2.50σ outside range 1.3-2.2σ
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [Momentum Gap] Price: $0.3173, MIDAS: $0.3200, POC: $0.3207, Vol: 0.58x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Volume 0.58x < 2x required
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [VWAP Sigma] Price: $0.3173, VWAP: $0.3189, Sigma: 2.53σ, Vol: 0.58x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Sigma 2.53σ outside range 1.3-2.2σ
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [Momentum Gap] Price: $2.39, MIDAS: $2.40, POC: $2.40, Vol: 0.15x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Volume 0.15x < 2x required
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [VWAP Sigma] Price: $2.39, VWAP: $2.40, Sigma: 2.51σ, Vol: 0.15x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Sigma 2.51σ outside range 1.3-2.2σ
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [Momentum Gap] Price: $236.39, MIDAS: $230.35, POC: $226.06, Vol: 0.75x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Volume 0.75x < 2x required
+Oct 20 01:49:33 vmi2858748 npm[89568]:     [VWAP Sigma] Price: $236.39, VWAP: $237.73, Sigma: 0.39σ, Vol: 0.75x
+Oct 20 01:49:33 vmi2858748 npm[89568]:     ❌ Rejected: Sigma 0.39σ outside range 1.3-2.2σ
+Oct 20 01:49:34 vmi2858748 npm[89568]:     [Momentum Gap] Price: $0.007990, MIDAS: $0.008124, POC: $0.008100, Vol: 0.63x
+Oct 20 01:49:34 vmi2858748 npm[89568]:     ❌ Rejected: Volume 0.63x < 2x required
+Oct 20 01:49:34 vmi2858748 npm[89568]:   ⏳ [VWAP Sigma] COOLDOWN: Last signal -37 min ago
+Oct 20 01:49:34 vmi2858748 npm[89568]:   ✅ [Fast Momentum Gap] IMX/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2025-10-19 19:30:19 CEST; 6h ago
+   Main PID: 89545 (npm run dev)
+      Tasks: 46 (limit: 28795)
+     Memory: 559.7M (peak: 3.1G)
+        CPU: 4h 32min 45.766s
+     CGroup: /system.slice/crypto-trader.service
+             ├─89545 "npm run dev"
+             ├─89556 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─89557 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─89568 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─89731 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Oct 20 01:57:36 vmi2858748 npm[89568]: ⏳ ARB/USDT: Price $0.3170 | TP: $0.3322 | SL: $0.3098 (REST check)
+
