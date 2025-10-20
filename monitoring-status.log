@@ -19614,3 +19614,40 @@ Oct 20 18:35:00 vmi2858748 npm[115985]: 📊 Monitoring 3 active signals (REST 1
    Main PID: 118893 (code=exited, status=1/FAILURE)
         CPU: 243ms
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 19:15:01
+
+📋 Active Signals:
+Oct 20 19:08:39 vmi2858748 npm[120068]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:09:18 vmi2858748 npm[120123]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:10:40 vmi2858748 npm[120123]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:13:00 vmi2858748 npm[120123]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 19:10:40 vmi2858748 npm[120123]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:13:00 vmi2858748 npm[120123]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 19:08:35 vmi2858748 npm[120068]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 19:08:35 vmi2858748 npm[120068]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 19:09:14 vmi2858748 npm[120123]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 19:09:14 vmi2858748 npm[120123]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 19:09:13 CEST; 5min ago
+   Main PID: 120110 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.0G (peak: 3.0G)
+        CPU: 7min 21.560s
+     CGroup: /system.slice/crypto-trader.service
+             ├─120110 "npm start"
+             ├─120122 sh -c "NODE_ENV=production node dist/index.js"
+             └─120123 node dist/index.js
+
+Oct 20 19:15:07 vmi2858748 npm[120123]: [PERF] getActiveTrades() query: 80195ms (3 rows)
+Oct 20 19:15:07 vmi2858748 npm[120123]: [PERF] getActiveTrades() query: 80196ms (3 rows)
+Oct 20 19:15:07 vmi2858748 npm[120123]: [PERF] getActiveTrades() query: 80197ms (3 rows)
+
