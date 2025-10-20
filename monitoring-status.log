@@ -20271,3 +20271,38 @@ Oct 20 21:55:54 vmi2858748 npm[121491]: ⏳ BCH/USDT LONG: Price $485.30 | TP: $
 Oct 20 21:55:54 vmi2858748 npm[121491]: ⏳ ARB/USDT LONG: Price $0.3239 | TP: $0.3322 | SL: $0.3098
 Oct 20 21:56:48 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 53320ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 22:15:01
+
+📋 Active Signals:
+Oct 20 21:57:47 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 22:01:01 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 22:05:33 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 22:11:17 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 22:13:19 vmi2858748 npm[121491]: 🔍 Pre-fetched 3 active signals to avoid repeated queries
+
+🔌 WebSocket Status:
+Oct 20 22:11:17 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 22:01:00 vmi2858748 npm[121491]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T20:01:00.007Z) ==========
+Oct 20 22:10:04 vmi2858748 npm[121491]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 19:53:19 CEST; 2h 21min ago
+   Main PID: 121478 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.7G (peak: 3.7G)
+        CPU: 2h 15min 39.515s
+     CGroup: /system.slice/crypto-trader.service
+             ├─121478 "npm start"
+             ├─121490 sh -c "NODE_ENV=production node dist/index.js"
+             └─121491 node dist/index.js
+
+Oct 20 22:10:14 vmi2858748 npm[121491]:     at async SignalSchedulerService.processAllSymbols (file:///opt/crypto-trader/dist/index.js:3118:28)
+Oct 20 22:10:14 vmi2858748 npm[121491]: ✅ Loaded OHLCV for 55/68 symbols
+Oct 20 22:11:17 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
