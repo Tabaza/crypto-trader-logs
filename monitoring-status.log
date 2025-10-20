@@ -16744,3 +16744,46 @@ Oct 20 03:41:13 vmi2858748 npm[95952]:     ❌ Rejected: Sigma 0.74σ outside ra
 Oct 20 03:41:56 vmi2858748 npm[95952]: ⏳ IMX/USDT: Price $0.5080 | TP: $0.4906 | SL: $0.5263 (REST check)
 Oct 20 03:41:57 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 04:00:01
+
+📋 Active Signals:
+Oct 20 03:53:42 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:55:02 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:56:21 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:57:43 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:58:47 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 03:56:21 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:57:43 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:58:47 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 03:45:20 vmi2858748 npm[95952]:     [Momentum Gap] Price: $0.8873, MIDAS: $0.9095, POC: $0.9113, Vol: 0.57x
+Oct 20 03:45:20 vmi2858748 npm[95952]:     ❌ Rejected: Volume 0.57x < 2x required
+Oct 20 03:45:20 vmi2858748 npm[95952]:     [VWAP Sigma] Price: $0.8873, VWAP: $0.9004, Sigma: 1.28σ, Vol: 0.57x
+Oct 20 03:45:20 vmi2858748 npm[95952]:     ❌ Rejected: Sigma 1.28σ outside range 1.3-2.2σ
+Oct 20 03:48:40 vmi2858748 npm[95952]:     [Momentum Gap] Price: $17.12, MIDAS: $17.39, POC: $17.45, Vol: 0.00x
+Oct 20 03:48:40 vmi2858748 npm[95952]:     ❌ Rejected: Volume 0.00x < 2x required
+Oct 20 03:48:40 vmi2858748 npm[95952]:     [VWAP Sigma] Price: $17.12, VWAP: $17.25, Sigma: 0.79σ, Vol: 0.00x
+Oct 20 03:48:40 vmi2858748 npm[95952]:     ❌ Rejected: Sigma 0.79σ outside range 1.3-2.2σ
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 03:29:57 CEST; 30min ago
+   Main PID: 95929 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 3.5G (peak: 3.5G)
+        CPU: 38min 2.918s
+     CGroup: /system.slice/crypto-trader.service
+             ├─95929 "npm run dev"
+             ├─95940 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─95941 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─95952 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 03:56:21 vmi2858748 npm[95952]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:56:48 vmi2858748 npm[95952]: ⏳ IMX/USDT: Price $0.5060 | TP: $0.4906 | SL: $0.5263 (REST check)
+
