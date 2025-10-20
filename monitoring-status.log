@@ -16651,3 +16651,40 @@ Oct 20 03:04:40 vmi2858748 npm[95626]: ✅ Strategy registered: VWAP Sigma (vwap
 Oct 20 03:11:09 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
 Oct 20 03:11:36 vmi2858748 npm[95626]: ⏳ ARB/USDT: Price $0.3146 | TP: $0.3322 | SL: $0.3098 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 03:30:01
+
+📋 Active Signals:
+Oct 20 03:20:36 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:21:56 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:23:26 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:25:26 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:27:33 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 03:25:26 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 03:27:33 vmi2858748 npm[95626]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 03:16:00 vmi2858748 npm[95626]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T01:16:00.016Z) ==========
+Oct 20 03:30:00 vmi2858748 npm[95952]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 03:30:00 vmi2858748 npm[95952]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 03:29:57 CEST; 4s ago
+   Main PID: 95929 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 545.3M (peak: 573.4M)
+        CPU: 6.435s
+     CGroup: /system.slice/crypto-trader.service
+             ├─95929 "npm run dev"
+             ├─95940 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─95941 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─95952 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 03:29:57 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
+Oct 20 03:29:57 vmi2858748 npm[95929]: > rest-express@1.0.0 dev
+
