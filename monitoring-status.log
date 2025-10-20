@@ -17465,3 +17465,41 @@ Oct 20 07:35:23 vmi2858748 npm[99365]: 🔧 Running 3 strategies: Fast Momentum 
 Oct 20 07:38:05 vmi2858748 npm[99365]: 📊 Monitoring 3 active signals (REST 1-min check)...
 Oct 20 07:38:26 vmi2858748 npm[99365]: ⏳ ARB/USDT: Price $0.3232 | TP: $0.3322 | SL: $0.3098 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 08:00:01
+
+📋 Active Signals:
+Oct 20 07:53:23 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 20 07:55:02 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 20 07:57:12 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 20 07:58:36 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 20 07:59:50 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 07:55:02 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 20 07:57:12 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 20 07:58:36 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 20 07:59:50 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 07:46:18 vmi2858748 npm[99663]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 07:46:18 vmi2858748 npm[99663]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 07:46:15 CEST; 13min ago
+   Main PID: 99640 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 3.0G (peak: 3.0G)
+        CPU: 15min 35.099s
+     CGroup: /system.slice/crypto-trader.service
+             ├─99640 "npm run dev"
+             ├─99651 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─99652 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─99663 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 07:53:23 vmi2858748 npm[99663]: ⏳ LTC/USDT: Price $95.20 | TP: $92.23 | SL: $95.52 (REST check)
+Oct 20 07:55:02 vmi2858748 npm[99663]: 📊 Monitoring 2 active signals (REST 1-min check)...
+
