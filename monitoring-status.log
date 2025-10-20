@@ -16484,3 +16484,49 @@ Oct 20 02:08:41 vmi2858748 npm[89568]:     ❌ Rejected: Volume 0.47x < 1.2x req
 
 Oct 20 02:10:50 vmi2858748 npm[89568]: ⏳ LTC/USDT: Price $93.19 | TP: $92.23 | SL: $95.52 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 02:30:01
+
+📋 Active Signals:
+Oct 20 02:16:02 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 02:18:07 vmi2858748 npm[89568]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 02:19:57 vmi2858748 npm[94767]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 02:26:36 vmi2858748 npm[94948]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 02:29:33 vmi2858748 npm[94948]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for ORDI/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for VET/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for ENA/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for ADA/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for WLD/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for GALA/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for SAND/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for S/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for RUNE/USDT
+Oct 20 02:29:33 vmi2858748 npm[94948]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 02:19:54 vmi2858748 npm[94767]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 02:19:54 vmi2858748 npm[94767]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 02:26:33 vmi2858748 npm[94948]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 02:26:33 vmi2858748 npm[94948]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 02:26:31 CEST; 3min 30s ago
+   Main PID: 94925 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 2.8G (peak: 2.8G)
+        CPU: 4min 36.181s
+     CGroup: /system.slice/crypto-trader.service
+             ├─94925 "npm run dev"
+             ├─94936 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─94937 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─94948 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for ADA/USDT
+Oct 20 02:26:37 vmi2858748 npm[94948]: WebSocket connected for WLD/USDT
+
