@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-10-20 16:30:01
+Crypto Trader Log Export - 2025-10-20 16:45:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Oct 20 16:27:31 vmi2858748 npm[112142]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 20 16:27:31 vmi2858748 npm[112142]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 20 16:27:31 vmi2858748 npm[112142]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 20 16:27:31 vmi2858748 npm[112142]: ✅ 3 strategies registered
-Oct 20 16:27:31 vmi2858748 npm[112142]: Initializing symbols from Binance...
-Oct 20 16:27:34 vmi2858748 npm[112142]: ✅ Loaded 67/67 symbols from Binance SPOT
-Oct 20 16:27:34 vmi2858748 npm[112142]: Loading 67 symbols from Binance SPOT market...
-Oct 20 16:27:34 vmi2858748 npm[112142]: ✅ 67 symbols initialized successfully from Binance SPOT
-Oct 20 16:27:34 vmi2858748 npm[112142]: 🔍 === getSymbols() Performance Breakdown ===
-Oct 20 16:27:34 vmi2858748 npm[112142]:   ⏱️ [1/6] Symbols query:         2ms (68 symbols)
-Oct 20 16:27:34 vmi2858748 npm[112142]:   ⏱️ [2/6] Trade stats query:     4ms (8 symbols with trades)
-Oct 20 16:27:34 vmi2858748 npm[112142]:   ⏱️ [3/6] MIDAS window query:    11ms
-Oct 20 16:27:34 vmi2858748 npm[112142]:   ⏱️ [4/6] Map creation:          0ms (68 MIDAS entries)
-Oct 20 16:27:34 vmi2858748 npm[112142]:   ⏱️ [5/6] Data merging:          1ms
-Oct 20 16:27:34 vmi2858748 npm[112142]:   ⏱️ [6/6] Sorting:               13ms
-Oct 20 16:27:34 vmi2858748 npm[112142]:   ✅ TOTAL getSymbols() time:     31ms
-Oct 20 16:27:34 vmi2858748 npm[112142]: Starting WebSocket for 68 symbols...
-Oct 20 16:27:34 vmi2858748 npm[112142]: WebSocket streams initialized
-Oct 20 16:27:34 vmi2858748 npm[112142]: ⏰ Signal scheduler will start at next 15-min boundary (14:31 UTC, in 205 seconds)
-Oct 20 16:27:34 vmi2858748 npm[112142]: 4:27:34 PM [express] serving on port 5000
-Oct 20 16:27:34 vmi2858748 npm[112142]: 🚀 Starting REST polling monitor (1-minute checks)...
-Oct 20 16:27:34 vmi2858748 npm[112142]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ENA/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for FET/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for BNB/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ATOM/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for SOL/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for BTC/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ETH/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for BONK/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for COMP/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ADA/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for AXS/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for AVAX/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for DOT/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for APT/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for EGLD/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for FIL/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for DASH/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ETC/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ARB/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for CHZ/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for BCH/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for DOGE/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for GALA/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for AAVE/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for FLOKI/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for BOME/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ARKM/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for JUP/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ICP/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for INJ/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for LTC/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for 1000SATS/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for LINK/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for ALGO/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for MANA/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for IMX/USDT
-Oct 20 16:27:35 vmi2858748 npm[112142]: WebSocket connected for LDO/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for PEPE/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for MKR/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for PNUT/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for NEO/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for ORDI/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for SEI/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for MATIC/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for QTUM/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for TIA/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for RAY/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for UNI/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for TRX/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for NEAR/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for RENDER/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for SAND/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for RUNE/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for NEIRO/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for VET/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for S/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for XRP/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for SUI/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for SHIB/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for ZEC/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for STX/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for TON/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for WLD/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for ZIL/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for THETA/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for XLM/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for WIF/USDT
-Oct 20 16:27:36 vmi2858748 npm[112142]: WebSocket connected for OP/USDT
-Oct 20 16:28:11 vmi2858748 npm[112142]: 4:28:11 PM [express] GET /api/backtest/strategies 304 in 2ms :: {"strategies":[{"id":"momentum-gap",…
-Oct 20 16:28:35 vmi2858748 npm[112142]: 4:28:35 PM [express] GET /api/signals/monitoring/stats 304 in 24291ms :: {"total":5,"wins":0,"losses…
-Oct 20 16:28:35 vmi2858748 npm[112142]: 4:28:35 PM [express] GET /api/signals/monitoring/all 200 in 24294ms :: {"total":5,"signals":[{"id":"…
-Oct 20 16:28:35 vmi2858748 npm[112142]: 4:28:35 PM [express] GET /api/signals/monitoring/active 200 in 24330ms :: {"total":4,"signals":[{"id…
-Oct 20 16:28:36 vmi2858748 npm[112142]: 🔍 === getSymbols() Performance Breakdown ===
-Oct 20 16:28:42 vmi2858748 npm[112142]: 4:28:42 PM [express] GET /api/signals/monitoring/stats 304 in 28592ms :: {"total":1,"wins":0,"losses…
-Oct 20 16:28:42 vmi2858748 npm[112142]: 4:28:42 PM [express] GET /api/signals/monitoring/all 200 in 28602ms :: {"total":1,"signals":[{"id":"…
-Oct 20 16:28:42 vmi2858748 npm[112142]: 4:28:42 PM [express] GET /api/signals/monitoring/active 304 in 28609ms :: {"total":0,"signals":[]}
-Oct 20 16:29:15 vmi2858748 systemd[1]: Stopping crypto-trader.service - AI Crypto Trader Application...
-Oct 20 16:29:15 vmi2858748 systemd[1]: crypto-trader.service: Failed to kill control group /system.slice/crypto-trader.service, ignoring: Invalid argument
-Oct 20 16:29:15 vmi2858748 systemd[1]: crypto-trader.service: Deactivated successfully.
-Oct 20 16:29:15 vmi2858748 systemd[1]: Stopped crypto-trader.service - AI Crypto Trader Application.
-Oct 20 16:29:15 vmi2858748 systemd[1]: crypto-trader.service: Consumed 2min 14.777s CPU time, 3.2G memory peak, 0B memory swap peak.
-Oct 20 16:29:15 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Oct 20 16:29:15 vmi2858748 npm[112231]: > rest-express@1.0.0 start
-Oct 20 16:29:15 vmi2858748 npm[112231]: > NODE_ENV=production node dist/index.js
-Oct 20 16:29:16 vmi2858748 npm[112244]: 💾 Using PostgreSQL database storage
-Oct 20 16:29:16 vmi2858748 npm[112244]: 📚 Registering trading strategies...
-Oct 20 16:29:16 vmi2858748 npm[112244]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 20 16:29:16 vmi2858748 npm[112244]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 20 16:29:16 vmi2858748 npm[112244]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 20 16:29:16 vmi2858748 npm[112244]: ✅ 3 strategies registered
-Oct 20 16:29:16 vmi2858748 npm[112244]: Initializing symbols from Binance...
-Oct 20 16:29:20 vmi2858748 npm[112244]: ✅ Loaded 67/67 symbols from Binance SPOT
-Oct 20 16:29:20 vmi2858748 npm[112244]: Loading 67 symbols from Binance SPOT market...
-Oct 20 16:29:20 vmi2858748 npm[112244]: ✅ 67 symbols initialized successfully from Binance SPOT
-Oct 20 16:29:20 vmi2858748 npm[112244]: Starting WebSocket for 68 symbols...
-Oct 20 16:29:20 vmi2858748 npm[112244]: WebSocket streams initialized
-Oct 20 16:29:20 vmi2858748 npm[112244]: ⏰ Signal scheduler will start at next 15-min boundary (14:31 UTC, in 100 seconds)
-Oct 20 16:29:20 vmi2858748 npm[112244]: 4:29:20 PM [express] serving on port 5000
-Oct 20 16:29:20 vmi2858748 npm[112244]: 🚀 Starting REST polling monitor (1-minute checks)...
-Oct 20 16:29:20 vmi2858748 npm[112244]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for NEAR/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for SOL/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for DASH/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for INJ/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for BTC/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for NEIRO/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ETH/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for BCH/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for BOME/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for BNB/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ADA/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for DOGE/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for RAY/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ENA/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ATOM/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for AVAX/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for OP/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for FIL/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ARKM/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for FET/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for MANA/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for CHZ/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for FLOKI/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for RUNE/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for MATIC/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for THETA/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for LINK/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for 1000SATS/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for WIF/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for AXS/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for JUP/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for PEPE/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for VET/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for AAVE/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for SAND/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for APT/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for SUI/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for UNI/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for TON/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for BONK/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for SHIB/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ZIL/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for EGLD/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for S/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for NEO/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for DOT/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ORDI/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for IMX/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for WLD/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for RENDER/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ICP/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for TRX/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for COMP/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for QTUM/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ALGO/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for TIA/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ETC/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ARB/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for GALA/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for STX/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for LDO/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for ZEC/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for LTC/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for PNUT/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for XRP/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for SEI/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for MKR/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: WebSocket connected for XLM/USDT
-Oct 20 16:29:21 vmi2858748 npm[112244]: 4:29:21 PM [express] GET /api/symbols 200 in 15ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Oct 20 16:29:21 vmi2858748 npm[112244]: 4:29:21 PM [express] GET /api/trades/active 200 in 26ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389ef9…
-Oct 20 16:29:21 vmi2858748 npm[112244]: 4:29:21 PM [express] GET /api/signals/recent 200 in 37ms :: [{"id":"26ff88b8-6c19-402d-a397-f1f0c144…
-Oct 20 16:29:21 vmi2858748 npm[112244]: 4:29:21 PM [express] GET /api/performance 304 in 3ms :: {"totalTrades":4,"winRate":25,"totalPnL":-20…
-Oct 20 16:29:35 vmi2858748 npm[112244]: 4:29:35 PM [express] GET /api/trades/active 200 in 3544ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389e…
-Oct 20 16:29:35 vmi2858748 npm[112244]: 4:29:35 PM [express] GET /api/performance 304 in 3566ms :: {"totalTrades":4,"winRate":25,"totalPnL":…
-Oct 20 16:29:45 vmi2858748 npm[112244]: 4:29:45 PM [express] GET /api/trades/active 200 in 4904ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389e…
-Oct 20 16:29:47 vmi2858748 npm[112244]: 4:29:47 PM [express] GET /api/signals/recent 200 in 4484ms :: [{"id":"26ff88b8-6c19-402d-a397-f1f0c1…
-Oct 20 16:29:49 vmi2858748 npm[112244]: 4:29:49 PM [express] GET /api/performance 304 in 4391ms :: {"totalTrades":4,"winRate":25,"totalPnL":…
-Oct 20 16:29:55 vmi2858748 npm[112244]: 4:29:55 PM [express] GET /api/symbols 200 in 12700ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAs…
+Oct 20 16:34:40 vmi2858748 npm[112370]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 16:34:40 vmi2858748 npm[112370]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
+Oct 20 16:34:40 vmi2858748 npm[112370]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 16:34:40 vmi2858748 npm[112370]: ✅ 3 strategies registered
+Oct 20 16:34:40 vmi2858748 npm[112370]: Initializing symbols from Binance...
+Oct 20 16:34:43 vmi2858748 npm[112370]: ✅ Loaded 67/67 symbols from Binance SPOT
+Oct 20 16:34:43 vmi2858748 npm[112370]: Loading 67 symbols from Binance SPOT market...
+Oct 20 16:34:43 vmi2858748 npm[112370]: ✅ 67 symbols initialized successfully from Binance SPOT
+Oct 20 16:34:43 vmi2858748 npm[112370]: Starting WebSocket for 68 symbols...
+Oct 20 16:34:43 vmi2858748 npm[112370]: WebSocket streams initialized
+Oct 20 16:34:43 vmi2858748 npm[112370]: ⏰ Signal scheduler will start at next 15-min boundary (14:46 UTC, in 677 seconds)
+Oct 20 16:34:43 vmi2858748 npm[112370]: 4:34:43 PM [express] serving on port 5000
+Oct 20 16:34:43 vmi2858748 npm[112370]: 🚀 Starting REST polling monitor (1-minute checks)...
+Oct 20 16:34:43 vmi2858748 npm[112370]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for AVAX/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for NEO/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for BNB/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ETH/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ATOM/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ARB/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for AAVE/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for RUNE/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ARKM/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for OP/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for 1000SATS/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ADA/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for QTUM/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for DOT/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for BTC/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for DASH/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for NEAR/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ALGO/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for FLOKI/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for GALA/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ORDI/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for LDO/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for MATIC/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for SOL/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ETC/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for JUP/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for COMP/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for LTC/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ENA/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for S/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for VET/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for FIL/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for AXS/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for BCH/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for BOME/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for SEI/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for XRP/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for LINK/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for BONK/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for WLD/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ICP/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for APT/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for PEPE/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for RENDER/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for RAY/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for FET/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for NEIRO/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for MANA/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for SHIB/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for SAND/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for CHZ/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for EGLD/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for PNUT/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for TRX/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for INJ/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for TIA/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for IMX/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for SUI/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for STX/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for WIF/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for TON/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for XLM/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ZEC/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for MKR/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for ZIL/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for DOGE/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for UNI/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: WebSocket connected for THETA/USDT
+Oct 20 16:34:44 vmi2858748 npm[112370]: 4:34:44 PM [express] GET /api/symbols 200 in 26ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Oct 20 16:36:00 vmi2858748 npm[112370]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 16:37:10 vmi2858748 npm[112370]: 4:37:10 PM [express] GET /api/symbols 200 in 58445ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAs…
+Oct 20 16:37:29 vmi2858748 npm[112370]: 4:37:29 PM [express] GET /api/trades/active 200 in 27456ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389…
+Oct 20 16:37:29 vmi2858748 npm[112370]: 4:37:29 PM [express] GET /api/signals/recent 200 in 27452ms :: [{"id":"26ff88b8-6c19-402d-a397-f1f0c…
+Oct 20 16:37:29 vmi2858748 npm[112370]: 4:37:29 PM [express] GET /api/performance 200 in 27452ms :: {"totalTrades":4,"winRate":25,"totalPnL"…
+Oct 20 16:37:39 vmi2858748 npm[112370]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 16:38:15 vmi2858748 npm[112370]: 4:38:15 PM [express] GET /api/trades/active 200 in 36230ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389…
+Oct 20 16:38:16 vmi2858748 npm[112370]: 4:38:16 PM [express] GET /api/performance 304 in 36203ms :: {"totalTrades":4,"winRate":25,"totalPnL"…
+Oct 20 16:38:48 vmi2858748 npm[112370]: 4:38:48 PM [express] GET /api/symbols 200 in 106244ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseA…
+Oct 20 16:39:37 vmi2858748 npm[112370]: 4:39:37 PM [express] GET /api/trades/active 200 in 50788ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389…
+Oct 20 16:39:37 vmi2858748 npm[112370]: 4:39:37 PM [express] GET /api/performance 304 in 50791ms :: {"totalTrades":4,"winRate":25,"totalPnL"…
+Oct 20 16:40:14 vmi2858748 npm[112370]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 16:40:49 vmi2858748 npm[112370]: 4:40:49 PM [express] GET /api/trades/active 200 in 63596ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389…
+Oct 20 16:40:49 vmi2858748 npm[112370]: 4:40:49 PM [express] GET /api/performance 304 in 63588ms :: {"totalTrades":4,"winRate":25,"totalPnL"…
+Oct 20 16:40:49 vmi2858748 npm[112370]: 4:40:49 PM [express] GET /api/signals/recent 200 in 63592ms :: [{"id":"26ff88b8-6c19-402d-a397-f1f0c…
+Oct 20 16:42:49 vmi2858748 systemd[1]: Stopping crypto-trader.service - AI Crypto Trader Application...
+Oct 20 16:42:49 vmi2858748 systemd[1]: crypto-trader.service: Failed to kill control group /system.slice/crypto-trader.service, ignoring: Invalid argument
+Oct 20 16:42:49 vmi2858748 systemd[1]: crypto-trader.service: Deactivated successfully.
+Oct 20 16:42:49 vmi2858748 systemd[1]: Stopped crypto-trader.service - AI Crypto Trader Application.
+Oct 20 16:42:49 vmi2858748 systemd[1]: crypto-trader.service: Consumed 10min 34.964s CPU time, 3.3G memory peak, 0B memory swap peak.
+Oct 20 16:43:28 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
+Oct 20 16:43:29 vmi2858748 npm[112636]: > rest-express@1.0.0 start
+Oct 20 16:43:29 vmi2858748 npm[112636]: > NODE_ENV=production node dist/index.js
+Oct 20 16:43:29 vmi2858748 npm[112648]: 💾 Using PostgreSQL database storage
+Oct 20 16:43:29 vmi2858748 npm[112648]: 📚 Registering trading strategies...
+Oct 20 16:43:29 vmi2858748 npm[112648]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 16:43:29 vmi2858748 npm[112648]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
+Oct 20 16:43:29 vmi2858748 npm[112648]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 16:43:29 vmi2858748 npm[112648]: ✅ 3 strategies registered
+Oct 20 16:43:29 vmi2858748 npm[112648]: Initializing symbols from Binance...
+Oct 20 16:43:33 vmi2858748 npm[112648]: ✅ Loaded 67/67 symbols from Binance SPOT
+Oct 20 16:43:33 vmi2858748 npm[112648]: Loading 67 symbols from Binance SPOT market...
+Oct 20 16:43:33 vmi2858748 npm[112648]: ✅ 67 symbols initialized successfully from Binance SPOT
+Oct 20 16:43:33 vmi2858748 npm[112648]: Starting WebSocket for 68 symbols...
+Oct 20 16:43:33 vmi2858748 npm[112648]: WebSocket streams initialized
+Oct 20 16:43:33 vmi2858748 npm[112648]: ⏰ Signal scheduler will start at next 15-min boundary (14:46 UTC, in 147 seconds)
+Oct 20 16:43:33 vmi2858748 npm[112648]: 4:43:33 PM [express] serving on port 5000
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ADA/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ARB/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for DASH/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for AVAX/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ETC/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for BONK/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for GALA/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for COMP/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for IMX/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for BOME/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for BTC/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for JUP/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for AAVE/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ATOM/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ETH/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ARKM/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for CHZ/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for AXS/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for EGLD/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for SOL/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for DOGE/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for DOT/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for FLOKI/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for FET/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ICP/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for LINK/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for LDO/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for FIL/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for INJ/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for MATIC/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for APT/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for MANA/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for 1000SATS/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ORDI/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for NEIRO/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ENA/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for S/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for SAND/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for BNB/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for SEI/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for LTC/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for PEPE/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for QTUM/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ALGO/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for RENDER/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for BCH/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for OP/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for RUNE/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for XRP/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for PNUT/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for RAY/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for SHIB/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for TRX/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for STX/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for THETA/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for UNI/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for VET/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for TIA/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for XLM/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for WLD/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ZIL/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for NEAR/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for TON/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for WIF/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for ZEC/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for MKR/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for NEO/USDT
+Oct 20 16:43:34 vmi2858748 npm[112648]: WebSocket connected for SUI/USDT
+Oct 20 16:43:35 vmi2858748 npm[112648]: 4:43:35 PM [express] GET /api/symbols 200 in 435ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsse…
+Oct 20 16:43:38 vmi2858748 npm[112648]: 4:43:38 PM [express] GET /api/symbols 200 in 2137ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+Oct 20 16:43:44 vmi2858748 npm[112648]: 4:43:44 PM [express] GET /api/symbols 200 in 4330ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+Oct 20 16:43:48 vmi2858748 npm[112648]: 4:43:48 PM [express] GET /api/symbols 200 in 3057ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+Oct 20 16:43:50 vmi2858748 npm[112648]: 4:43:50 PM [express] GET /api/symbols 200 in 1311ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+Oct 20 16:43:53 vmi2858748 npm[112648]: 4:43:53 PM [express] GET /api/symbols 200 in 1693ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+Oct 20 16:43:56 vmi2858748 npm[112648]: 4:43:56 PM [express] GET /api/symbols 200 in 1782ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+Oct 20 16:43:57 vmi2858748 npm[112648]: 4:43:57 PM [express] GET /api/symbols 200 in 383ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsse…
+Oct 20 16:43:58 vmi2858748 npm[112648]: 4:43:58 PM [express] GET /api/symbols 200 in 11ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Oct 20 16:43:59 vmi2858748 npm[112648]: 4:43:59 PM [express] GET /api/symbols 200 in 11ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Oct 20 16:44:55 vmi2858748 npm[112648]: 4:44:55 PM [express] GET /api/symbols 200 in 7025ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+Oct 20 16:45:00 vmi2858748 npm[112648]: 4:45:00 PM [express] GET /api/symbols 200 in 4180ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
 
