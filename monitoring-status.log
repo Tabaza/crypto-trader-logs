@@ -16835,3 +16835,48 @@ Oct 20 04:10:42 vmi2858748 npm[96460]: ✅ Strategy registered: VWAP Sigma (vwap
 Oct 20 04:10:51 vmi2858748 npm[96460]: ⏳ IMX/USDT: Price $0.5040 | TP: $0.4906 | SL: $0.5263 (REST check)
 Oct 20 04:10:51 vmi2858748 npm[96460]: ⏳ ARB/USDT: Price $0.3112 | TP: $0.3322 | SL: $0.3098 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 04:30:01
+
+📋 Active Signals:
+Oct 20 04:18:21 vmi2858748 npm[96460]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:21:55 vmi2858748 npm[96460]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:27:02 vmi2858748 npm[96683]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:28:05 vmi2858748 npm[96683]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:29:05 vmi2858748 npm[96683]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for ORDI/USDT
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for ETC/USDT
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for ARB/USDT
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for NEIRO/USDT
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for ETH/USDT
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for DOGE/USDT
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for AAVE/USDT
+Oct 20 04:27:03 vmi2858748 npm[96683]: WebSocket connected for ATOM/USDT
+Oct 20 04:28:05 vmi2858748 npm[96683]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 04:29:05 vmi2858748 npm[96683]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 04:16:00 vmi2858748 npm[96460]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T02:16:00.002Z) ==========
+Oct 20 04:26:58 vmi2858748 npm[96683]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 04:26:58 vmi2858748 npm[96683]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 04:26:55 CEST; 3min 6s ago
+   Main PID: 96660 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 1.0G (peak: 1.3G)
+        CPU: 2min 23.664s
+     CGroup: /system.slice/crypto-trader.service
+             ├─96660 "npm run dev"
+             ├─96671 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─96672 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─96683 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 04:27:05 vmi2858748 npm[96683]: ⏳ ARB/USDT: Price $0.3134 | TP: $0.3322 | SL: $0.3098 (REST check)
+Oct 20 04:27:05 vmi2858748 npm[96683]: ⏳ LTC/USDT: Price $93.07 | TP: $92.23 | SL: $95.52 (REST check)
+
