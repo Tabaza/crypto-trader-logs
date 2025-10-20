@@ -19515,3 +19515,56 @@ Oct 20 18:15:09 vmi2858748 npm[115016]: [PERF] getActiveTrades() query: 8813ms (
 Oct 20 18:15:09 vmi2858748 npm[115016]: [PERF] getActiveTrades() query: 8817ms (4 rows)
 Oct 20 18:15:09 vmi2858748 npm[115016]: [PERF] getActiveTrades() query: 8825ms (4 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 18:30:01
+
+📋 Active Signals:
+Oct 20 18:22:40 vmi2858748 npm[115625]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 18:23:21 vmi2858748 npm[115677]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 18:24:42 vmi2858748 npm[115677]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 18:27:39 vmi2858748 npm[115805]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 18:29:17 vmi2858748 npm[115805]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 18:27:40 vmi2858748 npm[115805]: WebSocket connected for XLM/USDT
+Oct 20 18:27:40 vmi2858748 npm[115805]: WebSocket connected for AXS/USDT
+Oct 20 18:27:40 vmi2858748 npm[115805]: WebSocket connected for BONK/USDT
+Oct 20 18:27:40 vmi2858748 npm[115805]: WebSocket connected for WIF/USDT
+Oct 20 18:27:40 vmi2858748 npm[115805]: WebSocket connected for BCH/USDT
+Oct 20 18:27:40 vmi2858748 npm[115805]: WebSocket connected for XRP/USDT
+Oct 20 18:28:26 vmi2858748 npm[115805]: 6:28:26 PM [express] GET /api/signals/monitoring/stats 304 in 15489ms :: {"total":5,"wins":0,"losses…
+Oct 20 18:28:26 vmi2858748 npm[115805]: 6:28:26 PM [express] GET /api/signals/monitoring/all 200 in 15490ms :: {"total":5,"signals":[{"id":"…
+Oct 20 18:28:26 vmi2858748 npm[115805]: 6:28:26 PM [express] GET /api/signals/monitoring/active 200 in 15503ms :: {"total":4,"signals":[{"id…
+Oct 20 18:29:17 vmi2858748 npm[115805]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 18:16:00 vmi2858748 npm[115016]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T16:16:00.003Z) ==========
+Oct 20 18:18:11 vmi2858748 npm[115306]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 18:18:11 vmi2858748 npm[115306]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 18:19:01 vmi2858748 npm[115379]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 18:19:01 vmi2858748 npm[115379]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 18:22:37 vmi2858748 npm[115625]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 18:22:37 vmi2858748 npm[115625]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 18:23:17 vmi2858748 npm[115677]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 18:23:17 vmi2858748 npm[115677]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 18:27:36 vmi2858748 npm[115805]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 18:27:36 vmi2858748 npm[115805]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 18:27:34 CEST; 2min 38s ago
+   Main PID: 115793 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 2.6G (peak: 2.6G)
+        CPU: 3min 26.199s
+     CGroup: /system.slice/crypto-trader.service
+             ├─115793 "npm start"
+             ├─115804 sh -c "NODE_ENV=production node dist/index.js"
+             └─115805 node dist/index.js
+
+Oct 20 18:30:13 vmi2858748 npm[115805]: [PERF] getActiveTrades() query: 64653ms (4 rows)
+Oct 20 18:30:13 vmi2858748 npm[115805]: [PERF] getActiveTrades() query: 64655ms (4 rows)
+Oct 20 18:30:13 vmi2858748 npm[115805]: [PERF] getActiveTrades() query: 64665ms (4 rows)
+
