@@ -19298,3 +19298,54 @@ Oct 20 17:13:31 vmi2858748 npm[113388]: ⏳ GALA/USDT LONG: Price $0.0116 | TP: 
 Oct 20 17:13:31 vmi2858748 npm[113388]: ⏳ BOME/USDT LONG: Price $0.001133 | TP: $0.001192 | SL: $0.001090
 Oct 20 17:13:31 vmi2858748 npm[113388]: ⏳ BCH/USDT LONG: Price $485.00 | TP: $504.40 | SL: $470.45
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 17:30:01
+
+📋 Active Signals:
+Oct 20 17:24:38 vmi2858748 npm[113706]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:25:47 vmi2858748 npm[113706]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:27:13 vmi2858748 npm[113706]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:28:06 vmi2858748 npm[113823]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 17:29:08 vmi2858748 npm[113823]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 17:28:18 vmi2858748 npm[113823]: 5:28:18 PM [express] GET /api/signals/monitoring/stats 304 in 543ms :: {"total":5,"wins":0,"losses":…
+Oct 20 17:28:18 vmi2858748 npm[113823]: 5:28:18 PM [express] GET /api/signals/monitoring/all 200 in 544ms :: {"total":5,"signals":[{"id":"26…
+Oct 20 17:28:18 vmi2858748 npm[113823]: 5:28:18 PM [express] GET /api/signals/monitoring/active 200 in 541ms :: {"total":4,"signals":[{"id":…
+Oct 20 17:28:19 vmi2858748 npm[113823]: 5:28:19 PM [express] GET /api/signals/monitoring/active 304 in 286ms :: {"total":0,"signals":[]}
+Oct 20 17:28:19 vmi2858748 npm[113823]: 5:28:19 PM [express] GET /api/signals/monitoring/all 200 in 286ms :: {"total":1,"signals":[{"id":"6b…
+Oct 20 17:28:19 vmi2858748 npm[113823]: 5:28:19 PM [express] GET /api/signals/monitoring/stats 304 in 288ms :: {"total":1,"wins":0,"losses":…
+Oct 20 17:28:19 vmi2858748 npm[113823]: 5:28:19 PM [express] GET /api/signals/monitoring/all 200 in 127ms :: {"total":2,"signals":[{"id":"82…
+Oct 20 17:28:19 vmi2858748 npm[113823]: 5:28:19 PM [express] GET /api/signals/monitoring/active 304 in 127ms :: {"total":0,"signals":[]}
+Oct 20 17:28:19 vmi2858748 npm[113823]: 5:28:19 PM [express] GET /api/signals/monitoring/stats 304 in 127ms :: {"total":2,"wins":1,"losses":…
+Oct 20 17:29:08 vmi2858748 npm[113823]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 17:16:00 vmi2858748 npm[113388]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T15:16:00.002Z) ==========
+Oct 20 17:16:30 vmi2858748 npm[113516]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 17:16:30 vmi2858748 npm[113516]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 17:21:07 vmi2858748 npm[113589]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 17:21:07 vmi2858748 npm[113589]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 17:24:34 vmi2858748 npm[113706]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 17:24:34 vmi2858748 npm[113706]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 17:28:02 vmi2858748 npm[113823]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 17:28:02 vmi2858748 npm[113823]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 17:28:01 CEST; 2min 0s ago
+   Main PID: 113811 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 586.6M (peak: 2.1G)
+        CPU: 2min 17.020s
+     CGroup: /system.slice/crypto-trader.service
+             ├─113811 "npm start"
+             ├─113822 sh -c "NODE_ENV=production node dist/index.js"
+             └─113823 node dist/index.js
+
+Oct 20 17:28:52 vmi2858748 npm[113823]: 5:28:52 PM [express] GET /api/trades/active 304 in 1832ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389e…
+Oct 20 17:28:56 vmi2858748 npm[113823]: 5:28:56 PM [express] GET /api/signals/recent 200 in 2111ms :: [{"id":"26ff88b8-6c19-402d-a397-f1f0c1…
+Oct 20 17:28:57 vmi2858748 npm[113823]: 5:28:57 PM [express] GET /api/symbols 200 in 5395ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
+
