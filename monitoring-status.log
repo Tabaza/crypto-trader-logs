@@ -20359,3 +20359,40 @@ Oct 20 22:28:03 vmi2858748 npm[121491]: [PERF] Symbols query: 220431ms (39 rows)
 Oct 20 22:28:04 vmi2858748 npm[121491]: [PERF] Symbols query: 221220ms (17 rows)
 Oct 20 22:28:19 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 207119ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 22:45:01
+
+📋 Active Signals:
+Oct 20 22:40:29 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:41:35 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:42:37 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:43:39 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:44:40 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 22:40:29 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:41:35 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:42:37 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:43:39 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 22:44:40 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 19:53:19 CEST; 2h 51min ago
+   Main PID: 121478 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 364.0M (peak: 3.9G)
+        CPU: 2h 58min 20.474s
+     CGroup: /system.slice/crypto-trader.service
+             ├─121478 "npm start"
+             ├─121490 sh -c "NODE_ENV=production node dist/index.js"
+             └─121491 node dist/index.js
+
+Oct 20 22:44:10 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 5ms (4 rows)
+Oct 20 22:44:20 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 3ms (4 rows)
+Oct 20 22:44:30 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 3ms (4 rows)
+
