@@ -18370,3 +18370,51 @@ Oct 20 12:20:42 vmi2858748 npm[104900]: ✅ Strategy registered: VWAP Sigma (vwa
 Oct 20 12:20:47 vmi2858748 npm[104900]: WebSocket connected for QTUM/USDT
 Oct 20 12:20:47 vmi2858748 npm[104900]: WebSocket connected for SEI/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 12:45:01
+
+📋 Active Signals:
+Oct 20 12:36:25 vmi2858748 npm[105361]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 12:37:37 vmi2858748 npm[105361]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 12:40:15 vmi2858748 npm[105361]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 12:41:52 vmi2858748 npm[105605]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 12:43:17 vmi2858748 npm[105605]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 12:41:56 vmi2858748 npm[105605]: WebSocket connected for FIL/USDT
+Oct 20 12:41:56 vmi2858748 npm[105605]: WebSocket connected for EGLD/USDT
+Oct 20 12:41:56 vmi2858748 npm[105605]: WebSocket connected for FET/USDT
+Oct 20 12:41:58 vmi2858748 npm[105605]: 12:41:58 PM [express] GET /api/signals/monitoring/stats 304 in 385ms :: {"total":1,"wins":0,"losses":…
+Oct 20 12:41:58 vmi2858748 npm[105605]: 12:41:58 PM [express] GET /api/signals/monitoring/active 200 in 388ms :: {"total":0,"signals":[]}
+Oct 20 12:41:58 vmi2858748 npm[105605]: 12:41:58 PM [express] GET /api/signals/monitoring/all 200 in 389ms :: {"total":1,"signals":[{"id":"6b…
+Oct 20 12:42:00 vmi2858748 npm[105605]: 12:42:00 PM [express] GET /api/signals/monitoring/all 200 in 794ms :: {"total":2,"signals":[{"id":"82…
+Oct 20 12:42:00 vmi2858748 npm[105605]: 12:42:00 PM [express] GET /api/signals/monitoring/stats 304 in 794ms :: {"total":2,"wins":1,"losses":…
+Oct 20 12:42:00 vmi2858748 npm[105605]: 12:42:00 PM [express] GET /api/signals/monitoring/active 200 in 796ms :: {"total":0,"signals":[]}
+Oct 20 12:43:17 vmi2858748 npm[105605]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 12:31:05 vmi2858748 npm[105080]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 12:31:05 vmi2858748 npm[105080]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 12:36:22 vmi2858748 npm[105361]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 12:36:22 vmi2858748 npm[105361]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 12:41:49 vmi2858748 npm[105605]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 12:41:49 vmi2858748 npm[105605]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 12:41:46 CEST; 3min 14s ago
+   Main PID: 105581 (npm run dev)
+      Tasks: 55 (limit: 28795)
+     Memory: 2.6G (peak: 2.6G)
+        CPU: 4min 11.913s
+     CGroup: /system.slice/crypto-trader.service
+             ├─105581 "npm run dev"
+             ├─105593 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─105594 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─105605 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─105619 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─105632 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
