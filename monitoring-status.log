@@ -18779,3 +18779,43 @@ Oct 20 14:41:38 vmi2858748 npm[109485]: WebSocket connected for SUI/USDT
 Oct 20 14:41:38 vmi2858748 npm[109485]: WebSocket connected for XLM/USDT
 Oct 20 14:41:38 vmi2858748 npm[109485]: WebSocket connected for S/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 15:00:02
+
+📋 Active Signals:
+Oct 20 14:54:43 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:55:50 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:56:52 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:57:58 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:59:07 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 14:55:50 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:56:52 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:57:58 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 14:59:07 vmi2858748 npm[109781]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 14:46:00 vmi2858748 npm[109485]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T12:46:00.002Z) ==========
+Oct 20 14:50:49 vmi2858748 npm[109485]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Oct 20 14:53:28 vmi2858748 npm[109781]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 14:53:28 vmi2858748 npm[109781]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 14:53:26 CEST; 6min ago
+   Main PID: 109769 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.3G (peak: 3.7G)
+        CPU: 7min 54.478s
+     CGroup: /system.slice/crypto-trader.service
+             ├─109769 "npm start"
+             ├─109780 sh -c "NODE_ENV=production node dist/index.js"
+             └─109781 node dist/index.js
+
+Oct 20 14:54:02 vmi2858748 npm[109781]: 2:54:02 PM [express] GET /api/signals/monitoring/stats 304 in 480ms :: {"total":1,"wins":0,"losses":…
+Oct 20 14:54:02 vmi2858748 npm[109781]: 2:54:02 PM [express] GET /api/signals/monitoring/active 304 in 482ms :: {"total":0,"signals":[]}
+Oct 20 14:54:03 vmi2858748 npm[109781]: 2:54:03 PM [express] GET /api/signals/monitoring/active 304 in 764ms :: {"total":0,"signals":[]}
+
