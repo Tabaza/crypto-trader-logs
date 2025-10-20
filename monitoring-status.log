@@ -19878,3 +19878,60 @@ Oct 20 20:14:03 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 359ms (3
 Oct 20 20:14:13 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 14ms (3 rows)
 Oct 20 20:14:23 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 57ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 20:30:01
+
+📋 Active Signals:
+Oct 20 20:25:58 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:26:58 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:27:58 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:28:59 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:30:00 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 20:25:58 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:26:58 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:27:58 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:28:59 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:30:00 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [Momentum Gap] Price: $0.9170, MIDAS: $1.85, POC: $0.9260, Vol: 0.10x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Volume 0.10x < 2x required
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [VWAP Sigma] Price: $0.9170, VWAP: $0.9236, Sigma: 0.72σ, Vol: 0.10x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Sigma 0.72σ outside range 1.3-2.2σ
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [Momentum Gap] Price: $0.3236, MIDAS: $0.6536, POC: $0.3274, Vol: 0.03x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Volume 0.03x < 2x required
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [VWAP Sigma] Price: $0.3236, VWAP: $0.3255, Sigma: 1.09σ, Vol: 0.03x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Sigma 1.09σ outside range 1.3-2.2σ
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [Momentum Gap] Price: $2.46, MIDAS: $4.92, POC: $2.46, Vol: 0.01x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Volume 0.01x < 2x required
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [VWAP Sigma] Price: $2.46, VWAP: $2.46, Sigma: 0.40σ, Vol: 0.01x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Sigma 0.40σ outside range 1.3-2.2σ
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [Momentum Gap] Price: $273.21, MIDAS: $510.02, POC: $255.61, Vol: 0.10x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Volume 0.10x < 2x required
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [VWAP Sigma] Price: $273.21, VWAP: $260.57, Sigma: 2.39σ, Vol: 0.10x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Sigma 2.39σ outside range 1.3-2.2σ
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [Momentum Gap] Price: $0.008040, MIDAS: $0.0163, POC: $0.008140, Vol: 0.00x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Volume 0.00x < 2x required
+Oct 20 20:16:04 vmi2858748 npm[121491]:     [VWAP Sigma] Price: $0.008040, VWAP: $0.008092, Sigma: 1.04σ, Vol: 0.00x
+Oct 20 20:16:04 vmi2858748 npm[121491]:     ❌ Rejected: Sigma 1.04σ outside range 1.3-2.2σ
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 19:53:19 CEST; 36min ago
+   Main PID: 121478 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.1G (peak: 2.9G)
+        CPU: 29min 59.413s
+     CGroup: /system.slice/crypto-trader.service
+             ├─121478 "npm start"
+             ├─121490 sh -c "NODE_ENV=production node dist/index.js"
+             └─121491 node dist/index.js
+
+Oct 20 20:28:59 vmi2858748 npm[121491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 20:29:00 vmi2858748 npm[121491]: ⏳ BOME/USDT LONG: Price $0.001099 | TP: $0.001192 | SL: $0.001090
+Oct 20 20:29:00 vmi2858748 npm[121491]: ⏳ BCH/USDT LONG: Price $481.60 | TP: $504.40 | SL: $470.45
+
