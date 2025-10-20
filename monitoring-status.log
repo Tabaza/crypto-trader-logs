@@ -19702,3 +19702,65 @@ Oct 20 19:30:17 vmi2858748 npm[120739]: [PERF] getActiveTrades() query: 3004ms (
 Oct 20 19:30:17 vmi2858748 npm[120739]: [PERF] getActiveTrades() query: 3005ms (3 rows)
 Oct 20 19:30:17 vmi2858748 npm[120739]: [PERF] getActiveTrades() query: 3005ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 19:45:01
+
+📋 Active Signals:
+Oct 20 19:40:53 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:41:55 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:42:56 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:43:57 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:44:58 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 19:41:10 vmi2858748 npm[121020]: 7:41:10 PM [express] GET /api/signals/monitoring/all 200 in 149ms :: {"total":1,"signals":[{"id":"6b…
+Oct 20 19:41:10 vmi2858748 npm[121020]: 7:41:10 PM [express] GET /api/signals/monitoring/stats 304 in 150ms :: {"total":1,"wins":0,"losses":…
+Oct 20 19:41:10 vmi2858748 npm[121020]: 7:41:10 PM [express] GET /api/signals/monitoring/active 304 in 154ms :: {"total":0,"signals":[]}
+Oct 20 19:41:11 vmi2858748 npm[121020]: 7:41:11 PM [express] GET /api/signals/monitoring/active 304 in 12ms :: {"total":0,"signals":[]}
+Oct 20 19:41:11 vmi2858748 npm[121020]: 7:41:11 PM [express] GET /api/signals/monitoring/stats 304 in 12ms :: {"total":2,"wins":1,"losses":1…
+Oct 20 19:41:11 vmi2858748 npm[121020]: 7:41:11 PM [express] GET /api/signals/monitoring/all 200 in 12ms :: {"total":2,"signals":[{"id":"826…
+Oct 20 19:41:55 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:42:56 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:43:57 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 19:44:58 vmi2858748 npm[121020]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 19:31:14 vmi2858748 npm[120739]:     [VWAP Sigma] Price: $0.3230, VWAP: $0.3257, Sigma: 1.79σ, Vol: 0.04x
+Oct 20 19:31:14 vmi2858748 npm[120739]:     ❌ Rejected: Volume 0.04x < 1.2x required
+Oct 20 19:31:14 vmi2858748 npm[120739]:     [Momentum Gap] Price: $2.44, MIDAS: $4.92, POC: $2.46, Vol: 0.03x
+Oct 20 19:31:14 vmi2858748 npm[120739]:     ❌ Rejected: Volume 0.03x < 2x required
+Oct 20 19:31:14 vmi2858748 npm[120739]:     [VWAP Sigma] Price: $2.44, VWAP: $2.46, Sigma: 1.14σ, Vol: 0.03x
+Oct 20 19:31:14 vmi2858748 npm[120739]:     ❌ Rejected: Sigma 1.14σ outside range 1.3-2.2σ
+Oct 20 19:31:14 vmi2858748 npm[120739]:     [Momentum Gap] Price: $255.48, MIDAS: $492.47, POC: $240.08, Vol: 0.01x
+Oct 20 19:31:14 vmi2858748 npm[120739]:     ❌ Rejected: Volume 0.01x < 2x required
+Oct 20 19:31:14 vmi2858748 npm[120739]:     [VWAP Sigma] Price: $255.48, VWAP: $258.66, Sigma: 0.78σ, Vol: 0.01x
+Oct 20 19:31:14 vmi2858748 npm[120739]:     ❌ Rejected: Sigma 0.78σ outside range 1.3-2.2σ
+Oct 20 19:31:14 vmi2858748 npm[120739]:     [Momentum Gap] Price: $0.008020, MIDAS: $0.0163, POC: $0.008140, Vol: 0.03x
+Oct 20 19:31:14 vmi2858748 npm[120739]:     ❌ Rejected: Volume 0.03x < 2x required
+Oct 20 19:31:14 vmi2858748 npm[120739]:     [VWAP Sigma] Price: $0.008020, VWAP: $0.008090, Sigma: 1.38σ, Vol: 0.03x
+Oct 20 19:31:14 vmi2858748 npm[120739]:     ❌ Rejected: Volume 0.03x < 1.2x required
+Oct 20 19:31:21 vmi2858748 npm[120828]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 19:31:21 vmi2858748 npm[120828]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 19:40:50 vmi2858748 npm[121020]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 19:40:50 vmi2858748 npm[121020]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 20 19:45:06 vmi2858748 npm[121165]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 19:45:06 vmi2858748 npm[121165]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 19:45:04 CEST; 7s ago
+   Main PID: 121152 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 131.8M (peak: 2.7G)
+        CPU: 2.157s
+     CGroup: /system.slice/crypto-trader.service
+             ├─121152 "npm start"
+             ├─121164 sh -c "NODE_ENV=production node dist/index.js"
+             └─121165 node dist/index.js
+
+Oct 20 19:45:04 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
+Oct 20 19:45:04 vmi2858748 npm[121152]: > rest-express@1.0.0 start
+Oct 20 19:45:04 vmi2858748 npm[121152]: > NODE_ENV=production node dist/index.js
+
