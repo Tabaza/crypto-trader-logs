@@ -17205,3 +17205,42 @@ Oct 20 06:11:43 vmi2858748 npm[98228]: ✅ Strategy registered: VWAP Sigma (vwap
 Oct 20 06:11:52 vmi2858748 npm[98228]: WebSocket connected for XLM/USDT
 Oct 20 06:11:52 vmi2858748 npm[98228]: WebSocket connected for WIF/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 06:30:01
+
+📋 Active Signals:
+Oct 20 06:24:26 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 06:26:00 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 06:27:17 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 06:28:25 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 06:29:36 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 20 06:26:00 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 06:27:17 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 06:28:25 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 20 06:29:36 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 06:16:00 vmi2858748 npm[98228]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T04:16:00.001Z) ==========
+Oct 20 06:23:16 vmi2858748 npm[98544]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 06:23:16 vmi2858748 npm[98544]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 06:23:13 CEST; 6min ago
+   Main PID: 98521 (npm run dev)
+      Tasks: 35 (limit: 28795)
+     Memory: 2.7G (peak: 2.7G)
+        CPU: 8min 24.437s
+     CGroup: /system.slice/crypto-trader.service
+             ├─98521 "npm run dev"
+             ├─98532 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─98533 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─98544 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Oct 20 06:26:50 vmi2858748 npm[98544]: ⏳ ARB/USDT: Price $0.3218 | TP: $0.3322 | SL: $0.3098 (REST check)
+Oct 20 06:27:17 vmi2858748 npm[98544]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
