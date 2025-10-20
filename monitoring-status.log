@@ -18612,3 +18612,38 @@ Oct 20 13:39:22 vmi2858748 npm[107627]: 1:39:22 PM [express] GET /api/signals/mo
 Oct 20 13:39:22 vmi2858748 npm[107627]: 1:39:22 PM [express] GET /api/signals/monitoring/active 200 in 49840ms :: {"total":4,"signals":[{"id…
 Oct 20 13:40:04 vmi2858748 npm[107627]: 1:40:04 PM [express] GET /api/trades/active 200 in 59043ms :: [{"id":"82557672-b0a4-44aa-b5da-e46389…
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-20 14:00:01
+
+📋 Active Signals:
+Oct 20 13:41:33 vmi2858748 npm[107627]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:47:21 vmi2858748 npm[107890]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:48:27 vmi2858748 npm[107890]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:50:12 vmi2858748 npm[107890]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 20 13:52:56 vmi2858748 npm[107890]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 20 13:46:00 vmi2858748 npm[107627]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-20T11:46:00.002Z) ==========
+Oct 20 13:47:18 vmi2858748 npm[107890]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 20 13:47:18 vmi2858748 npm[107890]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 13:47:17 CEST; 12min ago
+   Main PID: 107878 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.3G (peak: 3.7G)
+        CPU: 16min 15.950s
+     CGroup: /system.slice/crypto-trader.service
+             ├─107878 "npm start"
+             ├─107889 sh -c "NODE_ENV=production node dist/index.js"
+             └─107890 node dist/index.js
+
+Oct 20 13:48:58 vmi2858748 npm[107890]: 1:48:58 PM [express] GET /api/midas/aaveusdt 200 in 27774ms :: {"id":"c9643b42-192d-4fee-8085-a1aa8e…
+Oct 20 13:48:59 vmi2858748 npm[107890]: 1:48:59 PM [express] GET /api/symbols 200 in 27923ms :: [{"id":"1000satsusdt","symbol":"1000SATS/USD…
+Oct 20 13:49:19 vmi2858748 npm[107890]: 1:49:19 PM [express] GET /api/volume-profile/1000satsusdt 304 in 19696ms :: {"id":"e910e34f-e6c3-426…
+
