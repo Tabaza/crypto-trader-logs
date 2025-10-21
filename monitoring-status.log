@@ -24643,3 +24643,65 @@ Oct 21 18:43:33 vmi2858748 npm[140989]: [PERF] getActiveTrades() query: 923ms (1
 Oct 21 18:43:43 vmi2858748 npm[140989]: [PERF] getActiveTrades() query: 4ms (1 rows)
 Oct 21 18:43:56 vmi2858748 npm[140989]: [PERF] getActiveTrades() query: 2970ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 19:00:01
+
+📋 Active Signals:
+Oct 21 18:45:57 vmi2858748 npm[140989]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:48:43 vmi2858748 npm[140989]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:50:41 vmi2858748 npm[140989]: 🔍 Pre-fetched 1 active signals to avoid repeated queries
+Oct 21 18:53:52 vmi2858748 npm[140989]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:58:14 vmi2858748 npm[141243]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for DOT/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for UNI/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for SOL/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for MANA/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for SHIB/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for TON/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for DASH/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for LINK/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for ORDI/USDT
+Oct 21 18:58:16 vmi2858748 npm[141243]: WebSocket connected for RUNE/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Volume 0.30x < 1.3x required
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 18:53:14 vmi2858748 npm[140989]:     [Momentum Gap] Price: $0.0181, MIDAS: $0.0175, POC: $0.0172, Vol: 0.14x
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Volume 0.14x < 1.3x required
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 18:53:14 vmi2858748 npm[140989]:     [Momentum Gap] Price: $0.5780, MIDAS: $0.5472, POC: $0.5198, Vol: 0.09x
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Volume 0.09x < 1.3x required
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 18:53:14 vmi2858748 npm[140989]:     [Momentum Gap] Price: $0.9500, MIDAS: $0.9264, POC: $0.9544, Vol: 0.37x
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Volume 0.37x < 1.3x required
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 18:53:14 vmi2858748 npm[140989]:     [Momentum Gap] Price: $0.3323, MIDAS: $0.3210, POC: $0.3144, Vol: 0.21x
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Volume 0.21x < 1.3x required
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 18:53:14 vmi2858748 npm[140989]:     [Momentum Gap] Price: $2.52, MIDAS: $2.45, POC: $2.42, Vol: 0.23x
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Volume 0.23x < 1.3x required
+Oct 21 18:53:14 vmi2858748 npm[140989]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 18:53:14 vmi2858748 npm[140989]:     [Momentum Gap] Price: $309.35, MIDAS: $275.27, POC: $273.14, Vol: 2.31x
+Oct 21 18:58:10 vmi2858748 npm[141243]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 18:58:10 vmi2858748 npm[141243]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 18:58:08 CEST; 1min 53s ago
+   Main PID: 141231 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.8G (peak: 1.8G)
+        CPU: 2min 22.432s
+     CGroup: /system.slice/crypto-trader.service
+             ├─141231 "npm start"
+             ├─141242 sh -c "NODE_ENV=production node dist/index.js"
+             └─141243 node dist/index.js
+
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for MANA/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for SHIB/USDT
+Oct 21 18:58:15 vmi2858748 npm[141243]: WebSocket connected for TON/USDT
+
