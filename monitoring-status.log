@@ -24823,3 +24823,43 @@ Oct 21 19:38:45 vmi2858748 npm[142133]: ⏳ SHIB/USDT LONG: Price $0.00001040 | 
 Oct 21 19:38:46 vmi2858748 npm[142133]: [PERF] getActiveTrades() query: 110852ms (1 rows)
 Oct 21 19:39:29 vmi2858748 npm[142133]: WebSocket closed for BTC/USDT, reconnecting...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 20:00:01
+
+📋 Active Signals:
+Oct 21 19:55:05 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:56:12 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:57:17 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:58:20 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:59:24 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 19:55:05 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:56:12 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:57:17 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:58:20 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:59:24 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 19:46:00 vmi2858748 npm[142133]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T17:46:00.006Z) ==========
+Oct 21 19:46:51 vmi2858748 npm[142435]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 19:46:51 vmi2858748 npm[142435]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 19:46:50 CEST; 13min ago
+   Main PID: 142423 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 499.0M (peak: 1.5G)
+        CPU: 13min 42.741s
+     CGroup: /system.slice/crypto-trader.service
+             ├─142423 "npm start"
+             ├─142434 sh -c "NODE_ENV=production node dist/index.js"
+             └─142435 node dist/index.js
+
+Oct 21 19:58:39 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 7ms (1 rows)
+Oct 21 19:58:49 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Oct 21 19:58:59 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 2ms (1 rows)
+
