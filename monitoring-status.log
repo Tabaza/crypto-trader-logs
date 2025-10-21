@@ -24431,3 +24431,42 @@ Oct 21 17:25:39 vmi2858748 npm[139535]: WebSocket connected for TRX/USDT
 Oct 21 17:25:39 vmi2858748 npm[139535]: WebSocket connected for WIF/USDT
 Oct 21 17:25:39 vmi2858748 npm[139535]: [PERF] getActiveTrades() query: 138ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 17:45:01
+
+📋 Active Signals:
+Oct 21 17:20:26 vmi2858748 npm[139454]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 21 17:25:38 vmi2858748 npm[139535]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 21 17:27:56 vmi2858748 npm[139535]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 21 17:35:16 vmi2858748 npm[139669]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 21 17:37:34 vmi2858748 npm[139669]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 17:40:09 vmi2858748 npm[139669]: WebSocket closed for BTC/USDT, reconnecting...
+Oct 21 17:40:15 vmi2858748 npm[139669]: WebSocket connected for BTC/USDT
+Oct 21 17:41:30 vmi2858748 npm[139669]: WebSocket closed for FLOKI/USDT, reconnecting...
+Oct 21 17:41:36 vmi2858748 npm[139669]: WebSocket connected for FLOKI/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 17:31:00 vmi2858748 npm[139535]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T15:31:00.003Z) ==========
+Oct 21 17:35:13 vmi2858748 npm[139669]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 17:35:13 vmi2858748 npm[139669]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 17:35:11 CEST; 9min ago
+   Main PID: 139655 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 4.1G (peak: 4.2G)
+        CPU: 14min 18.828s
+     CGroup: /system.slice/crypto-trader.service
+             ├─139655 "npm start"
+             ├─139668 sh -c "NODE_ENV=production node dist/index.js"
+             └─139669 node dist/index.js
+
+Oct 21 17:39:47 vmi2858748 npm[139669]: WebSocket closed for ETH/USDT, reconnecting...
+Oct 21 17:39:53 vmi2858748 npm[139669]: WebSocket connected for ETH/USDT
+Oct 21 17:40:09 vmi2858748 npm[139669]: WebSocket closed for BTC/USDT, reconnecting...
+
