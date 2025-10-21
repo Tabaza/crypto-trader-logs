@@ -24226,3 +24226,39 @@ Oct 21 16:14:12 vmi2858748 npm[138542]: WebSocket connected for FIL/USDT
 Oct 21 16:14:13 vmi2858748 npm[138542]: WebSocket connected for JUP/USDT
 Oct 21 16:14:14 vmi2858748 npm[138542]: ⏳ SHIB/USDT LONG: Price $0.00001017 | TP: $0.00001054 | SL: $0.00000964
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 16:30:02
+
+📋 Active Signals:
+Oct 21 16:08:07 vmi2858748 npm[138437]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 16:14:11 vmi2858748 npm[138542]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 16:16:40 vmi2858748 npm[138542]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 16:23:36 vmi2858748 npm[138704]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 16:25:51 vmi2858748 npm[138704]: 📊 Monitoring 7 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 16:25:51 vmi2858748 npm[138704]: 📊 Monitoring 7 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 16:16:00 vmi2858748 npm[138542]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T14:16:00.005Z) ==========
+Oct 21 16:23:32 vmi2858748 npm[138704]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 16:23:32 vmi2858748 npm[138704]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 16:23:30 CEST; 6min ago
+   Main PID: 138692 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.6G (peak: 3.6G)
+        CPU: 8min 43.009s
+     CGroup: /system.slice/crypto-trader.service
+             ├─138692 "npm start"
+             ├─138703 sh -c "NODE_ENV=production node dist/index.js"
+             └─138704 node dist/index.js
+
+Oct 21 16:27:23 vmi2858748 npm[138704]: [DEDUPE] Creating new request for /api/performance
+Oct 21 16:27:28 vmi2858748 npm[138704]: 4:27:28 PM [express] GET /api/backtest/strategies 304 in 4ms :: {"strategies":[{"id":"momentum-gap",…
+Oct 21 16:28:12 vmi2858748 npm[138704]: ⏳ SHIB/USDT LONG: Price $0.00001023 | TP: $0.00001054 | SL: $0.00000964
+
