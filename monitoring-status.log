@@ -25871,3 +25871,50 @@ Oct 22 00:25:37 vmi2858748 npm[146297]: ⏳ SAND/USDT SHORT: Price $0.2133 | TP:
 Oct 22 00:25:37 vmi2858748 npm[146297]: ⏳ SHIB/USDT LONG: Price $0.00001025 | TP: $0.00001054 | SL: $0.00000964
 Oct 22 00:26:30 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 47973ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 00:45:01
+
+📋 Active Signals:
+Oct 22 00:30:29 vmi2858748 npm[146297]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 22 00:36:11 vmi2858748 npm[147491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 22 00:37:51 vmi2858748 npm[147491]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 22 00:43:55 vmi2858748 npm[147667]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 22 00:44:58 vmi2858748 npm[147667]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for QTUM/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for SAND/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for BCH/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for VET/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for WLD/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for SUI/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for ZIL/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for NEIRO/USDT
+Oct 22 00:43:56 vmi2858748 npm[147667]: WebSocket connected for WIF/USDT
+Oct 22 00:44:58 vmi2858748 npm[147667]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 00:31:00 vmi2858748 npm[146297]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T22:31:00.005Z) ==========
+Oct 22 00:36:03 vmi2858748 npm[147491]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 00:36:03 vmi2858748 npm[147491]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 22 00:43:52 vmi2858748 npm[147667]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 00:43:52 vmi2858748 npm[147667]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 00:43:50 CEST; 1min 10s ago
+   Main PID: 147655 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 902.2M (peak: 1.1G)
+        CPU: 1min 24.349s
+     CGroup: /system.slice/crypto-trader.service
+             ├─147655 "npm start"
+             ├─147666 sh -c "NODE_ENV=production node dist/index.js"
+             └─147667 node dist/index.js
+
+Oct 22 00:43:58 vmi2858748 npm[147667]: ⏳ SAND/USDT SHORT: Price $0.2117 | TP: $0.2076 | SL: $0.2227
+Oct 22 00:43:58 vmi2858748 npm[147667]: ⏳ SHIB/USDT LONG: Price $0.00001018 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 00:44:12 vmi2858748 npm[147667]: [PERF] getActiveTrades() query: 5228ms (3 rows)
+
