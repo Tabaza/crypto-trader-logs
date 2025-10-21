@@ -25366,3 +25366,49 @@ Oct 21 22:13:27 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 5371ms (
 Oct 21 22:13:39 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 1473ms (1 rows)
 Oct 21 22:13:52 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 3893ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 22:30:01
+
+📋 Active Signals:
+Oct 21 22:17:53 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 22:23:51 vmi2858748 npm[142435]: 🔍 Pre-fetched 1 active signals to avoid repeated queries
+Oct 21 22:27:12 vmi2858748 npm[145580]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 22:28:16 vmi2858748 npm[145580]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 22:29:17 vmi2858748 npm[145580]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 22:27:12 vmi2858748 npm[145580]: WebSocket connected for MANA/USDT
+Oct 21 22:27:12 vmi2858748 npm[145580]: WebSocket connected for NEO/USDT
+Oct 21 22:27:12 vmi2858748 npm[145580]: WebSocket connected for ZIL/USDT
+Oct 21 22:27:12 vmi2858748 npm[145580]: WebSocket connected for THETA/USDT
+Oct 21 22:27:12 vmi2858748 npm[145580]: WebSocket connected for RAY/USDT
+Oct 21 22:27:12 vmi2858748 npm[145580]: WebSocket connected for UNI/USDT
+Oct 21 22:27:12 vmi2858748 npm[145580]: WebSocket connected for MATIC/USDT
+Oct 21 22:27:13 vmi2858748 npm[145580]: WebSocket connected for IMX/USDT
+Oct 21 22:28:16 vmi2858748 npm[145580]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 22:29:17 vmi2858748 npm[145580]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 22:16:00 vmi2858748 npm[142435]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T20:16:00.578Z) ==========
+Oct 21 22:18:45 vmi2858748 npm[142435]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Oct 21 22:27:08 vmi2858748 npm[145580]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 22:27:08 vmi2858748 npm[145580]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 22:27:06 CEST; 2min 55s ago
+   Main PID: 145568 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 596.4M (peak: 884.1M)
+        CPU: 2min 10.302s
+     CGroup: /system.slice/crypto-trader.service
+             ├─145568 "npm start"
+             ├─145579 sh -c "NODE_ENV=production node dist/index.js"
+             └─145580 node dist/index.js
+
+Oct 21 22:28:39 vmi2858748 npm[145580]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Oct 21 22:28:50 vmi2858748 npm[145580]: [PERF] getActiveTrades() query: 921ms (1 rows)
+Oct 21 22:29:00 vmi2858748 npm[145580]: [PERF] getActiveTrades() query: 3ms (1 rows)
+
