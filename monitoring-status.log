@@ -21587,3 +21587,37 @@ Oct 21 03:56:27 vmi2858748 npm[121491]: ⏳ BOME/USDT LONG: Price $0.001098 | TP
 Oct 21 03:56:27 vmi2858748 npm[121491]: ⏳ BCH/USDT LONG: Price $476.70 | TP: $504.40 | SL: $470.45
 Oct 21 03:56:27 vmi2858748 npm[121491]: ⏳ ARB/USDT LONG: Price $0.3209 | TP: $0.3322 | SL: $0.3098
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 04:15:01
+
+📋 Active Signals:
+Oct 21 03:55:57 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 21 03:58:44 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 21 04:02:49 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 21 04:08:11 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 21 04:12:01 vmi2858748 npm[121491]: 🔍 Pre-fetched 4 active signals to avoid repeated queries
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 04:01:00 vmi2858748 npm[121491]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T02:01:00.036Z) ==========
+Oct 21 04:09:00 vmi2858748 npm[121491]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-10-20 19:53:19 CEST; 8h ago
+   Main PID: 121478 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.6G (peak: 3.9G)
+        CPU: 7h 20min 32.622s
+     CGroup: /system.slice/crypto-trader.service
+             ├─121478 "npm start"
+             ├─121490 sh -c "NODE_ENV=production node dist/index.js"
+             └─121491 node dist/index.js
+
+Oct 21 04:09:02 vmi2858748 npm[121491]: ✅ Loaded OHLCV for 68/68 symbols
+Oct 21 04:10:45 vmi2858748 npm[121491]: ⏳ AAVE/USDT LONG: Price $225.20 | TP: $238.19 | SL: $222.16
+Oct 21 04:10:45 vmi2858748 npm[121491]: ⏳ BOME/USDT LONG: Price $0.001097 | TP: $0.001192 | SL: $0.001090
+
