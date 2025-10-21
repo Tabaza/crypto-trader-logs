@@ -24788,3 +24788,38 @@ Oct 21 19:24:33 vmi2858748 npm[141862]: [PERF] getActiveTrades() query: 10758ms 
 Oct 21 19:25:22 vmi2858748 npm[141862]: [PERF] getActiveTrades() query: 38126ms (1 rows)
 Oct 21 19:26:53 vmi2858748 npm[141862]: 📊 Monitoring 1 active signals (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 19:45:01
+
+📋 Active Signals:
+Oct 21 19:18:14 vmi2858748 npm[141684]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:24:12 vmi2858748 npm[141862]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:26:53 vmi2858748 npm[141862]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:34:51 vmi2858748 npm[142133]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 19:36:54 vmi2858748 npm[142133]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 19:31:00 vmi2858748 npm[141862]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T17:31:00.000Z) ==========
+Oct 21 19:34:48 vmi2858748 npm[142133]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 19:34:48 vmi2858748 npm[142133]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 19:34:46 CEST; 10min ago
+   Main PID: 142121 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 4.0G (peak: 4.0G)
+        CPU: 14min 22.771s
+     CGroup: /system.slice/crypto-trader.service
+             ├─142121 "npm start"
+             ├─142132 sh -c "NODE_ENV=production node dist/index.js"
+             └─142133 node dist/index.js
+
+Oct 21 19:38:45 vmi2858748 npm[142133]: ⏳ SHIB/USDT LONG: Price $0.00001040 | TP: $0.00001054 | SL: $0.00000964
+Oct 21 19:38:46 vmi2858748 npm[142133]: [PERF] getActiveTrades() query: 110852ms (1 rows)
+Oct 21 19:39:29 vmi2858748 npm[142133]: WebSocket closed for BTC/USDT, reconnecting...
+
