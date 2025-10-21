@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-10-21 04:30:01
+Crypto Trader Log Export - 2025-10-21 04:45:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Oct 21 04:03:15 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 121329ms (4 rows)
-Oct 21 04:04:39 vmi2858748 npm[121491]: [PERF] Trade stats query: 109460ms
-Oct 21 04:04:39 vmi2858748 npm[121491]: ⏳ AAVE/USDT LONG: Price $225.90 | TP: $238.19 | SL: $222.16
-Oct 21 04:04:39 vmi2858748 npm[121491]: ⏳ BOME/USDT LONG: Price $0.001096 | TP: $0.001192 | SL: $0.001090
-Oct 21 04:04:39 vmi2858748 npm[121491]: ⏳ BCH/USDT LONG: Price $476.30 | TP: $504.40 | SL: $470.45
-Oct 21 04:04:39 vmi2858748 npm[121491]: ⏳ ARB/USDT LONG: Price $0.3204 | TP: $0.3322 | SL: $0.3098
-Oct 21 04:05:31 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 126037ms (4 rows)
-Oct 21 04:06:38 vmi2858748 npm[121491]: [PERF] MIDAS window query: 119396ms
-Oct 21 04:06:38 vmi2858748 npm[121491]: [PERF] getSymbols() TOTAL: 338514ms
-Oct 21 04:06:38 vmi2858748 npm[121491]: 📊 Loaded 68 symbols from database
-Oct 21 04:08:11 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 21 04:08:13 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 151272ms (4 rows)
-Oct 21 04:09:00 vmi2858748 npm[121491]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
-Oct 21 04:09:00 vmi2858748 npm[121491]: 📥 Fetching OHLCV data for 68 symbols in parallel...
-Oct 21 04:09:02 vmi2858748 npm[121491]: ✅ Loaded OHLCV for 68/68 symbols
-Oct 21 04:10:45 vmi2858748 npm[121491]: ⏳ AAVE/USDT LONG: Price $225.20 | TP: $238.19 | SL: $222.16
-Oct 21 04:10:45 vmi2858748 npm[121491]: ⏳ BOME/USDT LONG: Price $0.001097 | TP: $0.001192 | SL: $0.001090
-Oct 21 04:10:45 vmi2858748 npm[121491]: ⏳ BCH/USDT LONG: Price $475.80 | TP: $504.40 | SL: $470.45
-Oct 21 04:10:45 vmi2858748 npm[121491]: ⏳ ARB/USDT LONG: Price $0.3198 | TP: $0.3322 | SL: $0.3098
-Oct 21 04:11:10 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 167835ms (4 rows)
-Oct 21 04:12:01 vmi2858748 npm[121491]: 🔍 Pre-fetched 4 active signals to avoid repeated queries
-Oct 21 04:12:01 vmi2858748 npm[121491]: 🧮 Calculating volume profiles and MIDAS for 68 symbols...
-Oct 21 04:12:01 vmi2858748 npm[121491]: 💾 Writing 68 volume profiles and 68 MIDAS data in parallel...
-Oct 21 04:14:58 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 211879ms (4 rows)
-Oct 21 04:15:42 vmi2858748 npm[121491]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 21 04:15:48 vmi2858748 npm[121491]: ✅ Database writes complete
-Oct 21 04:15:48 vmi2858748 npm[121491]: 📊 Processing BTC/USDT...
-Oct 21 04:15:48 vmi2858748 npm[121491]:     [Momentum Gap] Price: $109599.44, MIDAS: $221470.63, POC: $110763.72, Vol: 1.69x
-Oct 21 04:15:48 vmi2858748 npm[121491]:     ❌ Rejected: Volume 1.69x < 2x required
-Oct 21 04:15:48 vmi2858748 npm[121491]:     [VWAP Sigma] Price: $109599.44, VWAP: $110314.58, Sigma: 2.07σ, Vol: 1.69x
-Oct 21 04:16:00 vmi2858748 npm[121491]: ⚠️ Signal processing already in progress, skipping...
-Oct 21 04:19:27 vmi2858748 npm[121491]: [PERF] getActiveTrades() query: 254352ms (4 rows)
-Oct 21 04:20:44 vmi2858748 npm[121491]: ⏳ AAVE/USDT LONG: Price $225.15 | TP: $238.19 | SL: $222.16
-Oct 21 04:20:44 vmi2858748 npm[121491]: ⏳ BOME/USDT LONG: Price $0.001093 | TP: $0.001192 | SL: $0.001090
-Oct 21 04:20:44 vmi2858748 npm[121491]: ⏳ BCH/USDT LONG: Price $476.10 | TP: $504.40 | SL: $470.45
-Oct 21 04:20:44 vmi2858748 npm[121491]: ⏳ ARB/USDT LONG: Price $0.3194 | TP: $0.3322 | SL: $0.3098
-Oct 21 04:20:48 vmi2858748 npm[121491]:   🎯 [VWAP Sigma] SIGNAL 1/3: LONG @ $109599.44 (86.22029483274264% strength)
-Oct 21 04:20:48 vmi2858748 npm[121491]: 📊 Processing ETH/USDT...
-Oct 21 04:20:48 vmi2858748 npm[121491]:     [Momentum Gap] Price: $3932.93, MIDAS: $7935.70, POC: $3954.09, Vol: 2.47x
-Oct 21 04:26:58 vmi2858748 npm[121491]: <--- Last few GCs --->
-Oct 21 04:26:58 vmi2858748 npm[121491]: [121491:0x2879ef60] 30806223 ms: Scavenge 3988.6 (4125.5) -> 3979.1 (4127.5) MB, 29.19 / 0.00 ms  (average mu = 0.179, current mu = 0.021) task;
-Oct 21 04:26:58 vmi2858748 npm[121491]: [121491:0x2879ef60] 30806323 ms: Scavenge 3990.5 (4127.5) -> 3980.8 (4129.0) MB, 38.22 / 0.00 ms  (average mu = 0.179, current mu = 0.021) task;
-Oct 21 04:26:58 vmi2858748 npm[121491]: [121491:0x2879ef60] 30815057 ms: Mark-Compact 3992.6 (4129.0) -> 3976.9 (4130.5) MB, 8651.34 / 0.00 ms  (average mu = 0.135, current mu = 0.108) task; scavenge might not succeed
-Oct 21 04:26:58 vmi2858748 npm[121491]: <--- JS stacktrace --->
-Oct 21 04:26:58 vmi2858748 npm[121491]: FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
-Oct 21 04:26:58 vmi2858748 npm[121491]: ----- Native stack trace -----
-Oct 21 04:26:58 vmi2858748 npm[121491]:  1: 0xb76dc5 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  2: 0xee6020 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  3: 0xee6307 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  4: 0x10f7f55  [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  5: 0x10f84e4 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  6: 0x110f3d4 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::internal::GarbageCollectionReason, char const*) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  7: 0x110fbec v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  8: 0x11689ac v8::internal::MinorGCJob::Task::RunInternal() [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]:  9: 0xd309b6  [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 10: 0xd33f5f node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 11: 0x18a7183  [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 12: 0x18bbbfb  [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 13: 0x18a7ea7 uv_run [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 14: 0xbb9be6 node::SpinEventLoopInternal(node::Environment*) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 15: 0xd048c1 node::NodeMainInstance::Run() [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 16: 0xc6652f node::Start(int, char**) [node]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 17: 0x7e2b1f02a1ca  [/lib/x86_64-linux-gnu/libc.so.6]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 18: 0x7e2b1f02a28b __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
-Oct 21 04:26:58 vmi2858748 npm[121491]: 19: 0xbb614e _start [node]
-Oct 21 04:26:59 vmi2858748 npm[121490]: Aborted (core dumped)
-Oct 21 04:26:59 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=134/n/a
-Oct 21 04:26:59 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
-Oct 21 04:26:59 vmi2858748 systemd[1]: crypto-trader.service: Consumed 7h 45min 10.739s CPU time, 3.9G memory peak, 0B memory swap peak.
-Oct 21 04:27:09 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 1.
-Oct 21 04:27:09 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Oct 21 04:27:09 vmi2858748 npm[128141]: > rest-express@1.0.0 start
-Oct 21 04:27:09 vmi2858748 npm[128141]: > NODE_ENV=production node dist/index.js
-Oct 21 04:27:11 vmi2858748 npm[128153]: 💾 Using PostgreSQL database storage
-Oct 21 04:27:11 vmi2858748 npm[128153]: 📚 Registering trading strategies...
-Oct 21 04:27:11 vmi2858748 npm[128153]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 21 04:27:11 vmi2858748 npm[128153]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 21 04:27:11 vmi2858748 npm[128153]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 21 04:27:11 vmi2858748 npm[128153]: ✅ 3 strategies registered
-Oct 21 04:27:11 vmi2858748 npm[128153]: Initializing symbols from Binance...
-Oct 21 04:27:14 vmi2858748 npm[128153]: ✅ Loaded 67/67 symbols from Binance SPOT
-Oct 21 04:27:14 vmi2858748 npm[128153]: Loading 67 symbols from Binance SPOT market...
-Oct 21 04:27:14 vmi2858748 npm[128153]: ✅ 67 symbols initialized successfully from Binance SPOT
-Oct 21 04:27:14 vmi2858748 npm[128153]: [PERF] Symbols query: 2ms (68 rows)
-Oct 21 04:27:14 vmi2858748 npm[128153]: [PERF] Trade stats query: 4ms
-Oct 21 04:27:14 vmi2858748 npm[128153]: [PERF] MIDAS window query: 17ms
-Oct 21 04:27:14 vmi2858748 npm[128153]: [PERF] getSymbols() TOTAL: 36ms
-Oct 21 04:27:14 vmi2858748 npm[128153]: Starting WebSocket for 68 symbols...
-Oct 21 04:27:14 vmi2858748 npm[128153]: WebSocket streams initialized
-Oct 21 04:27:14 vmi2858748 npm[128153]: ⏰ Signal scheduler will start at next 15-min boundary (02:31 UTC, in 226 seconds)
-Oct 21 04:27:14 vmi2858748 npm[128153]: 4:27:14 AM [express] serving on port 5000
-Oct 21 04:27:14 vmi2858748 npm[128153]: 🚀 Starting REST polling monitor (1-minute checks)...
-Oct 21 04:27:14 vmi2858748 npm[128153]: 📊 Monitoring 5 active signals (REST 1-min check)...
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ATOM/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ETH/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for INJ/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for BNB/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ALGO/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for APT/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for DOT/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ENA/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ETC/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for UNI/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for CHZ/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for LINK/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for BOME/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ORDI/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for NEAR/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for SOL/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for JUP/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for OP/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ARKM/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for TRX/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for DOGE/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for FLOKI/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for SHIB/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for EGLD/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for PEPE/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for FET/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for RAY/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 6ms (4 rows)
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for RUNE/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for 1000SATS/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for S/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for VET/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for DASH/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for QTUM/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for BONK/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for TIA/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ADA/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for AAVE/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for WIF/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for COMP/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for MATIC/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for BCH/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for GALA/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for NEO/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ARB/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ICP/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for MKR/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for TON/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for XRP/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for THETA/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for IMX/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for WLD/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for MANA/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for XLM/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for NEIRO/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ZEC/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for SAND/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for ZIL/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for PNUT/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for AXS/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for SUI/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for RENDER/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for AVAX/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for FIL/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for LDO/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for STX/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for LTC/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for SEI/USDT
-Oct 21 04:27:15 vmi2858748 npm[128153]: WebSocket connected for BTC/USDT
-Oct 21 04:27:17 vmi2858748 npm[128153]: 🛑 BTC/USDT: SL HIT at $109326.96 (REST check)
-Oct 21 04:27:17 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.27 | TP: $238.19 | SL: $222.16
-Oct 21 04:27:17 vmi2858748 npm[128153]: ⏳ BOME/USDT LONG: Price $0.001090 | TP: $0.001192 | SL: $0.001090
-Oct 21 04:27:17 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $475.50 | TP: $504.40 | SL: $470.45
-Oct 21 04:27:17 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3179 | TP: $0.3322 | SL: $0.3098
-Oct 21 04:27:25 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:25 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:25 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:25 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:25 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:25 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:27 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2658ms (3 rows)
-Oct 21 04:27:42 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4461ms (3 rows)
-Oct 21 04:27:43 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:43 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:43 vmi2858748 npm[128153]: Trade ffd21620-149b-4126-bd51-1db89a2f2648 closed at stop loss: 0.001089
-Oct 21 04:27:46 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3306ms (3 rows)
-Oct 21 04:27:57 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 715ms (3 rows)
-Oct 21 04:28:08 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 940ms (3 rows)
-Oct 21 04:28:20 vmi2858748 npm[128153]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 21 04:28:21 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2830ms (3 rows)
-Oct 21 04:28:23 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.33 | TP: $238.19 | SL: $222.16
-Oct 21 04:28:23 vmi2858748 npm[128153]: 🛑 BOME/USDT: SL HIT at $0.001089 (REST check)
-Oct 21 04:28:23 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $475.80 | TP: $504.40 | SL: $470.45
-Oct 21 04:28:23 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3178 | TP: $0.3322 | SL: $0.3098
-Oct 21 04:28:33 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1673ms (3 rows)
-Oct 21 04:28:44 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1124ms (3 rows)
-Oct 21 04:28:54 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Oct 21 04:29:04 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 27ms (3 rows)
-Oct 21 04:29:14 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 80ms (3 rows)
-Oct 21 04:29:24 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
-Oct 21 04:29:24 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.66 | TP: $238.19 | SL: $222.16
-Oct 21 04:29:24 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $476.30 | TP: $504.40 | SL: $470.45
-Oct 21 04:29:24 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3185 | TP: $0.3322 | SL: $0.3098
-Oct 21 04:29:24 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Oct 21 04:29:34 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Oct 21 04:29:45 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 725ms (3 rows)
-Oct 21 04:29:55 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1ms (3 rows)
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $2.54, MIDAS: $5.16, POC: $2.58, Vol: 0.13x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.13x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $2.54, VWAP: $2.56, Sigma: 1.37σ, Vol: 0.13x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.13x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing THETA/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $0.5520, MIDAS: $1.11, POC: $0.5540, Vol: 0.05x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.05x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $0.5520, VWAP: $0.5585, Sigma: 1.85σ, Vol: 0.05x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.05x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing TIA/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $1.01, MIDAS: $2.05, POC: $1.03, Vol: 0.05x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.05x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $1.01, VWAP: $1.02, Sigma: 1.61σ, Vol: 0.05x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.05x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing TON/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $2.23, MIDAS: $4.47, POC: $2.24, Vol: 0.14x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.14x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $2.23, VWAP: $2.24, Sigma: 0.59σ, Vol: 0.14x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Sigma 0.59σ outside range 1.3-2.2σ
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing TRX/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $0.3213, MIDAS: $0.6443, POC: $0.3224, Vol: 0.01x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.01x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $0.3213, VWAP: $0.3220, Sigma: 1.50σ, Vol: 0.01x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.01x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing UNI/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $6.26, MIDAS: $12.68, POC: $6.34, Vol: 0.14x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.14x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $6.26, VWAP: $6.32, Sigma: 1.71σ, Vol: 0.14x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.14x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing VET/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $0.0176, MIDAS: $0.0357, POC: $0.0179, Vol: 0.21x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.21x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $0.0176, VWAP: $0.0177, Sigma: 0.71σ, Vol: 0.21x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Sigma 0.71σ outside range 1.3-2.2σ
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing WIF/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $0.5330, MIDAS: $1.09, POC: $0.5450, Vol: 0.22x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.22x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $0.5330, VWAP: $0.5398, Sigma: 1.70σ, Vol: 0.22x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.22x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing WLD/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $0.9010, MIDAS: $1.84, POC: $0.9180, Vol: 0.11x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.11x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $0.9010, VWAP: $0.9104, Sigma: 1.23σ, Vol: 0.11x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Sigma 1.23σ outside range 1.3-2.2σ
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing XLM/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $0.3212, MIDAS: $0.6517, POC: $0.3258, Vol: 0.04x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.04x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $0.3212, VWAP: $0.3242, Sigma: 1.72σ, Vol: 0.04x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.04x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing XRP/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $2.46, MIDAS: $4.96, POC: $2.47, Vol: 0.14x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.14x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $2.46, VWAP: $2.48, Sigma: 1.64σ, Vol: 0.14x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.14x < 1.2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing ZEC/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $265.49, MIDAS: $535.85, POC: $268.17, Vol: 0.04x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.04x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $265.49, VWAP: $267.18, Sigma: 1.26σ, Vol: 0.04x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Sigma 1.26σ outside range 1.3-2.2σ
+Oct 21 04:31:36 vmi2858748 npm[128153]: 📊 Processing ZIL/USDT...
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [Momentum Gap] Price: $0.007930, MIDAS: $0.0161, POC: $0.008041, Vol: 0.09x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Volume 0.09x < 2x required
+Oct 21 04:31:36 vmi2858748 npm[128153]:     [VWAP Sigma] Price: $0.007930, VWAP: $0.007988, Sigma: 1.25σ, Vol: 0.09x
+Oct 21 04:31:36 vmi2858748 npm[128153]:     ❌ Rejected: Sigma 1.25σ outside range 1.3-2.2σ
+Oct 21 04:31:36 vmi2858748 npm[128153]: 🚀 EXECUTION PHASE: 0 signals ready
+Oct 21 04:31:38 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2257ms (3 rows)
+Oct 21 04:31:38 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:31:38 vmi2858748 npm[128153]: ✅ Scan complete: 0 signals generated, 0 executed in 38.68s
+Oct 21 04:31:38 vmi2858748 npm[128153]: ================================================
+Oct 21 04:31:39 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.83 | TP: $238.19 | SL: $222.16
+Oct 21 04:31:39 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $476.60 | TP: $504.40 | SL: $470.45
+Oct 21 04:31:39 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3187 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:31:48 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 207ms (3 rows)
+Oct 21 04:31:59 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 599ms (3 rows)
+Oct 21 04:32:09 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Oct 21 04:32:22 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3215ms (3 rows)
+Oct 21 04:32:33 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 769ms (3 rows)
+Oct 21 04:32:39 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:32:40 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.86 | TP: $238.19 | SL: $222.16
+Oct 21 04:32:40 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.00 | TP: $504.40 | SL: $470.45
+Oct 21 04:32:40 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3190 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:32:43 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 632ms (3 rows)
+Oct 21 04:32:53 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:33:03 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1ms (3 rows)
+Oct 21 04:33:13 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:33:24 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 425ms (3 rows)
+Oct 21 04:33:34 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 88ms (3 rows)
+Oct 21 04:33:40 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:33:40 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.83 | TP: $238.19 | SL: $222.16
+Oct 21 04:33:40 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.00 | TP: $504.40 | SL: $470.45
+Oct 21 04:33:40 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3190 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:33:44 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:33:54 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:34:04 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:34:17 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3198ms (3 rows)
+Oct 21 04:34:29 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1483ms (3 rows)
+Oct 21 04:34:39 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:34:40 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:34:41 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.70 | TP: $238.19 | SL: $222.16
+Oct 21 04:34:41 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $476.80 | TP: $504.40 | SL: $470.45
+Oct 21 04:34:41 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3188 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:34:50 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 636ms (3 rows)
+Oct 21 04:35:00 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 732ms (3 rows)
+Oct 21 04:35:12 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1347ms (3 rows)
+Oct 21 04:35:22 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 30ms (3 rows)
+Oct 21 04:35:32 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 111ms (3 rows)
+Oct 21 04:35:42 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:35:43 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1041ms (3 rows)
+Oct 21 04:35:44 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $225.03 | TP: $238.19 | SL: $222.16
+Oct 21 04:35:44 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.20 | TP: $504.40 | SL: $470.45
+Oct 21 04:35:44 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3193 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:35:53 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:36:04 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1246ms (3 rows)
+Oct 21 04:36:16 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1428ms (3 rows)
+Oct 21 04:36:28 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1797ms (3 rows)
+Oct 21 04:36:38 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:36:44 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:36:44 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.95 | TP: $238.19 | SL: $222.16
+Oct 21 04:36:44 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.50 | TP: $504.40 | SL: $470.45
+Oct 21 04:36:44 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3193 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:36:49 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 930ms (3 rows)
+Oct 21 04:37:03 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4560ms (3 rows)
+Oct 21 04:37:14 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 444ms (3 rows)
+Oct 21 04:37:24 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:37:34 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 8ms (3 rows)
+Oct 21 04:37:44 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:37:44 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:37:45 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.77 | TP: $238.19 | SL: $222.16
+Oct 21 04:37:45 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $476.70 | TP: $504.40 | SL: $470.45
+Oct 21 04:37:45 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3188 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:37:54 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:38:04 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:38:14 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Oct 21 04:38:24 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:38:35 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1178ms (3 rows)
+Oct 21 04:38:45 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:38:45 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.98 | TP: $238.19 | SL: $222.16
+Oct 21 04:38:45 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.00 | TP: $504.40 | SL: $470.45
+Oct 21 04:38:45 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3191 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:38:45 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:38:55 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:39:06 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:39:16 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 489ms (3 rows)
+Oct 21 04:39:26 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:39:36 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:39:45 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:39:46 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $225.03 | TP: $238.19 | SL: $222.16
+Oct 21 04:39:46 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.10 | TP: $504.40 | SL: $470.45
+Oct 21 04:39:46 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3192 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:39:46 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:39:56 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:40:06 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:40:16 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:40:26 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:40:36 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:40:46 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:40:46 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.92 | TP: $238.19 | SL: $222.16
+Oct 21 04:40:46 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $476.80 | TP: $504.40 | SL: $470.45
+Oct 21 04:40:46 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3191 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:40:47 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 806ms (3 rows)
+Oct 21 04:40:57 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:41:07 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 21 04:41:17 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Oct 21 04:41:29 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 1620ms (3 rows)
+Oct 21 04:41:39 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:41:46 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:41:47 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $225.31 | TP: $238.19 | SL: $222.16
+Oct 21 04:41:47 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.30 | TP: $504.40 | SL: $470.45
+Oct 21 04:41:47 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3196 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:41:49 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Oct 21 04:42:02 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2833ms (3 rows)
+Oct 21 04:42:12 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Oct 21 04:42:23 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 371ms (3 rows)
+Oct 21 04:42:35 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2460ms (3 rows)
+Oct 21 04:42:46 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 621ms (3 rows)
+Oct 21 04:42:47 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:42:47 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $225.26 | TP: $238.19 | SL: $222.16
+Oct 21 04:42:47 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $477.30 | TP: $504.40 | SL: $470.45
+Oct 21 04:42:47 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3195 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:42:56 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 302ms (3 rows)
+Oct 21 04:43:07 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 688ms (3 rows)
+Oct 21 04:43:17 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:43:27 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 152ms (3 rows)
+Oct 21 04:43:38 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 681ms (3 rows)
+Oct 21 04:43:47 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:43:47 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.87 | TP: $238.19 | SL: $222.16
+Oct 21 04:43:47 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $476.80 | TP: $504.40 | SL: $470.45
+Oct 21 04:43:47 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3189 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:43:48 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Oct 21 04:43:58 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:44:08 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:44:18 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:44:28 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:44:38 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Oct 21 04:44:47 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 04:44:48 vmi2858748 npm[128153]: ⏳ AAVE/USDT LONG: Price $224.74 | TP: $238.19 | SL: $222.16
+Oct 21 04:44:48 vmi2858748 npm[128153]: ⏳ BCH/USDT LONG: Price $476.70 | TP: $504.40 | SL: $470.45
+Oct 21 04:44:48 vmi2858748 npm[128153]: ⏳ ARB/USDT LONG: Price $0.3186 | TP: $0.3322 | SL: $0.3098
+Oct 21 04:44:48 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 8ms (3 rows)
+Oct 21 04:44:58 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 rows)
 
