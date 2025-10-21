@@ -24553,3 +24553,48 @@ Oct 21 18:09:53 vmi2858748 npm[140283]: [PERF] getActiveTrades() query: 14361ms 
 Oct 21 18:10:37 vmi2858748 npm[140283]: [PERF] getActiveTrades() query: 34390ms (1 rows)
 Oct 21 18:10:58 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 18:30:01
+
+📋 Active Signals:
+Oct 21 18:10:58 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:13:41 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:18:30 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:27:49 vmi2858748 npm[140739]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:29:02 vmi2858748 npm[140739]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for WIF/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for XLM/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for SUI/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for TIA/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for WLD/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for ZEC/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for TON/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for XRP/USDT
+Oct 21 18:27:50 vmi2858748 npm[140739]: WebSocket connected for THETA/USDT
+Oct 21 18:29:02 vmi2858748 npm[140739]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 18:16:00 vmi2858748 npm[140283]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T16:16:00.002Z) ==========
+Oct 21 18:27:46 vmi2858748 npm[140739]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 18:27:46 vmi2858748 npm[140739]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 18:27:44 CEST; 2min 18s ago
+   Main PID: 140727 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 735.3M (peak: 1011.1M)
+        CPU: 2min 40.883s
+     CGroup: /system.slice/crypto-trader.service
+             ├─140727 "npm start"
+             ├─140738 sh -c "NODE_ENV=production node dist/index.js"
+             └─140739 node dist/index.js
+
+Oct 21 18:28:03 vmi2858748 npm[140739]: [PERF] getActiveTrades() query: 2667ms (1 rows)
+Oct 21 18:28:17 vmi2858748 npm[140739]: [PERF] getActiveTrades() query: 4587ms (1 rows)
+Oct 21 18:28:29 vmi2858748 npm[140739]: [PERF] getActiveTrades() query: 1744ms (1 rows)
+
