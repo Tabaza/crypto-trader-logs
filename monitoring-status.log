@@ -24344,3 +24344,43 @@ Oct 21 16:57:41 vmi2858748 npm[139165]: WebSocket connected for UNI/USDT
 Oct 21 16:57:45 vmi2858748 npm[139165]: ⏳ SHIB/USDT LONG: Price $0.00001038 | TP: $0.00001054 | SL: $0.00000964
 Oct 21 16:57:45 vmi2858748 npm[139165]: 🎯 RENDER/USDT: TP HIT at $2.63 (REST check)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 17:15:01
+
+📋 Active Signals:
+Oct 21 16:51:11 vmi2858748 npm[139040]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 16:57:39 vmi2858748 npm[139165]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 17:01:38 vmi2858748 npm[139165]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 21 17:09:13 vmi2858748 npm[139324]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 21 17:12:10 vmi2858748 npm[139324]: 📊 Monitoring 2 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 17:12:10 vmi2858748 npm[139324]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 21 17:13:53 vmi2858748 npm[139324]: WebSocket closed for FLOKI/USDT, reconnecting...
+Oct 21 17:13:58 vmi2858748 npm[139324]: WebSocket connected for FLOKI/USDT
+Oct 21 17:14:44 vmi2858748 npm[139324]: WebSocket closed for ETH/USDT, reconnecting...
+Oct 21 17:14:52 vmi2858748 npm[139324]: WebSocket connected for ETH/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 17:01:00 vmi2858748 npm[139165]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T15:01:00.023Z) ==========
+Oct 21 17:09:09 vmi2858748 npm[139324]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 17:09:09 vmi2858748 npm[139324]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 17:09:07 CEST; 5min ago
+   Main PID: 139312 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.7G (peak: 3.7G)
+        CPU: 8min 8.929s
+     CGroup: /system.slice/crypto-trader.service
+             ├─139312 "npm start"
+             ├─139323 sh -c "NODE_ENV=production node dist/index.js"
+             └─139324 node dist/index.js
+
+Oct 21 17:09:16 vmi2858748 npm[139324]: 🎯 GALA/USDT: TP HIT at $0.0117 (REST check)
+Oct 21 17:09:16 vmi2858748 npm[139324]: ⏳ DASH/USDT LONG: Price $47.60 | TP: $48.07 | SL: $44.83
+Oct 21 17:09:43 vmi2858748 npm[139324]: [PERF] getActiveTrades() query: 18605ms (4 rows)
+
