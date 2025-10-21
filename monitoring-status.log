@@ -24919,3 +24919,56 @@ Oct 21 20:10:48 vmi2858748 npm[142435]: ⏳ SHIB/USDT LONG: Price $0.00001037 | 
 Oct 21 20:10:48 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 4935ms (1 rows)
 Oct 21 20:11:02 vmi2858748 npm[142435]: [PERF] getActiveTrades() query: 3968ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 20:30:01
+
+📋 Active Signals:
+Oct 21 20:12:47 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 20:17:21 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 20:22:43 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 20:27:03 vmi2858748 npm[142435]: 🔍 Pre-fetched 1 active signals to avoid repeated queries
+Oct 21 20:28:32 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 20:28:32 vmi2858748 npm[142435]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.17x < 1.3x required
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 20:29:02 vmi2858748 npm[142435]:     [Momentum Gap] Price: $0.5680, MIDAS: $0.5554, POC: $0.5713, Vol: 0.19x
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.19x < 1.3x required
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 20:29:02 vmi2858748 npm[142435]:     [Momentum Gap] Price: $0.9400, MIDAS: $0.9329, POC: $0.9541, Vol: 0.62x
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.62x < 1.3x required
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 20:29:02 vmi2858748 npm[142435]:     [Momentum Gap] Price: $0.3283, MIDAS: $0.3230, POC: $0.3161, Vol: 0.16x
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.16x < 1.3x required
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 20:29:02 vmi2858748 npm[142435]:     [Momentum Gap] Price: $2.49, MIDAS: $2.46, POC: $2.42, Vol: 0.42x
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.42x < 1.3x required
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 20:29:02 vmi2858748 npm[142435]:     [Momentum Gap] Price: $281.30, MIDAS: $277.59, POC: $273.79, Vol: 0.18x
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.18x < 1.3x required
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 20:29:02 vmi2858748 npm[142435]:     [Momentum Gap] Price: $0.008280, MIDAS: $0.008138, POC: $0.007800, Vol: 0.27x
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.27x < 1.3x required
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Not a range day - High range day (100% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 19:46:50 CEST; 43min ago
+   Main PID: 142423 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.1G (peak: 3.2G)
+        CPU: 49min 47.460s
+     CGroup: /system.slice/crypto-trader.service
+             ├─142423 "npm start"
+             ├─142434 sh -c "NODE_ENV=production node dist/index.js"
+             └─142435 node dist/index.js
+
+Oct 21 20:29:02 vmi2858748 npm[142435]: 📊 Processing ZEC/USDT...
+Oct 21 20:29:02 vmi2858748 npm[142435]:     [Momentum Gap] Price: $281.30, MIDAS: $277.59, POC: $273.79, Vol: 0.18x
+Oct 21 20:29:02 vmi2858748 npm[142435]:     ❌ Rejected: Volume 0.18x < 1.3x required
+
