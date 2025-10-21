@@ -22011,3 +22011,50 @@ Oct 21 05:59:08 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 3ms (3 r
 Oct 21 05:59:18 vmi2858748 npm[128153]: [PERF] getActiveTrades() query: 25ms (3 rows)
 Oct 21 05:59:26 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 06:15:01
+
+📋 Active Signals:
+Oct 21 06:00:56 vmi2858748 npm[128153]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 06:06:35 vmi2858748 npm[130604]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 06:09:22 vmi2858748 npm[130604]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 06:13:25 vmi2858748 npm[130680]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 06:14:40 vmi2858748 npm[130680]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for PNUT/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for XLM/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for LDO/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for RENDER/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for SAND/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for TON/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for ZIL/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for XRP/USDT
+Oct 21 06:13:31 vmi2858748 npm[130680]: WebSocket connected for WIF/USDT
+Oct 21 06:14:40 vmi2858748 npm[130680]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 06:01:00 vmi2858748 npm[128153]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T04:01:00.007Z) ==========
+Oct 21 06:06:32 vmi2858748 npm[130604]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 06:06:32 vmi2858748 npm[130604]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 21 06:13:22 vmi2858748 npm[130680]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 06:13:22 vmi2858748 npm[130680]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 06:13:21 CEST; 1min 40s ago
+   Main PID: 130668 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 827.8M (peak: 1.1G)
+        CPU: 1min 52.816s
+     CGroup: /system.slice/crypto-trader.service
+             ├─130668 "npm start"
+             ├─130679 sh -c "NODE_ENV=production node dist/index.js"
+             └─130680 node dist/index.js
+
+Oct 21 06:13:36 vmi2858748 npm[130680]: Trade 4fc630d0-c5b0-4e9b-aad2-ef90d91cfee3 closed at stop loss: 469.3
+Oct 21 06:13:36 vmi2858748 npm[130680]: [PERF] getActiveTrades() query: 55ms (1 rows)
+Oct 21 06:13:46 vmi2858748 npm[130680]: [PERF] getActiveTrades() query: 387ms (1 rows)
+
