@@ -24516,3 +24516,40 @@ Oct 21 17:57:19 vmi2858748 npm[140052]: [PERF] getActiveTrades() query: 19ms (1 
 Oct 21 17:57:20 vmi2858748 npm[140052]: ⏳ SHIB/USDT LONG: Price $0.00001046 | TP: $0.00001054 | SL: $0.00000964
 Oct 21 17:57:31 vmi2858748 npm[140052]: [PERF] getActiveTrades() query: 1848ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 18:15:01
+
+📋 Active Signals:
+Oct 21 17:58:44 vmi2858748 npm[140052]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:01:31 vmi2858748 npm[140052]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:09:12 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:10:58 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:13:41 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 18:10:58 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 18:13:41 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 18:01:00 vmi2858748 npm[140052]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T16:01:00.003Z) ==========
+Oct 21 18:09:08 vmi2858748 npm[140283]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 18:09:08 vmi2858748 npm[140283]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 18:09:06 CEST; 5min ago
+   Main PID: 140271 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 2.5G (peak: 2.6G)
+        CPU: 7min 15.827s
+     CGroup: /system.slice/crypto-trader.service
+             ├─140271 "npm start"
+             ├─140282 sh -c "NODE_ENV=production node dist/index.js"
+             └─140283 node dist/index.js
+
+Oct 21 18:09:53 vmi2858748 npm[140283]: [PERF] getActiveTrades() query: 14361ms (1 rows)
+Oct 21 18:10:37 vmi2858748 npm[140283]: [PERF] getActiveTrades() query: 34390ms (1 rows)
+Oct 21 18:10:58 vmi2858748 npm[140283]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
