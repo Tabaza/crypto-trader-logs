@@ -22863,3 +22863,65 @@ Oct 21 09:45:01 vmi2858748 npm[132930]: [PERF] getActiveTrades() query: 4ms (0 r
 Oct 21 09:45:01 vmi2858748 npm[132930]: [PERF] getActiveTrades() query: 10ms (0 rows)
 Oct 21 09:45:01 vmi2858748 npm[132930]: [PERF] getActiveTrades() query: 3ms (0 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 10:00:01
+
+📋 Active Signals:
+Oct 21 09:56:20 vmi2858748 npm[133332]: 📊 No active signals to monitor
+Oct 21 09:57:20 vmi2858748 npm[133332]: 📊 No active signals to monitor
+Oct 21 09:58:20 vmi2858748 npm[133332]: 📊 No active signals to monitor
+Oct 21 09:58:36 vmi2858748 npm[133566]: 📊 No active signals to monitor
+Oct 21 09:59:36 vmi2858748 npm[133566]: 📊 No active signals to monitor
+
+🔌 WebSocket Status:
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for THETA/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for SUI/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for WLD/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for NEIRO/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for RUNE/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for VET/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for TRX/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for UNI/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for LDO/USDT
+Oct 21 09:58:37 vmi2858748 npm[133566]: WebSocket connected for WIF/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Volume 0.00x < 1.3x required
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Not a range day - High range day (99% of median)
+Oct 21 09:46:02 vmi2858748 npm[133077]:     [Momentum Gap] Price: $2.42, MIDAS: $2.46, POC: $2.43, Vol: 0.08x
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Volume 0.08x < 1.3x required
+Oct 21 09:46:02 vmi2858748 npm[133077]:     [VWAP Sigma] Price: $2.42, VWAP: $2.43, Sigma: 0.68σ, Vol: 0.08x
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Sigma 0.68σ outside range 1.3-2.2σ
+Oct 21 09:46:02 vmi2858748 npm[133077]:     [Momentum Gap] Price: $254.93, MIDAS: $263.41, POC: $268.16, Vol: 0.05x
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Volume 0.05x < 1.3x required
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Strong uptrend (price: 0.56%, VWAP: 0.58%)
+Oct 21 09:46:02 vmi2858748 npm[133077]:     [Momentum Gap] Price: $0.007800, MIDAS: $0.007890, POC: $0.007800, Vol: 0.00x
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Volume 0.00x < 1.3x required
+Oct 21 09:46:02 vmi2858748 npm[133077]:     ❌ Rejected: Not a range day - Session range too wide (79% of median)
+Oct 21 09:46:35 vmi2858748 npm[133178]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 09:46:35 vmi2858748 npm[133178]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 21 09:49:39 vmi2858748 npm[133286]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 09:49:39 vmi2858748 npm[133286]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 21 09:50:16 vmi2858748 npm[133332]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 09:50:16 vmi2858748 npm[133332]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 21 09:58:33 vmi2858748 npm[133566]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 09:58:33 vmi2858748 npm[133566]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 09:58:31 CEST; 1min 32s ago
+   Main PID: 133553 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 240.3M (peak: 2.8G)
+        CPU: 36.115s
+     CGroup: /system.slice/crypto-trader.service
+             ├─133553 "npm start"
+             ├─133565 sh -c "NODE_ENV=production node dist/index.js"
+             └─133566 node dist/index.js
+
+Oct 21 10:00:03 vmi2858748 npm[133566]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Oct 21 10:00:03 vmi2858748 npm[133566]: [PERF] getActiveTrades() query: 7ms (0 rows)
+Oct 21 10:00:03 vmi2858748 npm[133566]: [PERF] getActiveTrades() query: 14ms (0 rows)
+
