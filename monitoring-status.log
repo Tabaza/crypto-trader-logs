@@ -25644,3 +25644,60 @@ Oct 21 23:28:43 vmi2858748 npm[146297]: WebSocket connected for XLM/USDT
 Oct 21 23:28:44 vmi2858748 npm[146297]: ⏳ SHIB/USDT LONG: Price $0.00001027 | TP: $0.00001054 | SL: $0.00000964
 Oct 21 23:28:55 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 1773ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 23:45:01
+
+📋 Active Signals:
+Oct 21 23:40:04 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:41:07 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:42:08 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:43:09 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:44:09 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 23:40:04 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:41:07 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:42:08 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:43:09 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+Oct 21 23:44:09 vmi2858748 npm[146297]: 📊 Monitoring 1 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.05x < 1.3x required
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 23:31:01 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.5480, MIDAS: $0.5582, POC: $0.5709, Vol: 0.02x
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.02x < 1.3x required
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 23:31:01 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.9110, MIDAS: $0.9355, POC: $0.9358, Vol: 0.01x
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 23:31:01 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.3227, MIDAS: $0.3243, POC: $0.3279, Vol: 0.01x
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 23:31:01 vmi2858748 npm[146297]:     [Momentum Gap] Price: $2.46, MIDAS: $2.47, POC: $2.49, Vol: 0.03x
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.03x < 1.3x required
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 23:31:01 vmi2858748 npm[146297]:     [Momentum Gap] Price: $274.79, MIDAS: $279.87, POC: $273.79, Vol: 0.01x
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 23:31:01 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.008100, MIDAS: $0.008182, POC: $0.008260, Vol: 0.01x
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 21 23:31:01 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 23:28:37 CEST; 16min ago
+   Main PID: 146285 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 338.5M (peak: 1.1G)
+        CPU: 10min 44.387s
+     CGroup: /system.slice/crypto-trader.service
+             ├─146285 "npm start"
+             ├─146296 sh -c "NODE_ENV=production node dist/index.js"
+             └─146297 node dist/index.js
+
+Oct 21 23:43:49 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Oct 21 23:43:59 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 4ms (1 rows)
+Oct 21 23:44:09 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 4ms (1 rows)
+
