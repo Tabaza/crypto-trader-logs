@@ -23983,3 +23983,65 @@ Oct 21 14:59:36 vmi2858748 npm[133820]: 📊 Processing ORDI/USDT...
 Oct 21 14:59:36 vmi2858748 npm[133820]:     [Momentum Gap] Price: $5.18, MIDAS: $5.15, POC: $5.10, Vol: 0.61x
 Oct 21 14:59:36 vmi2858748 npm[133820]:     ❌ Rejected: Volume 0.61x < 1.3x required
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 15:15:01
+
+📋 Active Signals:
+Oct 21 14:57:39 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 15:04:51 vmi2858748 npm[133820]: 📊 Monitoring 5 active signals (REST 1-min check)...
+Oct 21 15:11:36 vmi2858748 npm[137597]: 📊 Monitoring 6 active signals (REST 1-min check)...
+Oct 21 15:12:52 vmi2858748 npm[137597]: 📊 Monitoring 6 active signals (REST 1-min check)...
+Oct 21 15:14:23 vmi2858748 npm[137597]: 📊 Monitoring 6 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 15:11:37 vmi2858748 npm[137597]: WebSocket connected for TON/USDT
+Oct 21 15:11:37 vmi2858748 npm[137597]: WebSocket connected for AVAX/USDT
+Oct 21 15:11:37 vmi2858748 npm[137597]: WebSocket connected for UNI/USDT
+Oct 21 15:11:37 vmi2858748 npm[137597]: WebSocket connected for ETC/USDT
+Oct 21 15:11:37 vmi2858748 npm[137597]: WebSocket connected for SEI/USDT
+Oct 21 15:11:37 vmi2858748 npm[137597]: WebSocket connected for AAVE/USDT
+Oct 21 15:11:37 vmi2858748 npm[137597]: WebSocket connected for PNUT/USDT
+Oct 21 15:11:38 vmi2858748 npm[137597]: WebSocket connected for RAY/USDT
+Oct 21 15:12:52 vmi2858748 npm[137597]: 📊 Monitoring 6 active signals (REST 1-min check)...
+Oct 21 15:14:23 vmi2858748 npm[137597]: 📊 Monitoring 6 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - Session range too wide (88% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (98% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Strong uptrend (price: 0.60%, VWAP: 0.50%)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - Session range too wide (90% of median)
+Oct 21 15:08:09 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 15:11:29 vmi2858748 npm[137597]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 15:11:29 vmi2858748 npm[137597]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 15:11:27 CEST; 3min 34s ago
+   Main PID: 137585 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.6G (peak: 1.8G)
+        CPU: 4min 13.744s
+     CGroup: /system.slice/crypto-trader.service
+             ├─137585 "npm start"
+             ├─137596 sh -c "NODE_ENV=production node dist/index.js"
+             └─137597 node dist/index.js
+
+Oct 21 15:13:55 vmi2858748 npm[137597]: [PERF] getActiveTrades() query: 14482ms (3 rows)
+Oct 21 15:14:22 vmi2858748 npm[137597]: [PERF] getActiveTrades() query: 16194ms (3 rows)
+Oct 21 15:14:23 vmi2858748 npm[137597]: 📊 Monitoring 6 active signals (REST 1-min check)...
+
