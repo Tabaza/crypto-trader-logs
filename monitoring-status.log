@@ -24143,3 +24143,39 @@ Oct 21 15:41:52 vmi2858748 npm[138105]: [PERF] getActiveTrades() query: 31277ms 
 Oct 21 15:43:05 vmi2858748 npm[138105]: [PERF] getActiveTrades() query: 62586ms (4 rows)
 Oct 21 15:43:09 vmi2858748 npm[138105]: 📊 Monitoring 7 active signals (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 16:00:01
+
+📋 Active Signals:
+Oct 21 15:40:50 vmi2858748 npm[138105]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 15:43:09 vmi2858748 npm[138105]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 15:50:29 vmi2858748 npm[138283]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 15:52:30 vmi2858748 npm[138283]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 21 15:58:34 vmi2858748 npm[138283]: 📊 Monitoring 7 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 15:58:34 vmi2858748 npm[138283]: 📊 Monitoring 7 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 15:46:00 vmi2858748 npm[138105]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-21T13:46:00.016Z) ==========
+Oct 21 15:50:26 vmi2858748 npm[138283]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 21 15:50:26 vmi2858748 npm[138283]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 15:50:24 CEST; 9min ago
+   Main PID: 138271 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.6G (peak: 3.8G)
+        CPU: 13min 32.278s
+     CGroup: /system.slice/crypto-trader.service
+             ├─138271 "npm start"
+             ├─138282 sh -c "NODE_ENV=production node dist/index.js"
+             └─138283 node dist/index.js
+
+Oct 21 15:53:45 vmi2858748 npm[138283]: ⏳ SHIB/USDT LONG: Price $0.00001002 | TP: $0.00001054 | SL: $0.00000964
+Oct 21 15:53:45 vmi2858748 npm[138283]: ⏳ RENDER/USDT LONG: Price $2.49 | TP: $2.61 | SL: $2.43
+Oct 21 15:53:45 vmi2858748 npm[138283]: ⏳ PNUT/USDT LONG: Price $0.1368 | TP: $0.1443 | SL: $0.1319
+
