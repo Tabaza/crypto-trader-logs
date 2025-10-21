@@ -23875,3 +23875,58 @@ Oct 21 14:20:41 vmi2858748 npm[133820]: [PERF] getActiveTrades() query: 18865ms 
 Oct 21 14:20:51 vmi2858748 npm[133820]: 📊 No active signals to monitor
 Oct 21 14:21:20 vmi2858748 npm[133820]: [PERF] getActiveTrades() query: 29054ms (0 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-21 14:45:01
+
+📋 Active Signals:
+Oct 21 14:38:29 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 14:39:32 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 14:40:42 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 14:42:31 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 14:44:51 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 21 14:40:42 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 14:42:31 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+Oct 21 14:44:51 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - Session range too wide (72% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (98% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Strong uptrend (price: 0.71%, VWAP: 0.59%)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - Session range too wide (90% of median)
+Oct 21 14:38:11 vmi2858748 npm[133820]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 21 14:38:15 vmi2858748 npm[133820]:   ✅ [Fast Momentum Gap] BOME/USDT executed (1/3)
+Oct 21 14:38:15 vmi2858748 npm[133820]:   ✅ [Fast Momentum Gap] DASH/USDT executed (2/3)
+Oct 21 14:38:15 vmi2858748 npm[133820]:   ✅ [Fast Momentum Gap] GALA/USDT executed (3/3)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 10:04:17 CEST; 4h 40min ago
+   Main PID: 133807 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.0G (peak: 3.2G)
+        CPU: 2h 27min 15.210s
+     CGroup: /system.slice/crypto-trader.service
+             ├─133807 "npm start"
+             ├─133819 sh -c "NODE_ENV=production node dist/index.js"
+             └─133820 node dist/index.js
+
+Oct 21 14:41:07 vmi2858748 npm[133820]: [PERF] getActiveTrades() query: 9501ms (3 rows)
+Oct 21 14:41:44 vmi2858748 npm[133820]: [PERF] getActiveTrades() query: 26675ms (3 rows)
+Oct 21 14:42:31 vmi2858748 npm[133820]: 📊 Monitoring 3 active signals (REST 1-min check)...
+
