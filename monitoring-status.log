@@ -25763,3 +25763,58 @@ Oct 21 23:58:44 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 2ms (1 r
 Oct 21 23:58:56 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 1801ms (1 rows)
 Oct 21 23:59:07 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 1022ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 00:15:01
+
+📋 Active Signals:
+Oct 22 00:08:17 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 22 00:09:43 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 22 00:12:05 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 22 00:13:54 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 22 00:15:00 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 00:12:05 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 22 00:13:54 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+Oct 22 00:15:00 vmi2858748 npm[146297]: 📊 Monitoring 2 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 00:01:02 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.5520, MIDAS: $0.5585, POC: $0.5709, Vol: 0.01x
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 00:01:02 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.9200, MIDAS: $0.9355, POC: $0.9362, Vol: 0.01x
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 00:01:02 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.3242, MIDAS: $0.3247, POC: $0.3279, Vol: 0.01x
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 00:01:02 vmi2858748 npm[146297]:     [Momentum Gap] Price: $2.48, MIDAS: $2.47, POC: $2.49, Vol: 0.05x
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.05x < 1.3x required
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 00:01:02 vmi2858748 npm[146297]:     [Momentum Gap] Price: $271.70, MIDAS: $280.22, POC: $274.30, Vol: 0.18x
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.18x < 1.3x required
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 00:01:02 vmi2858748 npm[146297]:     [Momentum Gap] Price: $0.008140, MIDAS: $0.008188, POC: $0.008259, Vol: 0.03x
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Volume 0.03x < 1.3x required
+Oct 22 00:01:02 vmi2858748 npm[146297]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 00:01:02 vmi2858748 npm[146297]:   ✅ [Fast Momentum Gap] SAND/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-10-21 23:28:37 CEST; 46min ago
+   Main PID: 146285 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.3G (peak: 2.6G)
+        CPU: 30min 54.295s
+     CGroup: /system.slice/crypto-trader.service
+             ├─146285 "npm start"
+             ├─146296 sh -c "NODE_ENV=production node dist/index.js"
+             └─146297 node dist/index.js
+
+Oct 22 00:14:00 vmi2858748 npm[146297]: ⏳ SHIB/USDT LONG: Price $0.00001028 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 00:14:08 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 3509ms (2 rows)
+Oct 22 00:14:18 vmi2858748 npm[146297]: [PERF] getActiveTrades() query: 318ms (2 rows)
+
