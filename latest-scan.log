@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-10-22 02:15:01
+Crypto Trader Log Export - 2025-10-22 02:30:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Oct 22 01:46:20 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=134/n/a
-Oct 22 01:46:20 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
-Oct 22 01:46:20 vmi2858748 systemd[1]: crypto-trader.service: Consumed 16min 2.071s CPU time, 4.0G memory peak, 0B memory swap peak.
-Oct 22 01:46:30 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 30.
-Oct 22 01:46:30 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Oct 22 01:46:31 vmi2858748 npm[148547]: > rest-express@1.0.0 start
-Oct 22 01:46:31 vmi2858748 npm[148547]: > NODE_ENV=production node dist/index.js
-Oct 22 01:46:32 vmi2858748 npm[148559]: 💾 Using PostgreSQL database storage
-Oct 22 01:46:32 vmi2858748 npm[148559]: 📚 Registering trading strategies...
-Oct 22 01:46:32 vmi2858748 npm[148559]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Oct 22 01:46:32 vmi2858748 npm[148559]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Oct 22 01:46:32 vmi2858748 npm[148559]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Oct 22 01:46:32 vmi2858748 npm[148559]: ✅ 3 strategies registered
-Oct 22 01:46:32 vmi2858748 npm[148559]: Initializing symbols from Binance...
-Oct 22 01:46:35 vmi2858748 npm[148559]: ✅ Loaded 67/67 symbols from Binance SPOT
-Oct 22 01:46:35 vmi2858748 npm[148559]: Loading 67 symbols from Binance SPOT market...
-Oct 22 01:46:35 vmi2858748 npm[148559]: ✅ 67 symbols initialized successfully from Binance SPOT
-Oct 22 01:46:35 vmi2858748 npm[148559]: [PERF] Symbols query: 2ms (68 rows)
-Oct 22 01:46:35 vmi2858748 npm[148559]: [PERF] Trade stats query: 4ms
-Oct 22 01:46:35 vmi2858748 npm[148559]: [PERF] MIDAS window query: 22ms
-Oct 22 01:46:35 vmi2858748 npm[148559]: [PERF] getSymbols() TOTAL: 41ms
-Oct 22 01:46:35 vmi2858748 npm[148559]: Starting WebSocket for 68 symbols...
-Oct 22 01:46:35 vmi2858748 npm[148559]: WebSocket streams initialized
-Oct 22 01:46:35 vmi2858748 npm[148559]: ⏰ Signal scheduler will start at next 15-min boundary (00:01 UTC, in 864 seconds)
-Oct 22 01:46:35 vmi2858748 npm[148559]: 1:46:35 AM [express] serving on port 5000
-Oct 22 01:46:35 vmi2858748 npm[148559]: 🚀 Starting REST polling monitor (1-minute checks)...
-Oct 22 01:46:35 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for 1000SATS/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for DOGE/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for DOT/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for AVAX/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for RENDER/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ADA/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for THETA/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for XLM/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ARB/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for INJ/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ZIL/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for APT/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for BNB/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for BTC/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ORDI/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for AXS/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for BCH/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for BOME/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for JUP/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ALGO/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for VET/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for CHZ/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for MANA/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for COMP/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for RUNE/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for QTUM/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ETH/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for UNI/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ETC/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for NEIRO/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for RAY/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for LINK/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for GALA/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for WIF/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for BONK/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for AAVE/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for EGLD/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for FIL/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for NEAR/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for WLD/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for IMX/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ZEC/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for FLOKI/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for SEI/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for LDO/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for PNUT/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for MATIC/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for SHIB/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for XRP/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for SUI/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for DASH/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for S/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for OP/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for LTC/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for PEPE/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for STX/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for TRX/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ICP/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for TIA/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ATOM/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for SOL/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for FET/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for ARKM/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for NEO/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for MKR/USDT
-Oct 22 01:46:36 vmi2858748 npm[148559]: WebSocket connected for TON/USDT
-Oct 22 01:46:37 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 54ms (4 rows)
-Oct 22 01:46:37 vmi2858748 npm[148559]: WebSocket connected for ENA/USDT
-Oct 22 01:46:37 vmi2858748 npm[148559]: WebSocket connected for SAND/USDT
-Oct 22 01:46:37 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:46:37 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $480.90 | TP: $465.70 | SL: $499.65
-Oct 22 01:46:37 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.52 | TP: $35.61 | SL: $38.20
-Oct 22 01:46:37 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:46:47 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 6ms (4 rows)
-Oct 22 01:46:58 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 1176ms (4 rows)
-Oct 22 01:46:59 vmi2858748 npm[148559]: Trade f728364b-5347-4db0-9b3a-b1815e425510 TP hit at 0.2075
-Oct 22 01:46:59 vmi2858748 npm[148559]: Trade f728364b-5347-4db0-9b3a-b1815e425510 TP hit at 0.2075
-Oct 22 01:46:59 vmi2858748 npm[148559]: Trade f728364b-5347-4db0-9b3a-b1815e425510 TP hit at 0.2075
-Oct 22 01:46:59 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 337ms (3 rows)
-Oct 22 01:47:11 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 1489ms (3 rows)
-Oct 22 01:47:24 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 3405ms (3 rows)
-Oct 22 01:47:41 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 7367ms (3 rows)
-Oct 22 01:47:46 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:47:56 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:47:56 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $480.00 | TP: $465.70 | SL: $499.65
-Oct 22 01:47:56 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.44 | TP: $35.61 | SL: $38.20
-Oct 22 01:47:56 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001006 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:48:01 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 9157ms (3 rows)
-Oct 22 01:48:21 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 9889ms (3 rows)
-Oct 22 01:48:43 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 12477ms (3 rows)
-Oct 22 01:49:04 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 10630ms (3 rows)
-Oct 22 01:49:08 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:49:18 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:49:18 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $480.20 | TP: $465.70 | SL: $499.65
-Oct 22 01:49:18 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.43 | TP: $35.61 | SL: $38.20
-Oct 22 01:49:18 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001006 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:49:22 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 7776ms (3 rows)
-Oct 22 01:49:46 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 14441ms (3 rows)
-Oct 22 01:50:26 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 29672ms (3 rows)
-Oct 22 01:50:46 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:51:04 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 28121ms (3 rows)
-Oct 22 01:51:16 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:51:16 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $481.10 | TP: $465.70 | SL: $499.65
-Oct 22 01:51:16 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.53 | TP: $35.61 | SL: $38.20
-Oct 22 01:51:16 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001008 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:51:47 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 32995ms (3 rows)
-Oct 22 01:52:31 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 34020ms (3 rows)
-Oct 22 01:52:45 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:53:08 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 27632ms (3 rows)
-Oct 22 01:53:12 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:53:12 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $480.80 | TP: $465.70 | SL: $499.65
-Oct 22 01:53:12 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.52 | TP: $35.61 | SL: $38.20
-Oct 22 01:53:12 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001008 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:53:40 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 21788ms (3 rows)
-Oct 22 01:54:09 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 18238ms (3 rows)
-Oct 22 01:54:27 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:54:32 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 13003ms (3 rows)
-Oct 22 01:54:41 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:54:41 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $481.70 | TP: $465.70 | SL: $499.65
-Oct 22 01:54:41 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.51 | TP: $35.61 | SL: $38.20
-Oct 22 01:54:41 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:54:56 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 14819ms (3 rows)
-Oct 22 01:55:30 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 23575ms (3 rows)
-Oct 22 01:56:00 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 20410ms (3 rows)
-Oct 22 01:56:02 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:56:28 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:56:28 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $481.70 | TP: $465.70 | SL: $499.65
-Oct 22 01:56:28 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.51 | TP: $35.61 | SL: $38.20
-Oct 22 01:56:28 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:56:34 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 23091ms (3 rows)
-Oct 22 01:57:12 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 28531ms (3 rows)
-Oct 22 01:57:49 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 26932ms (3 rows)
-Oct 22 01:57:57 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 01:58:29 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 01:58:29 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $481.50 | TP: $465.70 | SL: $499.65
-Oct 22 01:58:29 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.48 | TP: $35.61 | SL: $38.20
-Oct 22 01:58:29 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001006 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 01:58:30 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 30483ms (3 rows)
-Oct 22 01:59:05 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 25837ms (3 rows)
-Oct 22 01:59:47 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 31633ms (3 rows)
-Oct 22 01:59:59 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 02:01:00 vmi2858748 npm[148559]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T00:01:00.004Z) ==========
-Oct 22 02:01:05 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 68197ms (3 rows)
-Oct 22 02:01:09 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 02:01:09 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $480.80 | TP: $465.70 | SL: $499.65
-Oct 22 02:01:09 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.46 | TP: $35.61 | SL: $38.20
-Oct 22 02:01:09 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001005 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 02:02:20 vmi2858748 npm[148559]: [PERF] Symbols query: 80450ms (68 rows)
-Oct 22 02:02:38 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 82999ms (3 rows)
-Oct 22 02:03:36 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 02:03:44 vmi2858748 npm[148559]: [PERF] Trade stats query: 83746ms
-Oct 22 02:04:41 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 112971ms (3 rows)
-Oct 22 02:05:44 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 02:05:44 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $482.00 | TP: $465.70 | SL: $499.65
-Oct 22 02:05:44 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.59 | TP: $35.61 | SL: $38.20
-Oct 22 02:05:44 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 02:05:48 vmi2858748 npm[148559]: [PERF] MIDAS window query: 124453ms
-Oct 22 02:05:48 vmi2858748 npm[148559]: [PERF] getSymbols() TOTAL: 288652ms
-Oct 22 02:05:48 vmi2858748 npm[148559]: 📊 Loaded 68 symbols from database
-Oct 22 02:07:25 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 153526ms (3 rows)
-Oct 22 02:08:11 vmi2858748 npm[148559]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
-Oct 22 02:08:11 vmi2858748 npm[148559]: 📥 Fetching OHLCV data for 68 symbols in parallel...
-Oct 22 02:08:19 vmi2858748 npm[148559]: ✅ Loaded OHLCV for 68/68 symbols
-Oct 22 02:08:48 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
-Oct 22 02:10:16 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 161729ms (3 rows)
-Oct 22 02:11:07 vmi2858748 npm[148559]: 🔍 Pre-fetched 4 active signals to avoid repeated queries
-Oct 22 02:11:07 vmi2858748 npm[148559]: 🧮 Calculating volume profiles and MIDAS for 68 symbols...
-Oct 22 02:11:07 vmi2858748 npm[148559]: 💾 Writing 68 volume profiles and 68 MIDAS data in parallel...
-Oct 22 02:11:36 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
-Oct 22 02:11:36 vmi2858748 npm[148559]: ⏳ BCH/USDT SHORT: Price $481.90 | TP: $465.70 | SL: $499.65
-Oct 22 02:11:36 vmi2858748 npm[148559]: ⏳ COMP/USDT SHORT: Price $36.56 | TP: $35.61 | SL: $38.20
-Oct 22 02:11:36 vmi2858748 npm[148559]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 02:14:06 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 215685ms (3 rows)
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - Session range too wide (967% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]: 📊 Processing ATOM/USDT...
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $3.19, MIDAS: $3.30, POC: $3.31, Vol: 0.29x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.29x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]: 📊 Processing AVAX/USDT...
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $19.59, MIDAS: $20.34, POC: $20.45, Vol: 0.44x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.44x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]: 📊 Processing AXS/USDT...
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $1.57, MIDAS: $1.62, POC: $1.65, Vol: 0.42x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.42x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]: 📊 Processing BCH/USDT...
+Oct 22 02:15:08 vmi2858748 npm[148559]:   🔒 BCH/USDT: LOCKED by [Fast Momentum Gap] (active signal exists)
+Oct 22 02:15:08 vmi2858748 npm[148559]: 📊 Processing BOME/USDT...
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $0.001059, MIDAS: $0.001095, POC: $0.001059, Vol: 0.31x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.31x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - Session range too wide (950% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]: 📊 Processing BONK/USDT...
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $0.00001442, MIDAS: $0.00001500, POC: $0.00001519, Vol: 0.57x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.57x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]: 📊 Processing CHZ/USDT...
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $0.0320, MIDAS: $0.0330, POC: $0.0326, Vol: 1.35x
+Oct 22 02:16:01 vmi2858748 npm[148559]: ⚠️ Signal processing already in progress, skipping...
+Oct 22 02:16:43 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:19:39 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 320343ms (3 rows)
+Oct 22 02:20:48 vmi2858748 npm[148559]: <--- Last few GCs --->
+Oct 22 02:20:48 vmi2858748 npm[148559]: [148559:0x5861f60]  2048637 ms: Scavenge 3998.9 (4125.5) -> 3987.0 (4127.3) MB, 33.21 / 0.00 ms  (average mu = 0.169, current mu = 0.016) allocation failure;
+Oct 22 02:20:48 vmi2858748 npm[148559]: [148559:0x5861f60]  2048712 ms: Scavenge 4000.7 (4127.3) -> 3988.7 (4128.8) MB, 36.84 / 0.00 ms  (average mu = 0.169, current mu = 0.016) allocation failure;
+Oct 22 02:20:48 vmi2858748 npm[148559]: [148559:0x5861f60]  2052725 ms: Mark-Compact 4002.4 (4128.8) -> 3985.1 (4130.8) MB, 3970.99 / 0.00 ms  (average mu = 0.139, current mu = 0.104) allocation failure; scavenge might not succeed
+Oct 22 02:20:48 vmi2858748 npm[148559]: <--- JS stacktrace --->
+Oct 22 02:20:48 vmi2858748 npm[148559]: FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+Oct 22 02:20:48 vmi2858748 npm[148559]: ----- Native stack trace -----
+Oct 22 02:20:48 vmi2858748 npm[148559]:  1: 0xb76dc5 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  2: 0xee6020 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  3: 0xee6307 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  4: 0x10f7f55  [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  5: 0x10f84e4 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  6: 0x110f3d4 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::internal::GarbageCollectionReason, char const*) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  7: 0x110fbec v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  8: 0x10e5ef1 v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]:  9: 0x10e7085 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]: 10: 0x10c46d6 v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]: 11: 0x1520216 v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [node]
+Oct 22 02:20:48 vmi2858748 npm[148559]: 12: 0x1959ef6  [node]
+Oct 22 02:20:49 vmi2858748 npm[148558]: Aborted (core dumped)
+Oct 22 02:20:50 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=134/n/a
+Oct 22 02:20:50 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
+Oct 22 02:20:50 vmi2858748 systemd[1]: crypto-trader.service: Consumed 48min 17.902s CPU time, 3.8G memory peak, 0B memory swap peak.
+Oct 22 02:21:00 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 31.
+Oct 22 02:21:00 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
+Oct 22 02:21:00 vmi2858748 npm[148980]: > rest-express@1.0.0 start
+Oct 22 02:21:00 vmi2858748 npm[148980]: > NODE_ENV=production node dist/index.js
+Oct 22 02:21:02 vmi2858748 npm[148992]: 💾 Using PostgreSQL database storage
+Oct 22 02:21:02 vmi2858748 npm[148992]: 📚 Registering trading strategies...
+Oct 22 02:21:02 vmi2858748 npm[148992]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 02:21:02 vmi2858748 npm[148992]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
+Oct 22 02:21:02 vmi2858748 npm[148992]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 22 02:21:02 vmi2858748 npm[148992]: ✅ 3 strategies registered
+Oct 22 02:21:02 vmi2858748 npm[148992]: Initializing symbols from Binance...
+Oct 22 02:21:05 vmi2858748 npm[148992]: ✅ Loaded 67/67 symbols from Binance SPOT
+Oct 22 02:21:05 vmi2858748 npm[148992]: Loading 67 symbols from Binance SPOT market...
+Oct 22 02:21:05 vmi2858748 npm[148992]: ✅ 67 symbols initialized successfully from Binance SPOT
+Oct 22 02:21:05 vmi2858748 npm[148992]: [PERF] Symbols query: 2ms (68 rows)
+Oct 22 02:21:05 vmi2858748 npm[148992]: [PERF] Trade stats query: 4ms
+Oct 22 02:21:05 vmi2858748 npm[148992]: [PERF] MIDAS window query: 26ms
+Oct 22 02:21:05 vmi2858748 npm[148992]: [PERF] getSymbols() TOTAL: 50ms
+Oct 22 02:21:05 vmi2858748 npm[148992]: Starting WebSocket for 68 symbols...
+Oct 22 02:21:05 vmi2858748 npm[148992]: WebSocket streams initialized
+Oct 22 02:21:05 vmi2858748 npm[148992]: ⏰ Signal scheduler will start at next 15-min boundary (00:31 UTC, in 594 seconds)
+Oct 22 02:21:05 vmi2858748 npm[148992]: 2:21:05 AM [express] serving on port 5000
+Oct 22 02:21:05 vmi2858748 npm[148992]: 🚀 Starting REST polling monitor (1-minute checks)...
+Oct 22 02:21:05 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for AAVE/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for INJ/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for BOME/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for BTC/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for WIF/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for SAND/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for IMX/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ARKM/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ETH/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ATOM/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ADA/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for DASH/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for PEPE/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for AXS/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for DOT/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for NEO/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for STX/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for BNB/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for MATIC/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ETC/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for FET/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for APT/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for DOGE/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for GALA/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for SHIB/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for BCH/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for PNUT/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for FLOKI/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for COMP/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for LINK/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ZIL/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for OP/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for BONK/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for 1000SATS/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for THETA/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for FIL/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ENA/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for UNI/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for RENDER/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for SOL/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for QTUM/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ALGO/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for VET/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for RAY/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for TIA/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ARB/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ICP/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for SEI/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for RUNE/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for SUI/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for MKR/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for LTC/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ORDI/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for WLD/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for NEAR/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for TRX/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for TON/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for CHZ/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for S/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for XRP/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for XLM/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for ZEC/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for EGLD/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for AVAX/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for MANA/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for JUP/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for LDO/USDT
+Oct 22 02:21:06 vmi2858748 npm[148992]: WebSocket connected for NEIRO/USDT
+Oct 22 02:21:07 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 42ms (3 rows)
+Oct 22 02:21:08 vmi2858748 npm[148992]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+Oct 22 02:21:08 vmi2858748 npm[148992]: ⏳ BCH/USDT SHORT: Price $480.80 | TP: $465.70 | SL: $499.65
+Oct 22 02:21:08 vmi2858748 npm[148992]: ⏳ COMP/USDT SHORT: Price $36.61 | TP: $35.61 | SL: $38.20
+Oct 22 02:21:08 vmi2858748 npm[148992]: ⏳ SHIB/USDT LONG: Price $0.00001008 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 02:21:17 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 101ms (3 rows)
+Oct 22 02:21:31 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 4652ms (3 rows)
+Oct 22 02:21:53 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 12075ms (3 rows)
+Oct 22 02:22:17 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 13936ms (3 rows)
+Oct 22 02:22:22 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:22:36 vmi2858748 npm[148992]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+Oct 22 02:22:36 vmi2858748 npm[148992]: ⏳ BCH/USDT SHORT: Price $481.20 | TP: $465.70 | SL: $499.65
+Oct 22 02:22:36 vmi2858748 npm[148992]: ⏳ COMP/USDT SHORT: Price $36.59 | TP: $35.61 | SL: $38.20
+Oct 22 02:22:36 vmi2858748 npm[148992]: ⏳ SHIB/USDT LONG: Price $0.00001008 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 02:22:40 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 13000ms (3 rows)
+Oct 22 02:22:59 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 8539ms (3 rows)
+Oct 22 02:23:16 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 6875ms (3 rows)
+Oct 22 02:23:29 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 2859ms (3 rows)
+Oct 22 02:23:36 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:23:38 vmi2858748 npm[148992]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+Oct 22 02:23:38 vmi2858748 npm[148992]: ⏳ BCH/USDT SHORT: Price $481.20 | TP: $465.70 | SL: $499.65
+Oct 22 02:23:38 vmi2858748 npm[148992]: ⏳ COMP/USDT SHORT: Price $36.57 | TP: $35.61 | SL: $38.20
+Oct 22 02:23:38 vmi2858748 npm[148992]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 02:23:39 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 727ms (3 rows)
+Oct 22 02:23:49 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Oct 22 02:23:59 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Oct 22 02:24:14 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 4588ms (3 rows)
+Oct 22 02:24:34 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 9494ms (3 rows)
+Oct 22 02:24:50 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:24:59 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 14958ms (3 rows)
+Oct 22 02:25:08 vmi2858748 npm[148992]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+Oct 22 02:25:08 vmi2858748 npm[148992]: ⏳ BCH/USDT SHORT: Price $481.00 | TP: $465.70 | SL: $499.65
+Oct 22 02:25:08 vmi2858748 npm[148992]: ⏳ COMP/USDT SHORT: Price $36.56 | TP: $35.61 | SL: $38.20
+Oct 22 02:25:08 vmi2858748 npm[148992]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 02:25:25 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 16078ms (3 rows)
+Oct 22 02:25:52 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 17004ms (3 rows)
+Oct 22 02:26:14 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 12263ms (3 rows)
+Oct 22 02:26:20 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:26:31 vmi2858748 npm[148992]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+Oct 22 02:26:31 vmi2858748 npm[148992]: ⏳ BCH/USDT SHORT: Price $480.60 | TP: $465.70 | SL: $499.65
+Oct 22 02:26:31 vmi2858748 npm[148992]: ⏳ COMP/USDT SHORT: Price $36.53 | TP: $35.61 | SL: $38.20
+Oct 22 02:26:31 vmi2858748 npm[148992]: ⏳ SHIB/USDT LONG: Price $0.00001007 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 02:26:34 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 8559ms (3 rows)
+Oct 22 02:26:56 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 9748ms (3 rows)
+Oct 22 02:27:16 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 10311ms (3 rows)
+Oct 22 02:27:33 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 7339ms (3 rows)
+Oct 22 02:27:37 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:27:43 vmi2858748 npm[148992]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+Oct 22 02:27:43 vmi2858748 npm[148992]: ⏳ BCH/USDT SHORT: Price $480.20 | TP: $465.70 | SL: $499.65
+Oct 22 02:27:43 vmi2858748 npm[148992]: ⏳ COMP/USDT SHORT: Price $36.49 | TP: $35.61 | SL: $38.20
+Oct 22 02:27:43 vmi2858748 npm[148992]: ⏳ SHIB/USDT LONG: Price $0.00001005 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 02:27:48 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 4770ms (3 rows)
+Oct 22 02:28:00 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 2148ms (3 rows)
+Oct 22 02:28:24 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 13386ms (3 rows)
+Oct 22 02:28:59 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 25425ms (3 rows)
+Oct 22 02:29:19 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:29:55 vmi2858748 npm[148992]: [PERF] getActiveTrades() query: 45788ms (3 rows)
 

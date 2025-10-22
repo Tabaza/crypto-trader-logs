@@ -26202,3 +26202,58 @@ Oct 22 02:08:48 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1
 Oct 22 02:10:16 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 161729ms (3 rows)
 Oct 22 02:11:07 vmi2858748 npm[148559]: 🔍 Pre-fetched 4 active signals to avoid repeated queries
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 02:30:01
+
+📋 Active Signals:
+Oct 22 02:23:36 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:24:50 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:26:20 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:27:37 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:29:19 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 02:26:20 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:27:37 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:29:19 vmi2858748 npm[148992]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - Session range too wide (967% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $3.19, MIDAS: $3.30, POC: $3.31, Vol: 0.29x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.29x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $19.59, MIDAS: $20.34, POC: $20.45, Vol: 0.44x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.44x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $1.57, MIDAS: $1.62, POC: $1.65, Vol: 0.42x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.42x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]:   🔒 BCH/USDT: LOCKED by [Fast Momentum Gap] (active signal exists)
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $0.001059, MIDAS: $0.001095, POC: $0.001059, Vol: 0.31x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.31x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - Session range too wide (950% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $0.00001442, MIDAS: $0.00001500, POC: $0.00001519, Vol: 0.57x
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Volume 0.57x < 1.3x required
+Oct 22 02:15:08 vmi2858748 npm[148559]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Oct 22 02:15:08 vmi2858748 npm[148559]:     [Momentum Gap] Price: $0.0320, MIDAS: $0.0330, POC: $0.0326, Vol: 1.35x
+Oct 22 02:21:02 vmi2858748 npm[148992]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 02:21:02 vmi2858748 npm[148992]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 02:21:00 CEST; 9min ago
+   Main PID: 148980 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.9G (peak: 1.9G)
+        CPU: 10min 41.434s
+     CGroup: /system.slice/crypto-trader.service
+             ├─148980 "npm start"
+             ├─148991 sh -c "NODE_ENV=production node dist/index.js"
+             └─148992 node dist/index.js
+
+Oct 22 02:27:43 vmi2858748 npm[148992]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+Oct 22 02:27:43 vmi2858748 npm[148992]: ⏳ BCH/USDT SHORT: Price $480.20 | TP: $465.70 | SL: $499.65
+Oct 22 02:27:43 vmi2858748 npm[148992]: ⏳ COMP/USDT SHORT: Price $36.49 | TP: $35.61 | SL: $38.20
+
