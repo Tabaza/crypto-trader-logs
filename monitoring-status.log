@@ -27429,3 +27429,55 @@ Oct 22 08:38:37 vmi2858748 npm[161846]: ⏳ SHIB/USDT LONG: Price $0.00000994 | 
 Oct 22 08:40:57 vmi2858748 npm[161846]: [PERF] getActiveTrades() query: 193670ms (7 rows)
 Oct 22 08:41:10 vmi2858748 npm[161846]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 09:00:01
+
+📋 Active Signals:
+Oct 22 08:30:43 vmi2858748 npm[161846]: 📊 Monitoring 9 active signals (REST 1-min check)...
+Oct 22 08:36:02 vmi2858748 npm[161846]: 📊 Monitoring 9 active signals (REST 1-min check)...
+Oct 22 08:42:29 vmi2858748 npm[161846]: 📊 Monitoring 9 active signals (REST 1-min check)...
+Oct 22 08:44:41 vmi2858748 npm[161846]: 🔍 Pre-fetched 9 active signals to avoid repeated queries
+Oct 22 08:50:36 vmi2858748 npm[161846]: 📊 Monitoring 9 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $3.22, MIDAS: $3.26, POC: $3.24, Vol: 1.05x
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Volume 1.05x < 1.3x required
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Strong uptrend (price: -0.89%, VWAP: 0.50%)
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $0.3069, MIDAS: $0.3147, POC: $0.3111, Vol: 0.87x
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Volume 0.87x < 1.3x required
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Strong downtrend (price: -1.41%, VWAP: -0.28%)
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $0.3500, MIDAS: $0.3582, POC: $0.3518, Vol: 0.92x
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Volume 0.92x < 1.3x required
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Strong downtrend (price: -1.69%, VWAP: -0.28%)
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $3.18, MIDAS: $3.24, POC: $3.18, Vol: 0.78x
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Volume 0.78x < 1.3x required
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Strong downtrend (price: -1.15%, VWAP: -0.27%)
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $19.49, MIDAS: $19.75, POC: $19.49, Vol: 1.20x
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Volume 1.20x < 1.3x required
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Strong downtrend (price: -0.61%, VWAP: 0.05%)
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $1.55, MIDAS: $1.59, POC: $1.57, Vol: 1.15x
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Volume 1.15x < 1.3x required
+Oct 22 08:54:46 vmi2858748 npm[161846]:     ❌ Rejected: Strong downtrend (price: -1.96%, VWAP: -0.56%)
+Oct 22 08:54:46 vmi2858748 npm[161846]:   🔒 BCH/USDT: LOCKED by [Fast Momentum Gap] (active signal exists)
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $0.001044, MIDAS: $0.001070, POC: $0.001054, Vol: 1.78x
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 07:52:19 CEST; 1h 7min ago
+   Main PID: 161834 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 4.0G (peak: 4.0G)
+        CPU: 1h 30min 2.898s
+     CGroup: /system.slice/crypto-trader.service
+             ├─161834 "npm start"
+             ├─161845 sh -c "NODE_ENV=production node dist/index.js"
+             └─161846 node dist/index.js
+
+Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $0.001044, MIDAS: $0.001070, POC: $0.001054, Vol: 1.78x
+Oct 22 08:56:59 vmi2858748 npm[161846]: ⏳ ALGO/USDT SHORT: Price $0.1808 | TP: $0.1729 | SL: $0.1855
+Oct 22 08:56:59 vmi2858748 npm[161846]: ⏳ NEO/USDT SHORT: Price $5.06 | TP: $4.88 | SL: $5.24
+
