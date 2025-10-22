@@ -28448,3 +28448,58 @@ Oct 22 14:44:40 vmi2858748 npm[169867]: ⏳ NEO/USDT SHORT: Price $5.09 | TP: $4
 Oct 22 14:44:40 vmi2858748 npm[169867]: ⏳ WIF/USDT SHORT: Price $0.5120 | TP: $0.4921 | SL: $0.5387
 Oct 22 14:44:40 vmi2858748 npm[169867]: ⏳ JUP/USDT SHORT: Price $0.3541 | TP: $0.3351 | SL: $0.3596
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 15:00:02
+
+📋 Active Signals:
+Oct 22 14:52:47 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:54:11 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:55:47 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:57:27 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:59:00 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 14:55:47 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:57:27 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:59:00 vmi2858748 npm[170200]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Volume 0.06x < 1.3x required
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Strong uptrend (price: 0.06%, VWAP: 0.50%)
+Oct 22 14:47:01 vmi2858748 npm[169867]:   🔒 WIF/USDT: LOCKED by [Fast Momentum Gap] (active signal exists)
+Oct 22 14:47:01 vmi2858748 npm[169867]:     [Momentum Gap] Price: $0.8760, MIDAS: $0.8775, POC: $0.8708, Vol: 0.09x
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Volume 0.09x < 1.3x required
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Strong uptrend (price: 0.00%, VWAP: 0.38%)
+Oct 22 14:47:01 vmi2858748 npm[169867]:     [Momentum Gap] Price: $0.3116, MIDAS: $0.3115, POC: $0.3115, Vol: 0.02x
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Volume 0.02x < 1.3x required
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Strong uptrend (price: -0.06%, VWAP: 0.40%)
+Oct 22 14:47:01 vmi2858748 npm[169867]:     [Momentum Gap] Price: $2.40, MIDAS: $2.40, POC: $2.40, Vol: 0.03x
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Volume 0.03x < 1.3x required
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Strong uptrend (price: 0.14%, VWAP: 0.42%)
+Oct 22 14:47:01 vmi2858748 npm[169867]:     [Momentum Gap] Price: $275.40, MIDAS: $270.30, POC: $271.90, Vol: 0.12x
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Volume 0.12x < 1.3x required
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Strong uptrend (price: 0.71%, VWAP: 0.76%)
+Oct 22 14:47:01 vmi2858748 npm[169867]:     [Momentum Gap] Price: $0.007810, MIDAS: $0.007798, POC: $0.007779, Vol: 0.01x
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 14:47:01 vmi2858748 npm[169867]:     ❌ Rejected: Strong uptrend (price: 0.00%, VWAP: 0.45%)
+Oct 22 14:48:15 vmi2858748 npm[170200]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 14:48:15 vmi2858748 npm[170200]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 14:48:14 CEST; 11min ago
+   Main PID: 170188 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.8G (peak: 3.7G)
+        CPU: 13min 21.922s
+     CGroup: /system.slice/crypto-trader.service
+             ├─170188 "npm start"
+             ├─170199 sh -c "NODE_ENV=production node dist/index.js"
+             └─170200 node dist/index.js
+
+Oct 22 14:59:14 vmi2858748 npm[170200]: ⏳ WIF/USDT SHORT: Price $0.5110 | TP: $0.4921 | SL: $0.5387
+Oct 22 14:59:14 vmi2858748 npm[170200]: ⏳ JUP/USDT SHORT: Price $0.3533 | TP: $0.3351 | SL: $0.3596
+Oct 22 14:59:14 vmi2858748 npm[170200]: ⏳ FLOKI/USDT SHORT: Price $0.00007192 | TP: $0.00006918 | SL: $0.00007573
+
