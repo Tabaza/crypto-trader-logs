@@ -28340,3 +28340,49 @@ Oct 22 14:14:39 vmi2858748 npm[169290]: ⏳ ALGO/USDT SHORT: Price $0.1814 | TP:
 Oct 22 14:14:39 vmi2858748 npm[169290]: ⏳ NEO/USDT SHORT: Price $5.07 | TP: $4.88 | SL: $5.24
 Oct 22 14:14:39 vmi2858748 npm[169290]: ⏳ WIF/USDT SHORT: Price $0.5080 | TP: $0.4921 | SL: $0.5387
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 14:30:01
+
+📋 Active Signals:
+Oct 22 14:14:34 vmi2858748 npm[169290]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:16:04 vmi2858748 npm[169290]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:19:57 vmi2858748 npm[169290]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:27:25 vmi2858748 npm[169290]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:29:37 vmi2858748 npm[169579]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for MATIC/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for XLM/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for ETH/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for ZIL/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for SOL/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for APT/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for NEO/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for THETA/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for UNI/USDT
+Oct 22 14:29:38 vmi2858748 npm[169579]: WebSocket connected for NEIRO/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 14:16:00 vmi2858748 npm[169290]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T12:16:00.003Z) ==========
+Oct 22 14:24:43 vmi2858748 npm[169290]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Oct 22 14:29:34 vmi2858748 npm[169579]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 14:29:34 vmi2858748 npm[169579]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 14:29:32 CEST; 30s ago
+   Main PID: 169567 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 429.0M (peak: 3.7G)
+        CPU: 27.945s
+     CGroup: /system.slice/crypto-trader.service
+             ├─169567 "npm start"
+             ├─169578 sh -c "NODE_ENV=production node dist/index.js"
+             └─169579 node dist/index.js
+
+Oct 22 14:29:40 vmi2858748 npm[169579]: ⏳ ALGO/USDT SHORT: Price $0.1825 | TP: $0.1729 | SL: $0.1855
+Oct 22 14:29:40 vmi2858748 npm[169579]: ⏳ NEO/USDT SHORT: Price $5.09 | TP: $4.88 | SL: $5.24
+Oct 22 14:29:40 vmi2858748 npm[169579]: ⏳ WIF/USDT SHORT: Price $0.5120 | TP: $0.4921 | SL: $0.5387
+
