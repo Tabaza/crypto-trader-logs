@@ -27094,3 +27094,59 @@ Oct 22 06:59:19 vmi2858748 npm[160770]: ⏳ JUP/USDT SHORT: Price $0.3586 | TP: 
 Oct 22 06:59:19 vmi2858748 npm[160770]: ⏳ FLOKI/USDT SHORT: Price $0.00007402 | TP: $0.00006918 | SL: $0.00007573
 Oct 22 06:59:19 vmi2858748 npm[160770]: ⏳ GALA/USDT SHORT: Price $0.0110 | TP: $0.0107 | SL: $0.0114
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 07:15:01
+
+📋 Active Signals:
+Oct 22 07:08:58 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:10:11 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:11:26 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:12:45 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:14:20 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 07:10:11 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:11:26 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:12:45 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:14:20 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Strong uptrend (price: 0.47%, VWAP: 0.59%)
+Oct 22 07:01:24 vmi2858748 npm[160770]:     [Momentum Gap] Price: $0.0172, MIDAS: $0.0174, POC: $0.0172, Vol: 0.01x
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Strong uptrend (price: 0.58%, VWAP: 0.59%)
+Oct 22 07:01:24 vmi2858748 npm[160770]:   🔒 WIF/USDT: LOCKED by [Fast Momentum Gap] (active signal exists)
+Oct 22 07:01:24 vmi2858748 npm[160770]:     [Momentum Gap] Price: $0.8930, MIDAS: $0.9168, POC: $0.9339, Vol: 0.11x
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Volume 0.11x < 1.3x required
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Strong uptrend (price: 0.56%, VWAP: 0.64%)
+Oct 22 07:01:24 vmi2858748 npm[160770]:     [Momentum Gap] Price: $0.3141, MIDAS: $0.3192, POC: $0.3130, Vol: 0.07x
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Volume 0.07x < 1.3x required
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Strong uptrend (price: 0.48%, VWAP: 0.46%)
+Oct 22 07:01:24 vmi2858748 npm[160770]:     [Momentum Gap] Price: $2.43, MIDAS: $2.45, POC: $2.42, Vol: 0.04x
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Volume 0.04x < 1.3x required
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Strong uptrend (price: 0.62%, VWAP: 0.55%)
+Oct 22 07:01:24 vmi2858748 npm[160770]:     [Momentum Gap] Price: $276.10, MIDAS: $271.45, POC: $264.74, Vol: 0.11x
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Volume 0.11x < 1.3x required
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Strong uptrend (price: 4.95%, VWAP: 3.10%)
+Oct 22 07:01:24 vmi2858748 npm[160770]:     [Momentum Gap] Price: $0.007970, MIDAS: $0.008024, POC: $0.007879, Vol: 0.01x
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 07:01:24 vmi2858748 npm[160770]:     ❌ Rejected: Strong uptrend (price: 0.76%, VWAP: 0.46%)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 06:48:44 CEST; 26min ago
+   Main PID: 160758 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.4G (peak: 1.4G)
+        CPU: 29min 27.764s
+     CGroup: /system.slice/crypto-trader.service
+             ├─160758 "npm start"
+             ├─160769 sh -c "NODE_ENV=production node dist/index.js"
+             └─160770 node dist/index.js
+
+Oct 22 07:14:20 vmi2858748 npm[160770]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:14:37 vmi2858748 npm[160770]: [PERF] getActiveTrades() query: 19298ms (6 rows)
+Oct 22 07:14:41 vmi2858748 npm[160770]: ⏳ NEO/USDT SHORT: Price $5.08 | TP: $4.88 | SL: $5.24
+
