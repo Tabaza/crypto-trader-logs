@@ -28606,3 +28606,52 @@ Oct 22 15:36:26 vmi2858748 npm[174622]: ✅ Strategy registered: VWAP Sigma (vwa
              ├─174622 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
              ├─174634 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 16:00:02
+
+📋 Active Signals:
+Oct 22 15:42:37 vmi2858748 npm[174622]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:55:13 vmi2858748 npm[175419]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:56:37 vmi2858748 npm[175419]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:59:15 vmi2858748 npm[175750]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:59:29 vmi2858748 npm[175824]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for XLM/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for DOT/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for XRP/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for NEO/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for NEAR/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for ZEC/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for TIA/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for SAND/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for WLD/USDT
+Oct 22 15:59:30 vmi2858748 npm[175824]: WebSocket connected for VET/USDT
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 15:46:00 vmi2858748 npm[174622]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T13:46:00.004Z) ==========
+Oct 22 15:55:07 vmi2858748 npm[175419]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 15:55:07 vmi2858748 npm[175419]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 22 15:59:10 vmi2858748 npm[175750]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 15:59:10 vmi2858748 npm[175750]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Oct 22 15:59:20 vmi2858748 npm[175824]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 15:59:20 vmi2858748 npm[175824]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 15:59:17 CEST; 45s ago
+   Main PID: 175788 (npm run dev)
+      Tasks: 47 (limit: 28795)
+     Memory: 941.8M (peak: 1.0G)
+        CPU: 52.253s
+     CGroup: /system.slice/crypto-trader.service
+             ├─175788 "npm run dev"
+             ├─175800 sh -c "NODE_ENV=development npx tsx server/index.ts"
+             ├─175801 "npm exec tsx server/index.ts"
+             ├─175812 sh -c "tsx server/index.ts"
+             ├─175813 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─175824 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+
