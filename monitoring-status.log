@@ -27481,3 +27481,37 @@ Oct 22 08:54:46 vmi2858748 npm[161846]:     [Momentum Gap] Price: $0.001044, MID
 Oct 22 08:56:59 vmi2858748 npm[161846]: ⏳ ALGO/USDT SHORT: Price $0.1808 | TP: $0.1729 | SL: $0.1855
 Oct 22 08:56:59 vmi2858748 npm[161846]: ⏳ NEO/USDT SHORT: Price $5.06 | TP: $4.88 | SL: $5.24
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 09:15:01
+
+📋 Active Signals:
+Oct 22 08:50:36 vmi2858748 npm[161846]: 📊 Monitoring 9 active signals (REST 1-min check)...
+Oct 22 09:03:29 vmi2858748 npm[163052]: 📊 Monitoring 10 active signals (REST 1-min check)...
+Oct 22 09:04:33 vmi2858748 npm[163052]: 📊 Monitoring 10 active signals (REST 1-min check)...
+Oct 22 09:05:55 vmi2858748 npm[163052]: 📊 Monitoring 10 active signals (REST 1-min check)...
+Oct 22 09:09:57 vmi2858748 npm[163052]: 📊 Monitoring 10 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 09:03:25 vmi2858748 npm[163052]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 09:03:25 vmi2858748 npm[163052]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 09:03:23 CEST; 11min ago
+   Main PID: 163040 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.3G (peak: 3.3G)
+        CPU: 13min 56.831s
+     CGroup: /system.slice/crypto-trader.service
+             ├─163040 "npm start"
+             ├─163051 sh -c "NODE_ENV=production node dist/index.js"
+             └─163052 node dist/index.js
+
+Oct 22 09:13:00 vmi2858748 npm[163052]: ⏳ 1000SATS/USDT SHORT: Price $0.00002343 | TP: $0.00002238 | SL: $0.00002450
+Oct 22 09:13:00 vmi2858748 npm[163052]: ⏳ ALGO/USDT SHORT: Price $0.1796 | TP: $0.1729 | SL: $0.1855
+Oct 22 09:13:00 vmi2858748 npm[163052]: ⏳ NEO/USDT SHORT: Price $5.03 | TP: $4.88 | SL: $5.24
+
