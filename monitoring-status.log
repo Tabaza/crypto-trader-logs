@@ -28529,3 +28529,40 @@ Oct 22 15:01:58 vmi2858748 npm[170651]: ✅ Strategy registered: VWAP Sigma (vwa
    Main PID: 172309 (code=exited, status=127)
         CPU: 254ms
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 15:30:01
+
+📋 Active Signals:
+Oct 22 15:21:46 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:23:17 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:25:14 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:27:15 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:29:30 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 15:25:14 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:27:15 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:29:30 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 15:20:21 vmi2858748 npm[173614]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 15:20:21 vmi2858748 npm[173614]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 15:20:16 CEST; 9min ago
+   Main PID: 173579 (npm run dev)
+      Tasks: 98 (limit: 28795)
+     Memory: 1.5G (peak: 2.6G)
+        CPU: 11min 56.950s
+     CGroup: /system.slice/crypto-trader.service
+             ├─173579 "npm run dev"
+             ├─173590 sh -c "NODE_ENV=development npx tsx server/index.ts"
+             ├─173591 "npm exec tsx server/index.ts"
+             ├─173602 sh -c "tsx server/index.ts"
+             ├─173603 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─173614 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─173626 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+
