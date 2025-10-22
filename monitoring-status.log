@@ -28167,3 +28167,42 @@ Oct 22 13:13:25 vmi2858748 npm[167130]: [PERF] getActiveTrades() query: 11118ms 
 Oct 22 13:13:28 vmi2858748 npm[167130]: ⏳ TIA/USDT LONG: Price $0.9940 | TP: $1.04 | SL: $0.9661
 Oct 22 13:13:28 vmi2858748 npm[167130]: ⏳ ETC/USDT SHORT: Price $15.47 | TP: $14.94 | SL: $16.03
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 13:30:01
+
+📋 Active Signals:
+Oct 22 13:13:03 vmi2858748 npm[167130]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 13:16:14 vmi2858748 npm[167130]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 13:22:29 vmi2858748 npm[167389]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 13:24:22 vmi2858748 npm[167389]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 13:28:32 vmi2858748 npm[167389]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 13:26:02 vmi2858748 npm[167389]: 1:26:02 PM [express] GET /api/signals/monitoring/active 304 in 85839ms :: {"total":0,"signals":[]}
+Oct 22 13:26:02 vmi2858748 npm[167389]: 1:26:02 PM [express] GET /api/signals/monitoring/all 304 in 85843ms :: {"total":0,"signals":[]}
+Oct 22 13:26:02 vmi2858748 npm[167389]: 1:26:02 PM [express] GET /api/signals/monitoring/stats 304 in 85844ms :: {"total":0,"wins":0,"losses…
+Oct 22 13:28:32 vmi2858748 npm[167389]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 13:16:06 vmi2858748 npm[167130]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T11:16:06.210Z) ==========
+Oct 22 13:22:25 vmi2858748 npm[167389]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 13:22:25 vmi2858748 npm[167389]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 13:22:23 CEST; 7min ago
+   Main PID: 167377 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.0G (peak: 3.0G)
+        CPU: 9min 30.759s
+     CGroup: /system.slice/crypto-trader.service
+             ├─167377 "npm start"
+             ├─167388 sh -c "NODE_ENV=production node dist/index.js"
+             └─167389 node dist/index.js
+
+Oct 22 13:25:30 vmi2858748 npm[167389]: ⏳ FLOKI/USDT SHORT: Price $0.00007158 | TP: $0.00006918 | SL: $0.00007573
+Oct 22 13:25:30 vmi2858748 npm[167389]: ⏳ BCH/USDT SHORT: Price $473.50 | TP: $465.70 | SL: $499.65
+Oct 22 13:25:30 vmi2858748 npm[167389]: ⏳ COMP/USDT SHORT: Price $36.87 | TP: $35.61 | SL: $38.20
+
