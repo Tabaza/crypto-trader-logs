@@ -27247,3 +27247,42 @@ Oct 22 07:41:32 vmi2858748 npm[161269]: [DEBUG] /api/trades/active returning 6 t
 Oct 22 07:41:32 vmi2858748 npm[161269]: [PERF] Performance stats query: 203016ms
 Oct 22 07:41:32 vmi2858748 npm[161269]: [PERF] getPerformanceStats() TOTAL: 203017ms
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 08:00:01
+
+📋 Active Signals:
+Oct 22 07:54:35 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:55:48 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:57:07 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:58:27 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:59:36 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 07:55:48 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:57:07 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:58:27 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:59:36 vmi2858748 npm[161846]: 📊 Monitoring 8 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 07:45:26 vmi2858748 npm[161269]:     [Momentum Gap] Price: $107895.84, MIDAS: $109780.80, POC: $108171.57, Vol: 1.36x
+Oct 22 07:52:21 vmi2858748 npm[161846]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 07:52:21 vmi2858748 npm[161846]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 07:52:19 CEST; 7min ago
+   Main PID: 161834 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 420.6M (peak: 1.2G)
+        CPU: 8min 37.916s
+     CGroup: /system.slice/crypto-trader.service
+             ├─161834 "npm start"
+             ├─161845 sh -c "NODE_ENV=production node dist/index.js"
+             └─161846 node dist/index.js
+
+Oct 22 07:59:37 vmi2858748 npm[161846]: ⏳ WIF/USDT SHORT: Price $0.5150 | TP: $0.4921 | SL: $0.5387
+Oct 22 07:59:37 vmi2858748 npm[161846]: ⏳ JUP/USDT SHORT: Price $0.3535 | TP: $0.3351 | SL: $0.3596
+Oct 22 07:59:37 vmi2858748 npm[161846]: ⏳ FLOKI/USDT SHORT: Price $0.00007286 | TP: $0.00006918 | SL: $0.00007573
+
