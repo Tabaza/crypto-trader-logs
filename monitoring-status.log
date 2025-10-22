@@ -26991,3 +26991,36 @@ Oct 22 06:11:27 vmi2858748 npm[150232]: ⏳ FLOKI/USDT SHORT: Price $0.00007362 
 Oct 22 06:11:27 vmi2858748 npm[150232]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
 Oct 22 06:11:27 vmi2858748 npm[150232]: ⏳ BCH/USDT SHORT: Price $482.80 | TP: $465.70 | SL: $499.65
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 06:30:01
+
+📋 Active Signals:
+Oct 22 06:05:44 vmi2858748 npm[150232]: 📊 Monitoring 7 active signals (REST 1-min check)...
+Oct 22 06:05:47 vmi2858748 npm[150232]: 🔍 Pre-fetched 7 active signals to avoid repeated queries
+Oct 22 06:09:21 vmi2858748 npm[150232]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 06:14:46 vmi2858748 npm[150232]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 06:21:58 vmi2858748 npm[150232]: 📊 Monitoring 8 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 06:24:07 vmi2858748 npm[150232]:   ✅ [Fast Momentum Gap] NEO/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 03:30:04 CEST; 2h 59min ago
+   Main PID: 150220 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.6G (peak: 3.6G)
+        CPU: 3h 8min 10.108s
+     CGroup: /system.slice/crypto-trader.service
+             ├─150220 "npm start"
+             ├─150231 sh -c "NODE_ENV=production node dist/index.js"
+             └─150232 node dist/index.js
+
+Oct 22 06:24:07 vmi2858748 npm[150232]: ================================================
+Oct 22 06:25:50 vmi2858748 npm[150232]: ⏳ NEO/USDT SHORT: Price $5.09 | TP: $4.88 | SL: $5.24
+Oct 22 06:25:50 vmi2858748 npm[150232]: ⏳ WIF/USDT SHORT: Price $0.5210 | TP: $0.4921 | SL: $0.5387
+
