@@ -27753,3 +27753,36 @@ Oct 22 10:27:14 vmi2858748 npm[163909]:     ❌ Rejected: Sigma 0.87σ outside r
 Oct 22 10:27:14 vmi2858748 npm[163909]: 📊 Processing ZEC/USDT...
 Oct 22 10:27:14 vmi2858748 npm[163909]:     [Momentum Gap] Price: $276.20, MIDAS: $269.07, POC: $268.99, Vol: 0.27x
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 10:45:01
+
+📋 Active Signals:
+Oct 22 10:18:50 vmi2858748 npm[163909]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 10:23:27 vmi2858748 npm[163909]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 10:24:06 vmi2858748 npm[163909]: 🔍 Pre-fetched 12 active signals to avoid repeated queries
+Oct 22 10:30:14 vmi2858748 npm[163909]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 10:41:55 vmi2858748 npm[163909]: 📊 Monitoring 12 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 10:41:55 vmi2858748 npm[163909]: 📊 Monitoring 12 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 10:01:59 CEST; 43min ago
+   Main PID: 163897 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 4.1G (peak: 4.1G)
+        CPU: 55min 6.217s
+     CGroup: /system.slice/crypto-trader.service
+             ├─163897 "npm start"
+             ├─163908 sh -c "NODE_ENV=production node dist/index.js"
+             └─163909 node dist/index.js
+
+Oct 22 10:34:37 vmi2858748 npm[163909]: ⏳ WIF/USDT SHORT: Price $0.5110 | TP: $0.4921 | SL: $0.5387
+Oct 22 10:34:37 vmi2858748 npm[163909]: ⏳ JUP/USDT SHORT: Price $0.3500 | TP: $0.3351 | SL: $0.3596
+Oct 22 10:34:37 vmi2858748 npm[163909]: ⏳ FLOKI/USDT SHORT: Price $0.00007275 | TP: $0.00006918 | SL: $0.00007573
+
