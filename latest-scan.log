@@ -1,50 +1,9 @@
 ==================================================
-Crypto Trader Log Export - 2025-10-22 12:45:01
+Crypto Trader Log Export - 2025-10-22 13:00:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Oct 22 12:22:28 vmi2858748 npm[165739]: ⏳ WIF/USDT SHORT: Price $0.5080 | TP: $0.4921 | SL: $0.5387
-Oct 22 12:22:28 vmi2858748 npm[165739]: ⏳ JUP/USDT SHORT: Price $0.3504 | TP: $0.3351 | SL: $0.3596
-Oct 22 12:22:28 vmi2858748 npm[165739]: ⏳ FLOKI/USDT SHORT: Price $0.00007171 | TP: $0.00006918 | SL: $0.00007573
-Oct 22 12:22:28 vmi2858748 npm[165739]: ⏳ GALA/USDT SHORT: Price $0.0108 | TP: $0.0107 | SL: $0.0114
-Oct 22 12:22:28 vmi2858748 npm[165739]: ⏳ BCH/USDT SHORT: Price $473.30 | TP: $465.70 | SL: $499.65
-Oct 22 12:22:28 vmi2858748 npm[165739]: ⏳ COMP/USDT SHORT: Price $36.64 | TP: $35.61 | SL: $38.20
-Oct 22 12:22:28 vmi2858748 npm[165739]: ⏳ SHIB/USDT LONG: Price $0.00000989 | TP: $0.00001054 | SL: $0.00000964
-Oct 22 12:25:35 vmi2858748 npm[165739]: [PERF] Trade stats query: 303246ms
-Oct 22 12:26:29 vmi2858748 npm[165739]: [PERF] getActiveTrades() query: 340885ms (7 rows)
-Oct 22 12:31:00 vmi2858748 npm[165739]: 📊 Monitoring 12 active signals (REST 1-min check)...
-Oct 22 12:31:05 vmi2858748 npm[165739]: ⚠️ Signal processing already in progress, skipping...
-Oct 22 12:35:19 vmi2858748 npm[165739]: <--- Last few GCs --->
-Oct 22 12:35:19 vmi2858748 npm[165739]: [165739:0x23c60f60]  1928503 ms: Scavenge 3997.7 (4126.1) -> 3988.0 (4127.6) MB, 55.37 / 0.00 ms  (average mu = 0.237, current mu = 0.039) task;
-Oct 22 12:35:19 vmi2858748 npm[165739]: [165739:0x23c60f60]  1928904 ms: Scavenge 3999.4 (4127.6) -> 3989.7 (4128.8) MB, 68.85 / 0.00 ms  (average mu = 0.237, current mu = 0.039) task;
-Oct 22 12:35:19 vmi2858748 npm[165739]: [165739:0x23c60f60]  1936741 ms: Mark-Compact 4001.0 (4129.1) -> 3982.2 (4130.6) MB, 7518.89 / 1.11 ms  (average mu = 0.302, current mu = 0.351) task; scavenge might not succeed
-Oct 22 12:35:19 vmi2858748 npm[165739]: <--- JS stacktrace --->
-Oct 22 12:35:19 vmi2858748 npm[165739]: FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
-Oct 22 12:35:19 vmi2858748 npm[165739]: ----- Native stack trace -----
-Oct 22 12:35:19 vmi2858748 npm[165739]:  1: 0xb76dc5 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  2: 0xee6020 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  3: 0xee6307 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  4: 0x10f7f55  [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  5: 0x10f84e4 v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  6: 0x110f3d4 v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::internal::GarbageCollectionReason, char const*) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  7: 0x110fbec v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  8: 0x11689ac v8::internal::MinorGCJob::Task::RunInternal() [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]:  9: 0xd309b6  [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 10: 0xd33f5f node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 11: 0x18a7183  [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 12: 0x18bbbfb  [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 13: 0x18a7ea7 uv_run [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 14: 0xbb9be6 node::SpinEventLoopInternal(node::Environment*) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 15: 0xd048c1 node::NodeMainInstance::Run() [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 16: 0xc6652f node::Start(int, char**) [node]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 17: 0x7952eea2a1ca  [/lib/x86_64-linux-gnu/libc.so.6]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 18: 0x7952eea2a28b __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
-Oct 22 12:35:19 vmi2858748 npm[165739]: 19: 0xbb614e _start [node]
-Oct 22 12:35:20 vmi2858748 npm[165738]: Aborted (core dumped)
-Oct 22 12:35:20 vmi2858748 systemd[1]: crypto-trader.service: Main process exited, code=exited, status=134/n/a
-Oct 22 12:35:20 vmi2858748 systemd[1]: crypto-trader.service: Failed with result 'exit-code'.
-Oct 22 12:35:20 vmi2858748 systemd[1]: crypto-trader.service: Consumed 46min 28.689s CPU time, 4.0G memory peak, 0B memory swap peak.
 Oct 22 12:35:31 vmi2858748 systemd[1]: crypto-trader.service: Scheduled restart job, restart counter is at 44.
 Oct 22 12:35:31 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
 Oct 22 12:35:31 vmi2858748 npm[166332]: > rest-express@1.0.0 start
@@ -204,4 +163,45 @@ Oct 22 12:41:43 vmi2858748 npm[166344]: ⏳ SHIB/USDT LONG: Price $0.00000988 | 
 Oct 22 12:42:53 vmi2858748 npm[166344]: [PERF] getActiveTrades() query: 71431ms (7 rows)
 Oct 22 12:44:05 vmi2858748 npm[166344]: 📊 Monitoring 12 active signals (REST 1-min check)...
 Oct 22 12:44:31 vmi2858748 npm[166344]: [PERF] getActiveTrades() query: 87886ms (7 rows)
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ TIA/USDT LONG: Price $0.9850 | TP: $1.04 | SL: $0.9661
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ ETC/USDT SHORT: Price $15.38 | TP: $14.94 | SL: $16.03
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ 1000SATS/USDT SHORT: Price $0.00002334 | TP: $0.00002238 | SL: $0.00002450
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ ALGO/USDT SHORT: Price $0.1793 | TP: $0.1729 | SL: $0.1855
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ NEO/USDT SHORT: Price $5.04 | TP: $4.88 | SL: $5.24
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ WIF/USDT SHORT: Price $0.5050 | TP: $0.4921 | SL: $0.5387
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ JUP/USDT SHORT: Price $0.3482 | TP: $0.3351 | SL: $0.3596
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ FLOKI/USDT SHORT: Price $0.00007084 | TP: $0.00006918 | SL: $0.00007573
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ GALA/USDT SHORT: Price $0.0107 | TP: $0.0107 | SL: $0.0114
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ BCH/USDT SHORT: Price $470.90 | TP: $465.70 | SL: $499.65
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ COMP/USDT SHORT: Price $36.36 | TP: $35.61 | SL: $38.20
+Oct 22 12:45:50 vmi2858748 npm[166344]: ⏳ SHIB/USDT LONG: Price $0.00000987 | TP: $0.00001054 | SL: $0.00000964
+Oct 22 12:46:00 vmi2858748 npm[166344]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T10:46:00.003Z) ==========
+Oct 22 12:46:42 vmi2858748 npm[166344]: [PERF] getActiveTrades() query: 120918ms (7 rows)
+Oct 22 12:47:55 vmi2858748 npm[166344]: [PERF] Symbols query: 115322ms (68 rows)
+Oct 22 12:49:14 vmi2858748 npm[166344]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 12:49:16 vmi2858748 npm[166344]: [PERF] getActiveTrades() query: 144402ms (7 rows)
+Oct 22 12:49:24 vmi2858748 npm[166344]: ❌ Failed to fetch COMP/USDT: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=COMPUSDT request timed out (10000 ms)
+Oct 22 12:49:24 vmi2858748 npm[166344]: ❌ Failed to fetch SHIB/USDT: binance GET https://api.binance.com/api/v3/ticker/24hr?symbol=SHIBUSDT request timed out (10000 ms)
+Oct 22 12:50:31 vmi2858748 npm[166344]: [PERF] Trade stats query: 156321ms
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ TIA/USDT LONG: Price $0.9850 | TP: $1.04 | SL: $0.9661
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ ETC/USDT SHORT: Price $15.39 | TP: $14.94 | SL: $16.03
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ 1000SATS/USDT SHORT: Price $0.00002334 | TP: $0.00002238 | SL: $0.00002450
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ ALGO/USDT SHORT: Price $0.1794 | TP: $0.1729 | SL: $0.1855
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ NEO/USDT SHORT: Price $5.04 | TP: $4.88 | SL: $5.24
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ WIF/USDT SHORT: Price $0.5060 | TP: $0.4921 | SL: $0.5387
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ JUP/USDT SHORT: Price $0.3484 | TP: $0.3351 | SL: $0.3596
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ FLOKI/USDT SHORT: Price $0.00007080 | TP: $0.00006918 | SL: $0.00007573
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ GALA/USDT SHORT: Price $0.0107 | TP: $0.0107 | SL: $0.0114
+Oct 22 12:53:53 vmi2858748 npm[166344]: ⏳ BCH/USDT SHORT: Price $470.70 | TP: $465.70 | SL: $499.65
+Oct 22 12:53:54 vmi2858748 npm[166344]: [PERF] getActiveTrades() query: 267768ms (7 rows)
+Oct 22 12:54:25 vmi2858748 npm[166344]: WebSocket closed for ETH/USDT, reconnecting...
+Oct 22 12:54:31 vmi2858748 npm[166344]: WebSocket connected for ETH/USDT
+Oct 22 12:54:47 vmi2858748 npm[166344]: [PERF] MIDAS window query: 255438ms
+Oct 22 12:54:47 vmi2858748 npm[166344]: [PERF] getSymbols() TOTAL: 527084ms
+Oct 22 12:54:47 vmi2858748 npm[166344]: 📊 Loaded 68 symbols from database
+Oct 22 12:57:46 vmi2858748 npm[166344]: [PERF] getActiveTrades() query: 222394ms (7 rows)
+Oct 22 12:58:48 vmi2858748 npm[166344]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Oct 22 12:58:48 vmi2858748 npm[166344]: 📥 Fetching OHLCV data for 68 symbols in parallel...
+Oct 22 12:58:51 vmi2858748 npm[166344]: ✅ Loaded OHLCV for 68/68 symbols
+Oct 22 12:59:04 vmi2858748 npm[166344]: 📊 Monitoring 12 active signals (REST 1-min check)...
 
