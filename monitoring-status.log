@@ -27982,3 +27982,38 @@ Oct 22 11:47:27 vmi2858748 npm[165118]: ⏳ SHIB/USDT LONG: Price $0.00000986 | 
 Oct 22 11:48:19 vmi2858748 npm[165118]: [PERF] getActiveTrades() query: 191155ms (7 rows)
 Oct 22 11:49:16 vmi2858748 npm[165118]: [PERF] Symbols query: 196828ms (68 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 12:15:01
+
+📋 Active Signals:
+Oct 22 11:53:50 vmi2858748 npm[165118]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 12:02:59 vmi2858748 npm[165739]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 12:04:31 vmi2858748 npm[165739]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 12:06:39 vmi2858748 npm[165739]: 📊 Monitoring 12 active signals (REST 1-min check)...
+Oct 22 12:10:43 vmi2858748 npm[165739]: 📊 Monitoring 12 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 12:10:43 vmi2858748 npm[165739]: 📊 Monitoring 12 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 12:02:55 vmi2858748 npm[165739]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 12:02:55 vmi2858748 npm[165739]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 12:02:53 CEST; 12min ago
+   Main PID: 165727 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.0G (peak: 3.0G)
+        CPU: 14min 32.708s
+     CGroup: /system.slice/crypto-trader.service
+             ├─165727 "npm start"
+             ├─165738 sh -c "NODE_ENV=production node dist/index.js"
+             └─165739 node dist/index.js
+
+Oct 22 12:13:15 vmi2858748 npm[165739]: ⏳ 1000SATS/USDT SHORT: Price $0.00002350 | TP: $0.00002238 | SL: $0.00002450
+Oct 22 12:13:15 vmi2858748 npm[165739]: ⏳ ALGO/USDT SHORT: Price $0.1805 | TP: $0.1729 | SL: $0.1855
+Oct 22 12:13:15 vmi2858748 npm[165739]: ⏳ NEO/USDT SHORT: Price $5.07 | TP: $4.88 | SL: $5.24
+
