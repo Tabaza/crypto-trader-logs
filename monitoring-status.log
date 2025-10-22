@@ -26168,3 +26168,37 @@ Oct 22 01:57:49 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 26932ms 
 Oct 22 01:57:57 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
 Oct 22 01:58:29 vmi2858748 npm[148559]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 02:15:01
+
+📋 Active Signals:
+Oct 22 01:57:57 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 01:59:59 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:03:36 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:08:48 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:11:07 vmi2858748 npm[148559]: 🔍 Pre-fetched 4 active signals to avoid repeated queries
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 02:01:00 vmi2858748 npm[148559]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T00:01:00.004Z) ==========
+Oct 22 02:08:11 vmi2858748 npm[148559]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 01:46:30 CEST; 28min ago
+   Main PID: 148547 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.7G (peak: 3.8G)
+        CPU: 36min 27.927s
+     CGroup: /system.slice/crypto-trader.service
+             ├─148547 "npm start"
+             ├─148558 sh -c "NODE_ENV=production node dist/index.js"
+             └─148559 node dist/index.js
+
+Oct 22 02:08:48 vmi2858748 npm[148559]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 02:10:16 vmi2858748 npm[148559]: [PERF] getActiveTrades() query: 161729ms (3 rows)
+Oct 22 02:11:07 vmi2858748 npm[148559]: 🔍 Pre-fetched 4 active signals to avoid repeated queries
+
