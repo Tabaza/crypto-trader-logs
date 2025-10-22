@@ -27212,3 +27212,38 @@ Oct 22 07:29:47 vmi2858748 npm[161269]: WebSocket connected for TON/USDT
 Oct 22 07:29:48 vmi2858748 npm[161269]: ⏳ NEO/USDT SHORT: Price $5.04 | TP: $4.88 | SL: $5.24
 Oct 22 07:29:48 vmi2858748 npm[161269]: ⏳ WIF/USDT SHORT: Price $0.5130 | TP: $0.4921 | SL: $0.5387
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 07:45:01
+
+📋 Active Signals:
+Oct 22 07:29:46 vmi2858748 npm[161269]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:31:04 vmi2858748 npm[161269]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:34:55 vmi2858748 npm[161269]: 📊 Monitoring 8 active signals (REST 1-min check)...
+Oct 22 07:41:31 vmi2858748 npm[161269]: 🔍 Pre-fetched 8 active signals to avoid repeated queries
+Oct 22 07:42:07 vmi2858748 npm[161269]: 📊 Monitoring 8 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 07:42:07 vmi2858748 npm[161269]: 📊 Monitoring 8 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 07:31:00 vmi2858748 npm[161269]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T05:31:00.003Z) ==========
+Oct 22 07:38:05 vmi2858748 npm[161269]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 07:29:39 CEST; 15min ago
+   Main PID: 161257 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 3.6G (peak: 3.6G)
+        CPU: 20min 9.222s
+     CGroup: /system.slice/crypto-trader.service
+             ├─161257 "npm start"
+             ├─161268 sh -c "NODE_ENV=production node dist/index.js"
+             └─161269 node dist/index.js
+
+Oct 22 07:41:32 vmi2858748 npm[161269]: [DEBUG] /api/trades/active returning 6 trades
+Oct 22 07:41:32 vmi2858748 npm[161269]: [PERF] Performance stats query: 203016ms
+Oct 22 07:41:32 vmi2858748 npm[161269]: [PERF] getPerformanceStats() TOTAL: 203017ms
+
