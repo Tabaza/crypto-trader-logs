@@ -27612,3 +27612,56 @@ Oct 22 09:44:10 vmi2858748 npm[163357]:     [Momentum Gap] Price: $2.41, MIDAS: 
 Oct 22 09:44:10 vmi2858748 npm[163357]:     ❌ Rejected: Volume 0.23x < 1.3x required
 Oct 22 09:44:10 vmi2858748 npm[163357]:     ❌ Rejected: Not a range day - Session range too wide (71% of median)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 10:00:01
+
+📋 Active Signals:
+Oct 22 09:34:44 vmi2858748 npm[163357]: 📊 Monitoring 10 active signals (REST 1-min check)...
+Oct 22 09:38:29 vmi2858748 npm[163357]: 🔍 Pre-fetched 10 active signals to avoid repeated queries
+Oct 22 09:39:25 vmi2858748 npm[163357]: 📊 Monitoring 10 active signals (REST 1-min check)...
+Oct 22 09:46:33 vmi2858748 npm[163357]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 09:57:58 vmi2858748 npm[163357]: 📊 Monitoring 12 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 09:57:58 vmi2858748 npm[163357]: 📊 Monitoring 12 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 09:48:14 vmi2858748 npm[163357]:     [Momentum Gap] Price: $0.0170, MIDAS: $0.0173, POC: $0.0172, Vol: 0.42x
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Volume 0.42x < 1.3x required
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Strong downtrend (price: -0.64%, VWAP: -0.63%)
+Oct 22 09:48:14 vmi2858748 npm[163357]:   🔒 WIF/USDT: LOCKED by [Fast Momentum Gap] (active signal exists)
+Oct 22 09:48:14 vmi2858748 npm[163357]:     [Momentum Gap] Price: $0.8810, MIDAS: $0.8956, POC: $0.8870, Vol: 0.17x
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Volume 0.17x < 1.3x required
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Strong downtrend (price: -0.23%, VWAP: -0.67%)
+Oct 22 09:48:14 vmi2858748 npm[163357]:     [Momentum Gap] Price: $0.3111, MIDAS: $0.3155, POC: $0.3130, Vol: 0.19x
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Volume 0.19x < 1.3x required
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Strong downtrend (price: -0.22%, VWAP: -0.38%)
+Oct 22 09:48:14 vmi2858748 npm[163357]:     [Momentum Gap] Price: $2.40, MIDAS: $2.43, POC: $2.43, Vol: 0.48x
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Volume 0.48x < 1.3x required
+Oct 22 09:48:14 vmi2858748 npm[163357]:     [VWAP Sigma] Price: $2.40, VWAP: $2.41, Sigma: 0.71σ, Vol: 0.48x
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Sigma 0.71σ outside range 1.3-2.2σ
+Oct 22 09:48:14 vmi2858748 npm[163357]:     [Momentum Gap] Price: $271.37, MIDAS: $268.31, POC: $268.62, Vol: 1.14x
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Volume 1.14x < 1.3x required
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Strong downtrend (price: -0.33%, VWAP: -0.78%)
+Oct 22 09:48:14 vmi2858748 npm[163357]:     [Momentum Gap] Price: $0.007850, MIDAS: $0.007956, POC: $0.007860, Vol: 0.31x
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Volume 0.31x < 1.3x required
+Oct 22 09:48:14 vmi2858748 npm[163357]:     ❌ Rejected: Strong downtrend (price: -0.25%, VWAP: -0.43%)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 09:24:57 CEST; 35min ago
+   Main PID: 163345 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 4.1G (peak: 4.1G)
+        CPU: 47min 55.830s
+     CGroup: /system.slice/crypto-trader.service
+             ├─163345 "npm start"
+             ├─163356 sh -c "NODE_ENV=production node dist/index.js"
+             └─163357 node dist/index.js
+
+Oct 22 09:50:52 vmi2858748 npm[163357]: ⏳ NEO/USDT SHORT: Price $5.04 | TP: $4.88 | SL: $5.24
+Oct 22 09:50:52 vmi2858748 npm[163357]: ⏳ WIF/USDT SHORT: Price $0.5100 | TP: $0.4921 | SL: $0.5387
+Oct 22 09:50:52 vmi2858748 npm[163357]: ⏳ JUP/USDT SHORT: Price $0.3504 | TP: $0.3351 | SL: $0.3596
+
