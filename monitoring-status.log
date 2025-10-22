@@ -28386,3 +28386,65 @@ Oct 22 14:29:40 vmi2858748 npm[169579]: ⏳ ALGO/USDT SHORT: Price $0.1825 | TP:
 Oct 22 14:29:40 vmi2858748 npm[169579]: ⏳ NEO/USDT SHORT: Price $5.09 | TP: $4.88 | SL: $5.24
 Oct 22 14:29:40 vmi2858748 npm[169579]: ⏳ WIF/USDT SHORT: Price $0.5120 | TP: $0.4921 | SL: $0.5387
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 14:45:01
+
+📋 Active Signals:
+Oct 22 14:36:00 vmi2858748 npm[169579]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:38:34 vmi2858748 npm[169579]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:42:36 vmi2858748 npm[169579]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:43:27 vmi2858748 npm[169867]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 14:44:34 vmi2858748 npm[169867]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for BCH/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for SHIB/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for IMX/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for ICP/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for THETA/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for JUP/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for ETC/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for PEPE/USDT
+Oct 22 14:43:28 vmi2858748 npm[169867]: WebSocket connected for GALA/USDT
+Oct 22 14:44:34 vmi2858748 npm[169867]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Volume 0.74x < 1.3x required
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Strong uptrend (price: 1.13%, VWAP: 0.38%)
+Oct 22 14:32:27 vmi2858748 npm[169579]:   🔒 WIF/USDT: LOCKED by [Fast Momentum Gap] (active signal exists)
+Oct 22 14:32:27 vmi2858748 npm[169579]:     [Momentum Gap] Price: $0.8750, MIDAS: $0.8777, POC: $0.8708, Vol: 0.01x
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Strong uptrend (price: 0.81%, VWAP: 0.04%)
+Oct 22 14:32:27 vmi2858748 npm[169579]:     [Momentum Gap] Price: $0.3118, MIDAS: $0.3115, POC: $0.3115, Vol: 0.18x
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Volume 0.18x < 1.3x required
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Strong uptrend (price: 0.74%, VWAP: 0.39%)
+Oct 22 14:32:27 vmi2858748 npm[169579]:     [Momentum Gap] Price: $2.40, MIDAS: $2.40, POC: $2.40, Vol: 0.18x
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Volume 0.18x < 1.3x required
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Strong uptrend (price: 0.85%, VWAP: 0.36%)
+Oct 22 14:32:27 vmi2858748 npm[169579]:     [Momentum Gap] Price: $272.68, MIDAS: $270.14, POC: $271.90, Vol: 0.14x
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Volume 0.14x < 1.3x required
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Strong uptrend (price: 1.27%, VWAP: 0.73%)
+Oct 22 14:32:27 vmi2858748 npm[169579]:     [Momentum Gap] Price: $0.007810, MIDAS: $0.007799, POC: $0.007779, Vol: 0.03x
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Volume 0.03x < 1.3x required
+Oct 22 14:32:27 vmi2858748 npm[169579]:     ❌ Rejected: Strong uptrend (price: 1.03%, VWAP: 0.49%)
+Oct 22 14:43:22 vmi2858748 npm[169867]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 14:43:22 vmi2858748 npm[169867]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 14:43:21 CEST; 1min 41s ago
+   Main PID: 169855 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 1.0G (peak: 3.7G)
+        CPU: 1min 59.518s
+     CGroup: /system.slice/crypto-trader.service
+             ├─169855 "npm start"
+             ├─169866 sh -c "NODE_ENV=production node dist/index.js"
+             └─169867 node dist/index.js
+
+Oct 22 14:44:40 vmi2858748 npm[169867]: ⏳ NEO/USDT SHORT: Price $5.09 | TP: $4.88 | SL: $5.24
+Oct 22 14:44:40 vmi2858748 npm[169867]: ⏳ WIF/USDT SHORT: Price $0.5120 | TP: $0.4921 | SL: $0.5387
+Oct 22 14:44:40 vmi2858748 npm[169867]: ⏳ JUP/USDT SHORT: Price $0.3541 | TP: $0.3351 | SL: $0.3596
+
