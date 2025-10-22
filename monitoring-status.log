@@ -28566,3 +28566,43 @@ Oct 22 15:20:21 vmi2858748 npm[173614]: ✅ Strategy registered: VWAP Sigma (vwa
              ├─173614 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
              ├─173626 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 15:45:01
+
+📋 Active Signals:
+Oct 22 15:29:30 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:33:13 vmi2858748 npm[173614]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:36:39 vmi2858748 npm[174622]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:38:19 vmi2858748 npm[174622]: 📊 Monitoring 11 active signals (REST 1-min check)...
+Oct 22 15:42:37 vmi2858748 npm[174622]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 15:42:22 vmi2858748 npm[174622]: WebSocket closed for BTC/USDT, reconnecting...
+Oct 22 15:42:28 vmi2858748 npm[174622]: WebSocket connected for BTC/USDT
+Oct 22 15:42:30 vmi2858748 npm[174622]: WebSocket closed for ETH/USDT, reconnecting...
+Oct 22 15:42:36 vmi2858748 npm[174622]: WebSocket connected for ETH/USDT
+Oct 22 15:42:37 vmi2858748 npm[174622]: 📊 Monitoring 11 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 15:31:00 vmi2858748 npm[173614]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-10-22T13:31:00.012Z) ==========
+Oct 22 15:36:26 vmi2858748 npm[174622]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Oct 22 15:36:26 vmi2858748 npm[174622]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 15:36:23 CEST; 8min ago
+   Main PID: 174586 (npm run dev)
+      Tasks: 79 (limit: 28795)
+     Memory: 3.4G (peak: 3.4G)
+        CPU: 10min 58.436s
+     CGroup: /system.slice/crypto-trader.service
+             ├─174586 "npm run dev"
+             ├─174598 sh -c "NODE_ENV=development npx tsx server/index.ts"
+             ├─174599 "npm exec tsx server/index.ts"
+             ├─174610 sh -c "tsx server/index.ts"
+             ├─174611 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─174622 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─174634 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
+
