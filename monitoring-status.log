@@ -26477,3 +26477,59 @@ Oct 22 03:44:11 vmi2858748 npm[150232]: [PERF] getActiveTrades() query: 2086ms (
 Oct 22 03:44:22 vmi2858748 npm[150232]: [PERF] getActiveTrades() query: 1101ms (3 rows)
 Oct 22 03:44:32 vmi2858748 npm[150232]: [PERF] getActiveTrades() query: 282ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-10-22 04:00:01
+
+📋 Active Signals:
+Oct 22 03:54:06 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:55:14 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:56:20 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:57:31 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:58:50 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🔌 WebSocket Status:
+Oct 22 03:55:14 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:56:20 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:57:31 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:58:50 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Volume 0.02x < 1.3x required
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Not a range day - Session range too wide (79% of median)
+Oct 22 03:46:28 vmi2858748 npm[150232]:     [Momentum Gap] Price: $0.5270, MIDAS: $0.5588, POC: $0.5710, Vol: 0.01x
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Strong downtrend (price: -0.94%, VWAP: 0.06%)
+Oct 22 03:46:28 vmi2858748 npm[150232]:     [Momentum Gap] Price: $0.8870, MIDAS: $0.9351, POC: $0.9361, Vol: 0.05x
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Volume 0.05x < 1.3x required
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Strong downtrend (price: -0.67%, VWAP: 0.03%)
+Oct 22 03:46:28 vmi2858748 npm[150232]:     [Momentum Gap] Price: $0.3128, MIDAS: $0.3237, POC: $0.3279, Vol: 0.01x
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Volume 0.01x < 1.3x required
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Not a range day - Session range too wide (95% of median)
+Oct 22 03:46:28 vmi2858748 npm[150232]:     [Momentum Gap] Price: $2.42, MIDAS: $2.48, POC: $2.49, Vol: 0.05x
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Volume 0.05x < 1.3x required
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Not a range day - Session range too wide (74% of median)
+Oct 22 03:46:28 vmi2858748 npm[150232]:     [Momentum Gap] Price: $259.07, MIDAS: $281.57, POC: $278.70, Vol: 0.07x
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Volume 0.07x < 1.3x required
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Strong downtrend (price: -2.41%, VWAP: -0.54%)
+Oct 22 03:46:28 vmi2858748 npm[150232]:     [Momentum Gap] Price: $0.007870, MIDAS: $0.008135, POC: $0.008249, Vol: 0.02x
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Volume 0.02x < 1.3x required
+Oct 22 03:46:28 vmi2858748 npm[150232]:     ❌ Rejected: Not a range day - Session range too wide (76% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-10-22 03:30:04 CEST; 29min ago
+   Main PID: 150220 (npm start)
+      Tasks: 23 (limit: 28795)
+     Memory: 849.0M (peak: 2.2G)
+        CPU: 31min 1.156s
+     CGroup: /system.slice/crypto-trader.service
+             ├─150220 "npm start"
+             ├─150231 sh -c "NODE_ENV=production node dist/index.js"
+             └─150232 node dist/index.js
+
+Oct 22 03:58:50 vmi2858748 npm[150232]: 📊 Monitoring 4 active signals (REST 1-min check)...
+Oct 22 03:58:53 vmi2858748 npm[150232]: [PERF] getActiveTrades() query: 10421ms (3 rows)
+Oct 22 03:59:02 vmi2858748 npm[150232]: ⏳ GALA/USDT SHORT: Price $0.0109 | TP: $0.0107 | SL: $0.0114
+
