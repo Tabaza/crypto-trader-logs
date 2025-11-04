@@ -471,3 +471,55 @@ Nov 05 00:01:03 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High
 
 Nov 05 00:14:16 vmi2858748 npm[520482]: [PERF-SQL] Bulk update 74 symbols: build=0ms, db=3ms, total=3ms
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 00:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 00:25:31 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:26:31 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:27:31 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:28:32 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:29:32 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.2852, VWAP: $0.2813, Sigma: 2.17σ, Vol: 0.54x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (123% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.001806, VWAP: $0.001798, Sigma: 0.14σ, Vol: 0.61x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (147% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $5.10, VWAP: $5.06, Sigma: 0.28σ, Vol: 1.17x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (152% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.0140, VWAP: $0.0142, Sigma: 0.46σ, Vol: 0.24x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (208% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.4030, VWAP: $0.4082, Sigma: 0.25σ, Vol: 0.81x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (163% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.7050, VWAP: $0.7028, Sigma: 0.12σ, Vol: 0.51x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.2699, VWAP: $0.2689, Sigma: 0.12σ, Vol: 0.48x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (211% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $2.22, VWAP: $2.23, Sigma: 0.16σ, Vol: 0.45x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (235% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $445.12, VWAP: $425.89, Sigma: 0.64σ, Vol: 1.04x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (176% of median)
+Nov 05 00:16:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.006750, VWAP: $0.006789, Sigma: 0.31σ, Vol: 0.36x
+Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (181% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-03 16:59:09 CET; 1 day 7h ago
+   Main PID: 520457 (npm run dev)
+      Tasks: 47 (limit: 28792)
+     Memory: 603.6M (peak: 3.6G)
+        CPU: 17h 55min 59.077s
+     CGroup: /system.slice/crypto-trader.service
+             ├─520457 "npm run dev"
+             ├─520470 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─520471 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─520482 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─522394 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 00:29:41 vmi2858748 npm[520482]: 12:29:41 AM [express] GET /api/trades/active 200 in 6ms :: [{"id":"92689a5a-31ed-4ede-91f1-f7c54e1647…
+
