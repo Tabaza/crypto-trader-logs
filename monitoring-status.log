@@ -523,3 +523,55 @@ Nov 05 00:16:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High
 
 Nov 05 00:29:41 vmi2858748 npm[520482]: 12:29:41 AM [express] GET /api/trades/active 200 in 6ms :: [{"id":"92689a5a-31ed-4ede-91f1-f7c54e1647…
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 00:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 00:40:35 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:41:35 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:42:35 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:43:36 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 00:44:36 vmi2858748 npm[520482]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.2852, VWAP: $0.2813, Sigma: 2.12σ, Vol: 0.08x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (123% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.001798, VWAP: $0.001798, Sigma: 0.01σ, Vol: 0.53x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (147% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $5.08, VWAP: $5.06, Sigma: 0.17σ, Vol: 0.35x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (152% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.0140, VWAP: $0.0142, Sigma: 0.43σ, Vol: 0.19x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (208% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.4030, VWAP: $0.4081, Sigma: 0.25σ, Vol: 0.49x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (163% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.7060, VWAP: $0.7027, Sigma: 0.19σ, Vol: 0.28x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.2703, VWAP: $0.2689, Sigma: 0.17σ, Vol: 0.27x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (211% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $2.21, VWAP: $2.23, Sigma: 0.25σ, Vol: 0.20x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (235% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $439.04, VWAP: $425.96, Sigma: 0.44σ, Vol: 0.48x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (176% of median)
+Nov 05 00:31:02 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.006700, VWAP: $0.006784, Sigma: 0.68σ, Vol: 2.23x
+Nov 05 00:31:02 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (181% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-03 16:59:09 CET; 1 day 7h ago
+   Main PID: 520457 (npm run dev)
+      Tasks: 47 (limit: 28792)
+     Memory: 612.4M (peak: 3.6G)
+        CPU: 18h 50.691s
+     CGroup: /system.slice/crypto-trader.service
+             ├─520457 "npm run dev"
+             ├─520470 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─520471 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─520482 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─522394 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 00:44:15 vmi2858748 npm[520482]: [PERF] getActiveTrades() query: 2ms (1 rows)
+
