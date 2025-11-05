@@ -4432,3 +4432,59 @@ Nov 05 14:39:07 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.62x < 1.3x re
              └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 15:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 14:55:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:55:30 vmi2858748 npm[574871]: 2:55:30 PM [express] GET /api/signals/monitoring/all 200 in 5ms :: {"total":0,"signals":[]}
+Nov 05 14:55:30 vmi2858748 npm[574871]: 2:55:30 PM [express] GET /api/signals/monitoring/stats 200 in 22ms :: {"total":0,"wins":0,"losses":0…
+Nov 05 14:55:56 vmi2858748 npm[574871]: 2:55:56 PM [express] GET /api/signals/monitoring/stats 200 in 9ms :: {"total":3,"wins":1,"losses":0,…
+Nov 05 14:55:56 vmi2858748 npm[574871]: 2:55:56 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":3,"signals":[{"id":"097b…
+Nov 05 14:56:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:57:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:58:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:59:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.7260, VWAP: $0.6953, Sigma: 1.85σ, Vol: 1.10x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: Strong uptrend (price: 1.11%, VWAP: 0.45%)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.2766, MIDAS: $0.2722, POC: $0.2742, Vol: 1.72x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.6 < 30 (weak trend)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2766, VWAP: $0.2668, Sigma: 1.62σ, Vol: 1.72x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [Momentum Gap] Price: $2.26, MIDAS: $2.23, POC: $2.24, Vol: 1.18x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.9 < 30 (weak trend)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.26, VWAP: $2.20, Sigma: 1.26σ, Vol: 1.18x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 14:46:11 vmi2858748 npm[574871]:   ⏳ [Fast Momentum Gap] COOLDOWN: Last signal 60 min ago (need 65 min)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $464.01, VWAP: $419.31, Sigma: 2.22σ, Vol: 1.41x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (79% of median)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.006830, MIDAS: $0.006696, POC: $0.006713, Vol: 0.91x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.91x < 1.1x required
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 14:46:11 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.006830, VWAP: $0.006708, Sigma: 0.94σ, Vol: 0.91x
+Nov 05 14:46:11 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 12h ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 472.5M (peak: 1.0G)
+        CPU: 5h 4min 172ms
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+             └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
+
+
