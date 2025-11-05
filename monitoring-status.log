@@ -4711,3 +4711,55 @@ Nov 05 15:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.27x < 1.1x re
              └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 16:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 16:10:16 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 16:11:16 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 16:12:16 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 16:13:16 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 16:14:16 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 25.0 < 30 (weak trend)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $5.31, MIDAS: $5.22, POC: $5.19, Vol: 0.60x
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.60x < 1.1x required
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.2 outside 20-40 range (need medium strength for reversals)
+Nov 05 16:01:03 vmi2858748 npm[574871]:   🔒 VET/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.4240, MIDAS: $0.4186, POC: $0.4190, Vol: 1.42x
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 12.2 < 30 (weak trend)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 12.2 outside 20-40 range (need medium strength for reversals)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.7220, MIDAS: $0.7175, POC: $0.7168, Vol: 1.28x
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.3 < 30 (weak trend)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.3 outside 20-40 range (need medium strength for reversals)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.2782, MIDAS: $0.2745, POC: $0.2740, Vol: 0.86x
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.86x < 1.1x required
+Nov 05 16:01:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $2.26, MIDAS: $2.24, POC: $2.25, Vol: 1.65x
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 20.2 < 30 (weak trend)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $467.83, MIDAS: $444.15, POC: $455.62, Vol: 1.07x
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 1.07x < 1.1x required
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: SHORT divergence in uptrend (market structure: higher_highs)
+Nov 05 16:01:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.006890, MIDAS: $0.006746, POC: $0.006727, Vol: 4.84x
+Nov 05 16:01:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 20.9 < 30 (weak trend)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 14h ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 446.7M (peak: 1.0G)
+        CPU: 5h 42min 19.506s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+             └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
+
+
