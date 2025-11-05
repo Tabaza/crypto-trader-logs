@@ -2905,3 +2905,60 @@ Nov 05 07:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High
 
 Nov 05 07:13:44 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 07:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":2,"signals":[{"id":"362e…
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":2,"wins":0,"losses":2,…
+Nov 05 07:26:20 vmi2858748 npm[574871]: 7:26:20 AM [express] GET /api/signals/monitoring/all 304 in 2ms :: {"total":2,"signals":[{"id":"362e…
+Nov 05 07:26:20 vmi2858748 npm[574871]: 7:26:20 AM [express] GET /api/signals/monitoring/stats 304 in 11ms :: {"total":2,"wins":0,"losses":2…
+Nov 05 07:26:21 vmi2858748 npm[574871]: 7:26:21 AM [express] GET /api/signals/monitoring/all 304 in 5ms :: {"total":0,"signals":[]}
+Nov 05 07:26:21 vmi2858748 npm[574871]: 7:26:21 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 07:26:22 vmi2858748 npm[574871]: 7:26:22 AM [express] GET /api/signals/monitoring/all 304 in 3ms :: {"total":0,"signals":[]}
+Nov 05 07:26:22 vmi2858748 npm[574871]: 7:26:22 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.2731, MIDAS: $0.2645, POC: $0.2611, Vol: 0.39x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.39x < 1.1x required
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2731, VWAP: $0.2677, Sigma: 0.86σ, Vol: 0.39x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (121% of median)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [Momentum Gap] Price: $2.24, MIDAS: $2.17, POC: $2.20, Vol: 0.69x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.69x < 1.1x required
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: ADX 14.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.24, VWAP: $2.21, Sigma: 0.50σ, Vol: 0.69x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (125% of median)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [Momentum Gap] Price: $415.58, MIDAS: $420.24, POC: $423.32, Vol: 1.70x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: ADX 12.8 < 30 (weak trend)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: ADX 12.8 outside 20-40 range (need medium strength for reversals)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $415.58, VWAP: $417.93, Sigma: 0.09σ, Vol: 1.70x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - VWAP not flat (slope: 0.59%)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.006720, MIDAS: $0.006631, POC: $0.006710, Vol: 0.30x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.30x < 1.1x required
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 07:16:05 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.006720, VWAP: $0.006732, Sigma: 0.08σ, Vol: 0.30x
+Nov 05 07:16:05 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (105% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 5h 18min ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 436.7M (peak: 1.0G)
+        CPU: 2h 30min 49.360s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 07:28:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+

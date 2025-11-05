@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-05 07:15:01
+Crypto Trader Log Export - 2025-11-05 07:30:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 05 07:01:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.0 outside 20-40 range (need medium strength for reversals)
-Nov 05 07:01:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $425.01, VWAP: $418.31, Sigma: 0.24σ, Vol: 1.05x
-Nov 05 07:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Strong uptrend (price: 1.05%, VWAP: 1.35%)
-Nov 05 07:01:02 vmi2858748 npm[574871]: 📊 Processing ZIL/USDT...
-Nov 05 07:01:02 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.006730, MIDAS: $0.006633, POC: $0.006742, Vol: 0.43x
-Nov 05 07:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.43x < 1.1x required
-Nov 05 07:01:02 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.0067, RSI: 53.5, Vol: 0.43x
-Nov 05 07:01:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 14.3 outside 20-40 range (need medium strength for reversals)
-Nov 05 07:01:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.006730, VWAP: $0.006732, Sigma: 0.02σ, Vol: 0.43x
-Nov 05 07:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (105% of median)
-Nov 05 07:01:02 vmi2858748 npm[574871]: 🚀 EXECUTION PHASE: 0 signals ready
-Nov 05 07:01:02 vmi2858748 npm[574871]: ✅ Scan complete: 0 signals generated, 0 executed in 2.75s
-Nov 05 07:01:02 vmi2858748 npm[574871]: ================================================
-Nov 05 07:01:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 19ms (0 rows)
-Nov 05 07:01:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:01:12 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (0 rows)
-Nov 05 07:01:22 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:01:32 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:01:42 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:01:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=4ms, total=4ms
-Nov 05 07:01:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 05 07:01:52 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:02:02 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:02:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:02:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:02:12 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
-Nov 05 07:02:16 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 07:02:16 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 07:02:16 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 07:02:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:02:16 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
-Nov 05 07:02:16 vmi2858748 npm[574871]: 7:02:16 AM [express] GET /api/trades/active 304 in 4ms :: []
-Nov 05 07:02:16 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 07:02:16 vmi2858748 npm[574871]: [PERF] Performance stats query: 4ms
-Nov 05 07:02:16 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 4ms
-Nov 05 07:02:16 vmi2858748 npm[574871]: 7:02:16 AM [express] GET /api/performance 304 in 4ms :: {"totalTrades":2,"winRate":0,"totalPnL":-208…
-Nov 05 07:02:16 vmi2858748 npm[574871]: [PERF] Symbols query: 3ms (17 rows)
-Nov 05 07:02:16 vmi2858748 npm[574871]: [PERF] Trade stats query: 1ms
-Nov 05 07:02:16 vmi2858748 npm[574871]: [PERF] MIDAS window query: 1ms
-Nov 05 07:02:16 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 07:02:16 vmi2858748 npm[574871]: 7:02:16 AM [express] GET /api/symbols 200 in 6ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 07:02:16 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 07:02:16 vmi2858748 npm[574871]: 7:02:16 AM [express] GET /api/signals/recent 200 in 7ms :: [{"id":"362ee3ce-6de4-478c-a9e6-2740e26aa…
-Nov 05 07:02:16 vmi2858748 npm[574871]: 7:02:16 AM [express] GET /api/midas/btcusdt 200 in 8ms :: {"id":"710dfd88-6479-4f56-aac8-b5110934d41…
-Nov 05 07:02:16 vmi2858748 npm[574871]: 7:02:16 AM [express] GET /api/volume-profile/btcusdt 200 in 8ms :: {"id":"d3dc3250-2e81-4e7a-a22d-db…
-Nov 05 07:02:22 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
-Nov 05 07:02:32 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:02:42 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:02:52 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:03:02 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:03:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:03:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:03:12 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:03:22 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:03:32 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:03:43 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:03:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (0 rows)
-Nov 05 07:04:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:04:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:04:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:04:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:04:23 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:04:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:04:43 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:04:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
-Nov 05 07:05:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:05:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:05:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:05:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:05:23 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
-Nov 05 07:05:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:05:43 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:05:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:06:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:06:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
-Nov 05 07:06:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:06:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:06:23 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:06:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
-Nov 05 07:06:43 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:06:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=7ms, total=7ms
-Nov 05 07:06:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 05 07:06:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:07:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:07:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:07:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:07:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:07:23 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:07:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:07:43 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:07:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:08:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:08:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
-Nov 05 07:08:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:08:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:08:23 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:08:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:08:43 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:08:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:09:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:09:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (0 rows)
-Nov 05 07:09:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:09:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:09:23 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:09:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:09:43 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:09:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:10:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:10:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:10:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:10:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:10:23 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:10:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:10:44 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:10:54 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:11:04 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:11:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:11:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:11:14 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:11:24 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
-Nov 05 07:11:34 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:11:44 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:11:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=1ms, db=5ms, total=6ms
-Nov 05 07:11:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 05 07:11:54 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 37ms (0 rows)
-Nov 05 07:12:04 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:12:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:12:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:12:14 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:12:24 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
-Nov 05 07:12:34 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:12:44 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:12:54 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:13:04 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:13:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 109ms (0 rows)
-Nov 05 07:13:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:13:14 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:13:24 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 07:13:32 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 07:13:32 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 07:13:32 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 07:13:32 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 07:13:32 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 07:13:32 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 07:13:32 vmi2858748 npm[574871]: [PERF] Trade stats query: 3ms
-Nov 05 07:13:32 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:13:32 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
-Nov 05 07:13:32 vmi2858748 npm[574871]: 7:13:32 AM [express] GET /api/trades/active 304 in 5ms :: []
-Nov 05 07:13:32 vmi2858748 npm[574871]: [PERF] MIDAS window query: 4ms
-Nov 05 07:13:32 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 11ms
-Nov 05 07:13:32 vmi2858748 npm[574871]: 7:13:32 AM [express] GET /api/symbols 200 in 12ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 07:13:32 vmi2858748 npm[574871]: 7:13:32 AM [express] GET /api/signals/recent 200 in 8ms :: [{"id":"362ee3ce-6de4-478c-a9e6-2740e26aa…
-Nov 05 07:13:32 vmi2858748 npm[574871]: [PERF] Performance stats query: 9ms
-Nov 05 07:13:32 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 9ms
-Nov 05 07:13:32 vmi2858748 npm[574871]: 7:13:32 AM [express] GET /api/performance 304 in 10ms :: {"totalTrades":2,"winRate":0,"totalPnL":-20…
-Nov 05 07:13:32 vmi2858748 npm[574871]: 7:13:32 AM [express] GET /api/volume-profile/btcusdt 200 in 6ms :: {"id":"d3dc3250-2e81-4e7a-a22d-db…
-Nov 05 07:13:32 vmi2858748 npm[574871]: 7:13:32 AM [express] GET /api/midas/btcusdt 200 in 4ms :: {"id":"710dfd88-6479-4f56-aac8-b5110934d41…
-Nov 05 07:13:34 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:13:35 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 07:13:35 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 07:13:35 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 07:13:35 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 07:13:35 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 07:13:35 vmi2858748 npm[574871]: [PERF] Performance stats query: 3ms
-Nov 05 07:13:35 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 3ms
-Nov 05 07:13:35 vmi2858748 npm[574871]: 7:13:35 AM [express] GET /api/performance 304 in 4ms :: {"totalTrades":2,"winRate":0,"totalPnL":-208…
-Nov 05 07:13:35 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
-Nov 05 07:13:35 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
-Nov 05 07:13:35 vmi2858748 npm[574871]: 7:13:35 AM [express] GET /api/trades/active 304 in 5ms :: []
-Nov 05 07:13:35 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 07:13:35 vmi2858748 npm[574871]: [PERF] MIDAS window query: 2ms
-Nov 05 07:13:35 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 07:13:35 vmi2858748 npm[574871]: 7:13:35 AM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 07:13:35 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 07:13:35 vmi2858748 npm[574871]: 7:13:35 AM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"362ee3ce-6de4-478c-a9e6-2740e26aa…
-Nov 05 07:13:35 vmi2858748 npm[574871]: 7:13:35 AM [express] GET /api/volume-profile/btcusdt 304 in 6ms :: {"id":"d3dc3250-2e81-4e7a-a22d-db…
-Nov 05 07:13:35 vmi2858748 npm[574871]: 7:13:35 AM [express] GET /api/midas/btcusdt 304 in 9ms :: {"id":"710dfd88-6479-4f56-aac8-b5110934d41…
-Nov 05 07:13:36 vmi2858748 npm[574871]: 7:13:36 AM [express] GET /api/backtest/strategies 304 in 3ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 07:13:36 vmi2858748 npm[574871]: 7:13:36 AM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":2,"signals":[{"id":"362e…
-Nov 05 07:13:36 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
-Nov 05 07:13:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:13:36 vmi2858748 npm[574871]: 7:13:36 AM [express] GET /api/signals/monitoring/stats 304 in 8ms :: {"total":2,"wins":0,"losses":2,…
-Nov 05 07:13:38 vmi2858748 npm[574871]: 7:13:38 AM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
-Nov 05 07:13:38 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 4ms
-Nov 05 07:13:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:13:38 vmi2858748 npm[574871]: 7:13:38 AM [express] GET /api/signals/monitoring/stats 304 in 15ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 07:13:39 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 2ms
-Nov 05 07:13:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:13:39 vmi2858748 npm[574871]: 7:13:39 AM [express] GET /api/signals/monitoring/stats 304 in 8ms :: {"total":0,"wins":0,"losses":0,…
-Nov 05 07:13:39 vmi2858748 npm[574871]: 7:13:39 AM [express] GET /api/signals/monitoring/all 304 in 2ms :: {"total":0,"signals":[]}
-Nov 05 07:13:44 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:13:54 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:14:04 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:14:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:14:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 07:14:14 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:14:24 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 07:14:35 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:14:45 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 07:14:55 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 7ms (0 rows)
+Nov 05 07:16:31 vmi2858748 npm[574871]: 7:16:31 AM [express] GET /api/backtest/strategies 304 in 4ms :: {"strategies":[{"id":"momentum-gap",…
+Nov 05 07:16:31 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 07:16:31 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 07:16:31 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:16:31 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
+Nov 05 07:16:31 vmi2858748 npm[574871]: 7:16:31 AM [express] GET /api/trades/active 200 in 2ms :: []
+Nov 05 07:16:31 vmi2858748 npm[574871]: 7:16:31 AM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":2,"signals":[{"id":"362e…
+Nov 05 07:16:31 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 2ms
+Nov 05 07:16:31 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:16:31 vmi2858748 npm[574871]: 7:16:31 AM [express] GET /api/signals/monitoring/stats 200 in 9ms :: {"total":2,"wins":0,"losses":2,…
+Nov 05 07:16:33 vmi2858748 npm[574871]: 7:16:33 AM [express] GET /api/backtest/strategies 304 in 3ms :: {"strategies":[{"id":"momentum-gap",…
+Nov 05 07:16:33 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 07:16:33 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 07:16:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:16:33 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
+Nov 05 07:16:33 vmi2858748 npm[574871]: 7:16:33 AM [express] GET /api/trades/active 304 in 3ms :: []
+Nov 05 07:16:33 vmi2858748 npm[574871]: 7:16:33 AM [express] GET /api/signals/monitoring/all 304 in 5ms :: {"total":2,"signals":[{"id":"362e…
+Nov 05 07:16:33 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 2ms
+Nov 05 07:16:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:16:33 vmi2858748 npm[574871]: 7:16:33 AM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":2,"wins":0,"losses":2…
+Nov 05 07:16:34 vmi2858748 npm[574871]: 7:16:34 AM [express] GET /api/signals/monitoring/all 304 in 3ms :: {"total":0,"signals":[]}
+Nov 05 07:16:34 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 2ms
+Nov 05 07:16:34 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:16:34 vmi2858748 npm[574871]: 7:16:34 AM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":0,"wins":0,"losses":0…
+Nov 05 07:16:35 vmi2858748 npm[574871]: 7:16:35 AM [express] GET /api/signals/monitoring/all 304 in 2ms :: {"total":0,"signals":[]}
+Nov 05 07:16:35 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 2ms
+Nov 05 07:16:35 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:16:35 vmi2858748 npm[574871]: 7:16:35 AM [express] GET /api/signals/monitoring/stats 304 in 8ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 07:16:35 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:16:45 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:16:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=6ms, total=6ms
+Nov 05 07:16:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 07:16:55 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:17:05 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:17:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:17:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:17:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:17:25 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:17:35 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:17:45 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:17:55 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
+Nov 05 07:18:05 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:18:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 57ms (0 rows)
+Nov 05 07:18:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:18:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:18:25 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:18:35 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:18:45 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
+Nov 05 07:18:55 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:19:05 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:19:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:19:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:19:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:19:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:19:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:19:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:19:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:20:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:20:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:20:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:20:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:20:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:20:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 07:20:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 251ms (0 rows)
+Nov 05 07:20:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:21:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:21:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (0 rows)
+Nov 05 07:21:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:21:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:21:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:21:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:21:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:21:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=1ms, db=6ms, total=7ms
+Nov 05 07:21:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 07:21:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:22:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:22:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (0 rows)
+Nov 05 07:22:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:22:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:22:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:22:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:22:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 07:22:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:23:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:23:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:23:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:23:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:23:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:23:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:23:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:23:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:24:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 24ms (0 rows)
+Nov 05 07:24:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:24:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:24:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:24:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:24:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:24:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:24:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:25:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:25:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:25:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:25:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:25:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:25:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:25:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:25:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:26:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:26:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
+Nov 05 07:26:18 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 2ms
+Nov 05 07:26:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":2,"signals":[{"id":"362e…
+Nov 05 07:26:18 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
+Nov 05 07:26:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:18 vmi2858748 npm[574871]: 7:26:18 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":2,"wins":0,"losses":2,…
+Nov 05 07:26:20 vmi2858748 npm[574871]: 7:26:20 AM [express] GET /api/backtest/strategies 304 in 5ms :: {"strategies":[{"id":"momentum-gap",…
+Nov 05 07:26:20 vmi2858748 npm[574871]: 7:26:20 AM [express] GET /api/signals/monitoring/all 304 in 2ms :: {"total":2,"signals":[{"id":"362e…
+Nov 05 07:26:20 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 2ms
+Nov 05 07:26:20 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 07:26:20 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 07:26:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:20 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
+Nov 05 07:26:20 vmi2858748 npm[574871]: 7:26:20 AM [express] GET /api/trades/active 304 in 4ms :: []
+Nov 05 07:26:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
+Nov 05 07:26:20 vmi2858748 npm[574871]: 7:26:20 AM [express] GET /api/signals/monitoring/stats 304 in 11ms :: {"total":2,"wins":0,"losses":2…
+Nov 05 07:26:21 vmi2858748 npm[574871]: 7:26:21 AM [express] GET /api/signals/monitoring/all 304 in 5ms :: {"total":0,"signals":[]}
+Nov 05 07:26:21 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 4ms
+Nov 05 07:26:21 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 07:26:21 vmi2858748 npm[574871]: 7:26:21 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 07:26:22 vmi2858748 npm[574871]: 7:26:22 AM [express] GET /api/signals/monitoring/all 304 in 3ms :: {"total":0,"signals":[]}
+Nov 05 07:26:22 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 2ms
+Nov 05 07:26:22 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:22 vmi2858748 npm[574871]: 7:26:22 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 07:26:23 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 07:26:23 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 07:26:23 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
+Nov 05 07:26:23 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 07:26:23 vmi2858748 npm[574871]: 7:26:23 AM [express] GET /api/signals/recent 200 in 5ms :: [{"id":"362ee3ce-6de4-478c-a9e6-2740e26aa…
+Nov 05 07:26:23 vmi2858748 npm[574871]: [PERF] Trade stats query: 3ms
+Nov 05 07:26:23 vmi2858748 npm[574871]: [PERF] Performance stats query: 5ms
+Nov 05 07:26:23 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 5ms
+Nov 05 07:26:23 vmi2858748 npm[574871]: 7:26:23 AM [express] GET /api/performance 304 in 5ms :: {"totalTrades":2,"winRate":0,"totalPnL":-208…
+Nov 05 07:26:23 vmi2858748 npm[574871]: [PERF] MIDAS window query: 2ms
+Nov 05 07:26:23 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 7ms
+Nov 05 07:26:23 vmi2858748 npm[574871]: 7:26:23 AM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 07:26:23 vmi2858748 npm[574871]: 7:26:23 AM [express] GET /api/midas/btcusdt 200 in 7ms :: {"id":"5daf24e5-5c89-4c5d-91ad-bb3737ad02f…
+Nov 05 07:26:23 vmi2858748 npm[574871]: 7:26:23 AM [express] GET /api/volume-profile/btcusdt 200 in 7ms :: {"id":"f018222f-cad9-47aa-8c56-51…
+Nov 05 07:26:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:26:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:26:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=1ms, db=6ms, total=7ms
+Nov 05 07:26:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 07:26:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:27:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:27:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:27:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:27:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:27:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 07:27:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:27:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:27:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:28:02 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 07:28:02 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
+Nov 05 07:28:02 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 07:28:02 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 07:28:02 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 07:28:02 vmi2858748 npm[574871]: [PERF] Symbols query: 1ms (17 rows)
+Nov 05 07:28:02 vmi2858748 npm[574871]: 7:28:02 AM [express] GET /api/signals/recent 200 in 4ms :: [{"id":"362ee3ce-6de4-478c-a9e6-2740e26aa…
+Nov 05 07:28:02 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
+Nov 05 07:28:02 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:28:02 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
+Nov 05 07:28:02 vmi2858748 npm[574871]: 7:28:02 AM [express] GET /api/trades/active 304 in 4ms :: []
+Nov 05 07:28:02 vmi2858748 npm[574871]: [PERF] Performance stats query: 6ms
+Nov 05 07:28:02 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 6ms
+Nov 05 07:28:02 vmi2858748 npm[574871]: 7:28:02 AM [express] GET /api/performance 304 in 6ms :: {"totalTrades":2,"winRate":0,"totalPnL":-208…
+Nov 05 07:28:02 vmi2858748 npm[574871]: [PERF] MIDAS window query: 3ms
+Nov 05 07:28:02 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 7ms
+Nov 05 07:28:02 vmi2858748 npm[574871]: 7:28:02 AM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 07:28:02 vmi2858748 npm[574871]: 7:28:02 AM [express] GET /api/midas/btcusdt 304 in 6ms :: {"id":"5daf24e5-5c89-4c5d-91ad-bb3737ad02f…
+Nov 05 07:28:02 vmi2858748 npm[574871]: 7:28:02 AM [express] GET /api/volume-profile/btcusdt 304 in 6ms :: {"id":"f018222f-cad9-47aa-8c56-51…
+Nov 05 07:28:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
+Nov 05 07:28:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:28:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 07:28:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (0 rows)
+Nov 05 07:28:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:28:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:28:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:28:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:29:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:29:07 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 07:29:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 07:29:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 07:29:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:29:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:29:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 07:29:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
 
