@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-05 19:30:01
+Crypto Trader Log Export - 2025-11-05 19:45:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 05 19:27:50 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:27:50 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:27:50 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:27:50 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 5ms
-Nov 05 19:27:50 vmi2858748 npm[611659]: 7:27:50 PM [express] GET /api/symbols 200 in 6ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:27:52 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:27:53 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:27:53 vmi2858748 npm[611659]: 7:27:53 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:27:57 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:27:57 vmi2858748 npm[611659]: [PERF] Symbols query: 6ms (17 rows)
-Nov 05 19:27:57 vmi2858748 npm[611659]: [PERF] Trade stats query: 5ms
-Nov 05 19:27:57 vmi2858748 npm[611659]: [PERF] MIDAS window query: 5ms
-Nov 05 19:27:57 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 16ms
-Nov 05 19:27:57 vmi2858748 npm[611659]: 7:27:57 PM [express] GET /api/symbols 200 in 17ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 19:27:57 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/performance
-Nov 05 19:27:57 vmi2858748 npm[611659]: [PERF] Performance stats query: 4ms
-Nov 05 19:27:57 vmi2858748 npm[611659]: [PERF] getPerformanceStats() TOTAL: 4ms
-Nov 05 19:27:57 vmi2858748 npm[611659]: 7:27:57 PM [express] GET /api/performance 200 in 5ms :: {"totalTrades":10,"winRate":37.5,"totalPnL":…
-Nov 05 19:27:59 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:27:59 vmi2858748 npm[611659]: 7:27:59 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:02 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Nov 05 19:28:03 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Nov 05 19:28:03 vmi2858748 npm[611659]: 📊 Monitoring 3 active trades (REST 1-min check)...
-Nov 05 19:28:04 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:04 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:28:04 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:28:04 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:28:04 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 5ms
-Nov 05 19:28:04 vmi2858748 npm[611659]: 7:28:04 PM [express] GET /api/symbols 200 in 6ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:28:04 vmi2858748 npm[611659]: ⏳ NEIRO/USDT LONG: Price $0.000158 | TP: $0.000163 | SL: $0.000155
-Nov 05 19:28:04 vmi2858748 npm[611659]: ⏳ TIA/USDT SHORT: Price $0.8160 | TP: $0.7925 | SL: $0.8276
-Nov 05 19:28:04 vmi2858748 npm[611659]: ⏳ RENDER/USDT LONG: Price $2.00 | TP: $2.02 | SL: $1.94
-Nov 05 19:28:06 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:06 vmi2858748 npm[611659]: 7:28:06 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:11 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:11 vmi2858748 npm[611659]: [PERF] Symbols query: 4ms (17 rows)
-Nov 05 19:28:11 vmi2858748 npm[611659]: [PERF] Trade stats query: 2ms
-Nov 05 19:28:11 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:28:11 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 8ms
-Nov 05 19:28:11 vmi2858748 npm[611659]: 7:28:11 PM [express] GET /api/symbols 200 in 12ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 19:28:12 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:12 vmi2858748 npm[611659]: 7:28:12 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:12 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Nov 05 19:28:18 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:18 vmi2858748 npm[611659]: [PERF] Symbols query: 3ms (17 rows)
-Nov 05 19:28:18 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:28:18 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:28:18 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 19:28:18 vmi2858748 npm[611659]: 7:28:18 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:28:19 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:19 vmi2858748 npm[611659]: 7:28:19 PM [express] GET /api/signals/recent 304 in 3ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:22 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:28:24 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:24 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:28:24 vmi2858748 npm[611659]: [PERF] Trade stats query: 2ms
-Nov 05 19:28:24 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:28:24 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 7ms
-Nov 05 19:28:24 vmi2858748 npm[611659]: 7:28:24 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:28:25 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:25 vmi2858748 npm[611659]: 7:28:25 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:30 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:30 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:28:30 vmi2858748 npm[611659]: [PERF] Trade stats query: 2ms
-Nov 05 19:28:30 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:28:30 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 19:28:30 vmi2858748 npm[611659]: 7:28:30 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:28:31 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:31 vmi2858748 npm[611659]: 7:28:31 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:32 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:28:36 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:36 vmi2858748 npm[611659]: [PERF] Symbols query: 4ms (17 rows)
-Nov 05 19:28:36 vmi2858748 npm[611659]: [PERF] Trade stats query: 3ms
-Nov 05 19:28:36 vmi2858748 npm[611659]: [PERF] MIDAS window query: 3ms
-Nov 05 19:28:36 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 11ms
-Nov 05 19:28:36 vmi2858748 npm[611659]: 7:28:36 PM [express] GET /api/symbols 200 in 14ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 19:28:37 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:37 vmi2858748 npm[611659]: 7:28:37 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:43 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:28:43 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:43 vmi2858748 npm[611659]: 7:28:43 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:43 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:43 vmi2858748 npm[611659]: [PERF] Symbols query: 3ms (17 rows)
-Nov 05 19:28:43 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:28:43 vmi2858748 npm[611659]: [PERF] MIDAS window query: 3ms
-Nov 05 19:28:43 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 7ms
-Nov 05 19:28:43 vmi2858748 npm[611659]: 7:28:43 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:28:49 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:49 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:28:49 vmi2858748 npm[611659]: [PERF] Trade stats query: 2ms
-Nov 05 19:28:49 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:28:49 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 19:28:49 vmi2858748 npm[611659]: 7:28:49 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:28:49 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:49 vmi2858748 npm[611659]: 7:28:49 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:53 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Nov 05 19:28:55 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:28:55 vmi2858748 npm[611659]: 7:28:55 PM [express] GET /api/signals/recent 304 in 7ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:28:55 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:28:55 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:28:55 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:28:55 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:28:55 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 4ms
-Nov 05 19:28:55 vmi2858748 npm[611659]: 7:28:55 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:01 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:01 vmi2858748 npm[611659]: 7:29:01 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:02 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:02 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:29:02 vmi2858748 npm[611659]: [PERF] Trade stats query: 2ms
-Nov 05 19:29:02 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:29:02 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 7ms
-Nov 05 19:29:02 vmi2858748 npm[611659]: 7:29:02 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:03 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:29:04 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:29:04 vmi2858748 npm[611659]: 📊 Monitoring 3 active trades (REST 1-min check)...
-Nov 05 19:29:04 vmi2858748 npm[611659]: ⏳ NEIRO/USDT LONG: Price $0.000158 | TP: $0.000163 | SL: $0.000155
-Nov 05 19:29:04 vmi2858748 npm[611659]: ⏳ TIA/USDT SHORT: Price $0.8180 | TP: $0.7925 | SL: $0.8276
-Nov 05 19:29:04 vmi2858748 npm[611659]: ⏳ RENDER/USDT LONG: Price $2.01 | TP: $2.02 | SL: $1.94
-Nov 05 19:29:07 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:07 vmi2858748 npm[611659]: 7:29:07 PM [express] GET /api/signals/recent 304 in 28ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf…
-Nov 05 19:29:08 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:08 vmi2858748 npm[611659]: [PERF] Symbols query: 1ms (17 rows)
-Nov 05 19:29:08 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:29:08 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:29:08 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 19:29:08 vmi2858748 npm[611659]: 7:29:08 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:13 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Nov 05 19:29:13 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:13 vmi2858748 npm[611659]: 7:29:13 PM [express] GET /api/signals/recent 304 in 3ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:14 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:14 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:29:14 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:29:14 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:29:14 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 5ms
-Nov 05 19:29:14 vmi2858748 npm[611659]: 7:29:14 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:19 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:19 vmi2858748 npm[611659]: 7:29:19 PM [express] GET /api/signals/recent 304 in 3ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:21 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:21 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:29:21 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:29:21 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:29:21 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 5ms
-Nov 05 19:29:21 vmi2858748 npm[611659]: 7:29:21 PM [express] GET /api/symbols 200 in 6ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:23 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Nov 05 19:29:24 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/performance
-Nov 05 19:29:24 vmi2858748 npm[611659]: [PERF] Performance stats query: 5ms
-Nov 05 19:29:24 vmi2858748 npm[611659]: [PERF] getPerformanceStats() TOTAL: 5ms
-Nov 05 19:29:24 vmi2858748 npm[611659]: 7:29:24 PM [express] GET /api/performance 304 in 7ms :: {"totalTrades":10,"winRate":37.5,"totalPnL":…
-Nov 05 19:29:25 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:25 vmi2858748 npm[611659]: 7:29:25 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:27 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:27 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:29:27 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:29:27 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:29:27 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 4ms
-Nov 05 19:29:27 vmi2858748 npm[611659]: 7:29:27 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:31 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:31 vmi2858748 npm[611659]: 7:29:31 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:33 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:29:33 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:33 vmi2858748 npm[611659]: [PERF] Symbols query: 1ms (17 rows)
-Nov 05 19:29:33 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:29:33 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:29:33 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 3ms
-Nov 05 19:29:33 vmi2858748 npm[611659]: 7:29:33 PM [express] GET /api/symbols 200 in 4ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:38 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:38 vmi2858748 npm[611659]: 7:29:38 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:39 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:39 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:29:39 vmi2858748 npm[611659]: [PERF] Trade stats query: 2ms
-Nov 05 19:29:39 vmi2858748 npm[611659]: [PERF] MIDAS window query: 2ms
-Nov 05 19:29:39 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 19:29:39 vmi2858748 npm[611659]: 7:29:39 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:43 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:29:44 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:44 vmi2858748 npm[611659]: 7:29:44 PM [express] GET /api/signals/recent 304 in 9ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:45 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:45 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:29:45 vmi2858748 npm[611659]: [PERF] Trade stats query: 0ms
-Nov 05 19:29:45 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:29:45 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 4ms
-Nov 05 19:29:45 vmi2858748 npm[611659]: 7:29:45 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:51 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:51 vmi2858748 npm[611659]: 7:29:51 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
-Nov 05 19:29:51 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:51 vmi2858748 npm[611659]: [PERF] Symbols query: 3ms (17 rows)
-Nov 05 19:29:51 vmi2858748 npm[611659]: [PERF] Trade stats query: 1ms
-Nov 05 19:29:51 vmi2858748 npm[611659]: [PERF] MIDAS window query: 3ms
-Nov 05 19:29:51 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 7ms
-Nov 05 19:29:51 vmi2858748 npm[611659]: 7:29:51 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:53 vmi2858748 npm[611659]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 05 19:29:57 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 19:29:57 vmi2858748 npm[611659]: 7:29:57 PM [express] GET /api/signals/recent 304 in 40ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf…
-Nov 05 19:29:58 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 19:29:58 vmi2858748 npm[611659]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 19:29:58 vmi2858748 npm[611659]: [PERF] Trade stats query: 2ms
-Nov 05 19:29:58 vmi2858748 npm[611659]: [PERF] MIDAS window query: 1ms
-Nov 05 19:29:58 vmi2858748 npm[611659]: [PERF] getSymbols() TOTAL: 5ms
-Nov 05 19:29:58 vmi2858748 npm[611659]: 7:29:58 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 19:29:58 vmi2858748 npm[611659]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=6ms, total=6ms
-Nov 05 19:29:58 vmi2858748 npm[611659]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 19:43:14 vmi2858748 npm[612535]: 7:43:14 PM [express] GET /api/signals/monitoring/stats 200 in 13ms :: {"total":13,"wins":3,"losses":…
+Nov 05 19:43:15 vmi2858748 npm[612535]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 19:43:15 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 19:43:15 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 05 19:43:15 vmi2858748 npm[612535]: [DEBUG] /api/trades/active returning 3 trades
+Nov 05 19:43:15 vmi2858748 npm[612535]: 7:43:15 PM [express] GET /api/trades/active 200 in 6ms :: [{"id":"044e3a4b-1b3d-462b-b464-981a01d6c3…
+Nov 05 19:43:15 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:43:15 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:43:15 vmi2858748 npm[612535]: [PERF] Trade stats query: 2ms
+Nov 05 19:43:15 vmi2858748 npm[612535]: [PERF] MIDAS window query: 2ms
+Nov 05 19:43:15 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 6ms
+Nov 05 19:43:15 vmi2858748 npm[612535]: 7:43:15 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:43:15 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:43:15 vmi2858748 npm[612535]: 7:43:15 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:43:16 vmi2858748 npm[612535]: 7:43:16 PM [express] GET /api/trades/all 200 in 6ms :: [{"id":"044e3a4b-1b3d-462b-b464-981a01d6c36a"…
+Nov 05 19:43:18 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 05 19:43:22 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:43:22 vmi2858748 npm[612535]: 7:43:22 PM [express] GET /api/signals/recent 304 in 7ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:43:22 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:43:22 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:43:22 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:43:22 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:43:22 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:43:22 vmi2858748 npm[612535]: 7:43:22 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:43:28 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:43:29 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:43:29 vmi2858748 npm[612535]: [PERF] Symbols query: 1ms (17 rows)
+Nov 05 19:43:29 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:43:29 vmi2858748 npm[612535]: [PERF] MIDAS window query: 2ms
+Nov 05 19:43:29 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:43:29 vmi2858748 npm[612535]: 7:43:29 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:43:29 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:43:29 vmi2858748 npm[612535]: 7:43:29 PM [express] GET /api/signals/recent 304 in 3ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:43:36 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:43:36 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:43:36 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:43:36 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:43:36 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 5ms
+Nov 05 19:43:36 vmi2858748 npm[612535]: 7:43:36 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:43:36 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:43:36 vmi2858748 npm[612535]: 7:43:36 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:43:38 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:43:41 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:43:41 vmi2858748 npm[612535]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:43:41 vmi2858748 npm[612535]: ⏳ NEIRO/USDT LONG: Price $0.000159 | TP: $0.000163 | SL: $0.000155
+Nov 05 19:43:41 vmi2858748 npm[612535]: ⏳ TIA/USDT SHORT: Price $0.8230 | TP: $0.7925 | SL: $0.8276
+Nov 05 19:43:41 vmi2858748 npm[612535]: ⏳ RENDER/USDT LONG: Price $2.01 | TP: $2.02 | SL: $1.94
+Nov 05 19:43:43 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:43:43 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:43:43 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:43:43 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:43:43 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 5ms
+Nov 05 19:43:43 vmi2858748 npm[612535]: 7:43:43 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:43:43 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:43:43 vmi2858748 npm[612535]: 7:43:43 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:43:48 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:43:50 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:43:50 vmi2858748 npm[612535]: 7:43:50 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:43:50 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:43:50 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:43:50 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:43:50 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:43:50 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:43:50 vmi2858748 npm[612535]: 7:43:50 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:43:57 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:43:57 vmi2858748 npm[612535]: 7:43:57 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:43:58 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:43:58 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:43:58 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:43:58 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:43:58 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 5ms
+Nov 05 19:43:58 vmi2858748 npm[612535]: 7:43:58 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:43:58 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 05 19:44:04 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:04 vmi2858748 npm[612535]: 7:44:04 PM [express] GET /api/signals/recent 304 in 8ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:05 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:05 vmi2858748 npm[612535]: [PERF] Symbols query: 1ms (17 rows)
+Nov 05 19:44:05 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:05 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:05 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:44:05 vmi2858748 npm[612535]: 7:44:05 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:08 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 05 19:44:10 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:10 vmi2858748 npm[612535]: 7:44:10 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:11 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:11 vmi2858748 npm[612535]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 19:44:11 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 19:44:11 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] Symbols query: 3ms (17 rows)
+Nov 05 19:44:11 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/performance
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:44:11 vmi2858748 npm[612535]: [DEBUG] /api/trades/active returning 3 trades
+Nov 05 19:44:11 vmi2858748 npm[612535]: 7:44:11 PM [express] GET /api/trades/active 200 in 4ms :: [{"id":"044e3a4b-1b3d-462b-b464-981a01d6c3…
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] Trade stats query: 3ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: 7:44:11 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] MIDAS window query: 2ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 9ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: 7:44:11 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] Performance stats query: 6ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] getPerformanceStats() TOTAL: 6ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: 7:44:11 PM [express] GET /api/performance 304 in 6ms :: {"totalTrades":10,"winRate":37.5,"totalPnL":…
+Nov 05 19:44:11 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 6ms
+Nov 05 19:44:11 vmi2858748 npm[612535]: 7:44:11 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:11 vmi2858748 npm[612535]: 7:44:11 PM [express] GET /api/midas/btcusdt 304 in 3ms :: {"id":"fdb77f77-4d9f-4b29-b58b-ecf4e45ba79…
+Nov 05 19:44:11 vmi2858748 npm[612535]: 7:44:11 PM [express] GET /api/volume-profile/btcusdt 304 in 4ms :: {"id":"243049ba-b940-47cf-b81f-96…
+Nov 05 19:44:13 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:13 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:13 vmi2858748 npm[612535]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 19:44:13 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 19:44:13 vmi2858748 npm[612535]: 7:44:13 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:13 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/performance
+Nov 05 19:44:13 vmi2858748 npm[612535]: [PERF] Symbols query: 6ms (17 rows)
+Nov 05 19:44:13 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:13 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 05 19:44:13 vmi2858748 npm[612535]: [DEBUG] /api/trades/active returning 3 trades
+Nov 05 19:44:13 vmi2858748 npm[612535]: 7:44:13 PM [express] GET /api/trades/active 304 in 7ms :: [{"id":"044e3a4b-1b3d-462b-b464-981a01d6c3…
+Nov 05 19:44:13 vmi2858748 npm[612535]: [PERF] Performance stats query: 7ms
+Nov 05 19:44:13 vmi2858748 npm[612535]: [PERF] getPerformanceStats() TOTAL: 7ms
+Nov 05 19:44:13 vmi2858748 npm[612535]: 7:44:13 PM [express] GET /api/performance 304 in 7ms :: {"totalTrades":10,"winRate":37.5,"totalPnL":…
+Nov 05 19:44:13 vmi2858748 npm[612535]: [PERF] MIDAS window query: 5ms
+Nov 05 19:44:13 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 13ms
+Nov 05 19:44:13 vmi2858748 npm[612535]: 7:44:13 PM [express] GET /api/symbols 200 in 15ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 05 19:44:14 vmi2858748 npm[612535]: 7:44:14 PM [express] GET /api/volume-profile/btcusdt 304 in 5ms :: {"id":"243049ba-b940-47cf-b81f-96…
+Nov 05 19:44:14 vmi2858748 npm[612535]: 7:44:14 PM [express] GET /api/midas/btcusdt 304 in 5ms :: {"id":"fdb77f77-4d9f-4b29-b58b-ecf4e45ba79…
+Nov 05 19:44:17 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:17 vmi2858748 npm[612535]: 7:44:17 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:18 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:18 vmi2858748 npm[612535]: [PERF] Symbols query: 1ms (17 rows)
+Nov 05 19:44:18 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:18 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:18 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:44:18 vmi2858748 npm[612535]: 7:44:18 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:18 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:44:23 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:23 vmi2858748 npm[612535]: 7:44:23 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:24 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:24 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:44:24 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:24 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:24 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:44:24 vmi2858748 npm[612535]: 7:44:24 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:28 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:44:29 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:29 vmi2858748 npm[612535]: 7:44:29 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:30 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:30 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:44:30 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:30 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:30 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:44:30 vmi2858748 npm[612535]: 7:44:30 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:35 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:35 vmi2858748 npm[612535]: 7:44:35 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:36 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:36 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:44:36 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:36 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:36 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 4ms
+Nov 05 19:44:36 vmi2858748 npm[612535]: 7:44:36 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:38 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 05 19:44:41 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:41 vmi2858748 npm[612535]: 7:44:41 PM [express] GET /api/signals/recent 304 in 3ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:41 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 05 19:44:41 vmi2858748 npm[612535]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:44:41 vmi2858748 npm[612535]: ⏳ NEIRO/USDT LONG: Price $0.000160 | TP: $0.000163 | SL: $0.000155
+Nov 05 19:44:41 vmi2858748 npm[612535]: ⏳ TIA/USDT SHORT: Price $0.8230 | TP: $0.7925 | SL: $0.8276
+Nov 05 19:44:41 vmi2858748 npm[612535]: ⏳ RENDER/USDT LONG: Price $2.01 | TP: $2.02 | SL: $1.94
+Nov 05 19:44:42 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:42 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:44:42 vmi2858748 npm[612535]: [PERF] Trade stats query: 2ms
+Nov 05 19:44:42 vmi2858748 npm[612535]: [PERF] MIDAS window query: 2ms
+Nov 05 19:44:42 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 6ms
+Nov 05 19:44:42 vmi2858748 npm[612535]: 7:44:42 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:44 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/performance
+Nov 05 19:44:44 vmi2858748 npm[612535]: [PERF] Performance stats query: 2ms
+Nov 05 19:44:44 vmi2858748 npm[612535]: [PERF] getPerformanceStats() TOTAL: 2ms
+Nov 05 19:44:44 vmi2858748 npm[612535]: 7:44:44 PM [express] GET /api/performance 304 in 3ms :: {"totalTrades":10,"winRate":37.5,"totalPnL":…
+Nov 05 19:44:47 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:47 vmi2858748 npm[612535]: 7:44:47 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:48 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 05 19:44:49 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:49 vmi2858748 npm[612535]: [PERF] Symbols query: 5ms (17 rows)
+Nov 05 19:44:49 vmi2858748 npm[612535]: [PERF] Trade stats query: 2ms
+Nov 05 19:44:49 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:49 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 8ms
+Nov 05 19:44:49 vmi2858748 npm[612535]: 7:44:49 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:54 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:44:54 vmi2858748 npm[612535]: 7:44:54 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf4…
+Nov 05 19:44:57 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 19:44:57 vmi2858748 npm[612535]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 19:44:57 vmi2858748 npm[612535]: [PERF] Trade stats query: 1ms
+Nov 05 19:44:57 vmi2858748 npm[612535]: [PERF] MIDAS window query: 1ms
+Nov 05 19:44:57 vmi2858748 npm[612535]: [PERF] getSymbols() TOTAL: 5ms
+Nov 05 19:44:57 vmi2858748 npm[612535]: 7:44:57 PM [express] GET /api/symbols 200 in 5ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 19:44:58 vmi2858748 npm[612535]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 05 19:45:00 vmi2858748 npm[612535]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 19:45:00 vmi2858748 npm[612535]: 7:45:00 PM [express] GET /api/signals/recent 304 in 23ms :: [{"id":"e18c5601-b547-447f-8201-8ecd14cf…
 

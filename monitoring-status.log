@@ -5439,3 +5439,60 @@ Nov 05 19:19:54 vmi2858748 npm[611659]: ✅ Strategy registered: VWAP Sigma (vwa
 
 Nov 05 19:29:57 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 19:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 19:41:38 vmi2858748 npm[612535]: WebSocket connected for XRP/USDT
+Nov 05 19:41:38 vmi2858748 npm[612535]: WebSocket connected for VET/USDT
+Nov 05 19:41:38 vmi2858748 npm[612535]: WebSocket connected for ZEC/USDT
+Nov 05 19:41:38 vmi2858748 npm[612535]: WebSocket connected for TON/USDT
+Nov 05 19:42:40 vmi2858748 npm[612535]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:43:02 vmi2858748 npm[612535]: 7:43:02 PM [express] GET /api/signals/monitoring/stats 200 in 11ms :: {"total":13,"wins":3,"losses":…
+Nov 05 19:43:11 vmi2858748 npm[612535]: 7:43:11 PM [express] GET /api/signals/monitoring/stats 200 in 13ms :: {"total":13,"wins":3,"losses":…
+Nov 05 19:43:14 vmi2858748 npm[612535]: 7:43:14 PM [express] GET /api/signals/monitoring/stats 200 in 13ms :: {"total":13,"wins":3,"losses":…
+Nov 05 19:43:41 vmi2858748 npm[612535]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:44:41 vmi2858748 npm[612535]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: Not a range day - High range day (109% of median)
+Nov 05 19:31:02 vmi2858748 npm[611659]:     [VWAP Sigma] Price: $0.4320, VWAP: $0.4021, Sigma: 1.82σ, Vol: 0.66x
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:31:02 vmi2858748 npm[611659]:     [VWAP Sigma] Price: $0.7360, VWAP: $0.6975, Sigma: 1.92σ, Vol: 0.29x
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: Strong uptrend (price: 0.96%, VWAP: 0.08%)
+Nov 05 19:31:02 vmi2858748 npm[611659]:     [VWAP Sigma] Price: $0.2805, VWAP: $0.2672, Sigma: 1.83σ, Vol: 0.46x
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:31:02 vmi2858748 npm[611659]:     [VWAP Sigma] Price: $2.29, VWAP: $2.20, Sigma: 1.81σ, Vol: 0.56x
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: ADX 42.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 19:31:02 vmi2858748 npm[611659]:     [VWAP Sigma] Price: $497.12, VWAP: $440.09, Sigma: 2.38σ, Vol: 1.14x
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: Not a range day - High range day (124% of median)
+Nov 05 19:31:02 vmi2858748 npm[611659]:     [VWAP Sigma] Price: $0.006990, VWAP: $0.006688, Sigma: 2.26σ, Vol: 0.68x
+Nov 05 19:31:02 vmi2858748 npm[611659]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:35:09 vmi2858748 npm[612171]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 05 19:35:09 vmi2858748 npm[612171]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Nov 05 19:37:36 vmi2858748 npm[612366]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 05 19:37:36 vmi2858748 npm[612366]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Nov 05 19:41:04 vmi2858748 npm[612535]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 05 19:41:04 vmi2858748 npm[612535]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 19:41:00 CET; 4min 1s ago
+   Main PID: 612510 (npm run dev)
+      Tasks: 52 (limit: 28792)
+     Memory: 476.6M (peak: 620.5M)
+        CPU: 1min 23.197s
+     CGroup: /system.slice/crypto-trader.service
+             ├─612510 "npm run dev"
+             ├─612523 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─612524 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─612535 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─612547 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─612582 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
