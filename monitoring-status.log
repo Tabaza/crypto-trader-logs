@@ -5553,3 +5553,59 @@ Nov 05 19:58:25 api.tabazaserver.com npm[612785]:     ❌ Rejected: Volume 0.16x
              └─612828 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 20:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 20:10:44 api.tabazaserver.com npm[612785]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 05 20:11:22 api.tabazaserver.com npm[612785]: 8:11:22 PM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":14,"wins":3,"losses":5…
+Nov 05 20:11:45 api.tabazaserver.com npm[612785]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 05 20:12:45 api.tabazaserver.com npm[612785]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 05 20:12:56 api.tabazaserver.com npm[612785]: 8:12:56 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":8,"signals":[{"id":"3570…
+Nov 05 20:12:56 api.tabazaserver.com npm[612785]: 8:12:56 PM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":8,"wins":2,"losses":3…
+Nov 05 20:13:45 api.tabazaserver.com npm[612785]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 05 20:14:25 api.tabazaserver.com npm[612785]: 8:14:25 PM [express] GET /api/signals/monitoring/stats 304 in 11ms :: {"total":14,"wins":3,"losses":…
+Nov 05 20:14:46 api.tabazaserver.com npm[612785]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $0.001938, VWAP: $0.001788, Sigma: 2.31σ, Vol: 1.95x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:   🔒 UNI/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $0.0151, VWAP: $0.0142, Sigma: 1.77σ, Vol: 0.19x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (109% of median)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $0.4310, VWAP: $0.4024, Sigma: 1.71σ, Vol: 1.10x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $0.7410, VWAP: $0.6988, Sigma: 2.11σ, Vol: 0.91x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Strong uptrend (price: 1.37%, VWAP: 0.67%)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: SHORT divergence in uptrend (market structure: higher_highs)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $0.2802, VWAP: $0.2677, Sigma: 1.74σ, Vol: 2.08x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: SHORT divergence in uptrend (market structure: higher_highs)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $2.30, VWAP: $2.20, Sigma: 2.14σ, Vol: 1.45x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $490.41, VWAP: $446.78, Sigma: 1.78σ, Vol: 5.03x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (125% of median)
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     [VWAP Sigma] Price: $0.007010, VWAP: $0.006691, Sigma: 2.27σ, Vol: 0.60x
+Nov 05 20:01:30 api.tabazaserver.com npm[612785]:     ❌ Rejected: Not a range day - High range day (100% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:15:00 CET; 2s ago
+   Main PID: 613837 (npm run dev)
+      Tasks: 35 (limit: 28792)
+     Memory: 380.6M (peak: 381.1M)
+        CPU: 5.676s
+     CGroup: /system.slice/crypto-trader.service
+             ├─613837 "npm run dev"
+             ├─613849 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─613850 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─613861 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Nov 05 20:15:00 api.tabazaserver.com systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
+Nov 05 20:15:00 api.tabazaserver.com npm[613837]: > rest-express@1.0.0 dev
+
