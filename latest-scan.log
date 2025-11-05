@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-05 02:15:01
+Crypto Trader Log Export - 2025-11-05 02:19:27
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 05 02:11:22 vmi2858748 npm[574334]: 📊 No active trades to monitor
-Nov 05 02:11:28 vmi2858748 npm[574334]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 02:11:38 vmi2858748 npm[574334]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 02:11:42 vmi2858748 systemd[1]: Stopping crypto-trader.service - AI Crypto Trader Application...
-Nov 05 02:11:42 vmi2858748 systemd[1]: crypto-trader.service: Deactivated successfully.
-Nov 05 02:11:42 vmi2858748 systemd[1]: Stopped crypto-trader.service - AI Crypto Trader Application.
-Nov 05 02:11:42 vmi2858748 systemd[1]: crypto-trader.service: Consumed 7min 504ms CPU time, 687.9M memory peak, 0B memory swap peak.
-Nov 05 02:11:42 vmi2858748 systemd[1]: Started crypto-trader.service - AI Crypto Trader Application.
-Nov 05 02:11:42 vmi2858748 npm[574847]: > rest-express@1.0.0 dev
-Nov 05 02:11:42 vmi2858748 npm[574847]: > NODE_ENV=development tsx server/index.ts
-Nov 05 02:11:45 vmi2858748 npm[574871]: 💾 Using PostgreSQL database storage
-Nov 05 02:11:45 vmi2858748 npm[574871]: 📚 Registering trading strategies...
-Nov 05 02:11:45 vmi2858748 npm[574871]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
-Nov 05 02:11:45 vmi2858748 npm[574871]: ✅ Strategy registered: RSI Divergence (rsi-divergence)
-Nov 05 02:11:45 vmi2858748 npm[574871]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
-Nov 05 02:11:45 vmi2858748 npm[574871]: ✅ 3 strategies registered
-Nov 05 02:11:45 vmi2858748 npm[574871]: Initializing symbols from Binance...
-Nov 05 02:11:48 vmi2858748 npm[574871]: ✅ Loaded 67/67 symbols from Binance SPOT
-Nov 05 02:11:48 vmi2858748 npm[574871]: Loading 67 symbols from Binance SPOT market...
-Nov 05 02:11:48 vmi2858748 npm[574871]: ✅ 67 symbols initialized successfully from Binance SPOT
-Nov 05 02:11:48 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (70 rows)
-Nov 05 02:11:48 vmi2858748 npm[574871]: [PERF] Trade stats query: 3ms
-Nov 05 02:11:48 vmi2858748 npm[574871]: [PERF] MIDAS window query: 3ms
-Nov 05 02:11:48 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 21ms
-Nov 05 02:11:48 vmi2858748 npm[574871]: Starting WebSocket for 70 symbols...
-Nov 05 02:11:48 vmi2858748 npm[574871]: 💾 Seeded 70 prices from database
-Nov 05 02:11:48 vmi2858748 npm[574871]: WebSocket streams initialized with 5-min persistence backup
-Nov 05 02:11:48 vmi2858748 npm[574871]: ⏰ Signal scheduler will start at next 15-min boundary (01:16 UTC, in 251 seconds)
-Nov 05 02:11:49 vmi2858748 npm[574871]: 2:11:49 AM [express] serving on port 5000
-Nov 05 02:11:49 vmi2858748 npm[574871]: 🚀 Starting REST polling monitor (1-minute checks)...
-Nov 05 02:11:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (0 rows)
-Nov 05 02:11:49 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for AAVE/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for BNB/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for CHZ/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for SOL/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ADA/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for BCH/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ARB/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for TRX/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ETH/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for 1000SATS/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for BONK/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for BTC/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for APT/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ARKM/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for DOT/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for GALA/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ORDI/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for BOME/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for EGLD/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ALGO/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ATOM/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for RENDER/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for AXS/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ENA/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for FIL/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for LTC/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for SAND/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for DASH/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for IMX/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ETC/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for INJ/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for COMP/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for LDO/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for FLOKI/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for LINK/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ICP/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for AVAX/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for MANA/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for MKR/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for JUP/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for MEME/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for MATIC/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for FET/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for NEIRO/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for NEAR/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for PEPE/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for TURBO/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for NEO/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for QTUM/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for TIA/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for RAY/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for PNUT/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for UNI/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for XLM/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for OP/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for RUNE/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for THETA/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for STX/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for S/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for WIF/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for SHIB/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for SEI/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for TON/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ZIL/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for XRP/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for VET/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for SUI/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for WLD/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for ZEC/USDT
-Nov 05 02:11:50 vmi2858748 npm[574871]: WebSocket connected for DOGE/USDT
-Nov 05 02:12:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
-Nov 05 02:12:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
-Nov 05 02:12:17 vmi2858748 npm[574871]: A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
-Nov 05 02:12:18 vmi2858748 npm[574871]: 2:12:18 AM [express] GET /api/backtest/strategies 304 in 6ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 02:12:18 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 02:12:18 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 02:12:18 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 4ms
-Nov 05 02:12:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (0 rows)
-Nov 05 02:12:18 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
-Nov 05 02:12:18 vmi2858748 npm[574871]: 2:12:18 AM [express] GET /api/trades/active 304 in 10ms :: []
-Nov 05 02:12:18 vmi2858748 npm[574871]: 2:12:18 AM [express] GET /api/signals/monitoring/all 304 in 9ms :: {"total":0,"signals":[]}
-Nov 05 02:12:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 7ms (0 rows)
-Nov 05 02:12:18 vmi2858748 npm[574871]: 2:12:18 AM [express] GET /api/signals/monitoring/stats 304 in 21ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 02:12:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (0 rows)
-Nov 05 02:12:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 7ms (0 rows)
-Nov 05 02:12:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (0 rows)
-Nov 05 02:12:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 02:12:49 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 02:12:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (0 rows)
-Nov 05 02:13:38 vmi2858748 npm[574871]: 2:13:38 AM [express] GET /api/backtest/strategies 304 in 4ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 02:13:38 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 02:13:38 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 02:13:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 02:13:38 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
-Nov 05 02:13:38 vmi2858748 npm[574871]: 2:13:38 AM [express] GET /api/trades/active 304 in 3ms :: []
-Nov 05 02:13:38 vmi2858748 npm[574871]: 2:13:38 AM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
-Nov 05 02:13:38 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
-Nov 05 02:13:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 02:13:38 vmi2858748 npm[574871]: 2:13:38 AM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 02:13:39 vmi2858748 npm[574871]: 2:13:39 AM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
-Nov 05 02:13:39 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 3ms
-Nov 05 02:13:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:39 vmi2858748 npm[574871]: 2:13:39 AM [express] GET /api/signals/monitoring/stats 304 in 11ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 02:13:40 vmi2858748 npm[574871]: 2:13:40 AM [express] GET /api/signals/monitoring/all 304 in 3ms :: {"total":0,"signals":[]}
-Nov 05 02:13:40 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 2ms
-Nov 05 02:13:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:40 vmi2858748 npm[574871]: 2:13:40 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
-Nov 05 02:13:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 10ms (0 rows)
-Nov 05 02:13:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
-Nov 05 02:13:49 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 02:13:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 02:13:55 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 02:13:55 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 02:13:55 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 02:13:55 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 02:13:55 vmi2858748 npm[574871]: [PERF] Symbols query: 3ms (17 rows)
-Nov 05 02:13:55 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:55 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
-Nov 05 02:13:55 vmi2858748 npm[574871]: 2:13:55 AM [express] GET /api/trades/active 304 in 3ms :: []
-Nov 05 02:13:55 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 02:13:55 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 02:13:55 vmi2858748 npm[574871]: 2:13:55 AM [express] GET /api/signals/recent 304 in 5ms :: []
-Nov 05 02:13:55 vmi2858748 npm[574871]: [PERF] MIDAS window query: 2ms
-Nov 05 02:13:55 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 7ms
-Nov 05 02:13:55 vmi2858748 npm[574871]: 2:13:55 AM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 02:13:55 vmi2858748 npm[574871]: [PERF] Performance stats query: 4ms
-Nov 05 02:13:55 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 5ms
-Nov 05 02:13:55 vmi2858748 npm[574871]: 2:13:55 AM [express] GET /api/performance 304 in 5ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,"a…
-Nov 05 02:13:55 vmi2858748 npm[574871]: 2:13:55 AM [express] GET /api/volume-profile/btcusdt 200 in 6ms :: {"id":"ab977f9e-f22f-4df0-9fe3-b4…
-Nov 05 02:13:55 vmi2858748 npm[574871]: 2:13:55 AM [express] GET /api/midas/btcusdt 200 in 6ms :: {"id":"38879794-ccdd-4129-a5ef-406935442fd…
-Nov 05 02:13:58 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 02:13:58 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 02:13:58 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 02:13:58 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 02:13:58 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 02:13:58 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 02:13:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:13:58 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
-Nov 05 02:13:58 vmi2858748 npm[574871]: 2:13:58 AM [express] GET /api/trades/active 304 in 2ms :: []
-Nov 05 02:13:58 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 02:13:58 vmi2858748 npm[574871]: 2:13:58 AM [express] GET /api/signals/recent 304 in 5ms :: []
-Nov 05 02:13:58 vmi2858748 npm[574871]: [PERF] Performance stats query: 5ms
-Nov 05 02:13:58 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 5ms
-Nov 05 02:13:58 vmi2858748 npm[574871]: 2:13:58 AM [express] GET /api/performance 304 in 5ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,"a…
-Nov 05 02:13:58 vmi2858748 npm[574871]: [PERF] MIDAS window query: 2ms
-Nov 05 02:13:58 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 02:13:58 vmi2858748 npm[574871]: 2:13:58 AM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 02:13:58 vmi2858748 npm[574871]: 2:13:58 AM [express] GET /api/midas/btcusdt 304 in 3ms :: {"id":"38879794-ccdd-4129-a5ef-406935442fd…
-Nov 05 02:13:58 vmi2858748 npm[574871]: 2:13:58 AM [express] GET /api/volume-profile/btcusdt 304 in 4ms :: {"id":"ab977f9e-f22f-4df0-9fe3-b4…
-Nov 05 02:14:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 22ms (0 rows)
-Nov 05 02:14:02 vmi2858748 npm[574871]: 2:14:02 AM [express] GET /api/backtest/strategies 304 in 3ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 02:14:02 vmi2858748 npm[574871]: 2:14:02 AM [express] GET /api/signals/monitoring/all 304 in 3ms :: {"total":0,"signals":[]}
-Nov 05 02:14:02 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
-Nov 05 02:14:02 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:14:02 vmi2858748 npm[574871]: 2:14:02 AM [express] GET /api/signals/monitoring/stats 304 in 8ms :: {"total":0,"wins":0,"losses":0,…
-Nov 05 02:14:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:14:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:14:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:14:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
-Nov 05 02:14:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:14:49 vmi2858748 npm[574871]: 📊 No active trades to monitor
-Nov 05 02:14:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
-Nov 05 02:15:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $1.29, VWAP: $1.33, Sigma: 0.83σ, Vol: 0.20x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (111% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing RENDER/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $1.80, MIDAS: $1.86, POC: $1.86, Vol: 0.59x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.59x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 1.7980, RSI: 36.6, Vol: 0.59x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $1.80, VWAP: $1.89, Sigma: 1.27σ, Vol: 0.59x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (111% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing RUNE/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.7440, MIDAS: $0.7506, POC: $0.7450, Vol: 0.98x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.98x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.7440, RSI: 41.5, Vol: 0.98x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.7440, VWAP: $0.7584, Sigma: 0.84σ, Vol: 0.98x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (147% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing S/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.1223, MIDAS: $0.1184, POC: $0.1180, Vol: 0.36x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.36x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.1223, RSI: 54.8, Vol: 0.36x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.8 outside 20-40 range (need medium strength for reversals)
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.1223, VWAP: $0.1185, Sigma: 1.20σ, Vol: 0.36x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (155% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing SAND/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.1703, MIDAS: $0.1728, POC: $0.1731, Vol: 0.18x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.18x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.1703, RSI: 42.5, Vol: 0.18x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.1703, VWAP: $0.1754, Sigma: 0.96σ, Vol: 0.18x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (124% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing SEI/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.1552, MIDAS: $0.1566, POC: $0.1578, Vol: 0.35x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.35x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.1552, RSI: 44.3, Vol: 0.35x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.1552, VWAP: $0.1585, Sigma: 0.72σ, Vol: 0.35x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (93% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing SHIB/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.00000868, MIDAS: $0.00000882, POC: $0.00000884, Vol: 0.47x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.47x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.0000, RSI: 41.0, Vol: 0.47x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.00000868, VWAP: $0.00000891, Sigma: 1.13σ, Vol: 0.47x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (154% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing STX/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.3459, MIDAS: $0.3529, POC: $0.3561, Vol: 0.59x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.59x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.3459, RSI: 38.8, Vol: 0.59x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.3459, VWAP: $0.3585, Sigma: 1.19σ, Vol: 0.59x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (119% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing SUI/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $1.94, MIDAS: $1.95, POC: $1.94, Vol: 0.39x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.39x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 1.9387, RSI: 44.3, Vol: 0.39x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $1.94, VWAP: $1.98, Sigma: 0.64σ, Vol: 0.39x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (134% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing THETA/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.4050, MIDAS: $0.4005, POC: $0.4057, Vol: 0.48x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.48x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.4050, RSI: 53.0, Vol: 0.48x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.2 outside 20-40 range (need medium strength for reversals)
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.4050, VWAP: $0.4068, Sigma: 0.14σ, Vol: 0.48x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (136% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing TIA/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.7660, MIDAS: $0.7715, POC: $0.7775, Vol: 0.36x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.36x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.7660, RSI: 43.3, Vol: 0.36x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.7660, VWAP: $0.7806, Sigma: 0.61σ, Vol: 0.36x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (80% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing TON/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $1.88, MIDAS: $1.89, POC: $1.89, Vol: 0.26x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.26x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 1.8820, RSI: 45.9, Vol: 0.26x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $1.88, VWAP: $1.92, Sigma: 0.72σ, Vol: 0.26x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (82% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing TRX/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.2832, MIDAS: $0.2818, POC: $0.2807, Vol: 0.35x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.35x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.2832, RSI: 49.2, Vol: 0.35x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 17.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2832, VWAP: $0.2815, Sigma: 0.85σ, Vol: 0.35x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (152% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing TURBO/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.001759, MIDAS: $0.001776, POC: $0.001777, Vol: 0.42x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.42x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.0018, RSI: 46.1, Vol: 0.42x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.8 outside 20-40 range (need medium strength for reversals)
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.001759, VWAP: $0.001794, Sigma: 0.65σ, Vol: 0.42x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (87% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing UNI/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $5.00, MIDAS: $5.00, POC: $5.07, Vol: 0.31x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.31x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 5.0000, RSI: 46.7, Vol: 0.31x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $5.00, VWAP: $5.05, Sigma: 0.45σ, Vol: 0.31x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (126% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing VET/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.0136, MIDAS: $0.0139, POC: $0.0140, Vol: 0.68x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.68x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.0136, RSI: 39.0, Vol: 0.68x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.0136, VWAP: $0.0142, Sigma: 1.33σ, Vol: 0.68x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (127% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing WIF/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.3960, MIDAS: $0.3974, POC: $0.4015, Vol: 0.62x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.62x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.3960, RSI: 45.8, Vol: 0.62x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.3960, VWAP: $0.4065, Sigma: 0.55σ, Vol: 0.62x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (121% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing WLD/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.6890, MIDAS: $0.6913, POC: $0.7037, Vol: 0.24x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.24x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.6890, RSI: 44.2, Vol: 0.24x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.6890, VWAP: $0.7003, Sigma: 0.65σ, Vol: 0.24x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (98% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing XLM/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.2652, MIDAS: $0.2657, POC: $0.2692, Vol: 0.32x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.32x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.2652, RSI: 45.3, Vol: 0.32x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2652, VWAP: $0.2685, Sigma: 0.42σ, Vol: 0.32x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (134% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing XRP/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $2.16, MIDAS: $2.19, POC: $2.21, Vol: 0.40x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.40x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 2.1610, RSI: 41.9, Vol: 0.40x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.16, VWAP: $2.22, Sigma: 0.91σ, Vol: 0.40x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (132% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing ZEC/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $426.82, MIDAS: $406.35, POC: $404.88, Vol: 1.13x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.6 < 30 (weak trend)
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 426.8200, RSI: 51.2, Vol: 1.13x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $426.82, VWAP: $426.16, Sigma: 0.02σ, Vol: 1.13x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (111% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 📊 Processing ZIL/USDT...
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.006530, MIDAS: $0.006739, POC: $0.006692, Vol: 0.41x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.41x < 1.1x required
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.0065, RSI: 36.7, Vol: 0.41x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 02:16:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.006530, VWAP: $0.006776, Sigma: 1.84σ, Vol: 0.41x
+Nov 05 02:16:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (120% of median)
+Nov 05 02:16:03 vmi2858748 npm[574871]: 🚀 EXECUTION PHASE: 0 signals ready
+Nov 05 02:16:03 vmi2858748 npm[574871]: ✅ Scan complete: 0 signals generated, 0 executed in 3.23s
+Nov 05 02:16:03 vmi2858748 npm[574871]: ================================================
+Nov 05 02:16:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 02:16:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:16:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (0 rows)
+Nov 05 02:16:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:16:41 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 02:16:41 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 02:16:41 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 02:16:41 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 02:16:41 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
+Nov 05 02:16:41 vmi2858748 npm[574871]: [PERF] Symbols query: 3ms (17 rows)
+Nov 05 02:16:41 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 7ms (0 rows)
+Nov 05 02:16:41 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 0 trades
+Nov 05 02:16:41 vmi2858748 npm[574871]: 2:16:41 AM [express] GET /api/trades/active 304 in 9ms :: []
+Nov 05 02:16:41 vmi2858748 npm[574871]: 2:16:41 AM [express] GET /api/signals/recent 304 in 8ms :: []
+Nov 05 02:16:41 vmi2858748 npm[574871]: [PERF] Trade stats query: 4ms
+Nov 05 02:16:41 vmi2858748 npm[574871]: [PERF] Performance stats query: 6ms
+Nov 05 02:16:41 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 6ms
+Nov 05 02:16:41 vmi2858748 npm[574871]: 2:16:41 AM [express] GET /api/performance 304 in 7ms :: {"totalTrades":0,"winRate":0,"totalPnL":0,"a…
+Nov 05 02:16:41 vmi2858748 npm[574871]: [PERF] MIDAS window query: 1ms
+Nov 05 02:16:41 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 8ms
+Nov 05 02:16:41 vmi2858748 npm[574871]: 2:16:41 AM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 05 02:16:42 vmi2858748 npm[574871]: 2:16:42 AM [express] GET /api/volume-profile/btcusdt 200 in 6ms :: {"id":"25ae6f05-34bd-40f0-aa19-42…
+Nov 05 02:16:42 vmi2858748 npm[574871]: 2:16:42 AM [express] GET /api/midas/btcusdt 200 in 5ms :: {"id":"68a52606-6e83-4b5f-8e79-037044e674b…
+Nov 05 02:16:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=5ms, total=5ms
+Nov 05 02:16:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 02:16:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 02:16:49 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 02:16:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 02:17:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (0 rows)
+Nov 05 02:17:11 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:17:21 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 02:17:31 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 57ms (0 rows)
+Nov 05 02:17:41 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:17:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 02:17:49 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 02:17:51 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 02:18:01 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 113ms (0 rows)
+Nov 05 02:18:11 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 67ms (0 rows)
+Nov 05 02:18:21 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+Nov 05 02:18:31 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:18:41 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (0 rows)
+Nov 05 02:18:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:18:49 vmi2858748 npm[574871]: 📊 No active trades to monitor
+Nov 05 02:18:51 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:19:01 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 9ms (0 rows)
+Nov 05 02:19:11 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+Nov 05 02:19:21 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 109ms (0 rows)
 
