@@ -3652,3 +3652,55 @@ Nov 05 10:46:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 12.5 outside 20-40
 
 Nov 05 10:59:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 11:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 11:10:12 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 11:11:12 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 11:12:12 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 11:13:12 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 11:14:12 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.2727, MIDAS: $0.2686, POC: $0.2693, Vol: 0.53x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.53x < 1.1x required
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.1 outside 20-40 range (need medium strength for reversals)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2727, VWAP: $0.2674, Sigma: 0.83σ, Vol: 0.53x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [Momentum Gap] Price: $2.24, MIDAS: $2.20, POC: $2.24, Vol: 0.96x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.96x < 1.1x required
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.2 outside 20-40 range (need medium strength for reversals)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.24, VWAP: $2.20, Sigma: 0.67σ, Vol: 0.96x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [Momentum Gap] Price: $443.88, MIDAS: $430.91, POC: $433.03, Vol: 1.54x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.5 < 30 (weak trend)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $443.88, VWAP: $412.87, Sigma: 1.45σ, Vol: 1.54x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - VWAP not flat (slope: 0.39%)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.006700, MIDAS: $0.006652, POC: $0.006730, Vol: 1.01x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Volume 1.01x < 1.1x required
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 12.4 outside 20-40 range (need medium strength for reversals)
+Nov 05 11:01:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.006700, VWAP: $0.006722, Sigma: 0.15σ, Vol: 1.01x
+Nov 05 11:01:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 9h ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 442.5M (peak: 1.0G)
+        CPU: 3h 47min 16.335s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 11:13:53 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+
