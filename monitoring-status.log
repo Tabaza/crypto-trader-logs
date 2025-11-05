@@ -632,3 +632,55 @@ Nov 05 00:46:11 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High
 
 Nov 05 00:59:16 vmi2858748 npm[520482]: [PERF-SQL] Bulk update 74 symbols: build=0ms, db=5ms, total=5ms
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 01:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 01:10:43 vmi2858748 npm[520482]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 01:11:43 vmi2858748 npm[520482]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 01:12:44 vmi2858748 npm[520482]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 01:13:44 vmi2858748 npm[520482]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 01:14:44 vmi2858748 npm[520482]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.001785, VWAP: $0.001797, Sigma: 0.21σ, Vol: 0.28x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (147% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $5.07, VWAP: $5.06, Sigma: 0.10σ, Vol: 0.43x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (152% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.0140, VWAP: $0.0142, Sigma: 0.45σ, Vol: 0.40x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (208% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.4020, VWAP: $0.4076, Sigma: 0.28σ, Vol: 0.59x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (163% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.7030, VWAP: $0.7020, Sigma: 0.06σ, Vol: 0.18x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.2695, VWAP: $0.2688, Sigma: 0.08σ, Vol: 0.29x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (211% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $2.21, VWAP: $2.23, Sigma: 0.33σ, Vol: 0.24x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (235% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $441.80, VWAP: $426.03, Sigma: 0.53σ, Vol: 0.42x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (176% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:     [VWAP Sigma] Price: $0.006690, VWAP: $0.006784, Sigma: 0.75σ, Vol: 0.06x
+Nov 05 01:01:06 vmi2858748 npm[520482]:     ❌ Rejected: Not a range day - High range day (181% of median)
+Nov 05 01:01:06 vmi2858748 npm[520482]:   ✅ [Fast Momentum Gap] IMX/USDT executed (1/2)
+Nov 05 01:01:06 vmi2858748 npm[520482]:   ✅ [Fast Momentum Gap] INJ/USDT executed (2/2)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-03 16:59:09 CET; 1 day 8h ago
+   Main PID: 520457 (npm run dev)
+      Tasks: 47 (limit: 28792)
+     Memory: 592.1M (peak: 3.6G)
+        CPU: 18h 11min 44.532s
+     CGroup: /system.slice/crypto-trader.service
+             ├─520457 "npm run dev"
+             ├─520470 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─520471 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─520482 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─522394 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 01:14:20 vmi2858748 npm[520482]: [PERF] getActiveTrades() query: 2ms (3 rows)
+
