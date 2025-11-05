@@ -830,3 +830,60 @@ Nov 05 01:54:18 vmi2858748 npm[574334]: ✅ Strategy registered: VWAP Sigma (vwa
 
 Nov 05 01:59:06 vmi2858748 npm[574334]: [PERF] getActiveTrades() query: 1ms (0 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 02:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 02:12:18 vmi2858748 npm[574871]: 2:12:18 AM [express] GET /api/signals/monitoring/all 304 in 9ms :: {"total":0,"signals":[]}
+Nov 05 02:12:18 vmi2858748 npm[574871]: 2:12:18 AM [express] GET /api/signals/monitoring/stats 304 in 21ms :: {"total":0,"wins":0,"losses":0…
+Nov 05 02:13:38 vmi2858748 npm[574871]: 2:13:38 AM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
+Nov 05 02:13:38 vmi2858748 npm[574871]: 2:13:38 AM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":0,"wins":0,"losses":0…
+Nov 05 02:13:39 vmi2858748 npm[574871]: 2:13:39 AM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
+Nov 05 02:13:39 vmi2858748 npm[574871]: 2:13:39 AM [express] GET /api/signals/monitoring/stats 304 in 11ms :: {"total":0,"wins":0,"losses":0…
+Nov 05 02:13:40 vmi2858748 npm[574871]: 2:13:40 AM [express] GET /api/signals/monitoring/all 304 in 3ms :: {"total":0,"signals":[]}
+Nov 05 02:13:40 vmi2858748 npm[574871]: 2:13:40 AM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 02:14:02 vmi2858748 npm[574871]: 2:14:02 AM [express] GET /api/signals/monitoring/all 304 in 3ms :: {"total":0,"signals":[]}
+Nov 05 02:14:02 vmi2858748 npm[574871]: 2:14:02 AM [express] GET /api/signals/monitoring/stats 304 in 8ms :: {"total":0,"wins":0,"losses":0,…
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Not a range day - Session range too wide (98% of median)
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [Momentum Gap] Price: $0.2666, MIDAS: $0.2658, POC: $0.2692, Vol: 0.25x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Volume 0.25x < 1.1x required
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [VWAP Sigma] Price: $0.2666, VWAP: $0.2686, Sigma: 0.25σ, Vol: 0.25x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Not a range day - Session range too wide (137% of median)
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [Momentum Gap] Price: $2.17, MIDAS: $2.20, POC: $2.21, Vol: 0.34x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Volume 0.34x < 1.1x required
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [VWAP Sigma] Price: $2.17, VWAP: $2.22, Sigma: 0.73σ, Vol: 0.34x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Not a range day - Session range too wide (134% of median)
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [Momentum Gap] Price: $436.49, MIDAS: $405.75, POC: $404.88, Vol: 0.40x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Volume 0.40x < 1.1x required
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: ADX 19.3 outside 20-40 range (need medium strength for reversals)
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [VWAP Sigma] Price: $436.49, VWAP: $426.13, Sigma: 0.35σ, Vol: 0.40x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Not a range day - Session range too wide (111% of median)
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [Momentum Gap] Price: $0.006570, MIDAS: $0.006743, POC: $0.006692, Vol: 0.09x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Volume 0.09x < 1.1x required
+Nov 05 02:01:03 vmi2858748 npm[574334]:     [VWAP Sigma] Price: $0.006570, VWAP: $0.006779, Sigma: 1.60σ, Vol: 0.09x
+Nov 05 02:01:03 vmi2858748 npm[574334]:     ❌ Rejected: Not a range day - Session range too wide (127% of median)
+Nov 05 02:11:45 vmi2858748 npm[574871]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 05 02:11:45 vmi2858748 npm[574871]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 3min 19s ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 402.5M (peak: 714.4M)
+        CPU: 1min 33.913s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 02:14:02 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (0 rows)
+
