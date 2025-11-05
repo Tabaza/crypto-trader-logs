@@ -6258,3 +6258,57 @@ Nov 05 23:16:03 api.tabazaserver.com npm[614101]:   ✅ [VWAP Sigma] BOME/USDT e
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 23:45:02
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 23:40:13 api.tabazaserver.com npm[614101]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 05 23:40:51 api.tabazaserver.com npm[614101]: 11:40:51 PM [express] GET /api/signals/monitoring/stats 304 in 12ms :: {"total":10,"wins":0,"losses":…
+Nov 05 23:41:14 api.tabazaserver.com npm[614101]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 05 23:42:14 api.tabazaserver.com npm[614101]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 05 23:43:15 api.tabazaserver.com npm[614101]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 05 23:43:52 api.tabazaserver.com npm[614101]: 11:43:52 PM [express] GET /api/signals/monitoring/stats 304 in 8ms :: {"total":10,"wins":0,"losses":1…
+Nov 05 23:44:15 api.tabazaserver.com npm[614101]: 📊 Monitoring 9 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $38890.89, MIDAS: $39748.63, POC: $40194.31, Vol: 0.67x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.67x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $38915.13, MIDAS: $39728.11, POC: $40194.31, Vol: 1.08x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 1.08x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $39038.72, MIDAS: $39710.03, POC: $40148.38, Vol: 0.68x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.68x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $39095.10, MIDAS: $39684.60, POC: $40148.38, Vol: 0.83x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.83x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $39198.39, MIDAS: $39648.27, POC: $40156.90, Vol: 1.28x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 1.28x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $39116.85, MIDAS: $39602.73, POC: $40193.04, Vol: 2.47x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 26.1 < 30 (weak trend)
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $38831.17, MIDAS: $39572.10, POC: $40128.41, Vol: 0.66x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.66x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $38607.92, MIDAS: $39559.09, POC: $40132.68, Vol: 0.40x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.40x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $38527.02, MIDAS: $39533.20, POC: $40138.15, Vol: 0.52x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.52x < 1.3x required
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $38485.22, MIDAS: $39487.16, POC: $40123.49, Vol: 1.41x
+Nov 05 23:34:07 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 27.0 < 30 (weak trend)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 3h 26min ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 527.9M (peak: 742.9M)
+        CPU: 59min 49.074s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
