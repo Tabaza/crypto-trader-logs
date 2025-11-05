@@ -1,19 +1,9 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-05 02:36:23
+Crypto Trader Log Export - 2025-11-05 02:37:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 05 02:31:04 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.1515, VWAP: $0.1584, Sigma: 1.49σ, Vol: 0.55x
-Nov 05 02:31:04 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (93% of median)
-Nov 05 02:31:04 vmi2858748 npm[574871]: 📊 Processing SHIB/USDT...
-Nov 05 02:31:04 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.00000848, MIDAS: $0.00000881, POC: $0.00000884, Vol: 1.50x
-Nov 05 02:31:04 vmi2858748 npm[574871]:     ❌ Rejected: ADX 29.0 < 30 (weak trend)
-Nov 05 02:31:04 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.0000, RSI: 31.5, Vol: 1.50x
-Nov 05 02:31:04 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
-Nov 05 02:31:04 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.00000848, VWAP: $0.00000891, Sigma: 2.03σ, Vol: 1.50x
-Nov 05 02:31:04 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
-Nov 05 02:31:04 vmi2858748 npm[574871]: 📊 Processing STX/USDT...
 Nov 05 02:31:04 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.3382, MIDAS: $0.3526, POC: $0.3561, Vol: 0.93x
 Nov 05 02:31:04 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.93x < 1.1x required
 Nov 05 02:31:04 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.3382, RSI: 31.1, Vol: 0.93x
@@ -204,4 +194,14 @@ Nov 05 02:35:59 vmi2858748 npm[574871]: ❌ Failed to fetch ZIL/USDT: binance GE
 Nov 05 02:35:59 vmi2858748 npm[574871]: ❌ Failed to fetch CHZ/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
 Nov 05 02:36:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 145ms (2 rows)
 Nov 05 02:36:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 05 02:36:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 02:36:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (2 rows)
+Nov 05 02:36:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 05 02:36:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=1ms, db=6ms, total=7ms
+Nov 05 02:36:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 02:36:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 02:36:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (2 rows)
+Nov 05 02:36:59 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 02:36:59 vmi2858748 npm[574871]: ❌ Failed to fetch ZIL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 02:36:59 vmi2858748 npm[574871]: ❌ Failed to fetch CHZ/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
 
