@@ -5127,3 +5127,55 @@ Nov 05 17:46:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 45.6 outside 20-40
              └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 18:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 18:10:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 18:11:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 18:12:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 18:13:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 18:14:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 17.4 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 11.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 15.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.4 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 10.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.3 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:   🔒 RENDER/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 17.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 9.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 12.1 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:   🔒 TIA/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 17.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:   🔒 TRX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 43.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 18:01:12 vmi2858748 npm[574871]:     ❌ Rejected: ADX 45.0 outside 20-40 range (need medium strength for reversals)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 16h ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 463.7M (peak: 1.0G)
+        CPU: 6h 36min 2.705s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+             └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
+
+
