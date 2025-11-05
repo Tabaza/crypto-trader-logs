@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-05 13:45:01
+Crypto Trader Log Export - 2025-11-05 14:00:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 05 13:33:54 vmi2858748 npm[574871]: 1:33:54 PM [express] GET /api/performance 304 in 3ms :: {"totalTrades":3,"winRate":33.33333333333333…
-Nov 05 13:33:55 vmi2858748 npm[574871]: 1:33:55 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":3,"signals":[{"id":"c0f6…
-Nov 05 13:33:55 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 5ms
-Nov 05 13:33:55 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 05 13:33:55 vmi2858748 npm[574871]: 1:33:55 PM [express] GET /api/signals/monitoring/stats 200 in 15ms :: {"total":3,"wins":0,"losses":2…
-Nov 05 13:33:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:34:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:34:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:34:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:34:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:34:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:34:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:34:19 vmi2858748 npm[574871]: 1:34:19 PM [express] GET /api/signals/monitoring/all 304 in 4ms :: {"total":0,"signals":[]}
-Nov 05 13:34:19 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 3ms
-Nov 05 13:34:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (2 rows)
-Nov 05 13:34:19 vmi2858748 npm[574871]: 1:34:19 PM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 13:34:20 vmi2858748 npm[574871]: 1:34:20 PM [express] GET /api/signals/monitoring/all 200 in 5ms :: {"total":2,"signals":[{"id":"6519…
-Nov 05 13:34:20 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 4ms
-Nov 05 13:34:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:34:20 vmi2858748 npm[574871]: 1:34:20 PM [express] GET /api/signals/monitoring/stats 200 in 10ms :: {"total":2,"wins":1,"losses":0…
-Nov 05 13:34:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:34:30 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 13:34:30 vmi2858748 npm[574871]: [PERF] Symbols query: 3ms (17 rows)
-Nov 05 13:34:30 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 13:34:30 vmi2858748 npm[574871]: [PERF] MIDAS window query: 3ms
-Nov 05 13:34:30 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 8ms
-Nov 05 13:34:30 vmi2858748 npm[574871]: 1:34:30 PM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 13:34:30 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 13:34:30 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 13:34:30 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 13:34:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 05 13:34:30 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 2 trades
-Nov 05 13:34:30 vmi2858748 npm[574871]: 1:34:30 PM [express] GET /api/trades/active 200 in 4ms :: [{"id":"2314707e-50e5-476d-8916-aa2799f110…
-Nov 05 13:34:30 vmi2858748 npm[574871]: 1:34:30 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"c0f61b45-cee4-4888-8742-d05993d1f…
-Nov 05 13:34:30 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 13:34:30 vmi2858748 npm[574871]: [PERF] Performance stats query: 3ms
-Nov 05 13:34:30 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 3ms
-Nov 05 13:34:30 vmi2858748 npm[574871]: 1:34:30 PM [express] GET /api/performance 304 in 5ms :: {"totalTrades":3,"winRate":33.33333333333333…
-Nov 05 13:34:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:34:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:34:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 05 13:35:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:35:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:35:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:35:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:35:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:35:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 21ms (2 rows)
-Nov 05 13:35:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:35:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:35:41 vmi2858748 npm[574871]: 1:35:41 PM [express] GET /api/backtest/strategies/rsi-divergence 200 in 4ms :: {"metadata":{"id":"rs…
-Nov 05 13:35:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (2 rows)
-Nov 05 13:35:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:36:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:36:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 05 13:36:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:36:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:36:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:36:15 vmi2858748 npm[574871]: 1:36:15 PM [express] GET /api/backtest/strategies/vwap-sigma 200 in 3ms :: {"metadata":{"id":"vwap-s…
-Nov 05 13:36:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:36:17 vmi2858748 npm[574871]: 1:36:17 PM [express] GET /api/backtest/strategies 200 in 2ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 13:36:17 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=all
-Nov 05 13:36:17 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (70 rows)
-Nov 05 13:36:17 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 13:36:17 vmi2858748 npm[574871]: [PERF] MIDAS window query: 1ms
-Nov 05 13:36:17 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 6ms
-Nov 05 13:36:17 vmi2858748 npm[574871]: 1:36:17 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 13:36:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:36:30 vmi2858748 npm[574871]: 1:36:30 PM [express] GET /api/backtest/strategies/vwap-sigma 200 in 4ms :: {"metadata":{"id":"vwap-s…
-Nov 05 13:36:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 05 13:36:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:36:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=4ms, total=4ms
-Nov 05 13:36:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 05 13:36:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (2 rows)
-Nov 05 13:37:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:37:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (2 rows)
-Nov 05 13:37:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:37:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:37:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:37:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:37:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:37:37 vmi2858748 npm[574871]: 1:37:37 PM [express] GET /api/backtest/strategies/momentum-gap 304 in 3ms :: {"metadata":{"id":"mome…
-Nov 05 13:37:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:37:41 vmi2858748 npm[574871]: 1:37:41 PM [express] GET /api/backtest/strategies 304 in 3ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 13:37:41 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=all
-Nov 05 13:37:41 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (70 rows)
-Nov 05 13:37:41 vmi2858748 npm[574871]: [PERF] Trade stats query: 1ms
-Nov 05 13:37:41 vmi2858748 npm[574871]: [PERF] MIDAS window query: 1ms
-Nov 05 13:37:41 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 5ms
-Nov 05 13:37:41 vmi2858748 npm[574871]: 1:37:41 PM [express] GET /api/symbols 200 in 6ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 05 13:37:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:37:48 vmi2858748 npm[574871]: 1:37:48 PM [express] GET /api/backtest/strategies/momentum-gap 304 in 3ms :: {"metadata":{"id":"mome…
-Nov 05 13:37:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:38:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:38:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:38:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:38:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:38:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:38:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:38:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:38:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:38:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:38:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:39:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:39:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 05 13:39:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:39:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:39:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:39:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:39:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:39:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:39:39 vmi2858748 npm[574871]: 1:39:39 PM [express] GET /api/backtest/strategies/vwap-sigma 304 in 11ms :: {"metadata":{"id":"vwap-…
-Nov 05 13:39:42 vmi2858748 npm[574871]: 1:39:42 PM [express] GET /api/backtest/strategies/rsi-divergence 304 in 4ms :: {"metadata":{"id":"rs…
-Nov 05 13:39:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:39:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:40:02 vmi2858748 npm[574871]: 1:40:02 PM [express] GET /api/backtest/strategies 304 in 6ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 13:40:02 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=all
-Nov 05 13:40:02 vmi2858748 npm[574871]: [PERF] Symbols query: 17ms (70 rows)
-Nov 05 13:40:02 vmi2858748 npm[574871]: [PERF] Trade stats query: 3ms
-Nov 05 13:40:02 vmi2858748 npm[574871]: [PERF] MIDAS window query: 2ms
-Nov 05 13:40:02 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 23ms
-Nov 05 13:40:02 vmi2858748 npm[574871]: 1:40:02 PM [express] GET /api/symbols 200 in 24ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 13:40:04 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=all
-Nov 05 13:40:04 vmi2858748 npm[574871]: [PERF] Symbols query: 5ms (70 rows)
-Nov 05 13:40:04 vmi2858748 npm[574871]: [PERF] Trade stats query: 3ms
-Nov 05 13:40:04 vmi2858748 npm[574871]: 1:40:04 PM [express] GET /api/backtest/strategies 304 in 4ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 13:40:04 vmi2858748 npm[574871]: [PERF] MIDAS window query: 6ms
-Nov 05 13:40:04 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 15ms
-Nov 05 13:40:04 vmi2858748 npm[574871]: 1:40:04 PM [express] GET /api/symbols 200 in 17ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 13:40:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:40:09 vmi2858748 npm[574871]: 1:40:09 PM [express] GET /api/backtest/strategies/rsi-divergence 304 in 3ms :: {"metadata":{"id":"rs…
-Nov 05 13:40:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 05 13:40:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:40:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:40:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:40:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:40:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:40:32 vmi2858748 npm[574871]: 1:40:32 PM [express] GET /api/backtest/strategies/vwap-sigma 304 in 4ms :: {"metadata":{"id":"vwap-s…
-Nov 05 13:40:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:40:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:40:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:41:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:41:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:41:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:41:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:41:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:41:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:41:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (2 rows)
-Nov 05 13:41:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:41:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:41:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=4ms, total=4ms
-Nov 05 13:41:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 05 13:41:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 05 13:42:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 05 13:42:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:42:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:42:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:42:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:42:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:42:23 vmi2858748 npm[574871]: 1:42:23 PM [express] GET /api/backtest/strategies 304 in 5ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 13:42:23 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=all
-Nov 05 13:42:23 vmi2858748 npm[574871]: [PERF] Symbols query: 3ms (70 rows)
-Nov 05 13:42:23 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 13:42:23 vmi2858748 npm[574871]: [PERF] MIDAS window query: 2ms
-Nov 05 13:42:23 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 9ms
-Nov 05 13:42:23 vmi2858748 npm[574871]: 1:42:23 PM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 13:42:23 vmi2858748 npm[574871]: 1:42:23 PM [express] GET /api/backtest/strategies/rsi-divergence 304 in 4ms :: {"metadata":{"id":"rs…
-Nov 05 13:42:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:42:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:42:39 vmi2858748 npm[574871]: 📊 Starting backtest: VWAP Sigma on BTC/USDT
-Nov 05 13:42:39 vmi2858748 npm[574871]:    Period: 2025-01-01T00:00:00.000Z to 2025-09-30T00:00:00.000Z
-Nov 05 13:42:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:42:48 vmi2858748 npm[574871]:    Loaded 26112 candles
-Nov 05 13:42:48 vmi2858748 npm[574871]:    [Debug] Signal generation: 0 generated, 25966 filtered out of 25966 attempts
-Nov 05 13:42:48 vmi2858748 npm[574871]:    [Backtest] Using category: major, SL: 1.0%, TP: 1.2%, R:R: 1.2
-Nov 05 13:42:48 vmi2858748 npm[574871]:    Generated 0 signals
-Nov 05 13:42:48 vmi2858748 npm[574871]:    ✅ Backtest complete: 0.0% win rate, 0 signals
-Nov 05 13:42:48 vmi2858748 npm[574871]: 1:42:48 PM [express] POST /api/backtest/run 200 in 9587ms :: {"strategyId":"vwap-sigma","strategyNam…
-Nov 05 13:42:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:43:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (2 rows)
-Nov 05 13:43:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:43:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:43:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:43:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:43:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:43:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:43:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:43:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:43:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:44:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:44:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 05 13:44:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 05 13:44:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:44:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 13:44:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (2 rows)
-Nov 05 13:44:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:44:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:44:41 vmi2858748 npm[574871]: 1:44:41 PM [express] GET /api/backtest/strategies/momentum-gap 304 in 7ms :: {"metadata":{"id":"mome…
-Nov 05 13:44:44 vmi2858748 npm[574871]: 1:44:44 PM [express] GET /api/backtest/strategies/vwap-sigma 304 in 3ms :: {"metadata":{"id":"vwap-s…
-Nov 05 13:44:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 05 13:44:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 15.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27320.7656, RSI: 50.2, Vol: 0.33x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.8 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27465.2854, RSI: 54.9, Vol: 1.39x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 14.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27526.5407, RSI: 56.4, Vol: 0.22x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 15.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27386.1457, RSI: 50.9, Vol: 3.96x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 15.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27294.2857, RSI: 47.8, Vol: 2.96x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27283.6534, RSI: 47.4, Vol: 1.58x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27346.4741, RSI: 49.7, Vol: 1.93x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27332.1632, RSI: 48.7, Vol: 2.27x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.6 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27381.8982, RSI: 51.2, Vol: 1.00x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27511.2001, RSI: 56.2, Vol: 2.34x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 13.2 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27616.7107, RSI: 59.5, Vol: 3.80x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 17.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27780.8813, RSI: 64.9, Vol: 1.34x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.8 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27905.1962, RSI: 68.5, Vol: 2.07x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 16.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27964.6306, RSI: 69.9, Vol: 2.01x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.4 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27939.8331, RSI: 68.6, Vol: 2.26x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 20.0 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27868.8732, RSI: 65.2, Vol: 0.67x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27940.2502, RSI: 66.9, Vol: 0.55x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28069.8039, RSI: 70.4, Vol: 1.32x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28171.9111, RSI: 72.5, Vol: 1.78x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28213.7360, RSI: 73.5, Vol: 0.81x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28232.7171, RSI: 73.7, Vol: 1.01x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28144.6017, RSI: 68.3, Vol: 0.58x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28280.2892, RSI: 71.8, Vol: 0.68x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28200.1705, RSI: 67.2, Vol: 0.49x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28008.3167, RSI: 57.3, Vol: 0.99x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27873.5643, RSI: 51.6, Vol: 0.33x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27835.9147, RSI: 50.4, Vol: 1.39x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27713.3189, RSI: 45.8, Vol: 1.94x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27708.4275, RSI: 45.7, Vol: 1.05x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27575.5874, RSI: 40.9, Vol: 0.81x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27672.9540, RSI: 45.6, Vol: 2.17x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27708.5388, RSI: 47.5, Vol: 1.09x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27576.3412, RSI: 42.2, Vol: 0.91x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27379.5463, RSI: 36.6, Vol: 1.35x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27475.3754, RSI: 40.5, Vol: 0.58x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27367.2358, RSI: 37.1, Vol: 0.23x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27239.3112, RSI: 33.9, Vol: 0.41x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27382.9061, RSI: 40.0, Vol: 0.45x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27395.7287, RSI: 40.6, Vol: 1.86x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27577.2111, RSI: 48.2, Vol: 0.85x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27464.4677, RSI: 44.9, Vol: 1.55x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27609.4881, RSI: 50.4, Vol: 1.40x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27746.6959, RSI: 55.1, Vol: 1.57x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27680.8770, RSI: 52.5, Vol: 0.60x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27736.8670, RSI: 53.9, Vol: 0.31x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27916.1339, RSI: 59.1, Vol: 1.31x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27864.7955, RSI: 57.5, Vol: 0.44x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27986.6518, RSI: 60.9, Vol: 0.92x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27874.8154, RSI: 56.2, Vol: 0.51x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27898.5319, RSI: 57.0, Vol: 0.49x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28053.8079, RSI: 61.9, Vol: 2.20x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28250.4777, RSI: 66.6, Vol: 0.74x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28165.5300, RSI: 62.8, Vol: 0.65x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27987.9436, RSI: 56.1, Vol: 0.50x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28118.5504, RSI: 60.0, Vol: 1.49x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 28025.4402, RSI: 56.6, Vol: 1.69x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27992.7931, RSI: 55.4, Vol: 0.39x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27923.9904, RSI: 53.0, Vol: 1.34x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27781.5914, RSI: 48.0, Vol: 1.29x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.8 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27762.7210, RSI: 47.2, Vol: 1.33x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.0 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27704.2540, RSI: 45.0, Vol: 1.15x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 17.3 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27611.5816, RSI: 41.6, Vol: 0.67x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 17.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27442.9792, RSI: 36.4, Vol: 0.57x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.2 outside 20-40 range (need medium strength for reversals)
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27570.4089, RSI: 41.8, Vol: 1.26x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27592.1848, RSI: 42.8, Vol: 0.96x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27497.9362, RSI: 40.0, Vol: 1.15x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27583.0357, RSI: 43.5, Vol: 1.39x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27557.6554, RSI: 42.2, Vol: 1.35x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27532.9288, RSI: 41.0, Vol: 1.97x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27555.7709, RSI: 41.9, Vol: 0.37x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27417.6113, RSI: 37.0, Vol: 1.40x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:     [RSI Divergence] Price: 27474.5795, RSI: 40.1, Vol: 1.29x
+Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ RSI Divergence rejected: No divergence pattern detected
+Nov 05 13:56:00 vmi2858748 npm[574871]:    [Debug] Signal generation: 8 generated, 1671 filtered out of 1679 attempts
+Nov 05 13:56:00 vmi2858748 npm[574871]:    [Backtest] Using category: midcap, SL: 1.5%, TP: 1.8%, R:R: 1.2
+Nov 05 13:56:00 vmi2858748 npm[574871]:    Generated 8 signals
+Nov 05 13:56:00 vmi2858748 npm[574871]:    ✅ Backtest complete: 25.0% win rate, 8 signals
+Nov 05 13:56:00 vmi2858748 npm[574871]: 1:56:00 PM [express] POST /api/backtest/run 200 in 110ms :: {"strategyId":"rsi-divergence","strategy…
+Nov 05 13:56:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:56:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 05 13:56:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 05 13:56:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 13:56:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:56:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:56:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:56:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:56:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:56:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=7ms, total=7ms
+Nov 05 13:56:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 13:56:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 05 13:57:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:57:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:57:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 05 13:57:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 13:57:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:57:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:57:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:57:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:57:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:57:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (2 rows)
+Nov 05 13:58:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 05 13:58:02 vmi2858748 npm[574871]: 1:58:02 PM [express] GET /api/backtest/strategies 200 in 4ms :: {"strategies":[{"id":"momentum-gap",…
+Nov 05 13:58:02 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=all
+Nov 05 13:58:02 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (70 rows)
+Nov 05 13:58:02 vmi2858748 npm[574871]: [PERF] Trade stats query: 3ms
+Nov 05 13:58:02 vmi2858748 npm[574871]: [PERF] MIDAS window query: 1ms
+Nov 05 13:58:02 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 7ms
+Nov 05 13:58:02 vmi2858748 npm[574871]: 1:58:02 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 13:58:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:58:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 05 13:58:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 13:58:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:58:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:58:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:58:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:58:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:58:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:59:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:59:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:59:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 05 13:59:13 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 13:59:13 vmi2858748 npm[574871]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:59:13 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 13:59:21 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:59:31 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 05 13:59:41 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 05 13:59:51 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 05 14:00:01 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
 
