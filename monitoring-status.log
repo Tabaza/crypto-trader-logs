@@ -5387,3 +5387,55 @@ Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High
              └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 19:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 19:26:02 vmi2858748 npm[611659]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:27:03 vmi2858748 npm[611659]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:27:29 vmi2858748 npm[611659]: 7:27:29 PM [express] GET /api/signals/monitoring/stats 200 in 8ms :: {"total":13,"wins":3,"losses":5…
+Nov 05 19:28:03 vmi2858748 npm[611659]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:29:04 vmi2858748 npm[611659]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $5.42, VWAP: $5.07, Sigma: 2.10σ, Vol: 0.44x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.0150, VWAP: $0.0142, Sigma: 1.82σ, Vol: 0.18x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (109% of median)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.4290, VWAP: $0.4020, Sigma: 1.67σ, Vol: 0.90x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.7320, VWAP: $0.6973, Sigma: 1.75σ, Vol: 0.29x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Strong uptrend (price: 0.69%, VWAP: 0.38%)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2798, VWAP: $0.2671, Sigma: 1.77σ, Vol: 0.76x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.28, VWAP: $2.20, Sigma: 1.71σ, Vol: 0.38x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: ADX 41.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $489.86, VWAP: $438.83, Sigma: 2.15σ, Vol: 0.85x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (123% of median)
+Nov 05 19:16:30 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.007010, VWAP: $0.006686, Sigma: 2.48σ, Vol: 0.37x
+Nov 05 19:16:30 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:19:54 vmi2858748 npm[611659]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 05 19:19:54 vmi2858748 npm[611659]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 19:19:52 CET; 10min ago
+   Main PID: 611636 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 521.0M (peak: 765.5M)
+        CPU: 3min 29.640s
+     CGroup: /system.slice/crypto-trader.service
+             ├─611636 "npm run dev"
+             ├─611647 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─611648 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─611659 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─611719 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 19:29:57 vmi2858748 npm[611659]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+
