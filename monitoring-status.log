@@ -5335,3 +5335,55 @@ Nov 05 18:46:11 vmi2858748 npm[574871]:   ✅ [Fast Momentum Gap] NEIRO/USDT exe
              └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 19:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 19:10:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:11:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:12:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:13:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 05 19:14:17 vmi2858748 npm[574871]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $5.41, VWAP: $5.07, Sigma: 2.10σ, Vol: 0.66x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: ADX 40.2 outside 20-40 range (need medium strength for reversals)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.0151, VWAP: $0.0142, Sigma: 1.91σ, Vol: 0.29x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (109% of median)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.4310, VWAP: $0.4018, Sigma: 1.82σ, Vol: 0.69x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.7320, VWAP: $0.6972, Sigma: 1.78σ, Vol: 0.68x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Strong uptrend (price: 0.97%, VWAP: 0.57%)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2802, VWAP: $0.2671, Sigma: 1.85σ, Vol: 0.73x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.29, VWAP: $2.20, Sigma: 1.88σ, Vol: 0.79x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: ADX 41.7 outside 20-40 range (need medium strength for reversals)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $481.58, VWAP: $437.79, Sigma: 1.84σ, Vol: 0.52x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (123% of median)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: SHORT divergence in uptrend (market structure: higher_highs)
+Nov 05 19:01:31 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.007010, VWAP: $0.006686, Sigma: 2.55σ, Vol: 1.03x
+Nov 05 19:01:31 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 17h ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 475.1M (peak: 1.0G)
+        CPU: 6h 54min 50.225s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+             └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
+
+
