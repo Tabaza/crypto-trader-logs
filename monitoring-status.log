@@ -4276,3 +4276,55 @@ Nov 05 13:56:00 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.2 outside 20-40
              └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 14:15:02
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 14:10:13 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:11:13 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:12:13 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:13:13 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 14:14:13 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32300.95, MIDAS: $31347.02, POC: $31015.42, Vol: 1.31x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32223.55, MIDAS: $31374.57, POC: $31040.25, Vol: 1.43x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32068.01, MIDAS: $31401.14, POC: $31040.25, Vol: 1.78x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32237.48, MIDAS: $31411.50, POC: $31040.25, Vol: 0.60x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.60x < 1.3x required
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32221.75, MIDAS: $31430.48, POC: $30900.27, Vol: 0.44x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.44x < 1.3x required
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32347.74, MIDAS: $31472.71, POC: $30900.27, Vol: 1.59x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32189.21, MIDAS: $31488.77, POC: $31363.48, Vol: 0.66x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.66x < 1.3x required
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32210.25, MIDAS: $31513.89, POC: $31363.48, Vol: 1.06x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     ❌ Rejected: Volume 1.06x < 1.3x required
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32444.76, MIDAS: $31559.22, POC: $31363.48, Vol: 1.42x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32523.49, MIDAS: $31582.08, POC: $31366.88, Vol: 0.57x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.57x < 1.3x required
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32504.48, MIDAS: $31634.55, POC: $31365.10, Vol: 1.91x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32409.48, MIDAS: $31672.00, POC: $31365.10, Vol: 0.65x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.65x < 1.3x required
+Nov 05 14:13:06 vmi2858748 npm[574871]:     [Momentum Gap] Price: $32513.14, MIDAS: $31707.15, POC: $31371.17, Vol: 1.13x
+Nov 05 14:13:06 vmi2858748 npm[574871]:     ❌ Rejected: Volume 1.13x < 1.3x required
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 12h ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 55 (limit: 28792)
+     Memory: 439.7M (peak: 1.0G)
+        CPU: 4h 43min 37.889s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+             └─600261 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.11 --ping
+
+
