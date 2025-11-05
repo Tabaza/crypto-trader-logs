@@ -1793,3 +1793,55 @@ Nov 05 02:31:14 vmi2858748 npm[574871]:   ✅ [Fast Momentum Gap] ZIL/USDT execu
 
 Nov 05 02:44:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 02:47:43
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 05 02:42:59 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 02:43:59 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 02:44:59 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 02:45:59 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 05 02:46:59 vmi2858748 npm[574871]: 📊 Monitoring 2 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2809, VWAP: $0.2815, Sigma: 0.29σ, Vol: 1.23x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (95% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.001708, VWAP: $0.001791, Sigma: 1.56σ, Vol: 2.05x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (87% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $4.89, VWAP: $5.05, Sigma: 1.27σ, Vol: 0.92x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (130% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.0134, VWAP: $0.0141, Sigma: 1.81σ, Vol: 1.86x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (99% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.3870, VWAP: $0.4050, Sigma: 0.96σ, Vol: 0.86x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (121% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.6720, VWAP: $0.6993, Sigma: 1.55σ, Vol: 1.16x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (98% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2592, VWAP: $0.2682, Sigma: 1.14σ, Vol: 0.85x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (137% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.11, VWAP: $2.22, Sigma: 1.58σ, Vol: 1.15x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (132% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 02:46:03 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $413.41, VWAP: $425.97, Sigma: 0.42σ, Vol: 0.84x
+Nov 05 02:46:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (105% of median)
+Nov 05 02:46:03 vmi2858748 npm[574871]:   🔒 ZIL/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 36min ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 420.3M (peak: 1.0G)
+        CPU: 26min 2.021s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 02:46:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (2 rows)
+
