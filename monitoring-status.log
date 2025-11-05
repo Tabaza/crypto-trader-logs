@@ -2241,3 +2241,50 @@ Nov 05 03:31:03 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High
 
 Nov 05 03:44:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (0 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-05 04:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $5.12, VWAP: $5.05, Sigma: 0.60σ, Vol: 1.24x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (130% of median)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.0141, VWAP: $0.0141, Sigma: 0.11σ, Vol: 0.80x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.5 outside 20-40 range (need medium strength for reversals)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.4100, VWAP: $0.4045, Sigma: 0.32σ, Vol: 0.43x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (124% of median)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 19.9 outside 20-40 range (need medium strength for reversals)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.7060, VWAP: $0.6987, Sigma: 0.44σ, Vol: 0.69x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (98% of median)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.2718, VWAP: $0.2680, Sigma: 0.50σ, Vol: 0.69x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $2.22, VWAP: $2.22, Sigma: 0.09σ, Vol: 0.72x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (97% of median)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: ADX 15.3 outside 20-40 range (need medium strength for reversals)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $427.95, VWAP: $425.49, Sigma: 0.08σ, Vol: 0.36x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - Session range too wide (105% of median)
+Nov 05 03:46:02 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.006690, VWAP: $0.006748, Sigma: 0.38σ, Vol: 0.89x
+Nov 05 03:46:02 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (95% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 02:11:42 CET; 1h 48min ago
+   Main PID: 574847 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 412.8M (peak: 1.0G)
+        CPU: 1h 11min 7.881s
+     CGroup: /system.slice/crypto-trader.service
+             ├─574847 "npm run dev"
+             ├─574859 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─574860 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─574871 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─574910 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 05 03:58:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (0 rows)
+
