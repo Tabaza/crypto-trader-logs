@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-05 15:00:01
+Crypto Trader Log Export - 2025-11-05 15:15:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 05 14:49:35 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:49:45 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:49:50 vmi2858748 npm[574871]: 2:49:50 PM [express] GET /api/trades/all 200 in 2ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a0666123f"…
-Nov 05 14:49:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:50:01 vmi2858748 npm[574871]: 2:50:01 PM [express] GET /api/backtest/run 200 in 77ms
-Nov 05 14:50:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
-Nov 05 14:50:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 7ms (1 rows)
-Nov 05 14:50:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:50:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:50:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:50:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:50:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:50:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:50:46 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 14:50:46 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (17 rows)
-Nov 05 14:50:46 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 14:50:46 vmi2858748 npm[574871]: [PERF] MIDAS window query: 4ms
-Nov 05 14:50:46 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 9ms
-Nov 05 14:50:46 vmi2858748 npm[574871]: 2:50:46 PM [express] GET /api/symbols 200 in 11ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 14:50:47 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 14:50:47 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 14:50:47 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 14:50:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:50:47 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 1 trades
-Nov 05 14:50:47 vmi2858748 npm[574871]: 2:50:47 PM [express] GET /api/trades/active 200 in 4ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a066612…
-Nov 05 14:50:47 vmi2858748 npm[574871]: 2:50:47 PM [express] GET /api/signals/recent 200 in 8ms :: [{"id":"097ba087-76e7-47a3-9897-3b4a98a89…
-Nov 05 14:50:47 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 14:50:47 vmi2858748 npm[574871]: [PERF] Performance stats query: 3ms
-Nov 05 14:50:47 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 3ms
-Nov 05 14:50:47 vmi2858748 npm[574871]: 2:50:47 PM [express] GET /api/performance 200 in 5ms :: {"totalTrades":5,"winRate":25,"totalPnL":-20…
-Nov 05 14:50:47 vmi2858748 npm[574871]: 2:50:47 PM [express] GET /api/volume-profile/btcusdt 200 in 5ms :: {"id":"40ada61a-252f-4b2e-bdc1-ae…
-Nov 05 14:50:47 vmi2858748 npm[574871]: 2:50:47 PM [express] GET /api/midas/btcusdt 200 in 8ms :: {"id":"4a842237-8224-41dc-81a6-7a02188ceb4…
-Nov 05 14:50:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:50:59 vmi2858748 npm[574871]: 2:50:59 PM [express] GET /api/backtest/strategies 200 in 4ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 14:51:00 vmi2858748 npm[574871]: 2:51:00 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":3,"signals":[{"id":"c0f6…
-Nov 05 14:51:00 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
-Nov 05 14:51:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:51:00 vmi2858748 npm[574871]: 2:51:00 PM [express] GET /api/signals/monitoring/stats 200 in 9ms :: {"total":3,"wins":0,"losses":3,…
-Nov 05 14:51:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
-Nov 05 14:51:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:51:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:51:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:51:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:51:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:51:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:51:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:51:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=5ms, total=5ms
-Nov 05 14:51:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 05 14:51:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 62ms (1 rows)
-Nov 05 14:52:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (1 rows)
-Nov 05 14:52:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:52:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:52:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:52:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:52:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 63ms (1 rows)
-Nov 05 14:52:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:52:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
-Nov 05 14:52:52 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 05 14:52:52 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 14:52:52 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 14:52:52 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 05 14:52:52 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 14:52:52 vmi2858748 npm[574871]: [PERF] Symbols query: 4ms (17 rows)
-Nov 05 14:52:52 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:52:52 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 1 trades
-Nov 05 14:52:52 vmi2858748 npm[574871]: 2:52:52 PM [express] GET /api/trades/active 200 in 5ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a066612…
-Nov 05 14:52:52 vmi2858748 npm[574871]: [PERF] Trade stats query: 2ms
-Nov 05 14:52:52 vmi2858748 npm[574871]: 2:52:52 PM [express] GET /api/signals/recent 200 in 5ms :: [{"id":"097ba087-76e7-47a3-9897-3b4a98a89…
-Nov 05 14:52:52 vmi2858748 npm[574871]: [PERF] Performance stats query: 6ms
-Nov 05 14:52:52 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 6ms
-Nov 05 14:52:52 vmi2858748 npm[574871]: 2:52:52 PM [express] GET /api/performance 200 in 7ms :: {"totalTrades":5,"winRate":25,"totalPnL":-20…
-Nov 05 14:52:52 vmi2858748 npm[574871]: [PERF] MIDAS window query: 3ms
-Nov 05 14:52:52 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 9ms
-Nov 05 14:52:52 vmi2858748 npm[574871]: 2:52:52 PM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 05 14:52:52 vmi2858748 npm[574871]: 2:52:52 PM [express] GET /api/volume-profile/btcusdt 200 in 5ms :: {"id":"40ada61a-252f-4b2e-bdc1-ae…
-Nov 05 14:52:52 vmi2858748 npm[574871]: 2:52:52 PM [express] GET /api/midas/btcusdt 200 in 6ms :: {"id":"4a842237-8224-41dc-81a6-7a02188ceb4…
-Nov 05 14:52:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:52:57 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 2ms
-Nov 05 14:52:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
-Nov 05 14:52:57 vmi2858748 npm[574871]: 2:52:57 PM [express] GET /api/signals/monitoring/stats 200 in 10ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 14:52:57 vmi2858748 npm[574871]: 2:52:57 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":0,"signals":[]}
-Nov 05 14:52:57 vmi2858748 npm[574871]: 2:52:57 PM [express] GET /api/backtest/strategies 200 in 3ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 05 14:52:57 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
-Nov 05 14:52:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:52:57 vmi2858748 npm[574871]: 2:52:57 PM [express] GET /api/signals/monitoring/stats 200 in 8ms :: {"total":3,"wins":0,"losses":3,…
-Nov 05 14:52:57 vmi2858748 npm[574871]: 2:52:57 PM [express] GET /api/signals/monitoring/all 200 in 3ms :: {"total":3,"signals":[{"id":"c0f6…
-Nov 05 14:52:59 vmi2858748 npm[574871]: 2:52:59 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":3,"signals":[{"id":"c0f6…
-Nov 05 14:52:59 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 2ms
-Nov 05 14:52:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:52:59 vmi2858748 npm[574871]: 2:52:59 PM [express] GET /api/signals/monitoring/stats 200 in 8ms :: {"total":3,"wins":0,"losses":3,…
-Nov 05 14:53:01 vmi2858748 npm[574871]: 2:53:01 PM [express] GET /api/signals/monitoring/all 304 in 9ms :: {"total":0,"signals":[]}
-Nov 05 14:53:01 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 4ms
-Nov 05 14:53:01 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:53:01 vmi2858748 npm[574871]: 2:53:01 PM [express] GET /api/signals/monitoring/stats 304 in 16ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 14:53:03 vmi2858748 npm[574871]: 2:53:03 PM [express] GET /api/signals/monitoring/all 200 in 38ms :: {"total":3,"signals":[{"id":"097…
-Nov 05 14:53:03 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 47ms
-Nov 05 14:53:03 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 61ms (1 rows)
-Nov 05 14:53:03 vmi2858748 npm[574871]: 2:53:03 PM [express] GET /api/signals/monitoring/stats 200 in 144ms :: {"total":3,"wins":1,"losses":…
-Nov 05 14:53:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:53:06 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
-Nov 05 14:53:06 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
-Nov 05 14:53:06 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
-Nov 05 14:53:06 vmi2858748 npm[574871]: [PERF] Performance stats query: 1ms
-Nov 05 14:53:06 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 1ms
-Nov 05 14:53:06 vmi2858748 npm[574871]: 2:53:06 PM [express] GET /api/performance 304 in 2ms :: {"totalTrades":5,"winRate":25,"totalPnL":-20…
-Nov 05 14:53:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
-Nov 05 14:53:06 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 1 trades
-Nov 05 14:53:06 vmi2858748 npm[574871]: 2:53:06 PM [express] GET /api/trades/active 200 in 5ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a066612…
-Nov 05 14:53:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
-Nov 05 14:53:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:53:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:53:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
-Nov 05 14:53:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:53:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:53:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:53:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:54:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:54:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 361ms (1 rows)
-Nov 05 14:54:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:54:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:54:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 225ms (1 rows)
-Nov 05 14:54:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:54:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:54:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:54:48 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 2ms
-Nov 05 14:54:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:54:48 vmi2858748 npm[574871]: 2:54:48 PM [express] GET /api/signals/monitoring/stats 200 in 8ms :: {"total":3,"wins":1,"losses":0,…
-Nov 05 14:54:48 vmi2858748 npm[574871]: 2:54:48 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":3,"signals":[{"id":"097b…
-Nov 05 14:54:56 vmi2858748 npm[574871]: 2:54:56 PM [express] GET /api/v2/about 200 in 18ms
-Nov 05 14:54:56 vmi2858748 npm[574871]: 2:54:56 PM [express] GET /api/v1/check-version 200 in 8ms
-Nov 05 14:54:56 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 195ms
-Nov 05 14:54:56 vmi2858748 npm[574871]: 2:54:56 PM [express] GET /api/signals/monitoring/all 200 in 194ms :: {"total":3,"signals":[{"id":"c0…
-Nov 05 14:54:56 vmi2858748 npm[574871]: 2:54:56 PM [express] GET /api/server/version 200 in 17ms
-Nov 05 14:54:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 159ms (1 rows)
-Nov 05 14:54:56 vmi2858748 npm[574871]: 2:54:56 PM [express] GET /api/signals/monitoring/stats 200 in 728ms :: {"total":3,"wins":0,"losses":…
-Nov 05 14:54:56 vmi2858748 npm[574871]: 2:54:56 PM [express] GET /api/version 200 in 12ms
-Nov 05 14:54:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 166ms (1 rows)
-Nov 05 14:54:57 vmi2858748 npm[574871]: 2:54:57 PM [express] GET /api/vip/i18n/api/v2/translation/products/vRNIUI/versions/1 200 in 17ms
-Nov 05 14:54:57 vmi2858748 npm[574871]: 2:54:57 PM [express] GET /api/v1.0/environment 200 in 11ms
-Nov 05 14:54:57 vmi2858748 npm[574871]: 2:54:57 PM [express] GET /api/v3/meta 200 in 7ms
-Nov 05 14:54:57 vmi2858748 npm[574871]: 2:54:57 PM [express] GET /api/v1/version 200 in 8ms
-Nov 05 14:54:58 vmi2858748 npm[574871]: 2:54:58 PM [express] GET /api/v2/hoverfly/version 200 in 4ms
-Nov 05 14:54:58 vmi2858748 npm[574871]: 2:54:58 PM [express] GET /api/status 200 in 8ms
-Nov 05 14:54:58 vmi2858748 npm[574871]: 2:54:58 PM [express] GET /api/v1/info 200 in 7ms
-Nov 05 14:54:59 vmi2858748 npm[574871]: 2:54:59 PM [express] GET /api-description 200 in 6ms
-Nov 05 14:55:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (1 rows)
-Nov 05 14:55:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:55:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:55:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:55:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:55:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:55:30 vmi2858748 npm[574871]: 2:55:30 PM [express] GET /api/signals/monitoring/all 200 in 5ms :: {"total":0,"signals":[]}
-Nov 05 14:55:30 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 6ms
-Nov 05 14:55:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
-Nov 05 14:55:30 vmi2858748 npm[574871]: 2:55:30 PM [express] GET /api/signals/monitoring/stats 200 in 22ms :: {"total":0,"wins":0,"losses":0…
-Nov 05 14:55:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:55:46 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:55:56 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 2ms
-Nov 05 14:55:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:55:56 vmi2858748 npm[574871]: 2:55:56 PM [express] GET /api/signals/monitoring/stats 200 in 9ms :: {"total":3,"wins":1,"losses":0,…
-Nov 05 14:55:56 vmi2858748 npm[574871]: 2:55:56 PM [express] GET /api/signals/monitoring/all 200 in 4ms :: {"total":3,"signals":[{"id":"097b…
-Nov 05 14:55:56 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 7ms (1 rows)
-Nov 05 14:56:06 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:56:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:56:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:56:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:56:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:56:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:56:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:56:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:56:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=6ms, total=6ms
-Nov 05 14:56:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 05 14:56:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:57:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
-Nov 05 14:57:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:57:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:57:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:57:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
-Nov 05 14:57:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:57:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:57:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 20ms (1 rows)
-Nov 05 14:57:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:58:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:58:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:58:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:58:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:58:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:58:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:58:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:58:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:58:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:59:07 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:59:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
-Nov 05 14:59:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
-Nov 05 14:59:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 05 14:59:17 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
-Nov 05 14:59:27 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:59:37 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
-Nov 05 14:59:47 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
-Nov 05 14:59:57 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:01:04 vmi2858748 npm[574871]:     [Momentum Gap] Price: $0.006870, MIDAS: $0.006711, POC: $0.006739, Vol: 0.54x
+Nov 05 15:01:04 vmi2858748 npm[574871]:     ❌ Rejected: Volume 0.54x < 1.1x required
+Nov 05 15:01:04 vmi2858748 npm[574871]:     [RSI Divergence] Price: 0.0069, RSI: 68.3, Vol: 0.54x
+Nov 05 15:01:04 vmi2858748 npm[574871]:     ❌ Rejected: ADX 18.1 outside 20-40 range (need medium strength for reversals)
+Nov 05 15:01:04 vmi2858748 npm[574871]:     [VWAP Sigma] Price: $0.006870, VWAP: $0.006708, Sigma: 1.25σ, Vol: 0.54x
+Nov 05 15:01:04 vmi2858748 npm[574871]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 05 15:01:04 vmi2858748 npm[574871]: 🚀 EXECUTION PHASE: 0 signals ready
+Nov 05 15:01:04 vmi2858748 npm[574871]: ✅ Scan complete: 0 signals generated, 0 executed in 4.70s
+Nov 05 15:01:04 vmi2858748 npm[574871]: ================================================
+Nov 05 15:01:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 347ms (1 rows)
+Nov 05 15:01:13 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
+Nov 05 15:01:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:01:13 vmi2858748 npm[574871]: 3:01:13 PM [express] GET /api/signals/monitoring/stats 200 in 14ms :: {"total":3,"wins":0,"losses":3…
+Nov 05 15:01:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:01:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:01:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:01:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:01:18 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 4ms
+Nov 05 15:01:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
+Nov 05 15:01:18 vmi2858748 npm[574871]: 3:01:18 PM [express] GET /api/signals/monitoring/stats 200 in 14ms :: {"total":3,"wins":0,"losses":3…
+Nov 05 15:01:24 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 1ms
+Nov 05 15:01:24 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:01:24 vmi2858748 npm[574871]: 3:01:24 PM [express] GET /api/signals/monitoring/stats 200 in 5ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 15:01:26 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 74ms
+Nov 05 15:01:26 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 108ms (1 rows)
+Nov 05 15:01:26 vmi2858748 npm[574871]: 3:01:26 PM [express] GET /api/signals/monitoring/stats 200 in 241ms :: {"total":3,"wins":1,"losses":…
+Nov 05 15:01:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:01:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:01:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:01:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=5ms, total=5ms
+Nov 05 15:01:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 15:01:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:02:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:02:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
+Nov 05 15:02:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:02:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:02:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:02:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:02:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:02:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (1 rows)
+Nov 05 15:02:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:03:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:03:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:03:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:03:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:03:18 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:03:28 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:03:38 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:03:48 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
+Nov 05 15:03:58 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
+Nov 05 15:04:08 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:04:13 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 5ms
+Nov 05 15:04:13 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:04:13 vmi2858748 npm[574871]: 3:04:13 PM [express] GET /api/signals/monitoring/stats 200 in 13ms :: {"total":3,"wins":0,"losses":3…
+Nov 05 15:04:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:04:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:04:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:04:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 49ms (1 rows)
+Nov 05 15:04:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (1 rows)
+Nov 05 15:04:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (1 rows)
+Nov 05 15:04:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
+Nov 05 15:04:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:05:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:05:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:05:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:05:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:05:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 19ms (1 rows)
+Nov 05 15:05:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:05:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
+Nov 05 15:05:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:05:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:06:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:06:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:06:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:06:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:06:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:06:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:06:31 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 2ms
+Nov 05 15:06:31 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:06:31 vmi2858748 npm[574871]: 3:06:31 PM [express] GET /api/signals/monitoring/stats 200 in 11ms :: {"total":3,"wins":0,"losses":3…
+Nov 05 15:06:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 7ms (1 rows)
+Nov 05 15:06:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=4ms, total=4ms
+Nov 05 15:06:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 15:06:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:06:54 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 05 15:06:54 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 05 15:06:54 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/performance
+Nov 05 15:06:54 vmi2858748 npm[574871]: [DEBUG] /api/trades/active endpoint hit
+Nov 05 15:06:54 vmi2858748 npm[574871]: [DEDUPE] Creating new request for /api/trades/active
+Nov 05 15:06:54 vmi2858748 npm[574871]: [PERF] Symbols query: 2ms (17 rows)
+Nov 05 15:06:54 vmi2858748 npm[574871]: 3:06:54 PM [express] GET /api/signals/recent 200 in 7ms :: [{"id":"097ba087-76e7-47a3-9897-3b4a98a89…
+Nov 05 15:06:54 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:06:54 vmi2858748 npm[574871]: [DEBUG] /api/trades/active returning 1 trades
+Nov 05 15:06:54 vmi2858748 npm[574871]: 3:06:54 PM [express] GET /api/trades/active 200 in 4ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a066612…
+Nov 05 15:06:54 vmi2858748 npm[574871]: [PERF] Performance stats query: 6ms
+Nov 05 15:06:54 vmi2858748 npm[574871]: [PERF] getPerformanceStats() TOTAL: 6ms
+Nov 05 15:06:54 vmi2858748 npm[574871]: 3:06:54 PM [express] GET /api/performance 304 in 6ms :: {"totalTrades":5,"winRate":25,"totalPnL":-20…
+Nov 05 15:06:54 vmi2858748 npm[574871]: [PERF] Trade stats query: 5ms
+Nov 05 15:06:54 vmi2858748 npm[574871]: [PERF] MIDAS window query: 1ms
+Nov 05 15:06:54 vmi2858748 npm[574871]: [PERF] getSymbols() TOTAL: 9ms
+Nov 05 15:06:54 vmi2858748 npm[574871]: 3:06:54 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 05 15:06:54 vmi2858748 npm[574871]: 3:06:54 PM [express] GET /api/midas/btcusdt 200 in 3ms :: {"id":"c57ad7a2-c875-4908-92de-04511260fca…
+Nov 05 15:06:54 vmi2858748 npm[574871]: 3:06:54 PM [express] GET /api/volume-profile/btcusdt 200 in 4ms :: {"id":"3d34c12e-a6dd-42aa-a81a-5b…
+Nov 05 15:06:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:07:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
+Nov 05 15:07:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
+Nov 05 15:07:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:07:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:07:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:07:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:07:29 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(rsi-divergence) TOTAL: 1ms
+Nov 05 15:07:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:07:29 vmi2858748 npm[574871]: 3:07:29 PM [express] GET /api/signals/monitoring/stats 304 in 7ms :: {"total":0,"wins":0,"losses":0,…
+Nov 05 15:07:33 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 1ms
+Nov 05 15:07:33 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:07:33 vmi2858748 npm[574871]: 3:07:33 PM [express] GET /api/signals/monitoring/stats 304 in 6ms :: {"total":3,"wins":1,"losses":0,…
+Nov 05 15:07:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:07:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:07:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:08:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:08:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:08:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:08:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:08:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:08:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:08:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
+Nov 05 15:08:42 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 2ms
+Nov 05 15:08:42 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:08:42 vmi2858748 npm[574871]: 3:08:42 PM [express] GET /api/signals/monitoring/stats 304 in 9ms :: {"total":3,"wins":0,"losses":3,…
+Nov 05 15:08:43 vmi2858748 npm[574871]: 3:08:43 PM [express] GET /api/trades/all 200 in 5ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a0666123f"…
+Nov 05 15:08:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:08:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:09:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 37ms (1 rows)
+Nov 05 15:09:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:09:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:09:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:09:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:09:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:09:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:09:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:09:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:10:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:10:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:10:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:10:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:10:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:10:22 vmi2858748 npm[574871]: 3:10:22 PM [express] GET /api/signals/monitoring/all 200 in 6ms :: {"total":3,"signals":[{"id":"c0f6…
+Nov 05 15:10:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:10:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:10:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:10:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:11:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:11:15 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:11:15 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:11:15 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:11:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:11:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:11:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:11:45 vmi2858748 npm[574871]: 3:11:45 PM [express] GET /api/trades/all 304 in 5ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a0666123f"…
+Nov 05 15:11:48 vmi2858748 npm[574871]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=12ms, total=12ms
+Nov 05 15:11:48 vmi2858748 npm[574871]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 05 15:11:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 3ms (1 rows)
+Nov 05 15:11:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:12:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 8ms (1 rows)
+Nov 05 15:12:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:12:16 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:12:16 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:12:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:12:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:12:32 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 3ms
+Nov 05 15:12:32 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 9ms (1 rows)
+Nov 05 15:12:32 vmi2858748 npm[574871]: 3:12:32 PM [express] GET /api/signals/monitoring/stats 200 in 22ms :: {"total":3,"wins":0,"losses":3…
+Nov 05 15:12:32 vmi2858748 npm[574871]: 3:12:32 PM [express] GET /api/signals/monitoring/all 200 in 5ms :: {"total":3,"signals":[{"id":"c0f6…
+Nov 05 15:12:36 vmi2858748 npm[574871]: 3:12:36 PM [express] GET /api/signals/monitoring/all 200 in 41ms :: {"total":3,"signals":[{"id":"097…
+Nov 05 15:12:36 vmi2858748 npm[574871]: [PERF] getTradeStatsByStrategy(vwap-sigma) TOTAL: 22ms
+Nov 05 15:12:36 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 12ms (1 rows)
+Nov 05 15:12:36 vmi2858748 npm[574871]: 3:12:36 PM [express] GET /api/signals/monitoring/stats 200 in 75ms :: {"total":3,"wins":1,"losses":0…
+Nov 05 15:12:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:12:40 vmi2858748 npm[574871]: 3:12:40 PM [express] GET /api/signals/monitoring/all 304 in 5ms :: {"total":3,"signals":[{"id":"097b…
+Nov 05 15:12:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:12:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 1ms (1 rows)
+Nov 05 15:13:09 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:13:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 6ms (1 rows)
+Nov 05 15:13:16 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:13:16 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:13:19 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:13:29 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
+Nov 05 15:13:39 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:13:49 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:13:59 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:14:10 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 5ms (1 rows)
+Nov 05 15:14:16 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 4ms (1 rows)
+Nov 05 15:14:16 vmi2858748 npm[574871]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 05 15:14:16 vmi2858748 npm[574871]: ❌ Failed to fetch TRX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 05 15:14:20 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:14:30 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:14:40 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:14:47 vmi2858748 npm[574871]: 3:14:47 PM [express] GET /api/trades/all 200 in 41ms :: [{"id":"6c2d23a6-b3cf-41db-bf1b-f55a0666123f…
+Nov 05 15:14:50 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
+Nov 05 15:15:00 vmi2858748 npm[574871]: [PERF] getActiveTrades() query: 2ms (1 rows)
 
