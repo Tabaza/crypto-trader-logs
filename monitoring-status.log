@@ -9467,3 +9467,45 @@ Nov 06 15:31:08 api.tabazaserver.com npm[614101]:   ✅ [VWAP Sigma] PEPE/USDT e
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-06 16:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 06 15:55:57 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 06 15:56:57 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 06 15:57:58 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 06 15:58:58 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 06 15:59:58 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 06 15:46:00 api.tabazaserver.com npm[614101]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-06T14:46:00.066Z) ==========
+Nov 06 15:46:00 api.tabazaserver.com npm[614101]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 06 15:46:00 api.tabazaserver.com npm[614101]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 06 15:46:00 api.tabazaserver.com npm[614101]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 06 15:46:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.4 outside 15-45 range
+Nov 06 15:46:04 api.tabazaserver.com npm[614101]:   🔒 ARKM/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 06 15:46:04 api.tabazaserver.com npm[614101]:   🔒 BCH/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 06 15:46:05 api.tabazaserver.com npm[614101]:   🎯 [RSI Divergence] SIGNAL 2/2 this hour: LONG @ $0.00001183 (93% strength)
+Nov 06 15:46:05 api.tabazaserver.com npm[614101]:   🔒 PEPE/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 06 15:46:05 api.tabazaserver.com npm[614101]:   🔒 QTUM/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 19h ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 555.5M (peak: 1.2G)
+        CPU: 6h 39min 23.617s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
