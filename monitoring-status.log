@@ -9045,3 +9045,55 @@ Nov 06 13:16:03 api.tabazaserver.com npm[614101]:   🔒 WLD/USDT: LOCKED by [VW
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-06 13:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 06 13:40:35 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 13:41:36 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 13:42:36 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 13:43:37 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 13:44:37 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.62x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.2868, MIDAS: $0.2877, POC: $0.2870, Vol: 1.01x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 1.01x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.001839, MIDAS: $0.001871, POC: $0.001869, Vol: 0.23x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.23x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $5.25, MIDAS: $5.29, POC: $5.27, Vol: 1.46x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 18.1 < 30 (weak trend)
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.0148, MIDAS: $0.0150, POC: $0.0148, Vol: 1.03x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 1.03x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.4240, MIDAS: $0.4286, POC: $0.4259, Vol: 0.71x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.71x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:   🔒 WLD/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.2714, MIDAS: $0.2761, POC: $0.2735, Vol: 0.93x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.93x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $2.29, MIDAS: $2.34, POC: $2.33, Vol: 0.77x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.77x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $526.65, MIDAS: $506.96, POC: $517.59, Vol: 0.67x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.67x < 1.1x required
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.006830, MIDAS: $0.006917, POC: $0.006889, Vol: 2.39x
+Nov 06 13:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 16.8 < 30 (weak trend)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 17h ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 562.0M (peak: 742.9M)
+        CPU: 5h 17min 43.275s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
