@@ -9231,3 +9231,44 @@ Nov 06 14:16:03 api.tabazaserver.com npm[614101]:   🔒 XLM/USDT: LOCKED by [Fa
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-06 14:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 06 14:40:03 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 14:41:04 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 14:41:28 api.tabazaserver.com npm[614101]: 2:41:28 PM [express] GET /api/signals/monitoring/stats 200 in 15ms :: {"total":37,"wins":10,"losses"…
+Nov 06 14:42:04 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 14:43:04 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 06 14:44:05 api.tabazaserver.com npm[614101]: 📊 Monitoring 7 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 06 14:31:00 api.tabazaserver.com npm[614101]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-06T13:31:00.065Z) ==========
+Nov 06 14:31:00 api.tabazaserver.com npm[614101]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 06 14:31:00 api.tabazaserver.com npm[614101]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 06 14:31:00 api.tabazaserver.com npm[614101]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 06 14:31:03 api.tabazaserver.com npm[614101]:   🔒 ARKM/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 06 14:31:03 api.tabazaserver.com npm[614101]:   🎯 [RSI Divergence] SIGNAL 2/2 this hour: LONG @ $2.62 (100% strength)
+Nov 06 14:31:03 api.tabazaserver.com npm[614101]:   🔒 QTUM/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 06 14:31:03 api.tabazaserver.com npm[614101]:   🔒 WLD/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 18h ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 556.8M (peak: 742.9M)
+        CPU: 5h 49min 6.762s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
