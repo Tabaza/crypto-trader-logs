@@ -7266,3 +7266,60 @@ Nov 06 04:16:02 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.30x
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-06 04:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 06 04:42:18 api.tabazaserver.com npm[614101]: 4:42:18 AM [express] GET /api/signals/monitoring/stats 200 in 15ms :: {"total":18,"wins":4,"losses":…
+Nov 06 04:42:35 api.tabazaserver.com npm[614101]: 4:42:35 AM [express] GET /api/signals/monitoring/all 200 in 5ms :: {"total":6,"signals":[{"id":"77c6…
+Nov 06 04:42:35 api.tabazaserver.com npm[614101]: 4:42:35 AM [express] GET /api/signals/monitoring/stats 200 in 14ms :: {"total":5,"wins":1,"losses":3…
+Nov 06 04:42:38 api.tabazaserver.com npm[614101]: 4:42:38 AM [express] GET /api/signals/monitoring/stats 200 in 23ms :: {"total":6,"wins":1,"losses":0…
+Nov 06 04:42:38 api.tabazaserver.com npm[614101]: 4:42:38 AM [express] GET /api/signals/monitoring/all 200 in 3ms :: {"total":6,"signals":[{"id":"05f1…
+Nov 06 04:42:41 api.tabazaserver.com npm[614101]: 4:42:41 AM [express] GET /api/signals/monitoring/all 200 in 14ms :: {"total":7,"signals":[{"id":"0f5…
+Nov 06 04:42:41 api.tabazaserver.com npm[614101]: 4:42:41 AM [express] GET /api/signals/monitoring/stats 200 in 10ms :: {"total":7,"wins":2,"losses":0…
+Nov 06 04:43:15 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 06 04:43:57 api.tabazaserver.com npm[614101]: 4:43:57 AM [express] GET /api/signals/monitoring/stats 304 in 13ms :: {"total":18,"wins":4,"losses":…
+Nov 06 04:44:15 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:   🔒 TRX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.001899, MIDAS: $0.001927, POC: $0.001904, Vol: 0.62x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.62x < 1.1x required
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $5.34, MIDAS: $5.37, POC: $5.35, Vol: 0.73x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.73x < 1.1x required
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.0152, MIDAS: $0.0151, POC: $0.0151, Vol: 0.67x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.67x < 1.1x required
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.1 outside 15-45 range
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.4330, MIDAS: $0.4308, POC: $0.4290, Vol: 0.68x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.68x < 1.1x required
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.7280, MIDAS: $0.7328, POC: $0.7328, Vol: 1.94x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 20.6 < 30 (weak trend)
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.2788, MIDAS: $0.2795, POC: $0.2797, Vol: 0.82x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.82x < 1.1x required
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $2.36, MIDAS: $2.33, POC: $2.35, Vol: 1.20x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: LONG requires CMF > 0.05 (current: -0.1592)
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $492.78, MIDAS: $485.64, POC: $489.84, Vol: 1.42x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 16.4 < 30 (weak trend)
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     [Momentum Gap] Price: $0.006980, MIDAS: $0.006955, POC: $0.006970, Vol: 0.99x
+Nov 06 04:31:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: Volume 0.99x < 1.1x required
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 8h ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 528.6M (peak: 742.9M)
+        CPU: 2h 20min 38.651s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
