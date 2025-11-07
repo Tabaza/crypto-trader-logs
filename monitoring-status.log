@@ -11920,3 +11920,55 @@ Nov 07 03:46:04 api.tabazaserver.com npm[614101]:   ✅ [VWAP Sigma] FLOKI/USDT 
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 04:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 04:10:29 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 07 04:11:30 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 07 04:12:30 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 07 04:13:30 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 07 04:14:31 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 10.2 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 13.3 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 11.6 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 10.4 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 9.7 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 11.4 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 13.2 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 12.5 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.8 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 8.4 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 9.7 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 12.6 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 12.1 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 9.5 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 13.1 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 13.7 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:   🔒 UNI/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 10.1 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 11.1 outside 15-45 range
+Nov 07 04:01:03 api.tabazaserver.com npm[614101]:   ✅ [Fast Momentum Gap] CHZ/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 1 day 7h ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 574.8M (peak: 1.5G)
+        CPU: 13h 27min 27.525s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
