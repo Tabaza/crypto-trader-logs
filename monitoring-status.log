@@ -15103,3 +15103,30 @@ Nov 07 19:59:27 api.tabazaserver.com npm[698468]:     ❌ Rejected: Not a range 
 
 Nov 07 19:59:27 api.tabazaserver.com npm[698468]: 📊 Processing ZIL/USDT...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 20:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 18:23:07 CET; 1h 51min ago
+   Main PID: 698445 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 3.5G (peak: 3.8G)
+        CPU: 2h 11min 59.391s
+     CGroup: /system.slice/crypto-trader.service
+             ├─698445 "npm run dev"
+             ├─698456 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─698457 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─698468 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─698535 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 07 20:08:28 api.tabazaserver.com npm[698468]: WebSocket closed for ETH/USDT, reconnecting...
+
