@@ -13202,3 +13202,55 @@ Nov 07 10:16:06 api.tabazaserver.com npm[614101]:   ✅ [VWAP Sigma] DOGE/USDT e
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 10:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 10:40:43 api.tabazaserver.com npm[614101]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 07 10:41:43 api.tabazaserver.com npm[614101]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 07 10:42:44 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 07 10:43:44 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 07 10:44:45 api.tabazaserver.com npm[614101]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:   🔒 ALGO/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:   🔒 BONK/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:   🔒 DOGE/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 46.2 outside 15-45 range
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 13.3 outside 15-45 range
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: SHORT divergence in strong uptrend (ADX: 42.8, structure: higher_highs)
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 51.9 outside 15-45 range
+Nov 07 10:31:04 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 13.3 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.4 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.9 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:   🔒 NEAR/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: SHORT divergence in strong uptrend (ADX: 39.4, structure: higher_highs)
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 13.0 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 12.7 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.8 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.0 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 14.1 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 12.8 outside 15-45 range
+Nov 07 10:31:05 api.tabazaserver.com npm[614101]:     ❌ Rejected: ADX 47.2 outside 15-45 range
+Nov 07 10:31:11 api.tabazaserver.com npm[614101]:   ✅ [VWAP Sigma] 1000SATS/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 1 day 14h ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 576.7M (peak: 1.5G)
+        CPU: 16h 36min 30.259s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
