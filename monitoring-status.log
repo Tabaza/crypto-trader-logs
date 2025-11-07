@@ -15204,3 +15204,40 @@ Nov 07 20:44:41 api.tabazaserver.com npm[698468]: WebSocket connected for BTC/US
 
 Nov 07 20:43:03 api.tabazaserver.com npm[698468]: [PERF] Performance stats query: 879570ms
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 21:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 20:55:31 api.tabazaserver.com npm[698468]: WebSocket connected for ZEC/USDT
+Nov 07 20:56:10 api.tabazaserver.com npm[698468]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 07 20:56:16 api.tabazaserver.com npm[698468]: WebSocket connected for BTC/USDT
+Nov 07 20:56:20 api.tabazaserver.com npm[698468]: WebSocket closed for FET/USDT, reconnecting...
+Nov 07 20:56:26 api.tabazaserver.com npm[698468]: WebSocket connected for FET/USDT
+Nov 07 20:59:17 api.tabazaserver.com npm[698468]: WebSocket closed for ETH/USDT, reconnecting...
+Nov 07 20:59:23 api.tabazaserver.com npm[698468]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 07 20:59:23 api.tabazaserver.com npm[698468]: WebSocket connected for ETH/USDT
+Nov 07 20:59:29 api.tabazaserver.com npm[698468]: WebSocket connected for FLOKI/USDT
+Nov 07 20:59:56 api.tabazaserver.com npm[698468]: WebSocket closed for FET/USDT, reconnecting...
+
+🎯 Strategy Signals (last 15 min):
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 18:23:07 CET; 2h 36min ago
+   Main PID: 698445 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 4.1G (peak: 4.1G)
+        CPU: 3h 6min 46.986s
+     CGroup: /system.slice/crypto-trader.service
+             ├─698445 "npm run dev"
+             ├─698456 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─698457 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─698468 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─698535 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 07 20:56:16 api.tabazaserver.com npm[698468]: WebSocket connected for BTC/USDT
+
