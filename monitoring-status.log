@@ -15167,3 +15167,40 @@ Nov 07 20:29:35 api.tabazaserver.com npm[698468]: WebSocket connected for FLOKI/
 
 Nov 07 20:28:53 api.tabazaserver.com npm[698468]: WebSocket closed for ZEC/USDT, reconnecting...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 20:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 20:42:56 api.tabazaserver.com npm[698468]: WebSocket connected for FLOKI/USDT
+Nov 07 20:42:57 api.tabazaserver.com npm[698468]: WebSocket connected for ZEC/USDT
+Nov 07 20:43:28 api.tabazaserver.com npm[698468]: WebSocket closed for DOGE/USDT, reconnecting...
+Nov 07 20:43:31 api.tabazaserver.com npm[698468]: WebSocket closed for SOL/USDT, reconnecting...
+Nov 07 20:43:35 api.tabazaserver.com npm[698468]: WebSocket connected for DOGE/USDT
+Nov 07 20:43:37 api.tabazaserver.com npm[698468]: WebSocket connected for SOL/USDT
+Nov 07 20:43:38 api.tabazaserver.com npm[698468]: WebSocket closed for ETH/USDT, reconnecting...
+Nov 07 20:43:44 api.tabazaserver.com npm[698468]: WebSocket connected for ETH/USDT
+Nov 07 20:44:35 api.tabazaserver.com npm[698468]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 07 20:44:41 api.tabazaserver.com npm[698468]: WebSocket connected for BTC/USDT
+
+🎯 Strategy Signals (last 15 min):
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 18:23:07 CET; 2h 21min ago
+   Main PID: 698445 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 3.8G (peak: 3.8G)
+        CPU: 2h 47min 19.475s
+     CGroup: /system.slice/crypto-trader.service
+             ├─698445 "npm run dev"
+             ├─698456 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─698457 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─698468 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─698535 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 07 20:43:03 api.tabazaserver.com npm[698468]: [PERF] Performance stats query: 879570ms
+
