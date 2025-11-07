@@ -15646,3 +15646,54 @@ Nov 07 22:46:03 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range 
 
 Nov 07 22:59:05 api.tabazaserver.com npm[703608]: 📊 Monitoring 3 active trades (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 23:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 23:11:01 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 07 23:12:03 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 07 23:13:03 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 07 23:14:03 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     [VWAP Sigma] Price: $5.96, VWAP: $5.55, Sigma: 1.67σ, Vol: 0.39x
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range day - High range day (139% of median)
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: ADX 50.9 outside 15-45 range
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     [VWAP Sigma] Price: $0.0175, VWAP: $0.0161, Sigma: 1.49σ, Vol: 0.26x
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range day - High range day (178% of median)
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: ADX 54.7 outside 15-45 range
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     [VWAP Sigma] Price: $0.4940, VWAP: $0.4556, Sigma: 1.60σ, Vol: 0.36x
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range day - High range day (131% of median)
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: ADX 51.0 outside 15-45 range
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     [VWAP Sigma] Price: $0.8530, VWAP: $0.7869, Sigma: 1.14σ, Vol: 0.21x
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range day - High range day (188% of median)
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     [VWAP Sigma] Price: $2.34, VWAP: $2.25, Sigma: 1.73σ, Vol: 0.79x
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range day - Session range too wide (78% of median)
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     [VWAP Sigma] Price: $694.18, VWAP: $657.11, Sigma: 0.54σ, Vol: 0.39x
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range day - High range day (272% of median)
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: ADX 49.0 outside 15-45 range
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     [VWAP Sigma] Price: $0.008180, VWAP: $0.007543, Sigma: 1.53σ, Vol: 0.11x
+Nov 07 23:01:04 api.tabazaserver.com npm[703608]:     ❌ Rejected: Not a range day - High range day (177% of median)
+Nov 07 23:09:52 api.tabazaserver.com npm[707086]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 07 23:09:52 api.tabazaserver.com npm[707086]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 5min ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 35 (limit: 28792)
+     Memory: 580.8M (peak: 679.0M)
+        CPU: 3min 44.497s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Nov 07 23:14:04 api.tabazaserver.com npm[707086]: ⏳ XLM/USDT SHORT: Price $0.2914 | TP: $0.2857 | SL: $0.2962
+Nov 07 23:14:04 api.tabazaserver.com npm[707086]: ⏳ ORDI/USDT LONG: Price $5.57 | TP: $6.13 | SL: $5.14
+
