@@ -15697,3 +15697,57 @@ Nov 07 23:09:52 api.tabazaserver.com npm[707086]: ✅ Strategy registered: VWAP 
 Nov 07 23:14:04 api.tabazaserver.com npm[707086]: ⏳ XLM/USDT SHORT: Price $0.2914 | TP: $0.2857 | SL: $0.2962
 Nov 07 23:14:04 api.tabazaserver.com npm[707086]: ⏳ ORDI/USDT LONG: Price $5.57 | TP: $6.13 | SL: $5.14
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 23:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 23:25:09 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 07 23:25:32 api.tabazaserver.com npm[707086]: 11:25:32 PM [express] GET /api/signals/monitoring/stats 200 in 194ms :: {"total":93,"wins":36,"losses…
+Nov 07 23:26:09 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 07 23:27:10 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 07 23:28:10 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 07 23:28:35 api.tabazaserver.com npm[707086]: 11:28:35 PM [express] GET /api/signals/monitoring/stats 304 in 52ms :: {"total":93,"wins":36,"losses"…
+Nov 07 23:29:11 api.tabazaserver.com npm[707086]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (228% of median)
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 54.3 outside 15-45 range
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $5.97, VWAP: $5.56, Sigma: 1.67σ, Vol: 0.82x
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (139% of median)
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 50.5 outside 15-45 range
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.0174, VWAP: $0.0161, Sigma: 1.41σ, Vol: 0.36x
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (178% of median)
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 53.1 outside 15-45 range
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4890, VWAP: $0.4561, Sigma: 1.35σ, Vol: 0.86x
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (131% of median)
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 50.7 outside 15-45 range
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8480, VWAP: $0.7880, Sigma: 1.03σ, Vol: 0.88x
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (188% of median)
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.34, VWAP: $2.25, Sigma: 1.57σ, Vol: 0.56x
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (75% of median)
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $688.85, VWAP: $657.41, Sigma: 0.46σ, Vol: 0.24x
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (272% of median)
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 48.1 outside 15-45 range
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.008130, VWAP: $0.007546, Sigma: 1.40σ, Vol: 0.29x
+Nov 07 23:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (177% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 20min ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 35 (limit: 28792)
+     Memory: 414.5M (peak: 756.6M)
+        CPU: 13min 32.460s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Nov 07 23:29:11 api.tabazaserver.com npm[707086]: ⏳ XLM/USDT SHORT: Price $0.2921 | TP: $0.2857 | SL: $0.2962
+Nov 07 23:29:11 api.tabazaserver.com npm[707086]: ⏳ ORDI/USDT LONG: Price $5.73 | TP: $6.13 | SL: $5.14
+
