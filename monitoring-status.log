@@ -15241,3 +15241,42 @@ Nov 07 20:59:56 api.tabazaserver.com npm[698468]: WebSocket closed for FET/USDT,
 
 Nov 07 20:56:16 api.tabazaserver.com npm[698468]: WebSocket connected for BTC/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 21:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 21:13:16 api.tabazaserver.com npm[703608]: WebSocket connected for FET/USDT
+Nov 07 21:13:26 api.tabazaserver.com npm[703608]: WebSocket closed for ORDI/USDT, reconnecting...
+Nov 07 21:13:33 api.tabazaserver.com npm[703608]: WebSocket connected for ORDI/USDT
+Nov 07 21:13:53 api.tabazaserver.com npm[703608]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 07 21:13:59 api.tabazaserver.com npm[703608]: WebSocket connected for FLOKI/USDT
+Nov 07 21:14:17 api.tabazaserver.com npm[703608]: WebSocket closed for SOL/USDT, reconnecting...
+Nov 07 21:14:23 api.tabazaserver.com npm[703608]: WebSocket connected for SOL/USDT
+Nov 07 21:14:23 api.tabazaserver.com npm[703608]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 07 21:14:30 api.tabazaserver.com npm[703608]: WebSocket connected for BTC/USDT
+Nov 07 21:14:42 api.tabazaserver.com npm[703608]: 📊 Monitoring 2 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 21:08:25 api.tabazaserver.com npm[703608]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 07 21:08:25 api.tabazaserver.com npm[703608]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 21:08:19 CET; 6min ago
+   Main PID: 703585 (npm run dev)
+      Tasks: 45 (limit: 28792)
+     Memory: 902.5M (peak: 1.1G)
+        CPU: 7min 7.922s
+     CGroup: /system.slice/crypto-trader.service
+             ├─703585 "npm run dev"
+             ├─703596 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─703597 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─703608 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─703697 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 07 21:14:17 api.tabazaserver.com npm[703608]: WebSocket closed for SOL/USDT, reconnecting...
+
