@@ -14771,3 +14771,42 @@ Nov 07 18:09:50 api.tabazaserver.com npm[614101]:     ❌ Rejected: Not a range 
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 18:30:02
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 18:26:55 api.tabazaserver.com npm[698468]: WebSocket closed for SOL/USDT, reconnecting...
+Nov 07 18:27:01 api.tabazaserver.com npm[698468]: WebSocket connected for SOL/USDT
+Nov 07 18:27:21 api.tabazaserver.com npm[698468]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 07 18:27:24 api.tabazaserver.com npm[698468]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 07 18:27:26 api.tabazaserver.com npm[698468]: WebSocket closed for ETH/USDT, reconnecting...
+Nov 07 18:27:27 api.tabazaserver.com npm[698468]: WebSocket connected for FLOKI/USDT
+Nov 07 18:27:30 api.tabazaserver.com npm[698468]: WebSocket connected for BTC/USDT
+Nov 07 18:27:32 api.tabazaserver.com npm[698468]: WebSocket connected for ETH/USDT
+Nov 07 18:27:52 api.tabazaserver.com npm[698468]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 07 18:29:06 api.tabazaserver.com npm[698468]: 📊 Monitoring 2 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 18:23:12 api.tabazaserver.com npm[698468]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 07 18:23:12 api.tabazaserver.com npm[698468]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 18:23:07 CET; 6min ago
+   Main PID: 698445 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 1004.6M (peak: 1.9G)
+        CPU: 8min 8.781s
+     CGroup: /system.slice/crypto-trader.service
+             ├─698445 "npm run dev"
+             ├─698456 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─698457 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─698468 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─698535 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 07 18:28:37 api.tabazaserver.com npm[698468]: [PERF] getActiveTrades() query: 26722ms (2 rows)
+
