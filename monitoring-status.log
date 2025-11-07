@@ -14975,3 +14975,38 @@ Nov 07 19:03:53 api.tabazaserver.com npm[698468]:     ❌ Rejected: Not a range 
 
 Nov 07 19:13:58 api.tabazaserver.com npm[698468]: WebSocket closed for BNB/USDT, reconnecting...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 19:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 19:25:44 api.tabazaserver.com npm[698468]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 07 19:25:50 api.tabazaserver.com npm[698468]: WebSocket connected for BTC/USDT
+Nov 07 19:26:07 api.tabazaserver.com npm[698468]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 07 19:26:13 api.tabazaserver.com npm[698468]: WebSocket connected for FLOKI/USDT
+Nov 07 19:26:13 api.tabazaserver.com npm[698468]: WebSocket closed for FIL/USDT, reconnecting...
+Nov 07 19:26:19 api.tabazaserver.com npm[698468]: WebSocket connected for FIL/USDT
+Nov 07 19:28:12 api.tabazaserver.com npm[698468]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 19:16:00 api.tabazaserver.com npm[698468]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-07T18:16:00.086Z) ==========
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 18:23:07 CET; 1h 6min ago
+   Main PID: 698445 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 2.9G (peak: 2.9G)
+        CPU: 1h 18min 3.909s
+     CGroup: /system.slice/crypto-trader.service
+             ├─698445 "npm run dev"
+             ├─698456 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─698457 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─698468 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─698535 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 07 19:26:19 api.tabazaserver.com npm[698468]: WebSocket connected for FIL/USDT
+
