@@ -14675,3 +14675,42 @@ Nov 07 17:31:00 api.tabazaserver.com npm[614101]: 🎯 ========== 15-MIN SIGNAL 
              └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-07 18:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 07 17:59:22 api.tabazaserver.com npm[614101]: WebSocket closed for BCH/USDT, reconnecting...
+Nov 07 17:59:26 api.tabazaserver.com npm[614101]: WebSocket connected for NEAR/USDT
+Nov 07 17:59:26 api.tabazaserver.com npm[614101]: WebSocket connected for FIL/USDT
+Nov 07 17:59:28 api.tabazaserver.com npm[614101]: WebSocket connected for BONK/USDT
+Nov 07 17:59:28 api.tabazaserver.com npm[614101]: WebSocket connected for BCH/USDT
+Nov 07 17:59:32 api.tabazaserver.com npm[614101]: WebSocket closed for DASH/USDT, reconnecting...
+Nov 07 17:59:38 api.tabazaserver.com npm[614101]: WebSocket connected for DASH/USDT
+Nov 07 17:59:52 api.tabazaserver.com npm[614101]: WebSocket closed for LTC/USDT, reconnecting...
+Nov 07 17:59:57 api.tabazaserver.com npm[614101]: WebSocket closed for FET/USDT, reconnecting...
+Nov 07 17:59:58 api.tabazaserver.com npm[614101]: WebSocket connected for LTC/USDT
+
+🎯 Strategy Signals (last 15 min):
+Nov 07 17:45:45 api.tabazaserver.com npm[614101]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 07 17:45:45 api.tabazaserver.com npm[614101]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-11-05 20:18:40 CET; 1 day 21h ago
+   Main PID: 614076 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 3.2G (peak: 3.2G)
+        CPU: 23h 10min 44.954s
+     CGroup: /system.slice/crypto-trader.service
+             ├─614076 "npm run dev"
+             ├─614089 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─614090 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─614101 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─614113 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─614144 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
