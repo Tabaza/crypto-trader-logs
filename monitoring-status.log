@@ -19004,3 +19004,60 @@ Nov 08 14:47:03 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] BCH/
 
 Nov 08 14:59:45 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 3ms (4 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 15:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 15:14:31 api.tabazaserver.com npm[707086]: WebSocket connected for BONK/USDT
+Nov 08 15:14:33 api.tabazaserver.com npm[707086]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 08 15:14:34 api.tabazaserver.com npm[707086]: WebSocket connected for SUI/USDT
+Nov 08 15:14:37 api.tabazaserver.com npm[707086]: WebSocket closed for FET/USDT, reconnecting...
+Nov 08 15:14:39 api.tabazaserver.com npm[707086]: WebSocket connected for FLOKI/USDT
+Nov 08 15:14:43 api.tabazaserver.com npm[707086]: WebSocket closed for DOT/USDT, reconnecting...
+Nov 08 15:14:43 api.tabazaserver.com npm[707086]: WebSocket connected for FET/USDT
+Nov 08 15:14:48 api.tabazaserver.com npm[707086]: WebSocket connected for DOT/USDT
+Nov 08 15:15:00 api.tabazaserver.com npm[707086]: WebSocket closed for ZEC/USDT, reconnecting...
+Nov 08 15:15:00 api.tabazaserver.com npm[707086]: WebSocket closed for LTC/USDT, reconnecting...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 11.1 outside 15-45 range
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.002091, VWAP: $0.002159, Sigma: 0.72σ, Vol: 0.45x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -2.20%, VWAP: -1.31%)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:   🔒 UNI/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.7 outside 15-45 range
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.0169, VWAP: $0.0169, Sigma: 0.06σ, Vol: 0.64x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.68%, VWAP: -1.15%)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4690, VWAP: $0.4762, Sigma: 0.51σ, Vol: 1.04x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -2.29%, VWAP: -1.05%)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.9 outside 15-45 range
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8140, VWAP: $0.8230, Sigma: 0.36σ, Vol: 1.03x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.69%, VWAP: -1.10%)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.2816, VWAP: $0.2847, Sigma: 0.48σ, Vol: 1.25x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.44%, VWAP: -1.00%)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.28, VWAP: $2.30, Sigma: 0.49σ, Vol: 0.67x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.43%, VWAP: -0.39%)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $531.70, VWAP: $648.97, Sigma: 1.75σ, Vol: 0.95x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (135% of median)
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.007740, VWAP: $0.007900, Sigma: 0.72σ, Vol: 1.57x
+Nov 08 15:01:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - VWAP not flat (slope: 0.31%)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 16h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 862.2M (peak: 1.3G)
+        CPU: 11h 17min 14.237s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 15:14:33 api.tabazaserver.com npm[707086]: WebSocket closed for FLOKI/USDT, reconnecting...
+
