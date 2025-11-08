@@ -19331,3 +19331,54 @@ Nov 08 16:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downt
 
 Nov 08 16:29:46 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 3ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 16:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 16:41:01 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 16:42:02 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 16:43:02 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 16:44:03 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.002075, VWAP: $0.002171, Sigma: 1.33σ, Vol: 1.69x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.84%, VWAP: -0.28%)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $5.98, VWAP: $5.93, Sigma: 0.52σ, Vol: 1.78x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: -0.33%, VWAP: 0.42%)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.0170, VWAP: $0.0170, Sigma: 0.15σ, Vol: 0.52x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: -0.47%, VWAP: 0.37%)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4650, VWAP: $0.4794, Sigma: 1.45σ, Vol: 1.39x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -2.11%, VWAP: -0.40%)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8060, VWAP: $0.8302, Sigma: 1.50σ, Vol: 1.46x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.83%, VWAP: -0.29%)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.2807, VWAP: $0.2872, Sigma: 1.40σ, Vol: 0.77x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.95%, VWAP: -0.17%)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 47.3 outside 15-45 range
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.26, VWAP: $2.31, Sigma: 1.54σ, Vol: 1.27x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.12%, VWAP: -0.12%)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $527.86, VWAP: $636.91, Sigma: 1.59σ, Vol: 0.80x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (156% of median)
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.007670, VWAP: $0.007932, Sigma: 1.62σ, Vol: 0.77x
+Nov 08 16:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.79%, VWAP: -0.12%)
+Nov 08 16:31:15 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] IMX/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 17h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 546.2M (peak: 1.3G)
+        CPU: 12h 35min 44.649s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 16:44:03 api.tabazaserver.com npm[707086]: ⏳ SEI/USDT SHORT: Price $0.1789 | TP: $0.1753 | SL: $0.1887
+
