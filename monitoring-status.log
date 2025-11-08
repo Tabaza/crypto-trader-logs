@@ -20708,3 +20708,55 @@ Nov 08 23:01:04 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] AXS/
 
 Nov 08 23:14:36 api.tabazaserver.com npm[707086]: ⏳ COMP/USDT LONG: Price $33.89 | TP: $34.29 | SL: $33.39
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 23:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 23:25:39 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 08 23:26:40 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 08 23:27:40 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 08 23:28:41 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 08 23:29:41 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4740, VWAP: $0.4757, Sigma: 0.22σ, Vol: 0.75x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 1.72%, VWAP: 0.80%)
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.8120, MIDAS: $0.8167, POC: $0.8098, Vol: 1.23x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 12.5 < 30 (weak trend)
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 12.5 outside 15-45 range
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8120, VWAP: $0.8274, Sigma: 0.99σ, Vol: 1.23x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 0.74%, VWAP: 0.35%)
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:   🔒 XLM/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.29, MIDAS: $2.28, POC: $2.28, Vol: 0.97x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.97x < 1.1x required
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.29, VWAP: $2.30, Sigma: 0.59σ, Vol: 0.97x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Sigma 0.59σ outside range 1.0-2.5σ
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $602.30, MIDAS: $543.99, POC: $519.60, Vol: 0.33x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.33x < 1.1x required
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $602.30, VWAP: $562.50, Sigma: 0.87σ, Vol: 0.33x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (176% of median)
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.007880, MIDAS: $0.007771, POC: $0.007757, Vol: 2.41x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 18.8 < 30 (weak trend)
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.007880, VWAP: $0.007879, Sigma: 0.01σ, Vol: 2.41x
+Nov 08 23:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 1.42%, VWAP: 0.68%)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 24h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 507.4M (peak: 1.3G)
+        CPU: 16h 19min 28.188s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 23:29:42 api.tabazaserver.com npm[707086]: ⏳ COMP/USDT LONG: Price $33.94 | TP: $34.29 | SL: $33.39
+
