@@ -19382,3 +19382,55 @@ Nov 08 16:31:15 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] IMX/USDT ex
 
 Nov 08 16:44:03 api.tabazaserver.com npm[707086]: ⏳ SEI/USDT SHORT: Price $0.1789 | TP: $0.1753 | SL: $0.1887
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 17:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 16:55:07 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 16:56:07 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 16:57:08 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 16:58:08 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 16:59:08 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 50.2 outside 15-45 range
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $156.24, VWAP: $160.85, Sigma: 2.14σ, Vol: 1.60x
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.25%, VWAP: -0.54%)
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $989.95, VWAP: $985.88, Sigma: 0.31σ, Vol: 0.98x
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 0.18%, VWAP: 0.57%)
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.00002268, VWAP: $0.00002547, Sigma: 2.12σ, Vol: 1.30x
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (211% of median)
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $199.30, VWAP: $205.94, Sigma: 2.08σ, Vol: 0.86x
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.22%, VWAP: -0.25%)
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.5571, VWAP: $0.5754, Sigma: 2.08σ, Vol: 1.39x
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.69%, VWAP: -0.72%)
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.1751, VWAP: $0.1806, Sigma: 1.73σ, Vol: 1.32x
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:   🎯 [VWAP Sigma] SIGNAL 2/2 this hour: LONG @ $0.1751 (96% strength)
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 08 16:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 46.4 outside 15-45 range
+Nov 08 16:46:04 api.tabazaserver.com npm[707086]:   🔒 IMX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 16:46:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 12.3 outside 15-45 range
+Nov 08 16:46:04 api.tabazaserver.com npm[707086]:   🔒 NEAR/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 08 16:46:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 48.8 outside 15-45 range
+Nov 08 16:46:04 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] ALGO/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 17h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 514.7M (peak: 1.3G)
+        CPU: 12h 43min 3.896s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 16:59:09 api.tabazaserver.com npm[707086]: ⏳ IMX/USDT LONG: Price $0.4240 | TP: $0.4378 | SL: $0.4143
+
