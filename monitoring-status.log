@@ -19529,3 +19529,58 @@ Nov 08 17:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 49.9 out
 
 Nov 08 17:29:36 api.tabazaserver.com npm[707086]: ⏳ BCH/USDT SHORT: Price $489.70 | TP: $480.32 | SL: $493.11
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 17:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 17:43:58 api.tabazaserver.com npm[707086]: WebSocket connected for ICP/USDT
+Nov 08 17:44:18 api.tabazaserver.com npm[707086]: WebSocket closed for AAVE/USDT, reconnecting...
+Nov 08 17:44:20 api.tabazaserver.com npm[707086]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 08 17:44:24 api.tabazaserver.com npm[707086]: WebSocket connected for AAVE/USDT
+Nov 08 17:44:26 api.tabazaserver.com npm[707086]: WebSocket connected for BTC/USDT
+Nov 08 17:44:35 api.tabazaserver.com npm[707086]: WebSocket closed for ETH/USDT, reconnecting...
+Nov 08 17:44:41 api.tabazaserver.com npm[707086]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 08 17:44:41 api.tabazaserver.com npm[707086]: WebSocket connected for ETH/USDT
+Nov 08 17:44:47 api.tabazaserver.com npm[707086]: WebSocket connected for FLOKI/USDT
+Nov 08 17:44:58 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 17:31:00 api.tabazaserver.com npm[707086]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-08T16:31:00.407Z) ==========
+Nov 08 17:31:00 api.tabazaserver.com npm[707086]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 08 17:31:00 api.tabazaserver.com npm[707086]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:   🔒 BTC/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $3376.11, MIDAS: $3421.47, POC: $3449.49, Vol: 0.77x
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.77x < 1.1x required
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $156.94, MIDAS: $159.41, POC: $161.13, Vol: 1.30x
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: SHORT @ $156.94 (79.63101477024955% strength)
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 45.2 outside 15-45 range
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:   🔒 ALGO/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 17:31:04 api.tabazaserver.com npm[707086]:   🔒 BCH/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 08 17:31:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 45.1 outside 15-45 range
+Nov 08 17:31:05 api.tabazaserver.com npm[707086]:   🔒 IMX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 17:31:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.6 outside 15-45 range
+Nov 08 17:31:05 api.tabazaserver.com npm[707086]:   🎯 [RSI Divergence] SIGNAL 1/2 this hour: LONG @ $0.2017 (71% strength)
+Nov 08 17:31:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 49.5 outside 15-45 range
+Nov 08 17:31:06 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] SOL/USDT executed (1/2)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 18h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 579.7M (peak: 1.3G)
+        CPU: 13h 22min 25.345s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 17:44:55 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 9477ms (7 rows)
+
