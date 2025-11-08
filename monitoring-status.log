@@ -16385,3 +16385,55 @@ Nov 08 02:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range 
 
 Nov 08 02:29:58 api.tabazaserver.com npm[707086]: ⏳ XLM/USDT SHORT: Price $0.2933 | TP: $0.2857 | SL: $0.2962
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 02:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 02:40:19 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 02:41:26 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 02:42:27 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 02:43:27 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 02:44:27 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.4850, MIDAS: $0.4745, POC: $0.4920, Vol: 0.67x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.67x < 1.1x required
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4850, VWAP: $0.4618, Sigma: 0.93σ, Vol: 0.67x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 0.83%, VWAP: -0.77%)
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.8340, MIDAS: $0.8197, POC: $0.8496, Vol: 0.33x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.33x < 1.1x required
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8340, VWAP: $0.7985, Sigma: 0.62σ, Vol: 0.33x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.48%, VWAP: -1.03%)
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.31, MIDAS: $2.29, POC: $2.32, Vol: 0.45x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.45x < 1.1x required
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.31, VWAP: $2.26, Sigma: 0.85σ, Vol: 0.45x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.27%, VWAP: -0.40%)
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $650.82, MIDAS: $691.10, POC: $710.27, Vol: 0.50x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.50x < 1.1x required
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $650.82, VWAP: $662.39, Sigma: 0.22σ, Vol: 0.50x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (159% of median)
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.008030, MIDAS: $0.007889, POC: $0.008117, Vol: 0.28x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.28x < 1.1x required
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.008030, VWAP: $0.007620, Sigma: 1.00σ, Vol: 0.28x
+Nov 08 02:31:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (83% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 3h 35min ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 503.7M (peak: 1.3G)
+        CPU: 2h 41min 49.092s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 02:44:56 api.tabazaserver.com npm[707086]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=18ms, total=18ms
+
