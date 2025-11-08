@@ -19486,3 +19486,46 @@ Nov 08 17:01:15 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] BCH/
 
 Nov 08 17:14:22 api.tabazaserver.com npm[707086]: ⏳ ALGO/USDT LONG: Price $0.1757 | TP: $0.1793 | SL: $0.1716
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 17:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 17:25:29 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 17:26:32 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 17:27:33 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 17:28:35 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 17:29:35 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 17:16:00 api.tabazaserver.com npm[707086]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-08T16:16:00.407Z) ==========
+Nov 08 17:16:00 api.tabazaserver.com npm[707086]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 08 17:16:00 api.tabazaserver.com npm[707086]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 08 17:16:00 api.tabazaserver.com npm[707086]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 08 17:16:03 api.tabazaserver.com npm[707086]:   🔒 BTC/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 08 17:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 51.8 outside 15-45 range
+Nov 08 17:16:03 api.tabazaserver.com npm[707086]:   🔒 ALGO/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 17:16:03 api.tabazaserver.com npm[707086]:   🔒 BCH/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 08 17:16:03 api.tabazaserver.com npm[707086]:   🔒 IMX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 17:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.6 outside 15-45 range
+Nov 08 17:16:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 49.9 outside 15-45 range
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 18h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 498.2M (peak: 1.3G)
+        CPU: 13h 8min 2.685s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 17:29:36 api.tabazaserver.com npm[707086]: ⏳ BCH/USDT SHORT: Price $489.70 | TP: $480.32 | SL: $493.11
+
