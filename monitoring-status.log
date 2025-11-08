@@ -20500,3 +20500,55 @@ Nov 08 22:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.70x
 
 Nov 08 22:14:11 api.tabazaserver.com npm[707086]: ⏳ PEPE/USDT LONG: Price $0.00000604 | TP: $0.00000615 | SL: $0.00000588
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 22:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 22:25:15 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 22:26:16 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 22:27:16 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 22:28:16 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 08 22:29:17 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 12.1 outside 15-45 range
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $6.03, MIDAS: $6.01, POC: $6.00, Vol: 1.23x
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.4 < 30 (weak trend)
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.4 outside 15-45 range
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.0172, MIDAS: $0.0172, POC: $0.0173, Vol: 0.46x
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.46x < 1.1x required
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.2 outside 15-45 range
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.4680, MIDAS: $0.4712, POC: $0.4659, Vol: 0.17x
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.17x < 1.1x required
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.6 outside 15-45 range
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.8070, MIDAS: $0.8169, POC: $0.8098, Vol: 0.47x
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.47x < 1.1x required
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.5 outside 15-45 range
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:   🔒 XLM/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.28, MIDAS: $2.28, POC: $2.28, Vol: 1.74x
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Gap -0.14% < ±0.50% required
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $569.02, MIDAS: $543.09, POC: $519.60, Vol: 0.12x
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.12x < 1.1x required
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.007790, MIDAS: $0.007771, POC: $0.007757, Vol: 1.32x
+Nov 08 22:16:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 17.5 < 30 (weak trend)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 23h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 541.1M (peak: 1.3G)
+        CPU: 16h 3min 58.743s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 22:29:17 api.tabazaserver.com npm[707086]: ⏳ PEPE/USDT LONG: Price $0.00000605 | TP: $0.00000615 | SL: $0.00000588
+
