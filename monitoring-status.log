@@ -16167,3 +16167,60 @@ Nov 08 01:16:17 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] TRX/USDT ex
 
 Nov 08 01:29:29 api.tabazaserver.com npm[707086]: ⏳ TRX/USDT SHORT: Price $0.2925 | TP: $0.2913 | SL: $0.2943
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 01:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 01:43:00 api.tabazaserver.com npm[707086]: WebSocket closed for ALGO/USDT, reconnecting...
+Nov 08 01:43:00 api.tabazaserver.com npm[707086]: WebSocket closed for RAY/USDT, reconnecting...
+Nov 08 01:43:06 api.tabazaserver.com npm[707086]: WebSocket connected for RAY/USDT
+Nov 08 01:43:06 api.tabazaserver.com npm[707086]: WebSocket connected for ALGO/USDT
+Nov 08 01:43:31 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 01:44:00 api.tabazaserver.com npm[707086]: WebSocket closed for AAVE/USDT, reconnecting...
+Nov 08 01:44:02 api.tabazaserver.com npm[707086]: WebSocket closed for BOME/USDT, reconnecting...
+Nov 08 01:44:09 api.tabazaserver.com npm[707086]: WebSocket connected for AAVE/USDT
+Nov 08 01:44:13 api.tabazaserver.com npm[707086]: WebSocket connected for BOME/USDT
+Nov 08 01:44:32 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (275% of median)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.12, VWAP: $2.03, Sigma: 1.50σ, Vol: 1.71x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 0.19%, VWAP: 0.47%)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:   🔒 TRX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.002138, VWAP: $0.002119, Sigma: 0.10σ, Vol: 1.81x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (99% of median)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $5.90, VWAP: $5.60, Sigma: 1.17σ, Vol: 0.87x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (73% of median)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.0170, VWAP: $0.0162, Sigma: 0.91σ, Vol: 0.49x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (104% of median)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4870, VWAP: $0.4597, Sigma: 1.10σ, Vol: 1.42x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.61%, VWAP: 0.18%)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8360, VWAP: $0.7954, Sigma: 0.70σ, Vol: 2.05x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -2.45%, VWAP: -1.68%)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.31, VWAP: $2.26, Sigma: 0.90σ, Vol: 0.98x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.89%, VWAP: -0.23%)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $623.21, VWAP: $660.31, Sigma: 0.66σ, Vol: 0.89x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (190% of median)
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.008040, VWAP: $0.007600, Sigma: 1.06σ, Vol: 0.58x
+Nov 08 01:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (70% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 2h 35min ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 578.0M (peak: 1.3G)
+        CPU: 1h 52min 2.307s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 01:44:53 api.tabazaserver.com npm[707086]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+
