@@ -20145,3 +20145,55 @@ Nov 08 20:16:24 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] QTUM/USDT e
 
 Nov 08 20:29:19 api.tabazaserver.com npm[707086]: ⏳ SAND/USDT LONG: Price $0.2013 | TP: $0.2079 | SL: $0.1965
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 20:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 20:40:24 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 08 20:41:24 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 08 20:42:25 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 08 20:43:25 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 08 20:44:26 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 1.09x < 1.1x required
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.08, MIDAS: $2.08, POC: $2.09, Vol: 1.37x
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 16.8 < 30 (weak trend)
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.2903, MIDAS: $0.2917, POC: $0.2921, Vol: 2.79x
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 24.7 < 30 (weak trend)
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.002086, MIDAS: $0.002108, POC: $0.002141, Vol: 0.63x
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.63x < 1.1x required
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $5.97, MIDAS: $6.01, POC: $6.00, Vol: 0.50x
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.50x < 1.1x required
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.0172, MIDAS: $0.0172, POC: $0.0172, Vol: 1.15x
+Nov 08 20:31:08 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 19.2 < 30 (weak trend)
+Nov 08 20:31:09 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.4630, MIDAS: $0.4715, POC: $0.4690, Vol: 3.33x
+Nov 08 20:31:09 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 15.7 < 30 (weak trend)
+Nov 08 20:31:09 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.8040, MIDAS: $0.8180, POC: $0.8165, Vol: 0.72x
+Nov 08 20:31:09 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.72x < 1.1x required
+Nov 08 20:31:09 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.2803, MIDAS: $0.2837, POC: $0.2816, Vol: 2.83x
+Nov 08 20:31:10 api.tabazaserver.com npm[707086]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: SHORT @ $0.2803 (100% strength)
+Nov 08 20:31:10 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 08 20:31:13 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] PEPE/USDT executed (1/2)
+Nov 08 20:31:13 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] XLM/USDT executed (2/2)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 21h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 490.9M (peak: 1.3G)
+        CPU: 15h 31min 38.647s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 20:44:26 api.tabazaserver.com npm[707086]: ⏳ ADA/USDT SHORT: Price $0.5599 | TP: $0.5538 | SL: $0.5689
+
