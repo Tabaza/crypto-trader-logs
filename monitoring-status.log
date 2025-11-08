@@ -16867,3 +16867,60 @@ Nov 08 04:39:46 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range 
 
 Nov 08 04:43:52 api.tabazaserver.com npm[707086]: WebSocket closed for FLOKI/USDT, reconnecting...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-08 05:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 08 04:55:06 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 04:56:00 api.tabazaserver.com npm[707086]: WebSocket closed for ADA/USDT, reconnecting...
+Nov 08 04:56:06 api.tabazaserver.com npm[707086]: WebSocket connected for ADA/USDT
+Nov 08 04:56:06 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 04:57:00 api.tabazaserver.com npm[707086]: WebSocket closed for CHZ/USDT, reconnecting...
+Nov 08 04:57:06 api.tabazaserver.com npm[707086]: WebSocket connected for CHZ/USDT
+Nov 08 04:57:14 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 04:58:16 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 04:59:16 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 08 05:00:00 api.tabazaserver.com npm[707086]: WebSocket closed for STX/USDT, reconnecting...
+
+🎯 Strategy Signals (last 15 min):
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $3.06, MIDAS: $3.06, POC: $3.08, Vol: 0.67x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.67x < 1.1x required
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $17.96, MIDAS: $17.71, POC: $17.82, Vol: 1.00x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 1.00x < 1.1x required
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $1.49, MIDAS: $1.48, POC: $1.51, Vol: 0.83x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.83x < 1.1x required
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:   🔒 BCH/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.000973, MIDAS: $0.000959, POC: $0.000982, Vol: 1.03x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 1.03x < 1.1x required
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.00001328, MIDAS: $0.00001340, POC: $0.00001370, Vol: 1.02x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 1.02x < 1.1x required
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.0345, MIDAS: $0.0344, POC: $0.0348, Vol: 3.42x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 28.8 < 30 (weak trend)
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $34.59, MIDAS: $34.78, POC: $35.00, Vol: 0.48x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.48x < 1.1x required
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $91.68, MIDAS: $102.48, POC: $104.35, Vol: 1.24x
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: SHORT @ $91.68 (78.12111317703527% strength)
+Nov 08 04:48:41 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 08 04:48:43 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] ADA/USDT executed (1/2)
+Nov 08 04:48:43 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] DASH/USDT executed (2/2)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 5h 50min ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 520.4M (peak: 1.3G)
+        CPU: 4h 39min 4.262s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 08 04:59:16 api.tabazaserver.com npm[707086]: ⏳ TON/USDT SHORT: Price $2.10 | TP: $2.10 | SL: $2.18
+
