@@ -24749,3 +24749,55 @@ Nov 09 19:16:22 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range 
 
 Nov 09 19:29:11 api.tabazaserver.com npm[707086]: ⏳ TRX/USDT SHORT: Price $0.2914 | TP: $0.2902 | SL: $0.2926
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 19:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 19:40:17 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 09 19:41:17 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 09 19:42:18 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 09 19:43:19 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 09 19:44:19 api.tabazaserver.com npm[707086]: 📊 Monitoring 8 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.99%, VWAP: -0.64%)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:   🔒 TRX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.002139, VWAP: $0.002142, Sigma: 0.06σ, Vol: 0.06x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.84%, VWAP: -1.13%)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $6.67, VWAP: $6.30, Sigma: 1.11σ, Vol: 1.51x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (144% of median)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.0170, VWAP: $0.0169, Sigma: 0.11σ, Vol: 1.05x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.88%, VWAP: -0.77%)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4760, VWAP: $0.4697, Sigma: 0.84σ, Vol: 0.19x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.65%, VWAP: -0.86%)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8090, VWAP: $0.8063, Sigma: 0.26σ, Vol: 0.23x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.86%, VWAP: -0.61%)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.2788, VWAP: $0.2781, Sigma: 0.26σ, Vol: 0.13x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.13%, VWAP: -0.90%)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.31, VWAP: $2.29, Sigma: 1.16σ, Vol: 0.19x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.62%, VWAP: -0.51%)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $656.86, VWAP: $597.72, Sigma: 1.98σ, Vol: 1.02x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - High range day (122% of median)
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.007780, VWAP: $0.007806, Sigma: 0.24σ, Vol: 0.99x
+Nov 09 19:31:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -2.02%, VWAP: -1.38%)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 1 day 20h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 555.3M (peak: 1.3G)
+        CPU: 1d 6min 15.285s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 19:44:20 api.tabazaserver.com npm[707086]: ⏳ FLOKI/USDT SHORT: Price $0.00006272 | TP: $0.00006149 | SL: $0.00006464
+
