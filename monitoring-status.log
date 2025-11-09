@@ -21592,3 +21592,55 @@ Nov 09 03:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Sigma 0.06σ
 
 Nov 09 03:29:09 api.tabazaserver.com npm[707086]: ⏳ NEAR/USDT LONG: Price $2.98 | TP: $3.12 | SL: $2.83
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 03:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 03:40:21 api.tabazaserver.com npm[707086]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 09 03:41:21 api.tabazaserver.com npm[707086]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 09 03:42:21 api.tabazaserver.com npm[707086]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 09 03:43:22 api.tabazaserver.com npm[707086]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 09 03:44:23 api.tabazaserver.com npm[707086]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Price not at lower edge (VAL: $0.2908, distance from POC: 0.47%)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.002093, VWAP: $0.002109, Sigma: 0.65σ, Vol: 0.66x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.46%, VWAP: -0.56%)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $5.95, VWAP: $6.00, Sigma: 1.30σ, Vol: 1.37x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.54%, VWAP: -0.20%)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.0168, VWAP: $0.0172, Sigma: 1.69σ, Vol: 0.76x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.98%, VWAP: -0.76%)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.4670, VWAP: $0.4730, Sigma: 1.03σ, Vol: 0.36x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -1.06%, VWAP: -0.35%)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.8030, VWAP: $0.8203, Sigma: 1.40σ, Vol: 1.44x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.86%, VWAP: -0.32%)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.2798, VWAP: $0.2849, Sigma: 1.25σ, Vol: 1.25x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.71%, VWAP: -0.10%)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.28, VWAP: $2.29, Sigma: 0.81σ, Vol: 0.91x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Sigma 0.81σ outside range 1.0-2.5σ
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.9 outside 15-45 range
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $579.81, VWAP: $554.90, Sigma: 0.80σ, Vol: 0.86x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (74% of median)
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.007790, VWAP: $0.007843, Sigma: 0.47σ, Vol: 0.75x
+Nov 09 03:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong downtrend (price: -0.76%, VWAP: -0.16%)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 1 day 4h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 553.4M (peak: 1.3G)
+        CPU: 17h 59min 40.347s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 03:44:12 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 2ms (1 rows)
+
