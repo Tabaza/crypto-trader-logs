@@ -24158,3 +24158,55 @@ Nov 09 16:16:03 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] ETH/
 
 Nov 09 16:29:28 api.tabazaserver.com npm[707086]: ⏳ ETH/USDT LONG: Price $3528.19 | TP: $3590.49 | SL: $3470.33
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 16:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 16:40:32 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 09 16:41:33 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 09 16:42:34 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 09 16:43:34 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 09 16:44:34 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 1.07%, VWAP: 0.44%)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.3005, VWAP: $0.2926, Sigma: 2.27σ, Vol: 1.30x
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 1.69%, VWAP: 0.97%)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $0.3430, VWAP: $0.3302, Sigma: 2.47σ, Vol: 1.28x
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Not a range day - Session range too wide (74% of median)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $2.96, VWAP: $2.90, Sigma: 1.99σ, Vol: 0.22x
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 1.61%, VWAP: 0.67%)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $17.82, VWAP: $17.26, Sigma: 2.68σ, Vol: 1.04x
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 2.00%, VWAP: 0.83%)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $1.44, VWAP: $1.44, Sigma: 0.03σ, Vol: 1.32x
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Strong uptrend (price: 1.98%, VWAP: 1.23%)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     [VWAP Sigma] Price: $500.00, VWAP: $495.19, Sigma: 1.51σ, Vol: 1.59x
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:   🎯 [VWAP Sigma] SIGNAL 2/2 this hour: SHORT @ $500.00 (90% strength)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:   🔒 DASH/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.0 outside 15-45 range
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.0 outside 15-45 range
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:   🔒 SHIB/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 09 16:31:03 api.tabazaserver.com npm[707086]:   🔒 UNI/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 16:31:04 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] BCH/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 1 day 17h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 539.9M (peak: 1.3G)
+        CPU: 23h 7min 17.970s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 16:44:35 api.tabazaserver.com npm[707086]: ⏳ BCH/USDT SHORT: Price $501.40 | TP: $492.52 | SL: $506.24
+
