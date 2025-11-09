@@ -23585,3 +23585,55 @@ Nov 09 13:31:17 api.tabazaserver.com npm[707086]:   🔒 ZEC/USDT: LOCKED by [Fa
 
 Nov 09 13:44:20 api.tabazaserver.com npm[707086]: ⏳ UNI/USDT LONG: Price $6.47 | TP: $6.67 | SL: $6.23
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 14:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 13:55:23 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 13:56:23 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 13:57:23 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 13:58:24 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 13:59:24 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 20.7 < 30 (weak trend)
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.2898, MIDAS: $0.2898, POC: $0.2898, Vol: 0.78x
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.78x < 1.1x required
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.002112, MIDAS: $0.002079, POC: $0.002057, Vol: 0.24x
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.24x < 1.1x required
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:   🔒 UNI/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.0168, MIDAS: $0.0167, POC: $0.0167, Vol: 0.44x
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.44x < 1.1x required
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.4720, MIDAS: $0.4634, POC: $0.4589, Vol: 0.65x
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.65x < 1.1x required
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.8030, MIDAS: $0.7949, POC: $0.7917, Vol: 0.51x
+Nov 09 13:46:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.51x < 1.1x required
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.2747, MIDAS: $0.2770, POC: $0.2762, Vol: 1.28x
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 19.2 < 30 (weak trend)
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.28, MIDAS: $2.27, POC: $2.28, Vol: 0.64x
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.64x < 1.1x required
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.8 outside 15-45 range
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:   🔒 ZEC/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.007770, MIDAS: $0.007703, POC: $0.007733, Vol: 0.79x
+Nov 09 13:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.79x < 1.1x required
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 1 day 14h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 543.4M (peak: 1.3G)
+        CPU: 21h 36min 41.827s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 13:59:24 api.tabazaserver.com npm[707086]: ⏳ UNI/USDT LONG: Price $6.49 | TP: $6.67 | SL: $6.23
+
