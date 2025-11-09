@@ -22328,3 +22328,55 @@ Nov 09 07:16:23 api.tabazaserver.com npm[707086]:   🔒 RENDER/USDT: LOCKED by 
 
 Nov 09 07:29:55 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 3ms (5 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 07:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 07:41:02 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 09 07:42:03 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 07:43:03 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 07:44:04 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 07:45:04 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $33.53, MIDAS: $33.76, POC: $33.84, Vol: 2.09x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: SHORT requires bearish trend (current: neutral)
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $78.17, MIDAS: $78.21, POC: $78.98, Vol: 0.82x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.82x < 1.1x required
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.1746, MIDAS: $0.1743, POC: $0.1754, Vol: 0.46x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.46x < 1.1x required
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $3.13, MIDAS: $3.19, POC: $3.19, Vol: 0.44x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.44x < 1.1x required
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $9.88, MIDAS: $10.24, POC: $10.02, Vol: 0.13x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.13x < 1.1x required
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.3152, MIDAS: $0.3167, POC: $0.3192, Vol: 0.68x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.68x < 1.1x required
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 9.4 outside 15-45 range
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $16.09, MIDAS: $16.10, POC: $15.93, Vol: 0.47x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.47x < 1.1x required
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.2977, MIDAS: $0.3216, POC: $0.3412, Vol: 2.01x
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: SHORT @ $0.2977 (95.78638888822444% strength)
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:   🔒 RENDER/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 09 07:31:04 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] FET/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 1 day 8h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 536.2M (peak: 1.3G)
+        CPU: 19h 17min 16.252s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 07:44:56 api.tabazaserver.com npm[707086]: 💾 Persisted 70 prices to database (5-min backup)
+
