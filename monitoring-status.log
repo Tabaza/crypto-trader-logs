@@ -22883,3 +22883,55 @@ Nov 09 10:01:06 api.tabazaserver.com npm[707086]:     ❌ Rejected: Sigma 0.66σ
 
 Nov 09 10:14:56 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 6ms (6 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 10:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 10:26:01 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 09 10:27:02 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 09 10:28:02 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 09 10:29:02 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 09 10:30:03 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:   🔒 TRX/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.002105, MIDAS: $0.002081, POC: $0.002057, Vol: 0.88x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.88x < 1.1x required
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $5.91, MIDAS: $5.92, POC: $5.95, Vol: 0.70x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.70x < 1.1x required
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.0167, MIDAS: $0.0169, POC: $0.0167, Vol: 0.73x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.73x < 1.1x required
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.4660, MIDAS: $0.4641, POC: $0.4581, Vol: 1.62x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 19.1 < 30 (weak trend)
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.7940, MIDAS: $0.7982, POC: $0.7897, Vol: 1.31x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 21.3 < 30 (weak trend)
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.2777, MIDAS: $0.2786, POC: $0.2763, Vol: 1.25x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 20.1 < 30 (weak trend)
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.29, MIDAS: $2.27, POC: $2.28, Vol: 0.71x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.71x < 1.1x required
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $588.65, MIDAS: $576.33, POC: $589.29, Vol: 0.96x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.96x < 1.1x required
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.007730, MIDAS: $0.007761, POC: $0.007913, Vol: 1.65x
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 21.5 < 30 (weak trend)
+Nov 09 10:16:03 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] ETH/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 1 day 11h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 540.9M (peak: 1.3G)
+        CPU: 20h 5min 1.041s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 10:29:59 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 4ms (7 rows)
+
