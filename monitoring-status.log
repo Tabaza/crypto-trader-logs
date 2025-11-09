@@ -25398,3 +25398,55 @@ Nov 09 22:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 53.2 out
 
 Nov 09 22:59:46 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 23:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 23:10:50 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 09 23:11:50 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 09 23:12:51 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 09 23:13:51 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 09 23:14:52 api.tabazaserver.com npm[707086]: 📊 Monitoring 6 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:   🔒 BTC/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $3580.96, MIDAS: $3502.31, POC: $3519.80, Vol: 1.23x
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: LONG @ $3580.96 (77.89773845935444% strength)
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:   🔒 SOL/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 58.4 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:   🔒 BCH/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 12.2 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.1 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.8 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 11.6 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:   🔒 LTC/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.9 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.4 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.8 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:   🔒 SEI/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.1 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 52.1 outside 15-45 range
+Nov 09 23:01:02 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.1 outside 15-45 range
+Nov 09 23:01:03 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] ETH/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 2 days ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 529.8M (peak: 1.3G)
+        CPU: 1d 1h 10min 25.403s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 23:14:52 api.tabazaserver.com npm[707086]: ⏳ ETH/USDT LONG: Price $3574.58 | TP: $3619.55 | SL: $3548.80
+
