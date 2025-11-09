@@ -25073,3 +25073,42 @@ Nov 09 21:01:02 api.tabazaserver.com npm[707086]:   🔒 TRX/USDT: LOCKED by [VW
 
 Nov 09 21:14:06 api.tabazaserver.com npm[707086]: ⏳ CHZ/USDT SHORT: Price $0.0340 | TP: $0.0336 | SL: $0.0347
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-09 21:30:02
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 09 21:25:11 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 21:26:11 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 21:27:12 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 21:28:12 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 09 21:29:12 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 09 21:16:00 api.tabazaserver.com npm[707086]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-09T20:16:00.581Z) ==========
+Nov 09 21:16:00 api.tabazaserver.com npm[707086]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 09 21:16:00 api.tabazaserver.com npm[707086]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 09 21:16:00 api.tabazaserver.com npm[707086]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 09 21:16:03 api.tabazaserver.com npm[707086]:   🔒 BTC/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 21:16:03 api.tabazaserver.com npm[707086]:   🔒 SOL/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 09 21:16:03 api.tabazaserver.com npm[707086]:   🔒 AAVE/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 1 day 22h ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 537.1M (peak: 1.3G)
+        CPU: 1d 45min 37.693s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 09 21:29:13 api.tabazaserver.com npm[707086]: ⏳ BTC/USDT LONG: Price $104499.11 | TP: $105356.65 | SL: $103809.32
+
