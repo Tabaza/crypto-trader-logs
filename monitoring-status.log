@@ -26581,3 +26581,57 @@ Nov 10 04:31:12 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] TIA/
 
 Nov 10 04:44:25 api.tabazaserver.com npm[707086]: ⏳ TIA/USDT LONG: Price $1.07 | TP: $1.11 | SL: $1.04
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-10 05:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 10 04:55:29 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 10 04:56:29 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 10 04:57:01 api.tabazaserver.com npm[707086]: WebSocket closed for RENDER/USDT, reconnecting...
+Nov 10 04:57:12 api.tabazaserver.com npm[707086]: WebSocket connected for RENDER/USDT
+Nov 10 04:57:30 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 10 04:58:30 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 10 04:59:31 api.tabazaserver.com npm[707086]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.3454, MIDAS: $0.3351, POC: $0.3272, Vol: 1.15x
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: LONG @ $0.3454 (76.16671100103194% strength)
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:   🔒 ETC/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 11.9 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:   🔒 MEME/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.2 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.3 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 12.5 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.5 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.8 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 14.6 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 9.4 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 11.5 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:   🔒 TIA/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 12.5 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 13.0 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 49.1 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 10.1 outside 15-45 range
+Nov 10 04:46:03 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] ENA/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 2 days ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 527.8M (peak: 1.3G)
+        CPU: 1d 3h 59min 18.011s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 10 04:59:31 api.tabazaserver.com npm[707086]: ⏳ ENA/USDT LONG: Price $0.3451 | TP: $0.3556 | SL: $0.3369
+
