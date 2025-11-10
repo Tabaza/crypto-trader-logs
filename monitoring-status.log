@@ -28341,3 +28341,53 @@ Nov 10 13:16:02 api.tabazaserver.com npm[817291]:   🔒 XRP/USDT: LOCKED by [Fa
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-10 13:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 10 13:40:40 api.tabazaserver.com npm[817291]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 10 13:41:40 api.tabazaserver.com npm[817291]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 10 13:42:41 api.tabazaserver.com npm[817291]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 10 13:43:41 api.tabazaserver.com npm[817291]: 📊 Monitoring 6 active trades (REST 1-min check)...
+Nov 10 13:44:41 api.tabazaserver.com npm[817291]: 📊 Monitoring 6 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 10 13:31:00 api.tabazaserver.com npm[817291]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-10T12:31:00.011Z) ==========
+Nov 10 13:31:00 api.tabazaserver.com npm[817291]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 10 13:31:00 api.tabazaserver.com npm[817291]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $105919.23, MIDAS: $106107.45, POC: $106031.76, Vol: 1.22x
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 25.2 < 30 (weak trend)
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $3592.60, MIDAS: $3617.79, POC: $3608.01, Vol: 0.63x
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.63x < 1.1x required
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $167.69, MIDAS: $167.66, POC: $167.26, Vol: 0.56x
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.56x < 1.1x required
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $997.14, MIDAS: $1007.27, POC: $1010.08, Vol: 0.67x
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.67x < 1.1x required
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:   🔒 1000SATS/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $223.29, MIDAS: $220.12, POC: $220.17, Vol: 1.93x
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: LONG @ $223.29 (93.94157575338994% strength)
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:   🔒 ARKM/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 10 13:31:02 api.tabazaserver.com npm[817291]:   🔒 XRP/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 10 13:31:03 api.tabazaserver.com npm[817291]:   ✅ [Fast Momentum Gap] AAVE/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 4h 17min ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 506.0M (peak: 909.1M)
+        CPU: 1h 39min 874ms
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
