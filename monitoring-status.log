@@ -27063,3 +27063,55 @@ Nov 10 06:46:06 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] RAY/
 
 Nov 10 06:59:19 api.tabazaserver.com npm[707086]: ⏳ MEME/USDT SHORT: Price $0.001679 | TP: $0.001635 | SL: $0.001705
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-10 07:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 10 07:10:25 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 10 07:11:25 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 10 07:12:25 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 10 07:13:26 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+Nov 10 07:14:26 api.tabazaserver.com npm[707086]: 📊 Monitoring 7 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $16.28, MIDAS: $16.19, POC: $16.26, Vol: 0.40x
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.40x < 1.1x required
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.3295, MIDAS: $0.3397, POC: $0.3397, Vol: 0.48x
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.48x < 1.1x required
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.72, MIDAS: $2.78, POC: $2.73, Vol: 0.79x
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.79x < 1.1x required
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:   🔒 FLOKI/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.0104, MIDAS: $0.0103, POC: $0.0103, Vol: 0.75x
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.75x < 1.1x required
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $7.02, MIDAS: $7.51, POC: $7.28, Vol: 0.73x
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.73x < 1.1x required
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.4430, MIDAS: $0.4434, POC: $0.4431, Vol: 0.57x
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.57x < 1.1x required
+Nov 10 07:01:05 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $8.05, MIDAS: $7.73, POC: $7.53, Vol: 1.44x
+Nov 10 07:01:06 api.tabazaserver.com npm[707086]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: LONG @ $8.05 (82.74008274747551% strength)
+Nov 10 07:01:06 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 10 07:01:06 api.tabazaserver.com npm[707086]:   🔒 MEME/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 10 07:01:06 api.tabazaserver.com npm[707086]:   🔒 RAY/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 10 07:01:06 api.tabazaserver.com npm[707086]:   🔒 RUNE/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 10 07:01:07 api.tabazaserver.com npm[707086]:   ✅ [Fast Momentum Gap] INJ/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 2 days ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 551.8M (peak: 1.3G)
+        CPU: 1d 4h 53min 39.326s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 10 07:14:27 api.tabazaserver.com npm[707086]: ⏳ RUNE/USDT SHORT: Price $0.8380 | TP: $0.8288 | SL: $0.8475
+
