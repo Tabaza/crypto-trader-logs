@@ -28703,3 +28703,55 @@ Nov 10 15:01:04 api.tabazaserver.com npm[817291]:   ✅ [VWAP Sigma] MANA/USDT e
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-10 15:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 10 15:25:28 api.tabazaserver.com npm[817291]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 10 15:26:29 api.tabazaserver.com npm[817291]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 10 15:27:30 api.tabazaserver.com npm[817291]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 10 15:28:30 api.tabazaserver.com npm[817291]: 📊 Monitoring 8 active trades (REST 1-min check)...
+Nov 10 15:29:30 api.tabazaserver.com npm[817291]: 📊 Monitoring 8 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.00000618, VWAP: $0.00000613, Sigma: 1.15σ, Vol: 1.16x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.00%, VWAP: 0.63%)
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.1227, VWAP: $0.1214, Sigma: 1.17σ, Vol: 2.99x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.66%, VWAP: 0.97%)
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $1.95, VWAP: $1.94, Sigma: 0.24σ, Vol: 1.91x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong downtrend (price: -0.71%, VWAP: 0.26%)
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $2.66, VWAP: $2.52, Sigma: 1.50σ, Vol: 2.10x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (127% of median)
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.8300, VWAP: $0.8269, Sigma: 0.34σ, Vol: 1.56x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Sigma 0.34σ outside range 1.0-2.5σ
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.2088, VWAP: $0.2073, Sigma: 0.88σ, Vol: 1.91x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.00%, VWAP: 0.61%)
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.1854, VWAP: $0.1832, Sigma: 1.33σ, Vol: 0.70x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.11%, VWAP: 0.78%)
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.00001005, VWAP: $0.00001003, Sigma: 0.34σ, Vol: 0.85x
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: -0.30%, VWAP: 0.32%)
+Nov 10 15:16:02 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.4297, VWAP: $0.4258, Sigma: 1.16σ, Vol: 1.49x
+Nov 10 15:16:03 api.tabazaserver.com npm[817291]:   🎯 [VWAP Sigma] SIGNAL 2/2 this hour: SHORT @ $0.4297 (81% strength)
+Nov 10 15:16:03 api.tabazaserver.com npm[817291]:   ✅ [VWAP Sigma] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 10 15:16:03 api.tabazaserver.com npm[817291]:   🔒 XRP/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 6h ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 500.3M (peak: 909.1M)
+        CPU: 2h 21min 28.440s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
