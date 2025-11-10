@@ -26425,3 +26425,55 @@ Nov 10 03:46:04 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] QTUM/USDT e
 
 Nov 10 03:59:12 api.tabazaserver.com npm[707086]: [PERF] getActiveTrades() query: 4ms (4 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-10 04:15:02
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 10 04:11:11 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 10 04:12:11 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 10 04:13:12 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 10 04:14:12 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+Nov 10 04:15:13 api.tabazaserver.com npm[707086]: 📊 Monitoring 4 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $6.63, MIDAS: $6.64, POC: $6.69, Vol: 0.40x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.40x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.0174, MIDAS: $0.0172, POC: $0.0172, Vol: 0.80x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.80x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 10.9 outside 15-45 range
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.4890, MIDAS: $0.4839, POC: $0.4828, Vol: 0.42x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.42x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.8250, MIDAS: $0.8187, POC: $0.8178, Vol: 0.48x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.48x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.2909, MIDAS: $0.2848, POC: $0.2822, Vol: 0.48x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.48x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $2.42, MIDAS: $2.36, POC: $2.40, Vol: 0.96x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.96x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 45.9 outside 15-45 range
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $643.47, MIDAS: $639.69, POC: $642.83, Vol: 0.53x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.53x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     [Momentum Gap] Price: $0.007880, MIDAS: $0.007889, POC: $0.007898, Vol: 0.27x
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: Volume 0.27x < 1.1x required
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:     ❌ Rejected: ADX 9.8 outside 15-45 range
+Nov 10 04:01:03 api.tabazaserver.com npm[707086]:   ✅ [VWAP Sigma] MEME/USDT executed (1/1)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-07 23:09:47 CET; 2 days ago
+   Main PID: 707063 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 558.1M (peak: 1.3G)
+        CPU: 1d 3h 39min 32.367s
+     CGroup: /system.slice/crypto-trader.service
+             ├─707063 "npm run dev"
+             ├─707074 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─707075 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─707086 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─708288 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 10 04:14:57 api.tabazaserver.com npm[707086]: 💾 Persisted 70 prices to database (5-min backup)
+
