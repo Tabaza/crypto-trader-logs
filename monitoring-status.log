@@ -31046,3 +31046,56 @@ Nov 11 02:31:10 api.tabazaserver.com npm[817291]:   ✅ [VWAP Sigma] ATOM/USDT e
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-11 03:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 11 02:55:43 api.tabazaserver.com npm[817291]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 11 02:56:40 api.tabazaserver.com npm[817291]: 2:56:40 AM [express] GET /api/signals/monitoring/stats 304 in 30ms :: {"total":229,"wins":83,"losses…
+Nov 11 02:56:44 api.tabazaserver.com npm[817291]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 11 02:57:44 api.tabazaserver.com npm[817291]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 11 02:58:44 api.tabazaserver.com npm[817291]: 📊 Monitoring 5 active trades (REST 1-min check)...
+Nov 11 02:58:49 api.tabazaserver.com npm[817291]: 2:58:49 AM [express] GET /api/signals/monitoring/stats 304 in 20ms :: {"total":229,"wins":83,"losses…
+Nov 11 02:59:45 api.tabazaserver.com npm[817291]: 📊 Monitoring 5 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 11 02:46:00 api.tabazaserver.com npm[817291]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-11T01:46:00.041Z) ==========
+Nov 11 02:46:00 api.tabazaserver.com npm[817291]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 11 02:46:00 api.tabazaserver.com npm[817291]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 11 02:46:00 api.tabazaserver.com npm[817291]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:   🔒 ATOM/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:   🔒 BCH/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.9 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 14.1 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.9 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:   🔒 IMX/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 13.1 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 11.6 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 14.9 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 14.1 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.1 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 57.5 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 15.0 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 13.1 outside 15-45 range
+Nov 11 02:46:06 api.tabazaserver.com npm[817291]:   🎯 [RSI Divergence] SIGNAL 2/2 this hour: LONG @ $575.85 (81% strength)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 17h ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 550.4M (peak: 2.0G)
+        CPU: 7h 46min 14.562s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
