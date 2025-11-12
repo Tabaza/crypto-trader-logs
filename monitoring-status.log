@@ -38456,3 +38456,50 @@ Nov 12 15:31:29 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 13.7 out
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-12 16:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 12 15:58:54 api.tabazaserver.com npm[817291]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 12 15:58:57 api.tabazaserver.com npm[817291]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 12 15:58:59 api.tabazaserver.com npm[817291]: WebSocket closed for BNB/USDT, reconnecting...
+Nov 12 15:59:00 api.tabazaserver.com npm[817291]: WebSocket connected for SOL/USDT
+Nov 12 15:59:00 api.tabazaserver.com npm[817291]: WebSocket connected for DOGE/USDT
+Nov 12 15:59:00 api.tabazaserver.com npm[817291]: WebSocket connected for FLOKI/USDT
+Nov 12 15:59:03 api.tabazaserver.com npm[817291]: WebSocket connected for BTC/USDT
+Nov 12 15:59:05 api.tabazaserver.com npm[817291]: WebSocket connected for BNB/USDT
+Nov 12 15:59:35 api.tabazaserver.com npm[817291]: WebSocket closed for ETH/USDT, reconnecting...
+Nov 12 15:59:41 api.tabazaserver.com npm[817291]: WebSocket connected for ETH/USDT
+
+🎯 Strategy Signals (last 15 min):
+Nov 12 15:46:00 api.tabazaserver.com npm[817291]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-12T14:46:00.474Z) ==========
+Nov 12 15:46:00 api.tabazaserver.com npm[817291]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 12 15:46:00 api.tabazaserver.com npm[817291]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 12 15:46:00 api.tabazaserver.com npm[817291]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 12 15:46:05 api.tabazaserver.com npm[817291]:   🎯 [RSI Divergence] SIGNAL 2/2 this hour: SHORT @ $104694.01 (96% strength)
+Nov 12 15:46:05 api.tabazaserver.com npm[817291]:   🔒 ETH/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 12 15:46:05 api.tabazaserver.com npm[817291]:   🔒 BNB/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 12 15:46:05 api.tabazaserver.com npm[817291]:   🔒 ALGO/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 12 15:46:05 api.tabazaserver.com npm[817291]:   🔒 ETC/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+Nov 12 15:46:05 api.tabazaserver.com npm[817291]:   🔒 NEIRO/USDT: LOCKED by [VWAP Sigma] (active trade exists)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 2 days ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 1.4G (peak: 2.0G)
+        CPU: 1d 3h 4min 25.723s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
