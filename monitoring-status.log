@@ -43607,3 +43607,54 @@ Nov 13 16:46:05 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 9.3 outs
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-13 17:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 13 17:11:06 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 17:12:07 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 17:13:08 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 17:14:12 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 13.5 outside 15-45 range
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $7.93, MIDAS: $7.95, POC: $7.99, Vol: 1.18x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 16.8 < 30 (weak trend)
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.0167, MIDAS: $0.0169, POC: $0.0169, Vol: 0.87x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.87x < 1.1x required
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 13.7 outside 15-45 range
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.4650, MIDAS: $0.4657, POC: $0.4649, Vol: 2.56x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 18.1 < 30 (weak trend)
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.7830, MIDAS: $0.7909, POC: $0.7867, Vol: 1.36x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.1 < 30 (weak trend)
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.1 outside 15-45 range
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.2812, MIDAS: $0.2900, POC: $0.2920, Vol: 1.10x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 1.10x < 1.1x required
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $2.43, MIDAS: $2.48, POC: $2.50, Vol: 1.97x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 20.7 < 30 (weak trend)
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $496.76, MIDAS: $500.69, POC: $496.84, Vol: 0.92x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.92x < 1.1x required
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.007390, MIDAS: $0.007422, POC: $0.007440, Vol: 0.77x
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.77x < 1.1x required
+Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 9.9 outside 15-45 range
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 3 days ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 723.0M (peak: 2.3G)
+        CPU: 1d 19h 10min 10.192s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
