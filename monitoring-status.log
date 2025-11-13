@@ -44191,3 +44191,50 @@ Nov 13 19:31:18 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range 
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-13 20:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (121% of median)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.001859, VWAP: $0.001959, Sigma: 2.86σ, Vol: 0.96x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - Session range too wide (78% of median)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $7.85, VWAP: $7.84, Sigma: 0.06σ, Vol: 3.33x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - VWAP not flat (slope: 0.67%)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.0160, VWAP: $0.0167, Sigma: 2.54σ, Vol: 2.24x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (105% of median)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.4380, VWAP: $0.4572, Sigma: 2.24σ, Vol: 1.15x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.7360, VWAP: $0.7759, Sigma: 2.43σ, Vol: 2.56x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (118% of median)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.2694, VWAP: $0.2848, Sigma: 2.15σ, Vol: 1.29x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (129% of median)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $2.35, VWAP: $2.44, Sigma: 1.64σ, Vol: 1.01x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (102% of median)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.1 outside 15-45 range
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $492.78, VWAP: $505.37, Sigma: 0.89σ, Vol: 1.07x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.93%, VWAP: -0.73%)
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.007080, VWAP: $0.007339, Sigma: 2.77σ, Vol: 1.59x
+Nov 13 19:48:49 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - Session range too wide (87% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 3 days ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 829.2M (peak: 2.3G)
+        CPU: 1d 22h 1min 37.206s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
