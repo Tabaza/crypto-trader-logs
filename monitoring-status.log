@@ -43036,3 +43036,54 @@ Nov 13 14:01:30 api.tabazaserver.com npm[817291]:     ❌ Rejected: Sigma 0.25σ
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-13 14:30:03
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 13 14:26:00 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 14:27:00 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 14:28:01 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 14:29:16 api.tabazaserver.com npm[817291]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.62%, VWAP: 0.33%)
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $5.07, MIDAS: $5.05, POC: $5.05, Vol: 0.62x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.62x < 1.1x required
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 10.9 outside 15-45 range
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $5.07, VWAP: $5.03, Sigma: 0.59σ, Vol: 0.62x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.63%, VWAP: 0.37%)
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.4199, MIDAS: $0.4112, POC: $0.4164, Vol: 1.32x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 22.7 < 30 (weak trend)
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.4199, VWAP: $0.4079, Sigma: 1.32σ, Vol: 1.32x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 1.50%, VWAP: 0.80%)
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $4.86, MIDAS: $4.81, POC: $4.83, Vol: 0.43x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.43x < 1.1x required
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.2 outside 15-45 range
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $4.86, VWAP: $4.82, Sigma: 0.38σ, Vol: 0.43x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.77%, VWAP: 0.39%)
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.00000592, MIDAS: $0.00000586, POC: $0.00000590, Vol: 0.82x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.82x < 1.1x required
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 14.5 outside 15-45 range
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.00000592, VWAP: $0.00000583, Sigma: 0.89σ, Vol: 0.82x
+Nov 13 14:16:33 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.17%, VWAP: 0.32%)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 3 days ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 617.1M (peak: 2.3G)
+        CPU: 1d 16h 43min 13.676s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
