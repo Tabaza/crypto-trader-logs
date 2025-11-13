@@ -44985,3 +44985,42 @@ Nov 13 23:31:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range 
 
 Nov 13 23:31:31 api.tabazaserver.com npm[976381]: ⚠️ No data for ZIL/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-13 23:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 13 23:40:47 api.tabazaserver.com npm[976381]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 13 23:41:57 api.tabazaserver.com npm[976381]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 13 23:43:03 api.tabazaserver.com npm[976381]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 23:44:03 api.tabazaserver.com npm[976381]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 23:31:00 api.tabazaserver.com npm[976381]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-13T22:31:00.052Z) ==========
+Nov 13 23:31:00 api.tabazaserver.com npm[976381]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 13 23:31:00 api.tabazaserver.com npm[976381]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 13 23:31:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $99507.82, VWAP: $101048.12, Sigma: 0.89σ, Vol: 0.44x
+Nov 13 23:31:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (135% of median)
+Nov 13 23:31:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 48.5 outside 15-45 range
+Nov 13 23:31:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $3216.32, VWAP: $3375.70, Sigma: 1.33σ, Vol: 0.62x
+Nov 13 23:31:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (169% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2025-11-13 20:29:50 CET; 3h 15min ago
+   Main PID: 976358 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 520.1M (peak: 1.4G)
+        CPU: 2h 41min 50.693s
+     CGroup: /system.slice/crypto-trader.service
+             ├─976358 "npm run dev"
+             ├─976369 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─976370 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─976381 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─976850 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 13 23:44:39 api.tabazaserver.com npm[976381]: [PERF] getActiveTrades() query: 4ms (1 rows)
+
