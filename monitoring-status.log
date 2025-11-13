@@ -43144,3 +43144,50 @@ Nov 13 14:33:42 api.tabazaserver.com npm[817291]:     ❌ Rejected: Sigma 0.21σ
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-13 15:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.9 outside 15-45 range
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.7880, VWAP: $0.7777, Sigma: 0.63σ, Vol: 2.82x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong uptrend (price: 0.51%, VWAP: 0.07%)
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.2872, MIDAS: $0.2912, POC: $0.2908, Vol: 1.59x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 22.3 < 30 (weak trend)
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.2872, VWAP: $0.2866, Sigma: 0.08σ, Vol: 1.59x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: Not a range day - High range day (100% of median)
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $2.47, MIDAS: $2.48, POC: $2.50, Vol: 2.39x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 19.8 < 30 (weak trend)
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $2.47, VWAP: $2.43, Sigma: 0.61σ, Vol: 2.39x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong downtrend (price: -0.97%, VWAP: -0.58%)
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $499.19, MIDAS: $505.38, POC: $504.39, Vol: 0.99x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.99x < 1.1x required
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $499.19, VWAP: $499.39, Sigma: 0.01σ, Vol: 0.99x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: Strong downtrend (price: -1.46%, VWAP: -0.86%)
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.007410, MIDAS: $0.007401, POC: $0.007428, Vol: 1.08x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 1.08x < 1.1x required
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 10.6 outside 15-45 range
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     [VWAP Sigma] Price: $0.007410, VWAP: $0.007398, Sigma: 0.09σ, Vol: 1.08x
+Nov 13 14:46:32 api.tabazaserver.com npm[817291]:     ❌ Rejected: Sigma 0.09σ outside range 1.0-2.5σ
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 3 days ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 568.2M (peak: 2.3G)
+        CPU: 1d 17h 10min 1.964s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
