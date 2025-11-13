@@ -45024,3 +45024,55 @@ Nov 13 23:31:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range 
 
 Nov 13 23:44:39 api.tabazaserver.com npm[976381]: [PERF] getActiveTrades() query: 4ms (1 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-14 00:00:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 13 23:56:01 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 23:57:01 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 23:58:01 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 13 23:59:01 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 00:00:02 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (135% of median)
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 45.6 outside 15-45 range
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $3227.09, VWAP: $3374.11, Sigma: 1.21σ, Vol: 0.80x
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (169% of median)
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $144.36, VWAP: $150.41, Sigma: 1.23σ, Vol: 0.64x
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (141% of median)
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:   🔒 BNB/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.00002062, VWAP: $0.00002130, Sigma: 1.03σ, Vol: 0.28x
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (112% of median)
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $197.33, VWAP: $203.07, Sigma: 0.70σ, Vol: 0.38x
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (140% of median)
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.5286, VWAP: $0.5441, Sigma: 0.88σ, Vol: 0.52x
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (138% of median)
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.1667, VWAP: $0.1721, Sigma: 1.09σ, Vol: 0.39x
+Nov 13 23:46:31 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (111% of median)
+Nov 13 23:47:31 api.tabazaserver.com npm[983321]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 13 23:47:31 api.tabazaserver.com npm[983321]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+Nov 14 00:01:00 api.tabazaserver.com npm[983321]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-13T23:01:00.011Z) ==========
+Nov 14 00:01:00 api.tabazaserver.com npm[983321]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 14 00:01:00 api.tabazaserver.com npm[983321]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2025-11-13 23:47:27 CET; 13min ago
+   Main PID: 983298 (npm run dev)
+      Tasks: 35 (limit: 28792)
+     Memory: 263.1M (peak: 493.3M)
+        CPU: 12.788s
+     CGroup: /system.slice/crypto-trader.service
+             ├─983298 "npm run dev"
+             ├─983309 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─983310 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             └─983321 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+
+Nov 14 00:01:00 api.tabazaserver.com npm[983321]: 📊 Processing ZEC/USDT...
+Nov 14 00:01:00 api.tabazaserver.com npm[983321]: ⚠️ No data for ZEC/USDT
+
