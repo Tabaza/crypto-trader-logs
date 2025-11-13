@@ -44893,3 +44893,55 @@ Nov 13 22:46:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range 
 
 Nov 13 22:59:21 api.tabazaserver.com npm[976381]: [PERF] getActiveTrades() query: 4ms (3 rows)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-13 23:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 13 23:10:40 api.tabazaserver.com npm[976381]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 13 23:11:40 api.tabazaserver.com npm[976381]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 13 23:12:40 api.tabazaserver.com npm[976381]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 13 23:13:41 api.tabazaserver.com npm[976381]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 13 23:14:41 api.tabazaserver.com npm[976381]: 📊 Monitoring 3 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 48.6 outside 15-45 range
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.0157, VWAP: $0.0165, Sigma: 1.84σ, Vol: 0.31x
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (119% of median)
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 46.2 outside 15-45 range
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.4270, VWAP: $0.4524, Sigma: 1.84σ, Vol: 0.26x
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (117% of median)
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 48.1 outside 15-45 range
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.7240, VWAP: $0.7698, Sigma: 1.98σ, Vol: 0.40x
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (127% of median)
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 46.6 outside 15-45 range
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.2633, VWAP: $0.2818, Sigma: 1.91σ, Vol: 0.30x
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (149% of median)
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 54.5 outside 15-45 range
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $2.29, VWAP: $2.42, Sigma: 1.98σ, Vol: 0.67x
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (131% of median)
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $500.95, VWAP: $503.45, Sigma: 0.23σ, Vol: 0.42x
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Strong downtrend (price: -1.45%, VWAP: -2.71%)
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: ADX 51.4 outside 15-45 range
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     [VWAP Sigma] Price: $0.006860, VWAP: $0.007253, Sigma: 2.21σ, Vol: 0.17x
+Nov 13 23:01:05 api.tabazaserver.com npm[976381]:     ❌ Rejected: Not a range day - High range day (100% of median)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2025-11-13 20:29:50 CET; 2h 45min ago
+   Main PID: 976358 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 530.5M (peak: 1.4G)
+        CPU: 2h 27min 53.345s
+     CGroup: /system.slice/crypto-trader.service
+             ├─976358 "npm run dev"
+             ├─976369 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─976370 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─976381 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─976850 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 13 23:14:36 api.tabazaserver.com npm[976381]: [PERF] getActiveTrades() query: 2ms (3 rows)
+
