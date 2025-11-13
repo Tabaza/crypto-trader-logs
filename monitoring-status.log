@@ -43658,3 +43658,60 @@ Nov 13 17:01:20 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 9.9 outs
              └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-13 17:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 13 17:28:37 api.tabazaserver.com npm[817291]: WebSocket closed for SOL/USDT, reconnecting...
+Nov 13 17:28:37 api.tabazaserver.com npm[817291]: WebSocket closed for XRP/USDT, reconnecting...
+Nov 13 17:28:43 api.tabazaserver.com npm[817291]: WebSocket connected for SOL/USDT
+Nov 13 17:28:43 api.tabazaserver.com npm[817291]: WebSocket connected for XRP/USDT
+Nov 13 17:28:48 api.tabazaserver.com npm[817291]: WebSocket closed for FLOKI/USDT, reconnecting...
+Nov 13 17:28:54 api.tabazaserver.com npm[817291]: WebSocket connected for FLOKI/USDT
+Nov 13 17:28:59 api.tabazaserver.com npm[817291]: WebSocket closed for BTC/USDT, reconnecting...
+Nov 13 17:29:02 api.tabazaserver.com npm[817291]: WebSocket closed for ETH/USDT, reconnecting...
+Nov 13 17:29:06 api.tabazaserver.com npm[817291]: WebSocket connected for BTC/USDT
+Nov 13 17:29:08 api.tabazaserver.com npm[817291]: WebSocket connected for ETH/USDT
+
+🎯 Strategy Signals (last 15 min):
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 12.2 outside 15-45 range
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $2.96, MIDAS: $2.97, POC: $2.95, Vol: 0.35x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.35x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 11.4 outside 15-45 range
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $17.02, MIDAS: $17.31, POC: $17.37, Vol: 0.77x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.77x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $1.34, MIDAS: $1.36, POC: $1.34, Vol: 0.45x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.45x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $521.10, MIDAS: $525.14, POC: $525.97, Vol: 0.26x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.26x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.000888, MIDAS: $0.000899, POC: $0.000900, Vol: 0.70x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.70x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.00001217, MIDAS: $0.00001232, POC: $0.00001229, Vol: 0.74x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.74x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 13.6 outside 15-45 range
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $0.0329, MIDAS: $0.0331, POC: $0.0332, Vol: 0.54x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.54x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     [Momentum Gap] Price: $33.67, MIDAS: $33.89, POC: $33.84, Vol: 0.91x
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: Volume 0.91x < 1.1x required
+Nov 13 17:17:17 api.tabazaserver.com npm[817291]:     ❌ Rejected: ADX 11.5 outside 15-45 range
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-11-10 09:27:32 CET; 3 days ago
+   Main PID: 817267 (npm run dev)
+      Tasks: 57 (limit: 28792)
+     Memory: 726.8M (peak: 2.3G)
+        CPU: 1d 19h 25min 58.304s
+     CGroup: /system.slice/crypto-trader.service
+             ├─817267 "npm run dev"
+             ├─817279 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─817280 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─817291 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─817303 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─817339 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
