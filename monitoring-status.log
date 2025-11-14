@@ -46205,3 +46205,37 @@ Nov 14 08:01:00 api.tabazaserver.com npm[989324]: 🔧 Running 3 strategies: Fas
 
 Nov 14 08:11:48 api.tabazaserver.com npm[989324]: ❌ Failed to fetch BNB/USDT: binance GET https://fapi.binance.com/fapi/v1/exchangeInfo request timed out (10000 ms)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-14 08:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 14 08:26:48 api.tabazaserver.com npm[989324]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:27:48 api.tabazaserver.com npm[989324]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:28:49 api.tabazaserver.com npm[989324]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:29:49 api.tabazaserver.com npm[989324]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:30:49 api.tabazaserver.com npm[989324]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 14 08:16:00 api.tabazaserver.com npm[989324]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-14T07:16:00.035Z) ==========
+Nov 14 08:16:00 api.tabazaserver.com npm[989324]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-14 03:13:04 CET; 5h 17min ago
+   Main PID: 989301 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 330.2M (peak: 499.4M)
+        CPU: 1min 25.682s
+     CGroup: /system.slice/crypto-trader.service
+             ├─989301 "npm run dev"
+             ├─989312 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─989313 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─989324 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─989349 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 14 08:31:00 api.tabazaserver.com npm[989324]: ⚠️ No data for XLM/USDT
+
