@@ -48547,3 +48547,39 @@ Nov 14 19:46:11 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 14.1 out
              └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-14 20:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 14 20:11:07 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 14 20:12:07 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 14 20:13:07 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 14 20:14:07 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 14 20:15:07 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 14 20:16:00 api.tabazaserver.com npm[999579]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-14T19:16:00.056Z) ==========
+Nov 14 20:16:00 api.tabazaserver.com npm[999579]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 14 20:16:00 api.tabazaserver.com npm[999579]: ⏳ [Fast Momentum Gap] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+Nov 14 20:16:00 api.tabazaserver.com npm[999579]: ⏳ [VWAP Sigma] HOURLY LIMIT REACHED: 2/2 signals in last hour - SKIPPING
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-14 08:38:18 CET; 11h ago
+   Main PID: 999556 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 425.5M (peak: 575.4M)
+        CPU: 9min 56.812s
+     CGroup: /system.slice/crypto-trader.service
+             ├─ 999556 "npm run dev"
+             ├─ 999567 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─ 999568 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─ 999579 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─ 999591 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
