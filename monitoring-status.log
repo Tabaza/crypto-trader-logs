@@ -46239,3 +46239,39 @@ Nov 14 08:16:00 api.tabazaserver.com npm[989324]: 🔧 Running 3 strategies: Fas
 
 Nov 14 08:31:00 api.tabazaserver.com npm[989324]: ⚠️ No data for XLM/USDT
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-14 08:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 14 08:40:57 api.tabazaserver.com npm[999579]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:41:57 api.tabazaserver.com npm[999579]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:42:57 api.tabazaserver.com npm[999579]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:43:57 api.tabazaserver.com npm[999579]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 08:44:57 api.tabazaserver.com npm[999579]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 14 08:31:00 api.tabazaserver.com npm[989324]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-14T07:31:00.037Z) ==========
+Nov 14 08:31:00 api.tabazaserver.com npm[989324]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+Nov 14 08:38:22 api.tabazaserver.com npm[999579]: ✅ Strategy registered: Fast Momentum Gap (momentum-gap)
+Nov 14 08:38:22 api.tabazaserver.com npm[999579]: ✅ Strategy registered: VWAP Sigma (vwap-sigma)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-14 08:38:18 CET; 7min ago
+   Main PID: 999556 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 337.6M (peak: 575.4M)
+        CPU: 18.107s
+     CGroup: /system.slice/crypto-trader.service
+             ├─999556 "npm run dev"
+             ├─999567 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─999568 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─999579 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─999591 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+
+Nov 14 08:41:57 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+
