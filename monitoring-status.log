@@ -45384,3 +45384,37 @@ Nov 14 02:01:00 api.tabazaserver.com npm[983321]: 🔧 Running 3 strategies: Fas
 
 Nov 14 02:12:04 api.tabazaserver.com npm[983321]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-14 02:30:02
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 14 02:26:04 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 02:27:04 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 02:28:04 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 02:29:04 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+Nov 14 02:30:04 api.tabazaserver.com npm[983321]: 📊 Monitoring 1 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 14 02:16:00 api.tabazaserver.com npm[983321]: 🎯 ========== 15-MIN SIGNAL SCAN (2025-11-14T01:16:00.037Z) ==========
+Nov 14 02:16:00 api.tabazaserver.com npm[983321]: 🔧 Running 3 strategies: Fast Momentum Gap, RSI Divergence, VWAP Sigma
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2025-11-13 23:47:27 CET; 2h 42min ago
+   Main PID: 983298 (npm run dev)
+      Tasks: 46 (limit: 28792)
+     Memory: 292.1M (peak: 493.3M)
+        CPU: 45.849s
+     CGroup: /system.slice/crypto-trader.service
+             ├─983298 "npm run dev"
+             ├─983309 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─983310 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─983321 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             └─984142 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+Nov 14 02:27:04 api.tabazaserver.com npm[983321]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+
