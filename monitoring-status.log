@@ -51700,3 +51700,55 @@ Nov 15 11:16:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: Strong downt
              └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-15 11:45:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 15 11:40:17 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 11:41:17 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 11:42:17 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 11:43:17 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 11:44:17 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.57x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 12.9 outside 15-45 range
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.2914, MIDAS: $0.2934, POC: $0.2942, Vol: 0.45x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.45x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.001815, MIDAS: $0.001829, POC: $0.001854, Vol: 0.51x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.51x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $7.31, MIDAS: $7.30, POC: $7.41, Vol: 0.56x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.56x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.0157, MIDAS: $0.0158, POC: $0.0159, Vol: 0.33x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.33x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.4170, MIDAS: $0.4155, POC: $0.4151, Vol: 0.58x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.58x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.7040, MIDAS: $0.7132, POC: $0.7190, Vol: 0.62x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.62x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.2608, MIDAS: $0.2633, POC: $0.2644, Vol: 0.49x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.49x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $2.26, MIDAS: $2.27, POC: $2.28, Vol: 0.57x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.57x < 1.1x required
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.006940, MIDAS: $0.006972, POC: $0.007118, Vol: 1.22x
+Nov 15 11:31:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 22.6 < 30 (weak trend)
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-14 08:38:18 CET; 1 day 3h ago
+   Main PID: 999556 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 442.6M (peak: 575.4M)
+        CPU: 21min 23.560s
+     CGroup: /system.slice/crypto-trader.service
+             ├─ 999556 "npm run dev"
+             ├─ 999567 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─ 999568 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─ 999579 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─ 999591 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
