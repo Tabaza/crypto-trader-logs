@@ -50836,3 +50836,55 @@ Nov 15 07:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 11.4 out
              └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-15 07:30:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 15 07:25:15 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 07:26:15 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 07:27:15 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 07:28:15 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 15 07:29:15 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 1.01x < 1.1x required
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $7.45, MIDAS: $7.21, POC: $7.41, Vol: 0.35x
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.35x < 1.1x required
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.0160, MIDAS: $0.0158, POC: $0.0160, Vol: 0.37x
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.37x < 1.1x required
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 12.6 outside 15-45 range
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.4270, MIDAS: $0.4179, POC: $0.4169, Vol: 0.52x
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.52x < 1.1x required
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.7210, MIDAS: $0.7153, POC: $0.7190, Vol: 0.86x
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.86x < 1.1x required
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 12.2 outside 15-45 range
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.2652, MIDAS: $0.2630, POC: $0.2613, Vol: 0.47x
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.47x < 1.1x required
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 11.9 outside 15-45 range
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $2.28, MIDAS: $2.28, POC: $2.28, Vol: 2.24x
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 13.2 < 30 (weak trend)
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 13.2 outside 15-45 range
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     [Momentum Gap] Price: $0.007120, MIDAS: $0.006965, POC: $0.007097, Vol: 0.94x
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: Volume 0.94x < 1.1x required
+Nov 15 07:16:04 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 11.8 outside 15-45 range
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-14 08:38:18 CET; 22h ago
+   Main PID: 999556 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 378.7M (peak: 575.4M)
+        CPU: 18min 22.425s
+     CGroup: /system.slice/crypto-trader.service
+             ├─ 999556 "npm run dev"
+             ├─ 999567 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─ 999568 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─ 999579 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─ 999591 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
