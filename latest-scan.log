@@ -1,31 +1,9 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-16 18:35:41
+Crypto Trader Log Export - 2025-11-16 18:37:52
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 16 18:31:00 api.tabazaserver.com npm[999579]:     at binance.fetchOHLCV (file:///opt/crypto-trader/node_modules/ccxt/js/src/binance.js:4684:29)
-Nov 16 18:31:00 api.tabazaserver.com npm[999579]:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-Nov 16 18:31:00 api.tabazaserver.com npm[999579]:     at async BinanceService.getOHLCV (/opt/crypto-trader/server/services/binance.service.ts:170:21)
-Nov 16 18:31:00 api.tabazaserver.com npm[999579]:     at async Promise.allSettled (index 69)
-Nov 16 18:31:00 api.tabazaserver.com npm[999579]:     at async SignalSchedulerService.processAllSymbols (/opt/crypto-trader/server/services/signal-scheduler.service.ts:158:28)
-Nov 16 18:31:02 api.tabazaserver.com npm[999579]: ✅ Loaded OHLCV for 70/74 symbols (closed bars only)
-Nov 16 18:31:02 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 16 18:31:02 api.tabazaserver.com npm[999579]: 🔍 Pre-fetched 9 active trades to avoid repeated queries
-Nov 16 18:31:02 api.tabazaserver.com npm[999579]: 🧮 Calculating volume profiles and MIDAS for 70 symbols...
-Nov 16 18:31:02 api.tabazaserver.com npm[999579]: 💾 Writing 70 volume profiles and 70 MIDAS data in parallel...
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]: ✅ Database writes complete
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]: 📊 Processing BTC/USDT...
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]:   🔒 BTC/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]: 📊 Processing ETH/USDT...
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]:     [RSI Divergence] Price: 3067.8400, RSI: 21.5, Vol: 2.69x
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]:     ❌ RSI Divergence rejected: No divergence pattern detected
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]: 📊 Processing SOL/USDT...
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]:   🔒 SOL/USDT: LOCKED by [RSI Divergence] (active trade exists)
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]: 📊 Processing BNB/USDT...
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]:   🔒 BNB/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]: 📊 Processing 1000SATS/USDT...
-Nov 16 18:31:03 api.tabazaserver.com npm[999579]:     [RSI Divergence] Price: 0.0000, RSI: 20.4, Vol: 2.03x
 Nov 16 18:31:03 api.tabazaserver.com npm[999579]:     ❌ RSI Divergence rejected: No divergence pattern detected
 Nov 16 18:31:03 api.tabazaserver.com npm[999579]: 📊 Processing AAVE/USDT...
 Nov 16 18:31:03 api.tabazaserver.com npm[999579]:   🔒 AAVE/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
@@ -204,4 +182,26 @@ Nov 16 18:35:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT:
 Nov 16 18:35:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
 Nov 16 18:35:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
 Nov 16 18:35:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:36:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 18:37:34 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
 
