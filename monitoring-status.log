@@ -54522,3 +54522,55 @@ Nov 16 00:46:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Strong uptre
              └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
 
 
+🔍 MONITORING STATUS
+---------------------------------------------------
+Export Time: 2025-11-16 01:15:01
+
+📋 Active Signals:
+
+🔌 WebSocket Status:
+Nov 16 01:10:25 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 01:11:25 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 01:12:25 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 01:13:25 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 01:14:25 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+
+🎯 Strategy Signals (last 15 min):
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:   🎯 [Fast Momentum Gap] SIGNAL 2/2 this hour: LONG @ $97.86 (100% strength)
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:   ✅ [Fast Momentum Gap] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 12.1 outside 15-45 range
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:     [VWAP Sigma] Price: $0.1632, VWAP: $0.1624, Sigma: 0.68σ, Vol: 0.36x
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Sigma 0.68σ outside range 1.0-2.5σ
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:     [VWAP Sigma] Price: $2.83, VWAP: $2.88, Sigma: 1.93σ, Vol: 1.27x
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:   🎯 [VWAP Sigma] SIGNAL 2/2 this hour: LONG @ $2.83 (96% strength)
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:   ✅ [VWAP Sigma] Hourly limit reached (2/2) - stopping scan for this strategy
+Nov 16 01:01:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 9.5 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 14.9 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 13.6 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 13.3 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 14.5 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:   🔒 RUNE/USDT: LOCKED by [Fast Momentum Gap] (active trade exists)
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 11.2 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 13.7 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 12.7 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 10.1 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 14.3 outside 15-45 range
+Nov 16 01:01:03 api.tabazaserver.com npm[999579]:     ❌ Rejected: ADX 12.2 outside 15-45 range
+
+⚙️ Service Status:
+● crypto-trader.service - AI Crypto Trader Application
+     Loaded: loaded (/etc/systemd/system/crypto-trader.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-11-14 08:38:18 CET; 1 day 16h ago
+   Main PID: 999556 (npm run dev)
+      Tasks: 56 (limit: 28792)
+     Memory: 427.7M (peak: 626.1M)
+        CPU: 30min 46.658s
+     CGroup: /system.slice/crypto-trader.service
+             ├─ 999556 "npm run dev"
+             ├─ 999567 sh -c "NODE_ENV=development tsx server/index.ts"
+             ├─ 999568 node /opt/crypto-trader/node_modules/.bin/tsx server/index.ts
+             ├─ 999579 /usr/bin/node --require /opt/crypto-trader/node_modules/tsx/dist/preflight.cjs --import file:///opt/crypto-trader/node_modules/tsx/dist/loader.mjs server/index.ts
+             ├─ 999591 /opt/crypto-trader/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.25.9 --ping
+             └─1000073 /opt/crypto-trader/node_modules/vite/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.21.5 --ping
+
+
