@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-16 13:15:01
+Crypto Trader Log Export - 2025-11-16 13:30:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 8ms (9 rows)
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: 1:02:39 PM [express] GET /api/trades/active 304 in 8ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b99880…
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 56ms
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 56ms
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: 1:02:39 PM [express] GET /api/performance 304 in 57ms :: {"totalTrades":338,"winRate":51.83486238532…
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 6ms
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 16 13:02:39 api.tabazaserver.com npm[999579]: 1:02:39 PM [express] GET /api/signals/monitoring/stats 304 in 69ms :: {"total":346,"wins":113,"losse…
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:03:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 9ms (9 rows)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:04:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 8ms (9 rows)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 3ms
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 3ms
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: 1:05:41 PM [express] GET /api/performance 304 in 4ms :: {"totalTrades":338,"winRate":51.834862385321…
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 7ms (9 rows)
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: 1:05:41 PM [express] GET /api/trades/active 304 in 7ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b99880…
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 6ms
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 16 13:05:41 api.tabazaserver.com npm[999579]: 1:05:41 PM [express] GET /api/signals/monitoring/stats 304 in 43ms :: {"total":346,"wins":113,"losse…
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:06:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:07:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 8ms
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 8ms
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: 1:08:43 PM [express] GET /api/performance 304 in 10ms :: {"totalTrades":338,"winRate":51.83486238532…
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 18ms (9 rows)
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: 1:08:43 PM [express] GET /api/trades/active 304 in 20ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b9988…
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 5ms
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 16 13:08:43 api.tabazaserver.com npm[999579]: 1:08:43 PM [express] GET /api/signals/monitoring/stats 304 in 62ms :: {"total":346,"wins":113,"losse…
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 3ms (9 rows)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:09:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:10:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 9ms
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 10ms
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: 1:11:45 PM [express] GET /api/performance 304 in 10ms :: {"totalTrades":338,"winRate":51.83486238532…
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: 1:11:45 PM [express] GET /api/trades/active 304 in 7ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b99880…
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 5ms
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 16 13:11:45 api.tabazaserver.com npm[999579]: 1:11:45 PM [express] GET /api/signals/monitoring/stats 304 in 47ms :: {"total":346,"wins":113,"losse…
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:12:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:13:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 8ms
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 8ms
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: 1:14:47 PM [express] GET /api/performance 304 in 11ms :: {"totalTrades":338,"winRate":51.83486238532…
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: 1:14:47 PM [express] GET /api/trades/active 304 in 7ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b99880…
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 10ms
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 16 13:14:47 api.tabazaserver.com npm[999579]: 1:14:47 PM [express] GET /api/signals/monitoring/stats 304 in 66ms :: {"total":346,"wins":113,"losse…
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]:     [VWAP Sigma] Price: $0.006910, VWAP: $0.006969, Sigma: 1.18σ, Vol: 1.97x
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]:     ❌ Rejected: Strong downtrend (price: -1.71%, VWAP: -1.49%)
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]: 🚀 EXECUTION PHASE: 1 signals ready
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]: 📊 Available slots: 0/9 (9 active trades)
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]: ⚠️ No available slots (9/9 trades active)
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]: ✅ Scan complete: 1 signals generated, 0 executed in 2.65s
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]: ⏰ EXPIRING 1 non-executed signals immediately...
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]:   ⏰ UNI/USDT: Signal expired (not executed)
+Nov 16 13:16:02 api.tabazaserver.com npm[999579]: ================================================
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:16:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 6ms (9 rows)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 5ms
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 5ms
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: 1:17:49 PM [express] GET /api/performance 304 in 6ms :: {"totalTrades":338,"winRate":51.834862385321…
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 9ms (9 rows)
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: 1:17:49 PM [express] GET /api/trades/active 304 in 11ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b9988…
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 4ms
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:17:49 api.tabazaserver.com npm[999579]: 1:17:49 PM [express] GET /api/signals/monitoring/stats 304 in 35ms :: {"total":346,"wins":113,"losse…
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 7ms (9 rows)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:18:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 11ms (9 rows)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:19:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: 1:20:51 PM [express] GET /api/trades/active 304 in 6ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b99880…
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 24ms
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 24ms
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: 1:20:51 PM [express] GET /api/performance 304 in 24ms :: {"totalTrades":338,"winRate":51.83486238532…
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 18ms
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:20:51 api.tabazaserver.com npm[999579]: 1:20:51 PM [express] GET /api/signals/monitoring/stats 304 in 50ms :: {"total":346,"wins":113,"losse…
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:21:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 8ms (9 rows)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:22:31 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:31 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active endpoint hit
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/trades/active
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [DEDUPE] Creating new request for /api/performance
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [DEBUG] /api/trades/active returning 9 trades
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: 1:23:53 PM [express] GET /api/trades/active 304 in 5ms :: [{"id":"ef007c6c-424b-46a2-bdf8-0dc5b99880…
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [PERF] Performance stats query: 28ms
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [PERF] getPerformanceStats() TOTAL: 28ms
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: 1:23:53 PM [express] GET /api/performance 304 in 29ms :: {"totalTrades":338,"winRate":51.83486238532…
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [PERF] getTradeStatsByStrategy(all) TOTAL: 5ms
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 16 13:23:53 api.tabazaserver.com npm[999579]: 1:23:53 PM [express] GET /api/signals/monitoring/stats 304 in 40ms :: {"total":346,"wins":113,"losse…
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:24:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 29ms (9 rows)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:25:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:26:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:27:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:28:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BTC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ZEC/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AVAX/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch RUNE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch SOL/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch AAVE/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BCH/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch ARKM/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
+Nov 16 13:29:32 api.tabazaserver.com npm[999579]: ❌ Failed to fetch BNB/USDT: binance GET https://api.binance.com/api/v3/exchangeInfo request timed out (10000 ms)
 
