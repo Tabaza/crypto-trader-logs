@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-18 23:15:01
+Crypto Trader Log Export - 2025-11-18 23:30:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 8ms
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 8ms
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: 11:07:27 PM [express] GET /api/performance 304 in 9ms :: {"totalTrades":410,"winRate":52.734375,"tota…
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 35ms (4 rows)
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 4 trades
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: 11:07:27 PM [express] GET /api/trades/active 200 in 36ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 7ms
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: 11:07:27 PM [express] GET /api/signals/monitoring/stats 304 in 50ms :: {"total":413,"wins":135,"losse…
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (4 rows)
-Nov 18 23:07:27 api.tabazaserver.com npm[1124147]: 📊 Monitoring 4 active trades (REST 1-min check)...
-Nov 18 23:07:28 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:07:28 api.tabazaserver.com npm[1124147]: ⏳ EGLD/USDT SHORT: Price $8.38 | TP: $8.29 | SL: $8.60
-Nov 18 23:07:28 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7300 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:07:28 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $623.44 | TP: $687.25 | SL: $587.85
-Nov 18 23:07:29 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:07:40 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 2ms (4 rows)
-Nov 18 23:07:50 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:08:00 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:08:01 api.tabazaserver.com npm[1124147]: WebSocket closed for TRX/USDT, reconnecting...
-Nov 18 23:08:02 api.tabazaserver.com npm[1124147]: WebSocket closed for SEI/USDT, reconnecting...
-Nov 18 23:08:07 api.tabazaserver.com npm[1124147]: WebSocket connected for TRX/USDT
-Nov 18 23:08:08 api.tabazaserver.com npm[1124147]: WebSocket connected for SEI/USDT
-Nov 18 23:08:10 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:08:20 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:08:28 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 437ms (4 rows)
-Nov 18 23:08:28 api.tabazaserver.com npm[1124147]: 📊 Monitoring 4 active trades (REST 1-min check)...
-Nov 18 23:08:28 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:08:28 api.tabazaserver.com npm[1124147]: ⏳ EGLD/USDT SHORT: Price $8.39 | TP: $8.29 | SL: $8.60
-Nov 18 23:08:28 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7300 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:08:28 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $624.78 | TP: $687.25 | SL: $587.85
-Nov 18 23:08:30 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 2ms (4 rows)
-Nov 18 23:08:40 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (4 rows)
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 4ms
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 4ms
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: 11:08:43 PM [express] GET /api/performance 304 in 5ms :: {"totalTrades":410,"winRate":52.734375,"tota…
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 5ms
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 4 trades
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: 11:08:43 PM [express] GET /api/trades/active 200 in 6ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e63…
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:08:43 api.tabazaserver.com npm[1124147]: 11:08:43 PM [express] GET /api/signals/monitoring/stats 304 in 44ms :: {"total":413,"wins":135,"losse…
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 5ms
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 5ms
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: 11:08:46 PM [express] GET /api/performance 304 in 7ms :: {"totalTrades":410,"winRate":52.734375,"tota…
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 9ms
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 4 trades
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: 11:08:46 PM [express] GET /api/trades/active 200 in 6ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e63…
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (4 rows)
-Nov 18 23:08:46 api.tabazaserver.com npm[1124147]: 11:08:46 PM [express] GET /api/signals/monitoring/stats 304 in 55ms :: {"total":413,"wins":135,"losse…
-Nov 18 23:08:50 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (4 rows)
-Nov 18 23:09:00 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:09:10 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 29ms (4 rows)
-Nov 18 23:09:20 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:09:28 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:09:28 api.tabazaserver.com npm[1124147]: 📊 Monitoring 4 active trades (REST 1-min check)...
-Nov 18 23:09:29 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:09:29 api.tabazaserver.com npm[1124147]: ⏳ EGLD/USDT SHORT: Price $8.39 | TP: $8.29 | SL: $8.60
-Nov 18 23:09:29 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7300 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:09:29 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $624.99 | TP: $687.25 | SL: $587.85
-Nov 18 23:09:30 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:09:41 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (4 rows)
-Nov 18 23:09:51 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (4 rows)
-Nov 18 23:10:01 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (4 rows)
-Nov 18 23:10:02 api.tabazaserver.com npm[1124147]: WebSocket closed for EGLD/USDT, reconnecting...
-Nov 18 23:10:08 api.tabazaserver.com npm[1124147]: WebSocket connected for EGLD/USDT
-Nov 18 23:10:11 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:10:21 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 8ms (4 rows)
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 4 trades
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: 11:10:29 PM [express] GET /api/trades/active 200 in 10ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 7ms
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 7ms
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: 11:10:29 PM [express] GET /api/performance 304 in 8ms :: {"totalTrades":410,"winRate":52.734375,"tota…
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 22ms
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 13ms (4 rows)
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: 📊 Monitoring 4 active trades (REST 1-min check)...
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 9ms (4 rows)
-Nov 18 23:10:29 api.tabazaserver.com npm[1124147]: 11:10:29 PM [express] GET /api/signals/monitoring/stats 304 in 61ms :: {"total":413,"wins":135,"losse…
-Nov 18 23:10:30 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:10:30 api.tabazaserver.com npm[1124147]: ⏳ EGLD/USDT SHORT: Price $8.39 | TP: $8.29 | SL: $8.60
-Nov 18 23:10:30 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7310 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:10:30 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $625.31 | TP: $687.25 | SL: $587.85
-Nov 18 23:10:31 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:10:41 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (4 rows)
-Nov 18 23:10:51 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (4 rows)
-Nov 18 23:11:00 api.tabazaserver.com npm[1124147]: [PERF-SQL] Bulk update 70 symbols: build=1ms, db=12ms, total=13ms
-Nov 18 23:11:00 api.tabazaserver.com npm[1124147]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 18 23:11:01 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (4 rows)
-Nov 18 23:11:02 api.tabazaserver.com npm[1124147]: WebSocket closed for QTUM/USDT, reconnecting...
-Nov 18 23:11:08 api.tabazaserver.com npm[1124147]: WebSocket connected for QTUM/USDT
-Nov 18 23:11:11 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:11:21 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (4 rows)
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: 11:11:26 PM [express] GET /api/backtest/strategies 304 in 7ms :: {"strategies":[{"id":"momentum-gap",…
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (4 rows)
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 4 trades
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: 11:11:26 PM [express] GET /api/trades/active 200 in 6ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e63…
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: 11:11:26 PM [express] GET /api/signals/monitoring/all 200 in 28ms :: {"total":208,"signals":[{"id":"3…
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 28ms
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (4 rows)
-Nov 18 23:11:26 api.tabazaserver.com npm[1124147]: 11:11:26 PM [express] GET /api/signals/monitoring/stats 304 in 49ms :: {"total":174,"wins":46,"losses…
-Nov 18 23:11:30 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (4 rows)
-Nov 18 23:11:30 api.tabazaserver.com npm[1124147]: 📊 Monitoring 4 active trades (REST 1-min check)...
-Nov 18 23:11:30 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:11:30 api.tabazaserver.com npm[1124147]: ⏳ EGLD/USDT SHORT: Price $8.40 | TP: $8.29 | SL: $8.60
-Nov 18 23:11:30 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7320 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:11:30 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $625.01 | TP: $687.25 | SL: $587.85
-Nov 18 23:11:31 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 88ms (4 rows)
-Nov 18 23:11:41 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 30ms (4 rows)
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 25ms
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 25ms
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: 11:11:47 PM [express] GET /api/performance 304 in 27ms :: {"totalTrades":410,"winRate":52.734375,"tot…
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 19ms (4 rows)
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 4 trades
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: 11:11:47 PM [express] GET /api/trades/active 200 in 20ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 10ms
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 24ms (4 rows)
-Nov 18 23:11:47 api.tabazaserver.com npm[1124147]: 11:11:47 PM [express] GET /api/signals/monitoring/stats 304 in 71ms :: {"total":413,"wins":135,"losse…
-Nov 18 23:11:51 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 16ms (4 rows)
-Nov 18 23:12:01 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (4 rows)
-Nov 18 23:12:01 api.tabazaserver.com npm[1124147]: WebSocket closed for BCH/USDT, reconnecting...
-Nov 18 23:12:06 api.tabazaserver.com npm[1124147]: ✅ Analytics outcome updated for signal 301dccf3-69c0-4149-8c30-3a70c01a576d: expired
-Nov 18 23:12:06 api.tabazaserver.com npm[1124147]: 📊 RSI Trade 5499c0ee-6697-4ae9-bf1d-98835ba93df1 (EGLD/USDT) early exit after 2.2hrs - P&L 0.47% at 8.42000000
-Nov 18 23:12:06 api.tabazaserver.com npm[1124147]: 🔄 Removed 1 closed trades from cache
-Nov 18 23:12:06 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 18 23:12:07 api.tabazaserver.com npm[1124147]: WebSocket connected for BCH/USDT
-Nov 18 23:12:17 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Nov 18 23:12:27 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
-Nov 18 23:12:30 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 48ms (3 rows)
-Nov 18 23:12:30 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
-Nov 18 23:12:31 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:12:31 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7320 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:12:31 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $626.57 | TP: $687.25 | SL: $587.85
-Nov 18 23:12:37 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 9ms (3 rows)
-Nov 18 23:12:47 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 54ms (3 rows)
-Nov 18 23:12:57 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Nov 18 23:13:07 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (3 rows)
-Nov 18 23:13:17 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Nov 18 23:13:27 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7330 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $625.42 | TP: $687.25 | SL: $587.85
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 9ms (3 rows)
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: 11:13:31 PM [express] GET /api/trades/active 200 in 10ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 6ms
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 6ms
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: 11:13:31 PM [express] GET /api/performance 200 in 9ms :: {"totalTrades":411,"winRate":52.918287937743…
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 3ms
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 2ms (3 rows)
-Nov 18 23:13:31 api.tabazaserver.com npm[1124147]: 11:13:31 PM [express] GET /api/signals/monitoring/stats 200 in 45ms :: {"total":413,"wins":136,"losse…
-Nov 18 23:13:37 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
-Nov 18 23:13:47 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 32ms (3 rows)
-Nov 18 23:13:57 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Nov 18 23:14:07 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 43ms (3 rows)
-Nov 18 23:14:17 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
-Nov 18 23:14:27 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
-Nov 18 23:14:31 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
-Nov 18 23:14:31 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
-Nov 18 23:14:31 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
-Nov 18 23:14:31 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7340 | TP: $0.7588 | SL: $0.7262
-Nov 18 23:14:31 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $625.36 | TP: $687.25 | SL: $587.85
-Nov 18 23:14:37 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
-Nov 18 23:14:47 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 4ms
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 4ms
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: 11:14:48 PM [express] GET /api/performance 200 in 5ms :: {"totalTrades":411,"winRate":52.918287937743…
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (3 rows)
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: 11:14:48 PM [express] GET /api/trades/active 200 in 8ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e63…
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 3ms
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
-Nov 18 23:14:48 api.tabazaserver.com npm[1124147]: 11:14:48 PM [express] GET /api/signals/monitoring/stats 200 in 33ms :: {"total":413,"wins":136,"losse…
-Nov 18 23:14:57 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
-Nov 18 23:15:01 api.tabazaserver.com npm[1124147]: WebSocket closed for ARB/USDT, reconnecting...
+Nov 18 23:21:23 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: 11:21:26 PM [express] GET /api/backtest/strategies 304 in 25ms :: {"strategies":[{"id":"momentum-gap"…
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (3 rows)
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: 11:21:26 PM [express] GET /api/trades/active 200 in 25ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 7ms
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: 11:21:26 PM [express] GET /api/signals/monitoring/all 200 in 21ms :: {"total":208,"signals":[{"id":"3…
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 29ms (3 rows)
+Nov 18 23:21:26 api.tabazaserver.com npm[1124147]: 11:21:26 PM [express] GET /api/signals/monitoring/stats 304 in 72ms :: {"total":174,"wins":46,"losses…
+Nov 18 23:21:33 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 18 23:21:35 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (3 rows)
+Nov 18 23:21:35 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:21:35 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:21:35 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7330 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:21:35 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $625.39 | TP: $687.25 | SL: $587.85
+Nov 18 23:21:43 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:21:53 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 9ms (3 rows)
+Nov 18 23:22:03 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:22:14 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:22:24 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:22:34 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 107ms (3 rows)
+Nov 18 23:22:35 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 18ms (3 rows)
+Nov 18 23:22:35 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:22:36 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.30 | TP: $1.36 | SL: $1.28
+Nov 18 23:22:36 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7330 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:22:36 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $623.98 | TP: $687.25 | SL: $587.85
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 21ms
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 22ms
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: 11:22:38 PM [express] GET /api/performance 304 in 26ms :: {"totalTrades":411,"winRate":52.91828793774…
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 17ms (3 rows)
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:22:38 api.tabazaserver.com npm[1124147]: 11:22:38 PM [express] GET /api/trades/active 200 in 19ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
+Nov 18 23:22:39 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 22ms
+Nov 18 23:22:39 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:22:39 api.tabazaserver.com npm[1124147]: 11:22:39 PM [express] GET /api/signals/monitoring/stats 304 in 68ms :: {"total":413,"wins":136,"losse…
+Nov 18 23:22:44 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:22:54 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:23:04 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:23:14 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 74ms (3 rows)
+Nov 18 23:23:24 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 17ms (3 rows)
+Nov 18 23:23:34 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:23:36 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 13ms (3 rows)
+Nov 18 23:23:36 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:23:36 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:23:36 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7330 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:23:36 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $625.12 | TP: $687.25 | SL: $587.85
+Nov 18 23:23:44 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 5ms
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 6ms
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: 11:23:51 PM [express] GET /api/performance 304 in 6ms :: {"totalTrades":411,"winRate":52.918287937743…
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: 11:23:51 PM [express] GET /api/trades/active 200 in 4ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e63…
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 4ms
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 18 23:23:51 api.tabazaserver.com npm[1124147]: 11:23:51 PM [express] GET /api/signals/monitoring/stats 304 in 30ms :: {"total":413,"wins":136,"losse…
+Nov 18 23:23:54 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Nov 18 23:24:04 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 37ms (3 rows)
+Nov 18 23:24:14 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (3 rows)
+Nov 18 23:24:24 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:24:34 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:24:36 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:24:36 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:24:36 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:24:36 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7340 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:24:36 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $625.01 | TP: $687.25 | SL: $587.85
+Nov 18 23:24:44 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:24:55 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:25:02 api.tabazaserver.com npm[1124147]: WebSocket closed for RENDER/USDT, reconnecting...
+Nov 18 23:25:05 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 9ms (3 rows)
+Nov 18 23:25:08 api.tabazaserver.com npm[1124147]: WebSocket connected for RENDER/USDT
+Nov 18 23:25:15 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:25:25 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 38ms (3 rows)
+Nov 18 23:25:35 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:25:36 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 13ms (3 rows)
+Nov 18 23:25:36 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:25:37 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:25:37 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7340 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:25:37 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $626.60 | TP: $687.25 | SL: $587.85
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 28ms (3 rows)
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: 11:25:40 PM [express] GET /api/trades/active 200 in 30ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 30ms
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 30ms
+Nov 18 23:25:40 api.tabazaserver.com npm[1124147]: 11:25:40 PM [express] GET /api/performance 304 in 31ms :: {"totalTrades":411,"winRate":52.91828793774…
+Nov 18 23:25:41 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 4ms
+Nov 18 23:25:41 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:25:41 api.tabazaserver.com npm[1124147]: 11:25:41 PM [express] GET /api/signals/monitoring/stats 304 in 57ms :: {"total":413,"wins":136,"losse…
+Nov 18 23:25:45 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:25:55 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:26:00 api.tabazaserver.com npm[1124147]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=7ms, total=7ms
+Nov 18 23:26:00 api.tabazaserver.com npm[1124147]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 18 23:26:02 api.tabazaserver.com npm[1124147]: WebSocket closed for ORDI/USDT, reconnecting...
+Nov 18 23:26:05 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 18 23:26:08 api.tabazaserver.com npm[1124147]: WebSocket connected for ORDI/USDT
+Nov 18 23:26:15 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 18 23:26:25 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 104ms (3 rows)
+Nov 18 23:26:35 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 18ms (3 rows)
+Nov 18 23:26:37 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:26:37 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:26:37 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:26:37 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7340 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:26:37 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $627.42 | TP: $687.25 | SL: $587.85
+Nov 18 23:26:45 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 4ms
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 4ms
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: 11:26:52 PM [express] GET /api/performance 304 in 6ms :: {"totalTrades":411,"winRate":52.918287937743…
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 11ms (3 rows)
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: 11:26:52 PM [express] GET /api/trades/active 200 in 14ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 8ms
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:26:52 api.tabazaserver.com npm[1124147]: 11:26:52 PM [express] GET /api/signals/monitoring/stats 304 in 50ms :: {"total":413,"wins":136,"losse…
+Nov 18 23:26:55 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 9ms (3 rows)
+Nov 18 23:27:05 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:27:15 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 7ms (3 rows)
+Nov 18 23:27:25 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: 11:27:26 PM [express] GET /api/backtest/strategies 304 in 8ms :: {"strategies":[{"id":"momentum-gap",…
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: 11:27:26 PM [express] GET /api/signals/monitoring/all 200 in 27ms :: {"total":208,"signals":[{"id":"3…
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 31ms (3 rows)
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: 11:27:26 PM [express] GET /api/trades/active 200 in 32ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e6…
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(momentum-gap) TOTAL: 27ms
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 24ms (3 rows)
+Nov 18 23:27:26 api.tabazaserver.com npm[1124147]: 11:27:26 PM [express] GET /api/signals/monitoring/stats 304 in 72ms :: {"total":174,"wins":46,"losses…
+Nov 18 23:27:35 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 18 23:27:37 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:27:37 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:27:38 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:27:38 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7340 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:27:38 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $628.87 | TP: $687.25 | SL: $587.85
+Nov 18 23:27:45 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 10ms (3 rows)
+Nov 18 23:27:55 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:28:06 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 303ms (3 rows)
+Nov 18 23:28:16 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 435ms (3 rows)
+Nov 18 23:28:26 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 18 23:28:36 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:28:38 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 18 23:28:38 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:28:38 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:28:38 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7350 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:28:38 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $629.53 | TP: $687.25 | SL: $587.85
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 4ms
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 4ms
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: 11:28:42 PM [express] GET /api/performance 304 in 5ms :: {"totalTrades":411,"winRate":52.918287937743…
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: 11:28:42 PM [express] GET /api/trades/active 200 in 6ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e63…
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 19ms
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Nov 18 23:28:42 api.tabazaserver.com npm[1124147]: 11:28:42 PM [express] GET /api/signals/monitoring/stats 304 in 54ms :: {"total":413,"wins":136,"losse…
+Nov 18 23:28:46 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:28:56 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:29:02 api.tabazaserver.com npm[1124147]: WebSocket closed for APT/USDT, reconnecting...
+Nov 18 23:29:07 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:29:08 api.tabazaserver.com npm[1124147]: WebSocket connected for APT/USDT
+Nov 18 23:29:17 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 6ms (3 rows)
+Nov 18 23:29:27 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Nov 18 23:29:37 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 2ms (3 rows)
+Nov 18 23:29:38 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Nov 18 23:29:38 api.tabazaserver.com npm[1124147]: 📊 Monitoring 3 active trades (REST 1-min check)...
+Nov 18 23:29:38 api.tabazaserver.com npm[1124147]: ⏳ AXS/USDT LONG: Price $1.31 | TP: $1.36 | SL: $1.28
+Nov 18 23:29:38 api.tabazaserver.com npm[1124147]: ⏳ RUNE/USDT LONG: Price $0.7350 | TP: $0.7588 | SL: $0.7262
+Nov 18 23:29:38 api.tabazaserver.com npm[1124147]: ⏳ ZEC/USDT LONG: Price $628.63 | TP: $687.25 | SL: $587.85
+Nov 18 23:29:47 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 3ms (3 rows)
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/performance
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [PERF] Performance stats query: 3ms
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [PERF] getPerformanceStats() TOTAL: 3ms
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: 11:29:53 PM [express] GET /api/performance 304 in 4ms :: {"totalTrades":411,"winRate":52.918287937743…
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active endpoint hit
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [DEDUPE] Creating new request for /api/trades/active
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 4ms (3 rows)
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [DEBUG] /api/trades/active returning 3 trades
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: 11:29:53 PM [express] GET /api/trades/active 200 in 8ms :: [{"id":"2d9a773f-c7e5-4e9d-ba5e-02dab00e63…
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [PERF] getTradeStatsByStrategy(all) TOTAL: 8ms
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:29:53 api.tabazaserver.com npm[1124147]: 11:29:53 PM [express] GET /api/signals/monitoring/stats 304 in 69ms :: {"total":413,"wins":136,"losse…
+Nov 18 23:29:57 api.tabazaserver.com npm[1124147]: [PERF] getActiveTrades() query: 5ms (3 rows)
+Nov 18 23:30:01 api.tabazaserver.com npm[1124147]: WebSocket closed for 1000SATS/USDT, reconnecting...
+Nov 18 23:30:02 api.tabazaserver.com npm[1124147]: WebSocket closed for ZIL/USDT, reconnecting...
+Nov 18 23:30:02 api.tabazaserver.com npm[1124147]: WebSocket closed for THETA/USDT, reconnecting...
 
