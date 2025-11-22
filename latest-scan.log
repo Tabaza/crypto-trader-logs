@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-22 10:15:01
+Crypto Trader Log Export - 2025-11-22 10:30:01
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 22 10:11:39 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 8ms
-Nov 22 10:11:39 api.tabazaserver.com npm[1439618]: 10:11:39 AM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 22 10:11:39 api.tabazaserver.com npm[1439618]: [PERF-SQL] Bulk update 70 symbols: build=1ms, db=7ms, total=8ms
-Nov 22 10:11:39 api.tabazaserver.com npm[1439618]: 💾 Persisted 70 prices to database (5-min backup)
-Nov 22 10:11:41 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1475 | TP: $0.1506 | SL: $0.1449
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2994 | TP: $0.3073 | SL: $0.2912
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000859 | TP: $0.00000884 | SL: $0.00000836
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6210 | TP: $0.5986 | SL: $0.6470
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000402 | TP: $0.00000422 | SL: $0.00000391
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007380 | TP: $0.007654 | SL: $0.007262
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.47 | TP: $2.53 | SL: $2.43
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1037 | TP: $0.1054 | SL: $0.1009
-Nov 22 10:11:42 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.31 | TP: $2.22 | SL: $2.38
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: 10:11:45 AM [express] GET /api/signals/recent 200 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 2ms (17 rows)
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 2ms
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 2ms
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 6ms
-Nov 22 10:11:45 api.tabazaserver.com npm[1439618]: 10:11:45 AM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 22 10:11:51 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: 10:11:53 AM [express] GET /api/signals/recent 304 in 7ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 2ms (17 rows)
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 4ms
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 2ms
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 9ms
-Nov 22 10:11:53 api.tabazaserver.com npm[1439618]: 10:11:53 AM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: 10:12:00 AM [express] GET /api/signals/recent 304 in 12ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24…
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 16ms (17 rows)
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 4ms
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 10ms
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 38ms
-Nov 22 10:12:00 api.tabazaserver.com npm[1439618]: 10:12:00 AM [express] GET /api/symbols 200 in 40ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 22 10:12:01 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 6ms (9 rows)
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: 10:12:06 AM [express] GET /api/signals/recent 304 in 62ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24…
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 30ms (17 rows)
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 17ms
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 11ms
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 59ms
-Nov 22 10:12:06 api.tabazaserver.com npm[1439618]: 10:12:06 AM [express] GET /api/symbols 200 in 60ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 22 10:12:11 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 133ms (9 rows)
-Nov 22 10:12:12 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:12:12 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:12:13 api.tabazaserver.com npm[1439618]: 10:12:13 AM [express] GET /api/signals/recent 304 in 290ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a2…
-Nov 22 10:12:13 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 289ms (17 rows)
-Nov 22 10:12:13 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 436ms
-Nov 22 10:12:14 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 401ms
-Nov 22 10:12:14 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 1126ms
-Nov 22 10:12:14 api.tabazaserver.com npm[1439618]: 10:12:14 AM [express] GET /api/symbols 200 in 1129ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAss…
-Nov 22 10:12:14 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/performance
-Nov 22 10:12:14 api.tabazaserver.com npm[1439618]: [PERF] Performance stats query: 630ms
-Nov 22 10:12:14 api.tabazaserver.com npm[1439618]: [PERF] getPerformanceStats() TOTAL: 631ms
-Nov 22 10:12:14 api.tabazaserver.com npm[1439618]: 10:12:14 AM [express] GET /api/performance 304 in 634ms :: {"totalTrades":523,"winRate":48.3483483483…
-Nov 22 10:12:19 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:12:19 api.tabazaserver.com npm[1439618]: 10:12:19 AM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:12:20 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:12:20 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 2ms (17 rows)
-Nov 22 10:12:20 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 2ms
-Nov 22 10:12:20 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 2ms
-Nov 22 10:12:20 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 7ms
-Nov 22 10:12:20 api.tabazaserver.com npm[1439618]: 10:12:20 AM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 22 10:12:21 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 10ms (9 rows)
-Nov 22 10:12:25 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:12:25 api.tabazaserver.com npm[1439618]: 10:12:25 AM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:12:26 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:12:26 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 36ms (17 rows)
-Nov 22 10:12:26 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 45ms
-Nov 22 10:12:26 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 19ms
-Nov 22 10:12:26 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 101ms
-Nov 22 10:12:26 api.tabazaserver.com npm[1439618]: 10:12:26 AM [express] GET /api/symbols 200 in 102ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsse…
-Nov 22 10:12:31 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:12:31 api.tabazaserver.com npm[1439618]: 10:12:31 AM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:12:31 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 49ms (9 rows)
-Nov 22 10:12:32 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:12:32 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 122ms (17 rows)
-Nov 22 10:12:32 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 97ms
-Nov 22 10:12:32 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 41ms
-Nov 22 10:12:32 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 262ms
-Nov 22 10:12:32 api.tabazaserver.com npm[1439618]: 10:12:32 AM [express] GET /api/symbols 200 in 262ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsse…
-Nov 22 10:12:41 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
-Nov 22 10:12:42 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 22 10:12:42 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1481 | TP: $0.1506 | SL: $0.1449
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.3001 | TP: $0.3073 | SL: $0.2912
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000860 | TP: $0.00000884 | SL: $0.00000836
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6220 | TP: $0.5986 | SL: $0.6470
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000403 | TP: $0.00000422 | SL: $0.00000391
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007400 | TP: $0.007654 | SL: $0.007262
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.47 | TP: $2.53 | SL: $2.43
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1038 | TP: $0.1054 | SL: $0.1009
-Nov 22 10:12:43 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.31 | TP: $2.22 | SL: $2.38
-Nov 22 10:12:51 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 22 10:13:01 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 13ms (9 rows)
-Nov 22 10:13:04 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:04 api.tabazaserver.com npm[1439618]: 10:13:04 AM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:13:05 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:05 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 3ms (17 rows)
-Nov 22 10:13:05 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 5ms
-Nov 22 10:13:05 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 2ms
-Nov 22 10:13:05 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 10ms
-Nov 22 10:13:05 api.tabazaserver.com npm[1439618]: 10:13:05 AM [express] GET /api/symbols 200 in 11ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: 10:13:10 AM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 2ms (17 rows)
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 2ms
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 3ms
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 8ms
-Nov 22 10:13:10 api.tabazaserver.com npm[1439618]: 10:13:10 AM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 22 10:13:11 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 3ms (17 rows)
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 3ms
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 3ms
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 9ms
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: 10:13:16 AM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:16 api.tabazaserver.com npm[1439618]: 10:13:16 AM [express] GET /api/signals/recent 304 in 7ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:13:21 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: 10:13:23 AM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 4ms (17 rows)
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 1ms
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 3ms
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 9ms
-Nov 22 10:13:23 api.tabazaserver.com npm[1439618]: 10:13:23 AM [express] GET /api/symbols 200 in 11ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 3ms (17 rows)
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 3ms
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 3ms
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 10ms
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: 10:13:28 AM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 22 10:13:28 api.tabazaserver.com npm[1439618]: 10:13:28 AM [express] GET /api/signals/recent 304 in 13ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24…
-Nov 22 10:13:31 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: 10:13:34 AM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 2ms (17 rows)
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 2ms
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 2ms
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 6ms
-Nov 22 10:13:34 api.tabazaserver.com npm[1439618]: 10:13:34 AM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 2ms (17 rows)
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 2ms
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 3ms
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 7ms
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: 10:13:40 AM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 22 10:13:40 api.tabazaserver.com npm[1439618]: 10:13:40 AM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:13:41 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1481 | TP: $0.1506 | SL: $0.1449
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.3003 | TP: $0.3073 | SL: $0.2912
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000861 | TP: $0.00000884 | SL: $0.00000836
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6230 | TP: $0.5986 | SL: $0.6470
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000403 | TP: $0.00000422 | SL: $0.00000391
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007400 | TP: $0.007654 | SL: $0.007262
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.48 | TP: $2.53 | SL: $2.43
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1039 | TP: $0.1054 | SL: $0.1009
-Nov 22 10:13:43 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.32 | TP: $2.22 | SL: $2.38
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: 10:13:46 AM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"3073b8e3-cb02-4251-ba9e-95f37a24d…
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: [PERF] Symbols query: 2ms (17 rows)
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: [PERF] Trade stats query: 3ms
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: [PERF] MIDAS window query: 1ms
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: [PERF] getSymbols() TOTAL: 7ms
-Nov 22 10:13:46 api.tabazaserver.com npm[1439618]: 10:13:46 AM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 22 10:13:51 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
-Nov 22 10:14:01 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
-Nov 22 10:14:11 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
-Nov 22 10:14:21 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
-Nov 22 10:14:31 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
-Nov 22 10:14:41 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
-Nov 22 10:14:43 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
-Nov 22 10:14:43 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1482 | TP: $0.1506 | SL: $0.1449
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.3010 | TP: $0.3073 | SL: $0.2912
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000861 | TP: $0.00000884 | SL: $0.00000836
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6240 | TP: $0.5986 | SL: $0.6470
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000402 | TP: $0.00000422 | SL: $0.00000391
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007410 | TP: $0.007654 | SL: $0.007262
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.48 | TP: $2.53 | SL: $2.43
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1040 | TP: $0.1054 | SL: $0.1009
-Nov 22 10:14:44 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.32 | TP: $2.22 | SL: $2.38
-Nov 22 10:14:51 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2991 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000855 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6210 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000400 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007380 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.47 | TP: $2.53 | SL: $2.43
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1035 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:18:46 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.31 | TP: $2.22 | SL: $2.38
+Nov 22 10:18:53 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:19:03 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:19:13 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 8ms (9 rows)
+Nov 22 10:19:23 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:19:33 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 6ms (9 rows)
+Nov 22 10:19:43 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1474 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2985 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000854 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6200 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000399 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007370 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.47 | TP: $2.53 | SL: $2.43
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1034 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:19:46 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.31 | TP: $2.22 | SL: $2.38
+Nov 22 10:19:53 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:20:03 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 11ms (9 rows)
+Nov 22 10:20:13 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 22ms (9 rows)
+Nov 22 10:20:23 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:20:34 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 245ms (9 rows)
+Nov 22 10:20:44 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 7ms (9 rows)
+Nov 22 10:20:46 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 32ms (9 rows)
+Nov 22 10:20:46 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1472 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2978 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6200 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000399 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007360 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1033 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:20:47 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:20:54 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 8ms (9 rows)
+Nov 22 10:21:04 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 297ms (9 rows)
+Nov 22 10:21:14 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 15ms (9 rows)
+Nov 22 10:21:24 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:21:34 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:21:39 api.tabazaserver.com npm[1439618]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=5ms, total=5ms
+Nov 22 10:21:39 api.tabazaserver.com npm[1439618]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 22 10:21:44 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 6ms (9 rows)
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 10ms (9 rows)
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1470 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2978 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000851 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6180 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000398 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007350 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1032 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:21:47 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:21:54 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:22:04 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 124ms (9 rows)
+Nov 22 10:22:14 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:22:24 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
+Nov 22 10:22:34 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 41ms (9 rows)
+Nov 22 10:22:44 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:22:47 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:22:47 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1470 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2983 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6180 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000399 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007340 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1031 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:22:48 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:22:54 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 8ms (9 rows)
+Nov 22 10:23:04 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 9ms (9 rows)
+Nov 22 10:23:14 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:23:24 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 8ms (9 rows)
+Nov 22 10:23:34 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 21ms (9 rows)
+Nov 22 10:23:45 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 263ms (9 rows)
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 11ms (9 rows)
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1471 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2983 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6190 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000398 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007350 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1032 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:23:48 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:23:55 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:24:06 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 579ms (9 rows)
+Nov 22 10:24:16 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:24:26 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:24:36 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 8ms (9 rows)
+Nov 22 10:24:46 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 13ms (9 rows)
+Nov 22 10:24:48 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:24:48 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1471 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2985 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6190 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000398 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007350 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1031 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:24:49 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:24:56 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:25:06 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:25:16 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 6ms (9 rows)
+Nov 22 10:25:26 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 30ms (9 rows)
+Nov 22 10:25:36 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:25:46 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 7ms (9 rows)
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1472 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2982 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6180 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000398 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007350 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1032 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:25:49 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:25:56 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:26:07 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 623ms (9 rows)
+Nov 22 10:26:17 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:26:27 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:26:37 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:26:39 api.tabazaserver.com npm[1439618]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=9ms, total=9ms
+Nov 22 10:26:39 api.tabazaserver.com npm[1439618]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 22 10:26:47 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 7ms (9 rows)
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1470 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2976 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6180 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000398 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007340 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1032 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:26:49 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:26:57 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
+Nov 22 10:27:07 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:27:17 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:27:27 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:27:37 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:27:47 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:27:49 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:27:49 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1470 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2973 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000851 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6180 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000399 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007340 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1032 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:27:50 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:27:57 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:28:07 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:28:17 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:28:27 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:28:37 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
+Nov 22 10:28:47 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 4ms (9 rows)
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1472 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2978 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6180 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000398 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007360 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1032 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:28:50 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.30 | TP: $2.22 | SL: $2.38
+Nov 22 10:28:57 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:29:07 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
+Nov 22 10:29:17 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:29:27 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
+Nov 22 10:29:37 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 2ms (9 rows)
+Nov 22 10:29:47 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:29:50 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 3ms (9 rows)
+Nov 22 10:29:50 api.tabazaserver.com npm[1439618]: 📊 Monitoring 9 active trades (REST 1-min check)...
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ SAND/USDT LONG: Price $0.1472 | TP: $0.1506 | SL: $0.1449
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ OP/USDT LONG: Price $0.2978 | TP: $0.3073 | SL: $0.2912
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ BONK/USDT LONG: Price $0.00000852 | TP: $0.00000884 | SL: $0.00000836
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ TIA/USDT SHORT: Price $0.6180 | TP: $0.5986 | SL: $0.6470
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ PEPE/USDT LONG: Price $0.00000398 | TP: $0.00000422 | SL: $0.00000391
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ GALA/USDT LONG: Price $0.007350 | TP: $0.007654 | SL: $0.007262
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ ATOM/USDT LONG: Price $2.46 | TP: $2.53 | SL: $2.43
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ S/USDT LONG: Price $0.1032 | TP: $0.1054 | SL: $0.1009
+Nov 22 10:29:51 api.tabazaserver.com npm[1439618]: ⏳ APT/USDT SHORT: Price $2.31 | TP: $2.22 | SL: $2.38
+Nov 22 10:29:57 api.tabazaserver.com npm[1439618]: [PERF] getActiveTrades() query: 5ms (9 rows)
 
