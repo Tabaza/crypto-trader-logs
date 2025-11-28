@@ -1,207 +1,207 @@
 ==================================================
-Crypto Trader Log Export - 2025-11-28 23:15:01
+Crypto Trader Log Export - 2025-11-28 23:30:02
 ==================================================
 
 📊 LATEST SCAN (last 200 lines)
 ---------------------------------------------------
-Nov 28 23:12:56 api.tabazaserver.com npm[1746271]: 11:12:56 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:12:58 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:12:58 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 8ms (17 rows)
-Nov 28 23:12:58 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 4ms
-Nov 28 23:12:58 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 9ms
-Nov 28 23:12:58 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 21ms
-Nov 28 23:12:58 api.tabazaserver.com npm[1746271]: 11:12:58 PM [express] GET /api/symbols 200 in 26ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:13:02 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:02 api.tabazaserver.com npm[1746271]: 11:13:02 PM [express] GET /api/signals/recent 304 in 15ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1…
-Nov 28 23:13:04 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:04 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
-Nov 28 23:13:04 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:13:04 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 1ms
-Nov 28 23:13:04 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 7ms
-Nov 28 23:13:04 api.tabazaserver.com npm[1746271]: 11:13:04 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 28 23:13:05 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 28 23:13:05 api.tabazaserver.com npm[1746271]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 28 23:13:05 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 28 23:13:06 api.tabazaserver.com npm[1746271]: ⏳ VET/USDT SHORT: Price $0.0136 | TP: $0.0134 | SL: $0.0139
-Nov 28 23:13:06 api.tabazaserver.com npm[1746271]: ⏳ SOL/USDT SHORT: Price $137.49 | TP: $133.55 | SL: $140.44
-Nov 28 23:13:08 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:08 api.tabazaserver.com npm[1746271]: 11:13:08 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:09 api.tabazaserver.com npm[1746271]: [PERF] getTradeStatsByStrategy(all) TOTAL: 1ms
-Nov 28 23:13:09 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 2ms (2 rows)
-Nov 28 23:13:09 api.tabazaserver.com npm[1746271]: 11:13:09 PM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":35,"wins":24,"losses"…
-Nov 28 23:13:10 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:10 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
-Nov 28 23:13:10 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:13:10 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 3ms
-Nov 28 23:13:10 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
-Nov 28 23:13:10 api.tabazaserver.com npm[1746271]: 11:13:10 PM [express] GET /api/symbols 200 in 11ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:13:14 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:14 api.tabazaserver.com npm[1746271]: 11:13:14 PM [express] GET /api/signals/recent 304 in 261ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba…
-Nov 28 23:13:16 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 83ms (2 rows)
-Nov 28 23:13:16 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:16 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 7ms (17 rows)
-Nov 28 23:13:16 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 4ms
-Nov 28 23:13:16 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:13:16 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 13ms
-Nov 28 23:13:16 api.tabazaserver.com npm[1746271]: 11:13:16 PM [express] GET /api/symbols 200 in 14ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:13:20 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:20 api.tabazaserver.com npm[1746271]: 11:13:20 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:22 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:22 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
-Nov 28 23:13:22 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:13:22 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:13:22 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
-Nov 28 23:13:22 api.tabazaserver.com npm[1746271]: 11:13:22 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 28 23:13:26 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 28 23:13:26 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:26 api.tabazaserver.com npm[1746271]: 11:13:26 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:28 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:28 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
-Nov 28 23:13:28 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 3ms
-Nov 28 23:13:28 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:13:28 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
-Nov 28 23:13:28 api.tabazaserver.com npm[1746271]: 11:13:28 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 28 23:13:29 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/performance
-Nov 28 23:13:29 api.tabazaserver.com npm[1746271]: [PERF] Performance stats query: 3ms
-Nov 28 23:13:29 api.tabazaserver.com npm[1746271]: [PERF] getPerformanceStats() TOTAL: 3ms
-Nov 28 23:13:29 api.tabazaserver.com npm[1746271]: 11:13:29 PM [express] GET /api/performance 304 in 3ms :: {"totalTrades":33,"winRate":72.7272727272727…
-Nov 28 23:13:32 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:32 api.tabazaserver.com npm[1746271]: 11:13:32 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:34 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:34 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
-Nov 28 23:13:34 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:13:34 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:13:34 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
-Nov 28 23:13:34 api.tabazaserver.com npm[1746271]: 11:13:34 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 28 23:13:36 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
-Nov 28 23:13:38 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:38 api.tabazaserver.com npm[1746271]: 11:13:38 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:40 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:40 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 13ms (17 rows)
-Nov 28 23:13:40 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 7ms
-Nov 28 23:13:40 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 13ms
-Nov 28 23:13:40 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 35ms
-Nov 28 23:13:40 api.tabazaserver.com npm[1746271]: 11:13:40 PM [express] GET /api/symbols 200 in 38ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/performance
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [DEBUG] /api/trades/active endpoint hit
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/trades/active
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [PERF] Performance stats query: 7ms
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [PERF] getPerformanceStats() TOTAL: 7ms
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: 11:13:42 PM [express] GET /api/performance 304 in 8ms :: {"totalTrades":33,"winRate":72.7272727272727…
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 5ms (17 rows)
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: 11:13:42 PM [express] GET /api/signals/recent 200 in 9ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 7ms (2 rows)
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [DEBUG] /api/trades/active returning 2 trades
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: 11:13:42 PM [express] GET /api/trades/active 200 in 9ms :: [{"id":"9208582c-1e53-43ca-9fbe-e2f672cd24…
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 5ms
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 14ms
-Nov 28 23:13:42 api.tabazaserver.com npm[1746271]: 11:13:42 PM [express] GET /api/symbols 200 in 14ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:13:43 api.tabazaserver.com npm[1746271]: 11:13:43 PM [express] GET /api/midas/btcusdt 304 in 5ms :: {"id":"2e3a03a6-dbeb-43e9-9cef-cc093f875c1…
-Nov 28 23:13:43 api.tabazaserver.com npm[1746271]: 11:13:43 PM [express] GET /api/volume-profile/btcusdt 304 in 8ms :: {"id":"f7d9b199-ba56-4bc1-92de-c4…
-Nov 28 23:13:44 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:44 api.tabazaserver.com npm[1746271]: 11:13:44 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [DEBUG] /api/trades/active endpoint hit
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/trades/active
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 4ms (17 rows)
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/performance
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [DEBUG] /api/trades/active returning 2 trades
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: 11:13:46 PM [express] GET /api/trades/active 200 in 6ms :: [{"id":"9208582c-1e53-43ca-9fbe-e2f672cd24…
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 3ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: 11:13:46 PM [express] GET /api/signals/recent 304 in 7ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] Performance stats query: 7ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] getPerformanceStats() TOTAL: 8ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: 11:13:46 PM [express] GET /api/performance 304 in 9ms :: {"totalTrades":33,"winRate":72.7272727272727…
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 7ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 15ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: 11:13:46 PM [express] GET /api/symbols 200 in 16ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: 11:13:46 PM [express] GET /api/volume-profile/btcusdt 304 in 5ms :: {"id":"f7d9b199-ba56-4bc1-92de-c4…
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: 11:13:46 PM [express] GET /api/midas/btcusdt 304 in 7ms :: {"id":"2e3a03a6-dbeb-43e9-9cef-cc093f875c1…
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 1ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 1ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 6ms
-Nov 28 23:13:46 api.tabazaserver.com npm[1746271]: 11:13:46 PM [express] GET /api/symbols 200 in 6ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 28 23:13:50 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:50 api.tabazaserver.com npm[1746271]: 11:13:50 PM [express] GET /api/signals/recent 304 in 13ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1…
-Nov 28 23:13:52 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:52 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 4ms (17 rows)
-Nov 28 23:13:52 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:13:52 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:13:52 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
-Nov 28 23:13:52 api.tabazaserver.com npm[1746271]: 11:13:52 PM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:13:56 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 28 23:13:56 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:13:56 api.tabazaserver.com npm[1746271]: 11:13:56 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:13:58 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:13:58 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 7ms (17 rows)
-Nov 28 23:13:58 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 4ms
-Nov 28 23:13:58 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 4ms
-Nov 28 23:13:58 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 15ms
-Nov 28 23:13:58 api.tabazaserver.com npm[1746271]: 11:13:58 PM [express] GET /api/symbols 200 in 16ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:14:02 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:14:02 api.tabazaserver.com npm[1746271]: 11:14:02 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:14:04 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:14:04 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
-Nov 28 23:14:04 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:14:04 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:14:04 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
-Nov 28 23:14:04 api.tabazaserver.com npm[1746271]: 11:14:04 PM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:14:06 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 28 23:14:06 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 28 23:14:06 api.tabazaserver.com npm[1746271]: 📊 Monitoring 2 active trades (REST 1-min check)...
-Nov 28 23:14:06 api.tabazaserver.com npm[1746271]: ⏳ VET/USDT SHORT: Price $0.0136 | TP: $0.0134 | SL: $0.0139
-Nov 28 23:14:06 api.tabazaserver.com npm[1746271]: ⏳ SOL/USDT SHORT: Price $137.32 | TP: $133.55 | SL: $140.44
-Nov 28 23:14:08 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:14:08 api.tabazaserver.com npm[1746271]: 11:14:08 PM [express] GET /api/signals/recent 304 in 3ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:14:10 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:14:10 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
-Nov 28 23:14:10 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 3ms
-Nov 28 23:14:10 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:14:10 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 7ms
-Nov 28 23:14:10 api.tabazaserver.com npm[1746271]: 11:14:10 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 28 23:14:14 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:14:14 api.tabazaserver.com npm[1746271]: 11:14:14 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:14:16 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 28 23:14:16 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:14:16 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 4ms (17 rows)
-Nov 28 23:14:16 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:14:16 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 3ms
-Nov 28 23:14:16 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 9ms
-Nov 28 23:14:16 api.tabazaserver.com npm[1746271]: 11:14:16 PM [express] GET /api/symbols 200 in 10ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:14:20 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:14:20 api.tabazaserver.com npm[1746271]: 11:14:20 PM [express] GET /api/signals/recent 304 in 7ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:14:22 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:14:22 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 5ms (17 rows)
-Nov 28 23:14:22 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 4ms
-Nov 28 23:14:22 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 3ms
-Nov 28 23:14:22 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 13ms
-Nov 28 23:14:22 api.tabazaserver.com npm[1746271]: 11:14:22 PM [express] GET /api/symbols 200 in 14ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:14:26 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
-Nov 28 23:14:26 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:14:26 api.tabazaserver.com npm[1746271]: 11:14:26 PM [express] GET /api/signals/recent 304 in 7ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:14:28 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:14:28 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 11ms (17 rows)
-Nov 28 23:14:28 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:14:28 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 3ms
-Nov 28 23:14:28 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 16ms
-Nov 28 23:14:28 api.tabazaserver.com npm[1746271]: 11:14:28 PM [express] GET /api/symbols 200 in 19ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
-Nov 28 23:14:32 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
-Nov 28 23:14:32 api.tabazaserver.com npm[1746271]: 11:14:32 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
-Nov 28 23:14:34 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
-Nov 28 23:14:34 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
-Nov 28 23:14:34 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
-Nov 28 23:14:34 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
-Nov 28 23:14:34 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 7ms
-Nov 28 23:14:34 api.tabazaserver.com npm[1746271]: 11:14:34 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
-Nov 28 23:14:36 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 6ms (2 rows)
-Nov 28 23:14:46 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
-Nov 28 23:14:56 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 28 23:25:00 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
+Nov 28 23:25:00 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:25:00 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:25:00 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 7ms
+Nov 28 23:25:00 api.tabazaserver.com npm[1746271]: 11:25:00 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:25:07 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 28 23:25:11 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 10ms (2 rows)
+Nov 28 23:25:11 api.tabazaserver.com npm[1746271]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 28 23:25:12 api.tabazaserver.com npm[1746271]: ⏳ VET/USDT SHORT: Price $0.0136 | TP: $0.0134 | SL: $0.0137
+Nov 28 23:25:12 api.tabazaserver.com npm[1746271]: ⏳ SOL/USDT SHORT: Price $136.77 | TP: $133.55 | SL: $140.44
+Nov 28 23:25:13 api.tabazaserver.com npm[1746271]: [PERF] getTradeStatsByStrategy(all) TOTAL: 3ms
+Nov 28 23:25:13 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 28 23:25:13 api.tabazaserver.com npm[1746271]: 11:25:13 PM [express] GET /api/signals/monitoring/stats 304 in 14ms :: {"total":35,"wins":24,"losses"…
+Nov 28 23:25:18 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 7ms (2 rows)
+Nov 28 23:25:28 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 14ms (2 rows)
+Nov 28 23:25:38 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:25:48 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 10ms (2 rows)
+Nov 28 23:25:58 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:26:08 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 28 23:26:12 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 8ms (2 rows)
+Nov 28 23:26:12 api.tabazaserver.com npm[1746271]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 28 23:26:12 api.tabazaserver.com npm[1746271]: ⏳ VET/USDT SHORT: Price $0.0136 | TP: $0.0134 | SL: $0.0137
+Nov 28 23:26:12 api.tabazaserver.com npm[1746271]: ⏳ SOL/USDT SHORT: Price $136.97 | TP: $133.55 | SL: $140.44
+Nov 28 23:26:18 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: 11:26:23 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 7ms
+Nov 28 23:26:23 api.tabazaserver.com npm[1746271]: 11:26:23 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:26:28 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:26:28 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:26:28 api.tabazaserver.com npm[1746271]: 11:26:28 PM [express] GET /api/signals/recent 304 in 13ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1…
+Nov 28 23:26:29 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:26:29 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 5ms (17 rows)
+Nov 28 23:26:29 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 7ms
+Nov 28 23:26:29 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 6ms
+Nov 28 23:26:29 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 21ms
+Nov 28 23:26:29 api.tabazaserver.com npm[1746271]: 11:26:29 PM [express] GET /api/symbols 200 in 22ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 28 23:26:34 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:26:34 api.tabazaserver.com npm[1746271]: 11:26:34 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:26:35 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:26:35 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
+Nov 28 23:26:35 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:26:35 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:26:35 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 7ms
+Nov 28 23:26:35 api.tabazaserver.com npm[1746271]: 11:26:35 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:26:38 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 28 23:26:40 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:26:40 api.tabazaserver.com npm[1746271]: 11:26:40 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:26:41 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:26:41 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
+Nov 28 23:26:41 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:26:41 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:26:41 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
+Nov 28 23:26:41 api.tabazaserver.com npm[1746271]: 11:26:41 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:26:46 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:26:46 api.tabazaserver.com npm[1746271]: 11:26:46 PM [express] GET /api/signals/recent 304 in 42ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1…
+Nov 28 23:26:47 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:26:47 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
+Nov 28 23:26:47 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 1ms
+Nov 28 23:26:47 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:26:47 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 6ms
+Nov 28 23:26:47 api.tabazaserver.com npm[1746271]: 11:26:47 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:26:48 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 6ms (2 rows)
+Nov 28 23:26:52 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:26:52 api.tabazaserver.com npm[1746271]: 11:26:52 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:26:53 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:26:53 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
+Nov 28 23:26:53 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 1ms
+Nov 28 23:26:53 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 3ms
+Nov 28 23:26:53 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 7ms
+Nov 28 23:26:53 api.tabazaserver.com npm[1746271]: 11:26:53 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:26:58 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 28 23:26:58 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:26:58 api.tabazaserver.com npm[1746271]: 11:26:58 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:26:59 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:26:59 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
+Nov 28 23:26:59 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:26:59 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:26:59 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
+Nov 28 23:26:59 api.tabazaserver.com npm[1746271]: 11:26:59 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:27:04 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:04 api.tabazaserver.com npm[1746271]: 11:27:04 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:05 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:05 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 6ms (17 rows)
+Nov 28 23:27:05 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:27:05 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 4ms
+Nov 28 23:27:05 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 13ms
+Nov 28 23:27:05 api.tabazaserver.com npm[1746271]: 11:27:05 PM [express] GET /api/symbols 200 in 14ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 28 23:27:08 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:27:08 api.tabazaserver.com npm[1746271]: [PERF-SQL] Bulk update 70 symbols: build=0ms, db=5ms, total=5ms
+Nov 28 23:27:08 api.tabazaserver.com npm[1746271]: 💾 Persisted 70 prices to database (5-min backup)
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/performance
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: [PERF] Performance stats query: 3ms
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: [PERF] getPerformanceStats() TOTAL: 4ms
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: 11:27:09 PM [express] GET /api/performance 304 in 4ms :: {"totalTrades":33,"winRate":72.7272727272727…
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: [DEBUG] /api/trades/active endpoint hit
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/trades/active
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 6ms (2 rows)
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: [DEBUG] /api/trades/active returning 2 trades
+Nov 28 23:27:09 api.tabazaserver.com npm[1746271]: 11:27:09 PM [express] GET /api/trades/active 200 in 8ms :: [{"id":"9208582c-1e53-43ca-9fbe-e2f672cd24…
+Nov 28 23:27:12 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 28 23:27:12 api.tabazaserver.com npm[1746271]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 28 23:27:12 api.tabazaserver.com npm[1746271]: ⏳ VET/USDT SHORT: Price $0.0136 | TP: $0.0134 | SL: $0.0137
+Nov 28 23:27:12 api.tabazaserver.com npm[1746271]: ⏳ SOL/USDT SHORT: Price $137.10 | TP: $133.55 | SL: $140.44
+Nov 28 23:27:13 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:13 api.tabazaserver.com npm[1746271]: 11:27:13 PM [express] GET /api/signals/recent 200 in 8ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:14 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:14 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
+Nov 28 23:27:14 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:27:14 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:27:14 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 6ms
+Nov 28 23:27:14 api.tabazaserver.com npm[1746271]: 11:27:14 PM [express] GET /api/symbols 200 in 8ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:27:18 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 11ms (2 rows)
+Nov 28 23:27:19 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:19 api.tabazaserver.com npm[1746271]: 11:27:19 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:20 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:20 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
+Nov 28 23:27:20 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 3ms
+Nov 28 23:27:20 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:27:20 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 8ms
+Nov 28 23:27:20 api.tabazaserver.com npm[1746271]: 11:27:20 PM [express] GET /api/symbols 200 in 9ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:27:25 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:25 api.tabazaserver.com npm[1746271]: 11:27:25 PM [express] GET /api/signals/recent 304 in 5ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:26 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:26 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
+Nov 28 23:27:26 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 2ms
+Nov 28 23:27:26 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 2ms
+Nov 28 23:27:26 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 6ms
+Nov 28 23:27:26 api.tabazaserver.com npm[1746271]: 11:27:26 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:27:28 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:27:31 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:32 api.tabazaserver.com npm[1746271]: 11:27:32 PM [express] GET /api/signals/recent 304 in 16ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1…
+Nov 28 23:27:33 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:33 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 4ms (17 rows)
+Nov 28 23:27:33 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 3ms
+Nov 28 23:27:33 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 4ms
+Nov 28 23:27:33 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 12ms
+Nov 28 23:27:33 api.tabazaserver.com npm[1746271]: 11:27:33 PM [express] GET /api/symbols 200 in 13ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: 11:27:38 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 1ms
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 1ms
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 6ms
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: 11:27:38 PM [express] GET /api/symbols 200 in 7ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset"…
+Nov 28 23:27:38 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:27:43 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:43 api.tabazaserver.com npm[1746271]: 11:27:43 PM [express] GET /api/signals/recent 304 in 6ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:44 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:44 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 2ms (17 rows)
+Nov 28 23:27:44 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 3ms
+Nov 28 23:27:44 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 4ms
+Nov 28 23:27:44 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 10ms
+Nov 28 23:27:44 api.tabazaserver.com npm[1746271]: 11:27:44 PM [express] GET /api/symbols 200 in 11ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 28 23:27:48 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 28 23:27:49 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:49 api.tabazaserver.com npm[1746271]: 11:27:49 PM [express] GET /api/signals/recent 304 in 4ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:50 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:50 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 3ms (17 rows)
+Nov 28 23:27:50 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 4ms
+Nov 28 23:27:50 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 5ms
+Nov 28 23:27:50 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 13ms
+Nov 28 23:27:50 api.tabazaserver.com npm[1746271]: 11:27:50 PM [express] GET /api/symbols 200 in 15ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 28 23:27:55 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/signals/recent?limit=10
+Nov 28 23:27:55 api.tabazaserver.com npm[1746271]: 11:27:55 PM [express] GET /api/signals/recent 304 in 3ms :: [{"id":"244424b2-5262-457f-9fd8-63a63ba1a…
+Nov 28 23:27:56 api.tabazaserver.com npm[1746271]: [DEDUPE] Creating new request for /api/symbols?category=major
+Nov 28 23:27:56 api.tabazaserver.com npm[1746271]: [PERF] Symbols query: 9ms (17 rows)
+Nov 28 23:27:56 api.tabazaserver.com npm[1746271]: [PERF] Trade stats query: 3ms
+Nov 28 23:27:56 api.tabazaserver.com npm[1746271]: [PERF] MIDAS window query: 4ms
+Nov 28 23:27:56 api.tabazaserver.com npm[1746271]: [PERF] getSymbols() TOTAL: 17ms
+Nov 28 23:27:56 api.tabazaserver.com npm[1746271]: 11:27:56 PM [express] GET /api/symbols 200 in 19ms :: [{"id":"btcusdt","symbol":"BTC/USDT","baseAsset…
+Nov 28 23:27:59 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:28:09 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:28:12 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 6ms (2 rows)
+Nov 28 23:28:12 api.tabazaserver.com npm[1746271]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 28 23:28:13 api.tabazaserver.com npm[1746271]: ⏳ VET/USDT SHORT: Price $0.0136 | TP: $0.0134 | SL: $0.0137
+Nov 28 23:28:13 api.tabazaserver.com npm[1746271]: ⏳ SOL/USDT SHORT: Price $136.96 | TP: $133.55 | SL: $140.44
+Nov 28 23:28:14 api.tabazaserver.com npm[1746271]: [PERF] getTradeStatsByStrategy(all) TOTAL: 2ms
+Nov 28 23:28:14 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 28 23:28:14 api.tabazaserver.com npm[1746271]: 11:28:14 PM [express] GET /api/signals/monitoring/stats 304 in 10ms :: {"total":35,"wins":24,"losses"…
+Nov 28 23:28:19 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 17ms (2 rows)
+Nov 28 23:28:29 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 6ms (2 rows)
+Nov 28 23:28:39 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 2ms (2 rows)
+Nov 28 23:28:49 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 28 23:28:59 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 28 23:29:09 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 7ms (2 rows)
+Nov 28 23:29:13 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 5ms (2 rows)
+Nov 28 23:29:13 api.tabazaserver.com npm[1746271]: 📊 Monitoring 2 active trades (REST 1-min check)...
+Nov 28 23:29:13 api.tabazaserver.com npm[1746271]: ⏳ VET/USDT SHORT: Price $0.0136 | TP: $0.0134 | SL: $0.0137
+Nov 28 23:29:13 api.tabazaserver.com npm[1746271]: ⏳ SOL/USDT SHORT: Price $137.13 | TP: $133.55 | SL: $140.44
+Nov 28 23:29:19 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:29:29 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
+Nov 28 23:29:39 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 6ms (2 rows)
+Nov 28 23:29:49 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 3ms (2 rows)
+Nov 28 23:29:59 api.tabazaserver.com npm[1746271]: [PERF] getActiveTrades() query: 4ms (2 rows)
 
